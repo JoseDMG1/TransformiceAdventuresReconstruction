@@ -1,0 +1,16 @@
+{
+  "source": "https://data.atelier801.com/tfmadv/interface/emote/T{1..10}.png",
+  "recoveredFrom": "Original Transformice Adventures asset path referenced by the archived client",
+  "files": [
+    { "file": "T1.png", "bytes": 2603, "sha256": "3be83ef27a073f6d239b94c1230f008cfe9745a5f727a88144e1a2a5f3f8209a" },
+    { "file": "T2.png", "bytes": 2652, "sha256": "2bac8bac55ab7de7372335ba1f479f7a48bcad79471f40e318d97f6b0b1d432e" },
+    { "file": "T3.png", "bytes": 2649, "sha256": "6acceb78d465c30df7bf12956a9e7fcd20d681d5df4644a9b38a0a1f78ef1ec2" },
+    { "file": "T4.png", "bytes": 2765, "sha256": "d5390af917887c889ed7ff857d27926d94cd18cbdfacc8d1f5ff668ae7c77936" },
+    { "file": "T5.png", "bytes": 2593, "sha256": "d8e63ef1fad370387df27bc740630e84275528baf1e7b3ac7531816f376f2115" },
+    { "file": "T6.png", "bytes": 2715, "sha256": "66c12c6a33f51f0236baecbdac2452a85275f6a6971a99b1a407e1e9075e3b98" },
+    { "file": "T7.png", "bytes": 2832, "sha256": "8c1efadd97bf51dc88337f1f94e86dcff38c7bd226ec850434e632074a57be9d" },
+    { "file": "T8.png", "bytes": 2659, "sha256": "703c976cf9c7737cdcaace0f0fcad0dc9bbe123c2d414380d6d0e3ad25420427" },
+    { "file": "T9.png", "bytes": 2857, "sha256": "367377049a114252c506023ddfe44188f33e74c05fec1c8378812af11b72894d" },
+    { "file": "T10.png", "bytes": 2960, "sha256": "e5b7677fa1c1a9edf254ac80f8a232885c9ad34f404e19ad66c3093dba9f440c" }
+  ]
+}

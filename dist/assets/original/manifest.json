@@ -1,0 +1,492 @@
+{
+  "retrievedAt": "2026-10-18T08:11:19.000Z",
+  "scope": "Only original public image paths observed in recovered source, including bounded dynamic sets; HTTPS for original public CDN.",
+  "results": [
+    {
+      "resource": "interface/jeu/pastille_profil.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/pastille_profil.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3061,
+      "sha256": "6f33566833f6243655073a6a1a0a0b6fa4a0496060bf6ae3bcad80834094c0d4"
+    },
+    {
+      "resource": "interface/jeu/pastille_menu.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/pastille_menu.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3300,
+      "sha256": "8a2beffb34161098d943bbae5c2a0d5b339cc2d5d7a79081e8861b6302d0a4ed"
+    },
+    {
+      "resource": "interface/arme/fond.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/fond.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\armes\\ArmeADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2184,
+      "sha256": "07b3b1b54e0b185832f2e39284b09e347c91d8435da8c8324f897ea155aad7bf"
+    },
+    {
+      "resource": "interface/zone/zl.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/zone/zl.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 13086,
+      "sha256": "bbb0043ece0885bfea8514e371751f17929982c22860cc3c476fcd9a0e6844ab"
+    },
+    {
+      "resource": "interface/jeu/pastille_donjon.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/pastille_donjon.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3257,
+      "sha256": "3c877ba5c086cae395a67da67f00654bec3b60daaf2436996a0659077ebead2f"
+    },
+    {
+      "resource": "interface/jeu/pastille_emote.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/pastille_emote.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3134,
+      "sha256": "e9bf7336246e75508e2c5d8937bf011e38eb1a5a8e1a068f2227b5b7bea99b84"
+    },
+    {
+      "resource": "interface/zone/2b.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/zone/2b.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 10455,
+      "sha256": "92dfcfa79fb449e7534e6737a80d2fbd3e403944ec7168c5a413e684cc3f9870"
+    },
+    {
+      "resource": "interface/jeu/comp_vide.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/comp_vide.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 4407,
+      "sha256": "cb5a160d627889a8e1e16b68daaa60edd82bfbd5573c388d16440142e6a3c3a5"
+    },
+    {
+      "resource": "interface/jeu/bloc_comp.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/jeu/bloc_comp.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 57548,
+      "sha256": "b4087873cd5e6e3f4bd10c2a3bc00af4503a875862384c7652da8450dcf398ac"
+    },
+    {
+      "resource": "interface/xp_halo.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/xp_halo.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\BarreXPADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 111,
+      "sha256": "2f0edf473fcb5a3035ee793fc354499800d5761ed9f9269d52d8c29ab85112cf"
+    },
+    {
+      "resource": "interface/xp_niveau.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/xp_niveau.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceTalents.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 7062,
+      "sha256": "d64e292cc923f57a54ec1688de7cd983cf64fb812310f99987fd70633e1cfd8f"
+    },
+    {
+      "resource": "interface/zone/2.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/zone/2.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 153246,
+      "sha256": "ae7b59351ae9414c4b31099e5639ad9f5aab8843c22077220116e4edb6e6f08d"
+    },
+    {
+      "resource": "interface/cadre_xp.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/cadre_xp.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceTalents.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 37951,
+      "sha256": "f32cbdd357b3e7eeb778e1397f6db4877ff30e72bba1fb6e5f3b371ae7f787f8"
+    },
+    {
+      "resource": "interface/zone/2c.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/zone/2c.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\gameplay\\InterfaceCompetenceADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 78217,
+      "sha256": "dcc96e8a433905107b5f9e17f1969c3d055b6093ef9eb04ab8d8376fa0cf0351"
+    },
+    {
+      "resource": "interface/talents.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/talents.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceJoueurADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 6942,
+      "sha256": "0bb2ab44f6feb2a112f3195475eefd4bc7795650d7964e86c3a22eec94bff4a7"
+    },
+    {
+      "resource": "interface/flyerKS.jpg",
+      "url": "https://data.atelier801.com/tfmadv/interface/flyerKS.jpg",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceKickstarterDV.js",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 117791,
+      "sha256": "1324d51c5f8e544244e1787abd432e3a7ec0dc8bd86527fe53ad73aa9ca6912c"
+    },
+    {
+      "resource": "interface/bouton-min.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/bouton-min.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLancementDonjonADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3816,
+      "sha256": "849fd327bd407261f98ed8512c8627e02ae419dc95190a0ab5f065824cb4b953"
+    },
+    {
+      "resource": "interface/donjon/banniere/cadre-banniere.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/donjon/banniere/cadre-banniere.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLancementDonjonADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 4702,
+      "sha256": "00e77e274312fb7e2a7342748b7404a6c0a125bca0ed1fa3164c0e0ac60ccf6d"
+    },
+    {
+      "resource": "interface/fond-compte-atelier801.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/fond-compte-atelier801.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLoginADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3497,
+      "sha256": "e4f7b056136db82b16655af6b32e8766d1a8ad604ba0c5948221e26c5c561caf"
+    },
+    {
+      "resource": "interface/sons/general.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/general.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLoginADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1614,
+      "sha256": "64b92819f8b78d77d889e54b9f17866501bb0d5315dea8b6b8f8a7804a43ed76"
+    },
+    {
+      "resource": "interface/sourisks.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sourisks.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceKickstarterDV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 117770,
+      "sha256": "193a872e93dadffae4af5d89dd9432b0bcea481dc4f974df1e81de49b75b7e2c"
+    },
+    {
+      "resource": "interface/donjon_add_player.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/donjon_add_player.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLancementDonjonADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 4631,
+      "sha256": "7b9cf3a623e5122b1b19792bb890abab1bac58bdb00d9fe4662aee5392c03a23"
+    },
+    {
+      "resource": "interface/intro/logo.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/logo.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 318534,
+      "sha256": "ca216cf824e2bac540951cb726dd04a9be8feaf4cb47379632b19e2b5ab1d03a"
+    },
+    {
+      "resource": "interface/sons/general_coupe.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/general_coupe.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceLoginADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1573,
+      "sha256": "2a334af133d72ed3d417b3eec5bf6f278bc2652712ee66d85207322478c091e6"
+    },
+    {
+      "resource": "interface/metiers/cadenas.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/metiers/cadenas.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceMetierADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 9147,
+      "sha256": "1b4275a9c5d77e3c8e319a047e0339a6bef905c81c76f0cf9af7d9ad9c226e40"
+    },
+    {
+      "resource": "interface/sons/soundeffects.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/soundeffects.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceOptionsADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1522,
+      "sha256": "87f3d77998aaa1db07dd3ee4bd09c72438b9d19f2df2d6638263784648595cbc"
+    },
+    {
+      "resource": "interface/sons/music.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/music.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceOptionsADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 1616,
+      "sha256": "3e0488a9aef77f2d5603c435865e5f2ac6b1c4b0da8ee907240a2cb466de7501"
+    },
+    {
+      "resource": "interface/sons/fondjauge.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/fondjauge.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceOptionsADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3191,
+      "sha256": "e5e850a1da1535511cd4ae7a5daa2848ac4417c338044aecd1150f7c4796a01c"
+    },
+    {
+      "resource": "interface/sons/curseur.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/sons/curseur.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceOptionsADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 574,
+      "sha256": "0cc14ad8d5f7cea4e83154ef26d4367058c60d14ca3d85c46d2e354a0d5abb16"
+    },
+    {
+      "resource": "interface/fleche.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/fleche.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceQueteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 6112,
+      "sha256": "4d0a11eb28f34aa4621cc2e44e748e9f1cefadef50786a890a8a381f088ed711"
+    },
+    {
+      "resource": "interface/titre-talent.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/titre-talent.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceTalents.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 7278,
+      "sha256": "7adfdc6df7d116ffe150f2a14650ab6a9e228d6b0b9d4b6029881e9691a9ccc4"
+    },
+    {
+      "resource": "interface/donjon/miniature/cadre-miniature.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/donjon/miniature/cadre-miniature.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceSelectionDonjonADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 5789,
+      "sha256": "cb793ba8ec40388c6b2f2abeaaaef78e71f739e560097293df1a0ac193dd1170"
+    },
+    {
+      "resource": "interface/petit-cadenas.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/petit-cadenas.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceTalents.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3579,
+      "sha256": "174cc662df77f478dae45c605ba436a388351facf13f7521d399c65bbfa38697"
+    },
+    {
+      "resource": "interface/intro/guerrier.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/guerrier.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 79975,
+      "sha256": "d092c5ab4ffd3ababd4bc39c594c7907eea2fc10ab5bcf33847fb9c2995ae783"
+    },
+    {
+      "resource": "interface/intro/journaliste.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/journaliste.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 53511,
+      "sha256": "f2a5fd5c9cb8fc1149bfa80b869103a92afbe6b2c1ddb5b2801047f55f22aa64"
+    },
+    {
+      "resource": "interface/intro/botaniste.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/botaniste.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 46988,
+      "sha256": "c6c849bd1fd5335c66299526d7f483572705531600b7501fc3021fdcbce4cf43"
+    },
+    {
+      "resource": "interface/intro/cuistot.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/cuistot.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 31903,
+      "sha256": "ba4152ecdb1c9de3864ed04e18b817269a8b8b2fcddbd4444c3ebe42484547cb"
+    },
+    {
+      "resource": "interface/intro/herbe.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/herbe.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 197369,
+      "sha256": "79376b0e5fdfd7ed5b7cdec8941e0eb2ad7b8fc6bf5012ad2c47eb6084f5018d"
+    },
+    {
+      "resource": "interface/intro/herisson.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/herisson.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 63242,
+      "sha256": "f5165d336d04a863efc856c62fb9e46b0345527ab327adc14ac49d56b6f09ac2"
+    },
+    {
+      "resource": "interface/icones/fond1.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/icones/fond1.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\types\\EquipementADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 5432,
+      "sha256": "6bf6b06fdded2480d16c867029cfff2efce1e85ed9b29da37b556265746f45db"
+    },
+    {
+      "resource": "interface/icones/cadre1.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/icones/cadre1.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\types\\EquipementADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 3516,
+      "sha256": "a57d5accd8948f86f3c6772f686aa07b00071622b8f3b36b734c3d4c087b2be6"
+    },
+    {
+      "resource": "interface/intro/libellule.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/libellule.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 14650,
+      "sha256": "eac8eacee7bf7ac1180dd97c0a46381fef23111c611f31fece93284a27da7710"
+    },
+    {
+      "resource": "interface/intro/fond.jpg",
+      "url": "https://data.atelier801.com/tfmadv/interface/intro/fond.jpg",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\IntroADV.js",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 306105,
+      "sha256": "45093b9a10bfdf680143c5d75579531db66a6e7445a8dc99885a8d64f0e33b0e"
+    },
+    {
+      "resource": "interface/MAP_pinned.jpg",
+      "url": "https://data.atelier801.com/tfmadv/interface/MAP_pinned.jpg",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceCarteMondeADV.js",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 1689436,
+      "sha256": "9e69ce2a1fb2635d5c35d432c6165ddd2312c686e3d33d6cf2187a76eaa0e5b3"
+    },
+    {
+      "resource": "interface/emote/T1.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T1.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2603,
+      "sha256": "3be83ef27a073f6d239b94c1230f008cfe9745a5f727a88144e1a2a5f3f8209a"
+    },
+    {
+      "resource": "interface/emote/T2.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T2.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2652,
+      "sha256": "2bac8bac55ab7de7372335ba1f479f7a48bcad79471f40e318d97f6b0b1d432e"
+    },
+    {
+      "resource": "interface/emote/T3.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T3.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2649,
+      "sha256": "6acceb78d465c30df7bf12956a9e7fcd20d681d5df4644a9b38a0a1f78ef1ec2"
+    },
+    {
+      "resource": "interface/emote/T4.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T4.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2765,
+      "sha256": "d5390af917887c889ed7ff857d27926d94cd18cbdfacc8d1f5ff668ae7c77936"
+    },
+    {
+      "resource": "interface/emote/T5.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T5.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2593,
+      "sha256": "d8e63ef1fad370387df27bc740630e84275528baf1e7b3ac7531816f376f2115"
+    },
+    {
+      "resource": "interface/emote/T6.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T6.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2715,
+      "sha256": "66c12c6a33f51f0236baecbdac2452a85275f6a6971a99b1a407e1e9075e3b98"
+    },
+    {
+      "resource": "interface/emote/T7.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T7.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2832,
+      "sha256": "8c1efadd97bf51dc88337f1f94e86dcff38c7bd226ec850434e632074a57be9d"
+    },
+    {
+      "resource": "interface/emote/T8.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T8.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2659,
+      "sha256": "703c976cf9c7737cdcaace0f0fcad0dc9bbe123c2d414380d6d0e3ad25420427"
+    },
+    {
+      "resource": "interface/emote/T9.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T9.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2857,
+      "sha256": "367377049a114252c506023ddfe44188f33e74c05fec1c8378812af11b72894d"
+    },
+    {
+      "resource": "interface/emote/T10.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/emote/T10.png",
+      "evidence": "reference\\wayback-client\\dist\\Transformice-adventure-client\\src\\interfaces\\InterfaceEmoteADV.js",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2960,
+      "sha256": "e5b7677fa1c1a9edf254ac80f8a232885c9ad34f404e19ad66c3093dba9f440c"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "evidence_id": "ev_d7a4c14bf156e0db47b289e5e74e1a4da6fb4b6a823295a9b46ae1b88acd12c8",
+  "subject": {
+    "name": "wayback-client",
+    "digest": {
+      "sha256": "b1de32ffbe96f5c7715fb6fde4a82c35513789e597ee244e6da71e5d5c5c6288"
+    },
+    "local_path": "C:\\Users\\Jose\\Desktop\\TransformiceAdventuresReconstruction\\reference\\wayback-client",
+    "format": "directory",
+    "architecture": null
+  },
+  "operation": "analyze_javascript_application",
+  "parameters": {
+    "format": "auto",
+    "integrity_policy": "fail",
+    "max_semantic_nodes": 1500,
+    "max_semantic_nodes_per_file": 750,
+    "source_paths": [
+      "dist/Transformice-adventure-client/src/interfaces/InterfaceQueteADV.js",
+      "dist/Transformice-adventure-client/src/interfaces/InterfaceDialogueADV.js"
+    ]
+  },
+  "limitations": [
+    "Caller-selected source analysis leaves 64 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ]
+}

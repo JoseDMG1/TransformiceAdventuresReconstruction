@@ -1,0 +1,20 @@
+[
+  {
+    "lang": "es",
+    "url": "https://data.atelier801.com/trad/tfmadv_es",
+    "status": 200,
+    "contentType": "application/octet-stream",
+    "bytes": 55771,
+    "sha256": "871ae343c79d40c711d43851980cc70ac525ed9c6e141a689c181eb330f21d5b",
+    "fetchedAt": "2026-10-16T17:56:59.173Z"
+  },
+  {
+    "lang": "fr",
+    "url": "https://data.atelier801.com/trad/tfmadv_fr",
+    "status": 200,
+    "contentType": "application/octet-stream",
+    "bytes": 59237,
+    "sha256": "19bf68140f39f01366cfa83226d4537ed5b775799dac2ddad04a28340da43ff2",
+    "fetchedAt": "2026-10-16T17:57:00.670Z"
+  }
+]

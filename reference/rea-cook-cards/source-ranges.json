@@ -1,0 +1,28 @@
+{
+  "source": "reference/wayback-client/tfmadv.js",
+  "sourceSha256": "0877765817f48a889f9efebd773eac8d7e67fb941b9cdab2c309a58bc187f740",
+  "wrapper": "Parentheses+semicolon permit parsing anonymous factory as inert expression.",
+  "ranges": [
+    {
+      "name": "MobileMarmite",
+      "startCharacter": 278788,
+      "endCharacterExclusive": 282021,
+      "bytes": 3233,
+      "sha256": "e589b29d143adfa5c1ef81bf5fd52c24f5407d2d0c1f29d6f08dfa3b6173721d"
+    },
+    {
+      "name": "IngredientHighlight",
+      "startCharacter": 346993,
+      "endCharacterExclusive": 348042,
+      "bytes": 1049,
+      "sha256": "13a25351e914f5256945f9b35a10c81894f75dbbc77731b2eaebbdb9838cf83c"
+    },
+    {
+      "name": "MobileIngredientRegistry",
+      "startCharacter": 78943,
+      "endCharacterExclusive": 96804,
+      "bytes": 17861,
+      "sha256": "4fd462528fe034be4722beadd9615d0671fe3f4ca65bc6b495387ff855b99a4d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "es": {
+    "comp.nom.1006": "Elixir",
+    "comp.desc.1006": "Confecciona con cuidado y lanza un elixir herbal. Al aterrizar, explota, sana a los aliados cercanos con el tiempo y envenena a los enemigos.",
+    "comp.nom.1007": "Vanish",
+    "comp.desc.1007": "¿Con las manos en la masa? ¡Hazte invisible en una nube de humo! Tu próximo ataque será más efectivo, pero romperá tu invisibilidad.",
+    "comp.nom.1010": "Trampa de picnic",
+    "comp.desc.1010": "¡Pon la mesa! Lance instantáneamente una manta de picnic escondiendo una trampa en el suelo. Cuando un enemigo pisa sobre él, la trampa se disparará, dañando e inmovilizando a todos los enemigos cercanos.\nLos enemigos atrapados en la trampa también tienen una alta probabilidad de dejar caer los ingredientes.",
+    "comp.nom.1009": "Caldera",
+    "comp.desc.1009": "Usa tu caldero para reunir los ingredientes que los enemigos dejan caer durante la lucha, y te dañará, te curará o aumentará tu defensa, dependiendo de los ingredientes!\nUna vez que la receta termina, puedes hacer clic para limpiar tu caldera y sanarte a ti y a tu mascota.",
+    "comp.nom.1012": "Truco de cartas",
+    "comp.desc.1012": "¡Saca una carta de tu mazo llena de ases!\n- As de Tréboles: aumenta tu próximo ataque físico.\n- As de Diamantes: lanza una carta, inmoviliza y aturde al primer enemigo.\n- As de Espadas: lanza una carta perforante, que inflige daño en una línea.\n- As de Corazones: curar a los aliados en el área objetivo.",
+    "comp.nom.1013": "Pulgar Verde",
+    "comp.desc.1013": "Usa tus pulgares verdes y engendra una planta amigable a tus pies.\n\n- Espinas: pueden atraer ataques enemigos. Después de que crezca, también refleja una parte del daño recibido.\n- Lirio de los valles: curar a los aliados heridos cercanos.\n- Cardo: atacar a los enemigos cercanos.\n\nLas plantas pueden crecer hasta dos veces si te quedas cerca de ellas.",
+    "comp.nom.1011": "Informe",
+    "comp.desc.1011": "¡La pluma es mas poderosa que la espada! Reúne y almacena un testimonio cercano.\nDespués de reunir dos, escribe un Informe con varios efectos según los Testimonios.",
+    "comp.nom.1014": "Entrevista",
+    "comp.desc.1014": "Escribe tu camino a la victoria, en el acto! Activa un Testimonio en el suelo, convirtiéndolo en un área con varios efectos, dependiendo del tipo de Testimonio."
+  },
+  "fr": {
+    "comp.nom.1006": "Élixir",
+    "comp.desc.1006": "Concoctez avec soin et lancez un élixir à base de plantes. En atterrissant, il explose, soignant les alliés proches sur la durée et empoisonnant les ennemis. ",
+    "comp.nom.1007": "Disparition",
+    "comp.desc.1007": "Pris la main dans le sac ? Disparaissez dans un nuage de fumée, et pouf ! Votre prochaine attaque sera plus efficace, mais interrompra votre invisibilité.",
+    "comp.nom.1010": "Piège à pique-nique",
+    "comp.desc.1010": "Mettez la table ! Lancez instantanément une nappe de pique-nique dissimulant un piège. Lorsqu'un ennemi marche dessus, le piège se referme, infligeant des dégâts et immobilisant tout les ennemis à proximité.\nLes ennemis piégés ont de grandes chances de faire tomber des ingrédients supplémentaires.",
+    "comp.nom.1009": "Chaudron",
+    "comp.desc.1009": "Utilisez votre chaudron pour ramasser des ingrédients lâchés par les ennemis et votre chaudron pourra faire des dommages, vous soigner, ou améliorer votre défense, selon la recette !\nUne fois la recette terminée, cliquez pour nettoyer votre chaudron et vous soigner, vous et votre familier.",
+    "comp.nom.1012": "Tour de carte",
+    "comp.desc.1012": "Piochez une carte dans votre deck rempli d'as !\n- As de trèfle : Renforce votre prochaine attaque physique.\n- As de carreau : Lance une carte qui immobilise et étourdit la première cible touchée.\n- As de pique : Lance une carte transperçante, infligeant des dégâts en ligne.\n- Ace de coeur : Soigne les alliés dans la zone ciblée.",
+    "comp.nom.1013": "Main Verte",
+    "comp.desc.1013": "Utilisez le pouvoir de la nature et faites pousser une plante alliée à vos pieds !\n\n- Ronces : Encaisse les attaques ennemies. A partir du niveau 2, renvoie une partie des dégâts reçus.\n- Muguet : Soigne les alliés blessés à proximité.\n- Chardon : Attaque les ennemis à proximité.\n\nEn restant à côté d'elles, vos plantes peuvent grandir jusqu'à deux fois.",
+    "comp.nom.1011": "Reportage",
+    "comp.desc.1011": "La plume est plus forte que l'épée ! Récoltez et stockez un Témoignage proche de vous.\nAprès en avoir récupéré deux, vous permet de lancer un Reportage aux effets variés dépendant des Témoignages utilisés.",
+    "comp.nom.1014": "Interview",
+    "comp.desc.1014": "Journalisme de terrain ! Active un Témoignage au sol, déclenchant une zone d'effet dépendant du type du Témoignage."
+  }
+}

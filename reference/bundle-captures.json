@@ -1,0 +1,30 @@
+﻿[
+    {
+        "timestamp":  "20190522023923",
+        "url":  "http://transformice-adventures.com/dist/tfmadv.js?v=0.67.1",
+        "mime":  "application/x-javascript",
+        "bytes":  128152,
+        "digest":  "3KJHJKXZ6ESRLILBPDYMZJKKZASCYR6E"
+    },
+    {
+        "timestamp":  "20190603150555",
+        "url":  "http://transformice-adventures.com/dist/tfmadv.js?v=0.68.1",
+        "mime":  "application/x-javascript",
+        "bytes":  128245,
+        "digest":  "I2JCADW6JFRWWU73ATTMFL53LXYX6CIT"
+    },
+    {
+        "timestamp":  "20190814192154",
+        "url":  "http://transformice-adventures.com/dist/tfmadv.js?v=0.68.2",
+        "mime":  "application/x-javascript",
+        "bytes":  128250,
+        "digest":  "WSKCP3NVM5Y37X3EB4C52F6BUTO6OMUD"
+    },
+    {
+        "timestamp":  "20231021112803",
+        "url":  "http://transformice-adventures.com/dist/tfmadv.js?v=0.68.3",
+        "mime":  "application/x-javascript",
+        "bytes":  127879,
+        "digest":  "DU4PMTIUNIMOC32374HNTYWJNG4NFNWH"
+    }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "code": 1,
+    "resource": "equipement1.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement1.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1759,
+    "sha256": "af94d0c77b6aeb857a6d35e4da05e5ec7ae208c1fd5cd681ed3f70361ec338da"
+  },
+  {
+    "code": 2,
+    "resource": "equipement2.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement2.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1987,
+    "sha256": "dd1400fba19167339c25976816024751b4231c105c7e2a5bf256a2b879dee46a"
+  },
+  {
+    "code": 3,
+    "resource": "equipement3.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement3.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1914,
+    "sha256": "8b4c8c2e848e42abf2a8e9ec75a1db899f673a830170499f76db483f478b922a"
+  },
+  {
+    "code": 4,
+    "resource": "equipement4.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement4.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1957,
+    "sha256": "76d5efcce04a110c9d8195df5c248d826ab22f5ceefe7c9fc75e195cdf865855"
+  },
+  {
+    "code": 5,
+    "resource": "equipement5.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement5.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1470,
+    "sha256": "991437a3590b928e983a63d9b318951b8a07ea2ef7f4516d140811eb1fe5beef"
+  },
+  {
+    "code": 6,
+    "resource": "equipement6.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement6.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1950,
+    "sha256": "60f7a31db669e2ed8e9cc9cf76032aeb130d21957a183318a216cc185b6d0fa1"
+  },
+  {
+    "code": 7,
+    "resource": "equipement7.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement7.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 5403,
+    "sha256": "9ec8d0c5ca719de0c9377f62ff659854236a7b2685c0d7de11d8851092ca71c6"
+  },
+  {
+    "code": 8,
+    "resource": "equipement8.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement8.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 4654,
+    "sha256": "7abcd84dc5359f7ee42833c973ffaa9856c15057f2796bed0c824f1bca6a1192"
+  },
+  {
+    "code": 9,
+    "resource": "equipement9.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement9.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 4928,
+    "sha256": "c9de5b019fdfcf1342e645a976b21e9cf859f9ddd029b4e9a8757c223af57f48"
+  },
+  {
+    "code": 10,
+    "resource": "equipement10.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement10.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 5182,
+    "sha256": "1cb7db8dcc5597bd90b33d6964ce536ad0a7ccd0278743986a490cbb86483fb1"
+  },
+  {
+    "code": 21,
+    "resource": "equipement21.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement21.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1696,
+    "sha256": "bd0c508a7408baa9d8d7c11c9b130258540dad90813ac16d7a1cf820adb30d32"
+  },
+  {
+    "code": 22,
+    "resource": "equipement22.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/icones/equipement22.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1721,
+    "sha256": "abdc7a41c8799d2eaf6e93afb126a197ed236947963ae603720eca912db52abf"
+  }
+]

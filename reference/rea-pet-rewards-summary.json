@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev_a3138d73947b6f9ea98c6d58534cc96475c5af79ec790105947a5dd09792d891",
+  "subject": {
+    "name": "rea-pet-rewards-input",
+    "digest": {
+      "sha256": "fe8b4b75516958b08272346c1e7c06e92d8d5d9b0ecb50e071842e7a41cdbf48"
+    },
+    "local_path": "C:\\Users\\Jose\\Desktop\\TransformiceAdventuresReconstruction\\reference\\rea-pet-rewards-input",
+    "format": "directory",
+    "architecture": null
+  },
+  "statistics": {
+    "relevant_files": 9,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 146373,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 9,
+    "visited_ast_nodes": 18901,
+    "findings": 9,
+    "modules": 0,
+    "parse_failures": 0
+  },
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ]
+}

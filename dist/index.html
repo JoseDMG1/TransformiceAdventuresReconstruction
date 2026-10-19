@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#334328" />
+    <title>Transformice Adventures · Local</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='.9em' font-size='54'%3E🐭%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="world" aria-label="Mundo de Transformice Adventures"></canvas>
+    <div id="hud" hidden>
+      <header class="topbar">
+        <button
+          id="menu-button"
+          class="round"
+          title="Menú (Esc)"
+          aria-label="Menú"
+        >
+          ☰
+        </button>
+        <div class="location">
+          <span class="tiny">MOUSCARPONE</span
+          ><strong id="area-name">Aldea de los ratones</strong>
+        </div>
+        <div class="top-right">
+          <button
+            id="map-button"
+            class="round"
+            title="Mapa del mundo"
+            aria-label="Abrir mapa del mundo"
+          >
+            ⌖
+          </button
+          ><button
+            id="sound-button"
+            class="round"
+            title="Sonido"
+            aria-label="Activar sonido"
+          >
+            ♪</button
+          ><button
+            id="help-button"
+            class="round"
+            title="Controles"
+            aria-label="Controles"
+          >
+            ?
+          </button>
+        </div>
+      </header>
+      <aside id="quest">
+        <span class="tiny">TU AVENTURA</span>
+        <h3 id="quest-title"></h3>
+        <div id="quest-objective">
+          <span id="quest-check" aria-hidden="true"></span>
+          <p id="quest-description" aria-live="polite"></p>
+        </div>
+        <div id="room-progress"></div>
+      </aside>
+      <div id="interaction" hidden><kbd>E</kbd><span></span></div>
+      <div id="notebook" hidden aria-label="Libreta de testimonios">
+        <strong id="notebook-label">Testimonios 0/2</strong>
+        <div id="notebook-slots"></div>
+        <small id="notebook-control">Informe: Q / 1</small>
+      </div>
+      <div id="targeting-hint" role="status" hidden></div>
+      <div id="announcements" aria-live="polite"></div>
+      <div id="xp-notice" role="status" aria-live="polite" hidden></div>
+      <footer>
+        <div class="player-card">
+          <div class="avatar">
+            <canvas id="player-avatar" width="64" height="64" role="img" aria-label="Retrato del ratón"></canvas>
+            <span id="level-badge">1</span>
+          </div>
+          <div class="player-bars">
+            <strong id="player-name">Aventurero</strong>
+            <div class="health-bar">
+              <div id="health-fill"></div>
+              <span id="health-text">100 / 100</span>
+            </div>
+            <div class="xp-bar"><div id="xp-fill"></div></div>
+            <small id="xp-label">Nivel 1 · Botánico</small>
+            <small id="status-effects" aria-live="polite"></small>
+          </div>
+        </div>
+        <div class="hotbar">
+          <button
+            id="attack-button"
+            class="slot"
+            title="Ataque · clic izquierdo / J"
+          >
+            <kbd>CLIC</kbd><span>⚔</span><small>Atacar</small
+            ><b id="attack-charges"></b></button
+          ><button
+            id="heal-button"
+            class="slot"
+            title="Venda · clic derecho / H"
+          >
+            <kbd>H</kbd><span>✚</span><small>Venda</small
+            ><b id="heal-cd"></b></button
+          ><span class="slot-divider"></span
+          ><button
+            id="skill1-button"
+            class="slot skill"
+            title="Primera habilidad · Q / 1"
+          >
+            <kbd>Q</kbd><span id="skill1-icon">⚗</span
+            ><small id="skill1-name">Elixir</small
+            ><b id="skill1-cd"></b></button
+          ><button
+            id="skill2-button"
+            class="slot skill"
+            title="Segunda habilidad · R / 2"
+          >
+            <kbd>R</kbd><span id="skill2-icon">❋</span
+            ><small id="skill2-name">Cardo</small><b id="skill2-cd"></b></button
+          ><button
+            id="skill3-button"
+            class="slot skill"
+              title="Trabajo secundario · 3"
+            hidden
+          >
+              <kbd>3</kbd><span id="skill3-icon">?</span
+            ><small id="skill3-name">Elegir</small
+            ><b id="skill3-cd"></b></button
+          ><button id="dodge-button" class="slot" title="Esquivar · Espacio">
+            <kbd>ESPACIO</kbd><span>➟</span><small>Esquivar</small
+            ><b id="dodge-cd"></b>
+          </button>
+        </div>
+        <div class="utility">
+          <button
+            id="profile-button"
+            class="round"
+            title="Perfil y equipo (I)"
+            aria-label="Perfil y equipo"
+          >
+            🐭</button
+          ><button
+            id="talents-button"
+            class="round"
+            title="Talentos (T)"
+            aria-label="Talentos"
+          >
+            ❋</button
+          ><button
+            id="dungeon-button"
+            class="round"
+            title="Mazmorra (M)"
+            aria-label="Mazmorra"
+          >
+            ⚔</button
+          ><button
+            id="emote-button"
+            class="round"
+            title="Saludar, sentarse o bailar"
+            aria-label="Abrir acciones de emote"
+          >
+            </button
+          ><span id="coins">0 ◈</span>
+        </div>
+      </footer>
+      <div id="emote-picker" class="emote-picker" role="group" aria-label="Selecciona un emote" hidden></div>
+      <div id="emote-command-menu" class="emote-command-menu" role="group" aria-label="Acciones de emote" hidden></div>
+      <div class="control-hint">
+        WASD / ↑↓←→ <span>mover</span> · Clic <span>atacar</span> · E
+        <span>interactuar</span> · F <span>emotes</span>
+      </div>
+    </div>
+    <section id="title-screen">
+      <div class="title-vignette"></div>
+      <img
+        class="title-character"
+        src="assets/original/interface/intro/guerrier.png"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="title-content">
+        <span class="eyebrow">UNA AVENTURA EN MOUSCARPONE</span>
+        <h1>
+          <img
+            class="original-logo"
+            src="assets/original/interface/intro/logo.png"
+            alt="Transformice Adventures"
+          />
+        </h1>
+        <div class="title-ornament">
+          ❧ <span>RECONSTRUCCIÓN LOCAL · v0.12</span> ☙
+        </div>
+        <p>Un pequeño ratón.<br />Un mundo enorme por descubrir.</p>
+        <button id="play-button" class="primary large">
+          Comenzar aventura <span>➜</span></button
+        ><button id="continue-button" class="secondary" hidden>
+          Continuar mi aventura
+        </button>
+        <button id="title-import" class="title-import">
+          Importar una partida
+        </button>
+        <p class="title-footnote">
+          Explora la aldea, cuida a tu mascota y adéntrate en el bosque.<br />Tu
+          progreso se guarda en este navegador.
+        </p>
+      </div>
+      <span class="version-note">Primera versión jugable · un jugador</span>
+    </section>
+    <div id="modal-backdrop" hidden>
+      <section
+        id="modal"
+        class="panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <header>
+          <div>
+            <span id="modal-kicker" class="tiny">MOUSCARPONE</span>
+            <h2 id="modal-title"></h2>
+          </div>
+          <button id="close-modal" class="close" aria-label="Cerrar">×</button>
+        </header>
+        <div id="modal-body"></div>
+      </section>
+    </div>
+    <div id="dialogue" hidden>
+      <canvas id="dialogue-avatar" class="dialogue-avatar" width="96" height="84" aria-hidden="true"></canvas>
+      <div>
+        <span id="dialogue-name"></span>
+        <p id="dialogue-text"></p>
+        <button id="dialogue-next"><span id="dialogue-next-label">Continuar</span> <kbd>E</kbd></button>
+      </div>
+    </div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="boot.js"></script>
+  </body>
+</html>

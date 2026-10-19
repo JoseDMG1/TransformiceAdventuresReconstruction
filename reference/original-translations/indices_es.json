@@ -1,0 +1,1302 @@
+{
+  "talent": {
+    "1": {
+      "nom": "Espadachín",
+      "description": "Aumenta la cantidad máxima de usos."
+    },
+    "2": {
+      "nom": "Hoja larga",
+      "description": "Aumenta el alcance de tu espada."
+    },
+    "3": {
+      "nom": "Hoja ancha",
+      "description": "Aumenta la cantidad de enemigos golpeados por ataque."
+    },
+    "4": {
+      "nom": "Camino del guerrero",
+      "description": "Aumenta la velocidad de recuperación del uso del arma."
+    },
+    "5": {
+      "nom": "Cuchilla sedienta",
+      "description": "Aumenta temporalmente el daño de la espada después de golpear al menos 3 enemigos simultáneamente."
+    },
+    "6": {
+      "nom": "Cuchilla precisa",
+      "description": "Tocar un solo objetivo da la oportunidad de no consumir una carga."
+    },
+    "7": {
+      "nom": "Vicioso",
+      "description": "Aumenta la cantidad máxima de usos."
+    },
+    "8": {
+      "nom": "Colmillo astuto",
+      "description": "Incrementa el daño de veneno que hace la daga."
+    },
+    "9": {
+      "nom": "Colmillo impactante",
+      "description": "Aumenta el daño inicial de la daga."
+    },
+    "10": {
+      "nom": "Camino del depredador",
+      "description": "Aumenta la velocidad de recuperación del uso del arma."
+    },
+    "11": {
+      "nom": "Colmillo feroz",
+      "description": "El daño inicial infligido a los enemigos no envenenados aumenta."
+    },
+    "12": {
+      "nom": "Colmillo despiadado",
+      "description": "El daño aumenta contra los objetivos con menos del 50% de la salud restante."
+    },
+    "13": {
+      "nom": "Protector",
+      "description": "Aumenta la cantidad máxima de usos."
+    },
+    "14": {
+      "nom": "Riposting parry",
+      "description": "Los ataques bloqueados causan daño al atacante."
+    },
+    "15": {
+      "nom": "Parada asertiva",
+      "description": "Después de detener un ataque, reduce temporalmente el daño recibido."
+    },
+    "16": {
+      "nom": "Camino del centinela",
+      "description": "Aumenta la velocidad de recuperación del uso del arma."
+    },
+    "17": {
+      "nom": "Entrenamiento: Guardia",
+      "description": "Tu mascota también puede parar ataques."
+    },
+    "18": {
+      "nom": "Parry de galvanización",
+      "description": "Aumenta el poder de curación recibido."
+    },
+    "19": {
+      "nom": "Arquero",
+      "description": "Aumenta la tasa de fuego."
+    },
+    "20": {
+      "nom": "Tiro recto",
+      "description": "Cuanto más lejos está el objetivo, más daño se hace."
+    },
+    "21": {
+      "nom": "Punto de tiro en blanco",
+      "description": "Repele el objetivo si está demasiado cerca."
+    },
+    "22": {
+      "nom": "Camino de Marskman",
+      "description": "Disparar a un enemigo aislado aumenta el daño hecho."
+    },
+    "23": {
+      "nom": "Entrenamiento: recolector",
+      "description": "Tu mascota a veces te devuelve las flechas."
+    },
+    "24": {
+      "nom": "Tiro enfocado",
+      "description": "Aumenta el daño del arco, pero reduce la tasa de fuego."
+    },
+    "25": {
+      "nom": "Enfermera",
+      "description": "Aumenta la sanación personal."
+    },
+    "26": {
+      "nom": "Primeros auxilios",
+      "description": "Aumenta la cicatrización inicial de los vendajes."
+    },
+    "27": {
+      "nom": "Tratamiento",
+      "description": "Aumenta la curación periódica de los vendajes."
+    },
+    "28": {
+      "nom": "Camino del salvador",
+      "description": "Aumenta la velocidad de recuperación de uso de los vendajes."
+    },
+    "29": {
+      "nom": "Terapia de grupo",
+      "description": "Los vendajes sanan a un aliado extra."
+    },
+    "30": {
+      "nom": "Entrenamiento: búsqueda y rescate.",
+      "description": "Tu mascota puede curar aliados heridos."
+    },
+    "31": {
+      "nom": "Saucier",
+      "description": "Incrementa la duración del efecto de las recetas."
+    },
+    "32": {
+      "nom": "Salsa fragante",
+      "description": "Tu caldero puede ser atacado por enemigos."
+    },
+    "33": {
+      "nom": "Entrenamiento: empleado",
+      "description": "Tu mascota puede agregar ingredientes cercanos a tu caldero."
+    },
+    "34": {
+      "nom": "Camarero",
+      "description": "Reduce el daño recibido al cargar tu caldero."
+    },
+    "35": {
+      "nom": "Salsa refrescante",
+      "description": "Incrementa la curación proporcionada por el caldero."
+    },
+    "36": {
+      "nom": "Salsa picante",
+      "description": "Aumenta el daño hecho por el caldero."
+    },
+    "37": {
+      "nom": "Trampera",
+      "description": "Reducir el tiempo de armado de la trampa después de ser colocada."
+    },
+    "38": {
+      "nom": "Trampa mordaz",
+      "description": "Aumenta la duración de aturdimiento de la trampa."
+    },
+    "39": {
+      "nom": "Trampa aguda",
+      "description": "Aumenta el daño de la trampa."
+    },
+    "40": {
+      "nom": "Rastreador",
+      "description": "El daño de la trampa aumenta progresivamente mientras no se haya activado."
+    },
+    "41": {
+      "nom": "Entrenamiento: cazador",
+      "description": "Tu mascota puede reactivar una trampa disparada."
+    },
+    "42": {
+      "nom": "Trampa pegajosa",
+      "description": "Disminuye la velocidad de los enemigos golpeados por la trampa."
+    },
+    "43": {
+      "nom": "Doctores sin limites",
+      "description": "Incrementa el radio del elixir."
+    },
+    "44": {
+      "nom": "Decocción anestésica",
+      "description": "Reduce temporalmente el daño de los enemigos afectados por el Elixir."
+    },
+    "45": {
+      "nom": "Decocción hipodérmica",
+      "description": "Disminuye temporalmente a los enemigos afectados por el elixir."
+    },
+    "46": {
+      "nom": "Alquimista completo",
+      "description": "Aumenta el daño periódico del elixir."
+    },
+    "47": {
+      "nom": "Medicina antipirética",
+      "description": "Los aliados tocados por tu Elixir sufren menos daño elemental de los enemigos."
+    },
+    "48": {
+      "nom": "Medicina estimulante",
+      "description": "Los aliados bajo el efecto de tu Elixir no pueden ser ralentizados."
+    },
+    "49": {
+      "nom": "Entrenamiento: jardinero",
+      "description": "Tus plantas crecen más rápido si están cerca de tu mascota."
+    },
+    "50": {
+      "nom": "Cultivo farmacéutico",
+      "description": "El lirio de los valles se planta primero. Mejora la curación que proporciona."
+    },
+    "51": {
+      "nom": "Fertilizante de punta",
+      "description": "Las espinas crecen más rápido."
+    },
+    "52": {
+      "nom": "Herbalista",
+      "description": "Aumenta la salud de tus plantas."
+    },
+    "53": {
+      "nom": "Cosecha silvestre",
+      "description": "El cardo se planta primero. Mejora el rango de ataque del cardo."
+    },
+    "54": {
+      "nom": "Fertilizante curativo",
+      "description": "El Lirio de los valles te cura además de curar a su objetivo."
+    },
+    "55": {
+      "nom": "Erudito",
+      "description": "Activar un testimonio te cura al mismo tiempo."
+    },
+    "56": {
+      "nom": "Crónica calmante",
+      "description": "Aumenta la curación proporcionada por tus informes."
+    },
+    "57": {
+      "nom": "Crónica diversificada",
+      "description": "Aumenta el daño elemental hecho por tus informes."
+    },
+    "58": {
+      "nom": "Crónica de duelo",
+      "description": "Cuando tu mascota está caída, regularmente genera testimonios de curación."
+    },
+    "59": {
+      "nom": "Falso testimonio",
+      "description": "Tu mascota a veces revela un testimonio al azar."
+    },
+    "60": {
+      "nom": "Crónica preventiva",
+      "description": "Activar un testimonio curativo te da un escudo temporal."
+    },
+    "61": {
+      "nom": "Informador",
+      "description": "Aumentar el radio de entrevistas."
+    },
+    "62": {
+      "nom": "Investigación sanitaria",
+      "description": "Activar un testimonio de sanación reduce el tiempo de reutilización de la entrevista."
+    },
+    "63": {
+      "nom": "Investigación peligrosa",
+      "description": "Activar un testimonio elemental reduce el tiempo de reutilización de la entrevista."
+    },
+    "64": {
+      "nom": "Investigación de emergencia",
+      "description": "Se aumentan las entrevistas de curación a los aliados caídos."
+    },
+    "65": {
+      "nom": "Entrenamiento: Testigo",
+      "description": "Aumente el daño de la mascota mientras está en el área de efecto de una entrevista."
+    },
+    "66": {
+      "nom": "Inmunidad periodística",
+      "description": "Reduzca el daño recibido en el área de efecto de una entrevista."
+    },
+    "67": {
+      "nom": "Comerciante",
+      "description": "Reducir el tiempo de reutilización de Truco de cartas."
+    },
+    "68": {
+      "nom": "Espadas ardientes",
+      "description": "Aumenta el poder del as de espadas. Ahora hace daño de fuego."
+    },
+    "69": {
+      "nom": "Diamantes de congelación",
+      "description": "Congela a los enemigos golpeados por el as de diamantes y aumenta la duración impresionante."
+    },
+    "70": {
+      "nom": "Reina de corazones",
+      "description": "Aumenta la curación de tu as de corazones sobre ti y tu mascota."
+    },
+    "71": {
+      "nom": "Entrenamiento: conejo blanco.",
+      "description": "Después de usar el truco de cartas, aumenta el daño del siguiente ataque de tu mascota."
+    },
+    "72": {
+      "nom": "Jota de tréboles",
+      "description": "Disminuye el bonus de daño del as de tréboles, pero otorga un escudo al activarse."
+    },
+    "73": {
+      "nom": "Escapología",
+      "description": "Vanish elimina todos los impedimentos de movimiento."
+    },
+    "74": {
+      "nom": "Descanso",
+      "description": "Vanish te cura al activar."
+    },
+    "75": {
+      "nom": "Acrobacia",
+      "description": "Incrementa el bonus de daño otorgado por la habilidad Vanish."
+    },
+    "76": {
+      "nom": "Rendimiento impresionante",
+      "description": "Aturde al primer enemigo golpeado, mientras que bajo la invisibilidad de Vanish."
+    },
+    "77": {
+      "nom": "Entrenamiento: circo",
+      "description": "Tu mascota desaparece contigo y ataca a tu primer objetivo."
+    },
+    "78": {
+      "nom": "Resignado",
+      "description": "Vanish se activa automáticamente cuando se recibe demasiado daño."
+    },
+    "79": {
+      "nom": "No me detengas ahora",
+      "description": "Cuanto más herida esté tu mascota, menos daño recibirá."
+    },
+    "80": {
+      "nom": "Buen Samaritano",
+      "description": "Aumenta la curación recibida por tu mascota."
+    },
+    "81": {
+      "nom": "Flash",
+      "description": "Incrementa la velocidad de ataque de tu mascota."
+    },
+    "82": {
+      "nom": "The Real MVPet",
+      "description": "Cuando estás decaído, tu mascota trata de levantarte."
+    },
+    "83": {
+      "nom": "Enloquecido",
+      "description": "Incrementa el daño de tu mascota."
+    },
+    "84": {
+      "nom": "Inevitable",
+      "description": "Incrementa la salud máxima de tu mascota."
+    }
+  },
+  "don": {
+    "1001": {
+      "nom": "Ataque circular.",
+      "description": "Aumenta la cantidad de enemigos golpeados durante cada ataque."
+    },
+    "1002": {
+      "nom": "Cortar.",
+      "description": "Aumenta el daño en objetivos adicionales."
+    },
+    "1003": {
+      "nom": "Carta de triunfo.",
+      "description": "Ya no golpeas enemigos adicionales, pero aumenta el daño causado."
+    },
+    "1004": {
+      "nom": "Duelista.",
+      "description": "Ralentiza el objetivo principal."
+    },
+    "1005": {
+      "nom": "Huelga de cadena.",
+      "description": "Los ataques consecutivos causan más y más daño."
+    },
+    "1006": {
+      "nom": "Parar",
+      "description": "Da una oportunidad para detener los ataques recibidos."
+    },
+    "1007": {
+      "nom": "Rebote.",
+      "description": "El daño aumenta contra el último enemigo que te ataca."
+    },
+    "1008": {
+      "nom": "Ballesta.",
+      "description": "No atacar por un tiempo aumenta el daño del siguiente ataque."
+    },
+    "1101": {
+      "nom": "Veneno virulento.",
+      "description": "Todo daño de veneno se inflige instantáneamente."
+    },
+    "1102": {
+      "nom": "Veneno de la agonía.",
+      "description": "El daño inicial se reduce, pero el daño de veneno aumenta."
+    },
+    "1103": {
+      "nom": "Cuchilla afilada.",
+      "description": "Aumenta el número de usos máximos."
+    },
+    "1104": {
+      "nom": "Contrato.",
+      "description": "Atacar por la espalda aumenta el daño."
+    },
+    "1105": {
+      "nom": "Punto débil.",
+      "description": "Se incrementa el daño del primer uso."
+    },
+    "1106": {
+      "nom": "Pararrayos.",
+      "description": "El daño de veneno aumenta y se convierte en daño de relámpago."
+    },
+    "1107": {
+      "nom": "Dulces sueños.",
+      "description": "La última aparición de veneno tratado por la daga aumenta considerablemente."
+    },
+    "1108": {
+      "nom": "Veneno rastrero.",
+      "description": "El veneno de la daga puede apilarse varias veces."
+    },
+    "1201": {
+      "nom": "Trituradora de armadura",
+      "description": "El daño aumenta si se mitiga."
+    },
+    "1202": {
+      "nom": "Sap",
+      "description": "Cada 3 golpes, el objetivo queda aturdido."
+    },
+    "1301": {
+      "nom": "Tiro pesado",
+      "description": "Las flechas pasan por un enemigo adicional."
+    },
+    "1401": {
+      "nom": "Gran quiver.",
+      "description": "Aumenta el número de usos máximos."
+    },
+    "1402": {
+      "nom": "Quiver sin fondo.",
+      "description": "Aumenta la velocidad de recuperación."
+    },
+    "1403": {
+      "nom": "Disparo penetrante.",
+      "description": "Las flechas pasan por los enemigos."
+    },
+    "1404": {
+      "nom": "Tiro critico.",
+      "description": "Las flechas aturden a los enemigos."
+    },
+    "1405": {
+      "nom": "Lado siego.",
+      "description": "Las flechas rebotan en los enemigos cercanos."
+    },
+    "1406": {
+      "nom": "Puntería certera.",
+      "description": "El daño de la flecha aumenta, pero la velocidad de disparo se reduce."
+    },
+    "1407": {
+      "nom": "Bombardeo.",
+      "description": "Aumenta la velocidad de disparo."
+    },
+    "1408": {
+      "nom": "Flecha envenenada.",
+      "description": "El daño de la flecha aumenta pero se inflige con el tiempo."
+    },
+    "1409": {
+      "nom": "Flecha llameante",
+      "description": "Las flechas pueden golpear varios objetivos, pero el daño se reduce."
+    },
+    "1501": {
+      "nom": "Aspecto de la tortuga.",
+      "description": "Aumenta el número de usos."
+    },
+    "1502": {
+      "nom": "Aspecto del escarabajo.",
+      "description": "Aumenta la velocidad de recuperación."
+    },
+    "1503": {
+      "nom": "Aspecto del erizo.",
+      "description": "Devuelve una parte del daño bloqueado."
+    },
+    "1504": {
+      "nom": "Aspecto del zorro.",
+      "description": "Bloquear un ataque a veces agrega un uso a tu segunda arma."
+    },
+    "1505": {
+      "nom": "Aspecto del tiburón.",
+      "description": "Una porción del daño bloqueado se convierte en salud."
+    },
+    "1506": {
+      "nom": "Aspecto del oso.",
+      "description": "Una porción del daño bloqueado se convierte en escudo."
+    },
+    "1507": {
+      "nom": "Aspecto de la serpiente.",
+      "description": "Da un 30% de probabilidad de bloquear un ataque, sin consumir una carga, incluso si el escudo no está levantado."
+    },
+    "1508": {
+      "nom": "Aspecto del gato.",
+      "description": "Una porción de daño bloqueado se agrega a tu próximo ataque."
+    },
+    "1509": {
+      "nom": "Aspecto del cuervo.",
+      "description": "Aumentar el radio de protección de los aliados."
+    },
+    "1701": {
+      "nom": "Economía de escala.",
+      "description": "Aumenta el número de usos máximos."
+    },
+    "1702": {
+      "nom": "Suministros.",
+      "description": "Aumenta la velocidad de recuperación."
+    },
+    "1704": {
+      "nom": "Triaje.",
+      "description": "Curar a dos aliados al mismo tiempo."
+    },
+    "1705": {
+      "description": "El exceso de curación se convierte en un escudo.",
+      "nom": "Vacunación."
+    },
+    "1706": {
+      "nom": "Cirugía.",
+      "description": "Se aumenta la curación del último uso."
+    },
+    "1707": {
+      "nom": "Esteriliza.",
+      "description": "Incrementa la curación prevista al curandero."
+    },
+    "1708": {
+      "nom": "Desinfectante.",
+      "description": "La curación con el tiempo inflige daño al monstruo más cercano."
+    },
+    "1709": {
+      "nom": "Vitamina.",
+      "description": "Reduce el daño recibido por el objetivo durante la curación."
+    },
+    "1710": {
+      "nom": "Efecto placebo.",
+      "description": "Aumenta la duración de la curación periódica."
+    },
+    "10000": {
+      "nom": "Espinas.",
+      "description": "Los enemigos atrapados en el radio sufren daño físico adicional además de estar inmovilizados durante 5 segundos."
+    },
+    "10001": {
+      "nom": "Toxina mejorada.",
+      "description": "Ya no curan aliados pero el daño aumenta."
+    },
+    "10002": {
+      "nom": "Aceite esencial.",
+      "description": "Ya no inflige daño a los enemigos pero aumenta la curación."
+    },
+    "10003": {
+      "nom": "Sustancia prohibida.",
+      "description": "Aumenta el daño de los aliados durante la duración del efecto."
+    },
+    "10004": {
+      "nom": "Destilación avanzada.",
+      "description": "La duración de los efectos aumenta."
+    },
+    "10005": {
+      "nom": "Naturaleza furiosa.",
+      "description": "Invoca una hoja viva que puede atacar a los enemigos."
+    },
+    "10006": {
+      "nom": "Esencia elástica.",
+      "description": "El matraz rebota una vez más."
+    },
+    "10101": {
+      "nom": "Polvo cegador.",
+      "description": "Aturde a los enemigos cercanos."
+    },
+    "10102": {
+      "nom": "Polvo cromático.",
+      "description": "Aplica los efectos a los aliados cercanos."
+    },
+    "10103": {
+      "nom": "Polvo milagroso.",
+      "description": "El daño ya no aumenta, pero los efectos curativos aumentan considerablemente."
+    },
+    "10104": {
+      "nom": "Polvo de contrabando.",
+      "description": "Se aumenta la bonificación de daño."
+    },
+    "10105": {
+      "nom": "Polvo volátil.",
+      "description": "Cuando el efecto finaliza se desencadena una explosión en el origen de la desaparición."
+    },
+    "10106": {
+      "nom": "Tornado.",
+      "description": "Activa la aparición de un tornado que inflige daño a los enemigos en el momento de la desaparición."
+    },
+    "10108": {
+      "nom": "Polvo vampírico.",
+      "description": "El daño infligido a los enemigos durante la duración del efecto te cura."
+    },
+    "10109": {
+      "nom": "Señuelo.",
+      "description": "Invoca un señuelo que no ataque, pero que puede ser objetivo de tus oponentes."
+    },
+    "10110": {
+      "nom": "Polvo de energía.",
+      "description": "Aumenta la velocidad de recuperación de uso de tu artículo durante la duración del efecto."
+    },
+    "10111": {
+      "nom": "Polvo perenne.",
+      "description": "Aumenta tu velocidad de movimiento durante la duración del efecto."
+    },
+    "10112": {
+      "description": "Invoca una hoja viva que puede atacar a los enemigos.",
+      "nom": "Polvo fertilizante."
+    },
+    "10201": {
+      "nom": "Permacultura.",
+      "description": "Las plantas crecen solas cuando están cerca de otra planta."
+    },
+    "10202": {
+      "nom": "Equipo de abeja.",
+      "description": "Una abeja viene a defender tus plantas cuando son atacadas."
+    },
+    "10203": {
+      "nom": "Carduus ferox.",
+      "description": "El daño de tu cardo aumenta pero puede atacarte."
+    },
+    "10204": {
+      "nom": "Carduus multa.",
+      "description": "Tu cardo puede atacar a varios enemigos al mismo tiempo."
+    },
+    "10205": {
+      "nom": "Carduus venenum.",
+      "description": "Tu cardo envenena y frena a los enemigos atrapados en el radio."
+    },
+    "10206": {
+      "nom": "Barbecho.",
+      "description": "Solo puedes plantar espinas, pero son más fuertes."
+    },
+    "10207": {
+      "nom": "Maleza pantanosa.",
+      "description": "Tus espinas infligen periódicamente daño de veneno a los enemigos cercanos."
+    },
+    "10208": {
+      "nom": "Malas hierbas.",
+      "description": "Cuando una planta es destruida, aparecen espinas en su lugar."
+    },
+    "10209": {
+      "nom": "Polinizando.",
+      "description": "Tu lirio de los valles cura otras plantas cercanas automáticamente."
+    },
+    "10210": {
+      "nom": "Esquejes salvajes.",
+      "description": "Tu lirio de los valles tiene la oportunidad de multiplicarse."
+    },
+    "10211": {
+      "nom": "Lirio rosa de los valles.",
+      "description": "La sanación de tu lirio de los valles aumenta y la curación excesiva se convierte en escudo."
+    },
+    "11000": {
+      "nom": "Vegetarian cuisine",
+      "description": "Ingredients improving the attack appear less often.\n"
+    },
+    "11001": {
+      "nom": "Carnivorous cuisine",
+      "description": "The ingredients providing heal appear less often."
+    },
+    "11002": {
+      "description": "Defense enhancing ingredients appear less often.",
+      "nom": "Exotic cuisine"
+    },
+    "11003": {
+      "nom": "Barbacoa.",
+      "description": "Aumenta el poder de las recetas mejorando el ataque."
+    },
+    "11004": {
+      "nom": "Doble fritura.",
+      "description": "Incrementa el poder de defensa potenciando las recetas."
+    },
+    "11005": {
+      "nom": "Mirepoix.",
+      "description": "Incrementa el poder de las recetas proporcionando curación."
+    },
+    "11006": {
+      "description": "Aumenta los efectos de radio del caldero.",
+      "nom": "Fabricante de salsa."
+    },
+    "11007": {
+      "nom": "Caldero fiel.",
+      "description": "Tu caldero te esta siguiendo!"
+    },
+    "11008": {
+      "nom": "Queso frito.",
+      "description": "El caldero causa daño de fuego a los enemigos cercanos cuando le agregas un ingrediente."
+    },
+    "11009": {
+      "nom": "Queso Juliana.",
+      "description": "Los efectos de curación también infligen daño a los enemigos."
+    },
+    "11011": {
+      "nom": "Guante de cocina.",
+      "description": "Ser atacado mientras llevas tu caldero aumenta la duración de sus efectos."
+    },
+    "11200": {
+      "nom": "Trampa magnética.",
+      "description": "Antes de cerrar, la trampa atrae a los enemigos cercanos."
+    },
+    "11201": {
+      "nom": "Trauma.",
+      "description": "Una vez que se activa la trampa, los enemigos reciben daño cuando se mueven."
+    },
+    "11202": {
+      "nom": "Trampa mortal.",
+      "description": "El daño de tu trampa aumenta drásticamente si el objetivo ha sido alcanzado por otra trampa hace menos de 2 segundos."
+    },
+    "11203": {
+      "nom": "Gatillo oxidado.",
+      "description": "La trampa inflige un daño mayor si se ha configurado durante 2 segundos sin que se active."
+    },
+    "11204": {
+      "nom": "Activación manual",
+      "description": "La trampa se dispara manualmente y el daño aumenta."
+    },
+    "11205": {
+      "nom": "Trampa para osos",
+      "description": "Aumenta el daño y el radio de la trampa."
+    },
+    "11206": {
+      "nom": "Trampa de afeitar",
+      "description": "La trampa solo afecta a un objetivo, pero su daño aumenta considerablemente."
+    },
+    "11207": {
+      "nom": "Trampa incendiaria",
+      "description": "Después de la activación, la trampa quema el suelo y los enemigos allí."
+    },
+    "11209": {
+      "nom": "Trampa totémica",
+      "description": "Después de la activación de la trampa, un yunque cae del cielo sobre los enemigos."
+    },
+    "12000": {
+      "nom": "Testimonio de muerte",
+      "description": "Permite recoger testimonio de muerte."
+    },
+    "13000": {
+      "nom": "Tramposo.",
+      "description": "Reduce el tiempo de reutilización de Card Trick cuando se juegan dos cartas diferentes en sucesión."
+    },
+    "13001": {
+      "nom": "Manga larga.",
+      "description": "Los aliados afectados por el as de corazones devuelven el siguiente ataque recibido."
+    },
+    "13002": {
+      "nom": "Suave hablador.",
+      "description": "El as de corazones le da un escudo extra."
+    },
+    "13003": {
+      "nom": "Vendedor ambulante.",
+      "description": "Incrementa el efecto de radio del as de corazones."
+    },
+    "13004": {
+      "nom": "Trampas.",
+      "description": "Se aumenta el daño infligido a un enemigo inmovilizado por el as de diamantes."
+    },
+    "13005": {
+      "nom": "Ajetreo.",
+      "description": "Aumenta la cantidad de enemigos golpeados por el as de diamantes."
+    },
+    "13006": {
+      "nom": "Chantaje.",
+      "description": "El as de diamantes aturde a los enemigos en lugar de inmovilizarlos."
+    },
+    "13007": {
+      "nom": "Fanfarrón.",
+      "description": "Los daños del as de tréboles aumentan considerablemente, pero durante un breve período de tiempo quedas aturdido y el daño que recibes aumenta."
+    },
+    "13008": {
+      "nom": "Tiro barato.",
+      "description": "El as de tréboles inflige un mayor daño contra los enemigos ralentizados y un gran daño contra los enemigos aturdidos."
+    },
+    "13009": {
+      "nom": "Lengua venenosa.",
+      "description": "Los daños del as de tréboles aumentan pero se infligen con el tiempo como veneno."
+    },
+    "13010": {
+      "nom": "La prenda.",
+      "description": "Se lanza un as de espadas adicional a cada enemigo cercano."
+    },
+    "13011": {
+      "nom": "El truco.",
+      "description": "El as de espadas vuelve al Estafador después de unos momentos."
+    },
+    "13012": {
+      "nom": "El prestigio.",
+      "description": "El primer enemigo golpeado por tu as de espadas se reduce, el segundo queda aturdido y el tercero explota."
+    },
+    "14000": {
+      "nom": "Escándalo de Estado",
+      "description": "Informes de \"rayos\" golpean a todos los enemigos cercanos."
+    },
+    "14001": {
+      "nom": "Fotógrafo de guerra",
+      "description": "Las mejoras de armas afectan a los aliados cercanos."
+    },
+    "14002": {
+      "nom": "Periodista independiente",
+      "description": "Reduce el tiempo de recuperación."
+    },
+    "14003": {
+      "nom": "Columnista",
+      "description": "Los efectos de veneno infligen su daño al instante."
+    },
+    "14004": {
+      "nom": "Documental de la vida salvaje",
+      "description": "Tú y tu mascota infligen daño de hielo extra."
+    },
+    "14005": {
+      "nom": "Papel sustantivo",
+      "description": "Curación aplicar un escudo extra."
+    },
+    "14006": {
+      "nom": "Propaganda",
+      "description": "Los enemigos envenenados por tus informes sufren más daño."
+    },
+    "14007": {
+      "nom": "Agencia de prensa",
+      "description": "Aumenta la frecuencia de los testimonios desovados."
+    },
+    "14500": {
+      "nom": "Encabezado cubre.",
+      "description": "Aumentar el radio de entrevistas."
+    },
+    "14501": {
+      "nom": "Conferencia de prensa",
+      "description": "Aumentar la duración de las entrevistas."
+    },
+    "14502": {
+      "nom": "Aprendiz",
+      "description": "Tu mascota puede desencadenar entrevistas."
+    },
+    "14503": {
+      "nom": "Periódico tabloide",
+      "description": "Los enemigos cercanos se sienten atraídos por las entrevistas."
+    },
+    "14504": {
+      "nom": "Difamación",
+      "description": "Los enemigos que están en una entrevista durante su activación están congelados."
+    },
+    "14505": {
+      "nom": "Pequeños anuncios",
+      "description": "Reduce el tiempo de recuperación."
+    },
+    "14506": {
+      "nom": "Portada",
+      "description": "El tiempo de recuperación aumenta, pero todos los testimonios visibles activan una entrevista."
+    },
+    "14507": {
+      "description": "Dispara una explosión de fuego cuando se activa una entrevista.",
+      "nom": "Scoop"
+    },
+    "14508": {
+      "nom": "Investigación",
+      "description": "Deja caer un rayo cuando se dispara una entrevista."
+    }
+  },
+  "metier": {
+    "1": {
+      "nom": "Botánico"
+    },
+    "2": {
+      "nom": "Chef"
+    },
+    "3": {
+      "nom": "Periodista"
+    },
+    "4": {
+      "nom": "Estafador"
+    }
+  },
+  "equipement": {
+    "1": {
+      "nom": "Casco de héroe novato"
+    },
+    "2": {
+      "nom": "Gorro de cocinero"
+    },
+    "3": {
+      "nom": "Pañuelo de botánico"
+    },
+    "4": {
+      "nom": "Sombrero de adivino"
+    },
+    "5": {
+      "nom": "Gorra de periodista"
+    },
+    "6": {
+      "nom": "Fedora de estafador"
+    },
+    "7": {
+      "nom": "Gratitud Krown"
+    },
+    "8": {
+      "nom": "Sombrero de explorador"
+    },
+    "9": {
+      "nom": "Sombrero de copa clásico"
+    },
+    "10": {
+      "nom": "Sombrero de paja de granjero"
+    },
+    "11": {
+      "nom": "Corona de flores de primavera"
+    },
+    "12": {
+      "nom": "Autumn flower wreath"
+    },
+    "13": {
+      "nom": "Blue winter cap"
+    },
+    "14": {
+      "nom": "Starry hat"
+    },
+    "15": {
+      "nom": "Feather bonnet"
+    },
+    "16": {
+      "nom": "White bow headband"
+    },
+    "17": {
+      "nom": "Devilhorn's Kabuto helmet"
+    },
+    "18": {
+      "nom": "Coldsting's down"
+    },
+    "1001": {
+      "nom": "Bufanda del chef"
+    },
+    "1002": {
+      "nom": "Capa de héroe novato"
+    },
+    "1003": {
+      "nom": "Bufanda verde"
+    },
+    "1004": {
+      "nom": "Flower choker"
+    },
+    "1005": {
+      "nom": "Blue lace collar"
+    },
+    "1006": {
+      "nom": "Shiny neckbell"
+    },
+    "1007": {
+      "nom": "Red bowtie"
+    },
+    "1008": {
+      "nom": "Devilhorn's elytra"
+    },
+    "1009": {
+      "nom": "Coldsting's wings"
+    },
+    "2001": {
+      "nom": "Delantal de cocina"
+    },
+    "2002": {
+      "nom": "Delantal de jardinería"
+    },
+    "2003": {
+      "nom": "Delantal de chef"
+    },
+    "2004": {
+      "nom": "Delantal de corazón"
+    },
+    "2005": {
+      "nom": "Camisa de periodista"
+    },
+    "2006": {
+      "nom": "Túnica blanca del granjero"
+    },
+    "2007": {
+      "nom": "Túnica verde de granjero"
+    },
+    "2008": {
+      "nom": "Túnica"
+    },
+    "2009": {
+      "nom": "Camisa de tartán verde"
+    },
+    "2010": {
+      "nom": "Camisa de leñador"
+    },
+    "2011": {
+      "nom": "Chaleco de camarero"
+    },
+    "2012": {
+      "nom": "Poncho de lana"
+    },
+    "2013": {
+      "nom": "Abrigo de embaucador"
+    },
+    "2014": {
+      "nom": "Camisa de explorador"
+    },
+    "2015": {
+      "nom": "Armadura de la guardia Capital"
+    },
+    "2016": {
+      "nom": "Leather apron"
+    },
+    "2017": {
+      "nom": "Don's jacket"
+    },
+    "3001": {
+      "nom": "Venda de luchador"
+    },
+    "3002": {
+      "nom": "Gafas clip de nariz"
+    },
+    "3003": {
+      "nom": "Blue pearl"
+    },
+    "3004": {
+      "nom": "Ornate tiara"
+    },
+    "4001": {
+      "nom": "Velo de adivino"
+    },
+    "4002": {
+      "nom": "Espiga de trigo"
+    },
+    "4003": {
+      "nom": "Old wooden pipe"
+    },
+    "4004": {
+      "nom": "Pencil"
+    },
+    "4005": {
+      "nom": "Don's fin"
+    },
+    "5001": {
+      "nom": "Pendientes florales"
+    },
+    "5002": {
+      "nom": "Aretes de granjero"
+    },
+    "5003": {
+      "nom": "Arco rosa"
+    },
+    "5004": {
+      "nom": "Pendientes de adivino"
+    },
+    "5005": {
+      "nom": "Aretes de latón"
+    },
+    "5006": {
+      "nom": "Margarita"
+    },
+    "5007": {
+      "nom": "Hibisco"
+    },
+    "5008": {
+      "nom": "Gratitude earrings"
+    },
+    "6002": {
+      "nom": "Piel gris"
+    },
+    "6003": {
+      "nom": "Piel blanca"
+    },
+    "6004": {
+      "nom": "Piel negra"
+    },
+    "6005": {
+      "nom": "Piel de ratón de campo"
+    },
+    "6006": {
+      "nom": "Piel de ratón de pueblo"
+    },
+    "6007": {
+      "nom": "Piel de gratitud"
+    },
+    "6008": {
+      "nom": "White spotted brown fur"
+    },
+    "6009": {
+      "nom": "Dark brown fur"
+    },
+    "6010": {
+      "nom": "Fluffy fur"
+    },
+    "6011": {
+      "nom": "Cockatiel fur"
+    },
+    "7001": {
+      "nom": "Joya de gratitud"
+    },
+    "7002": {
+      "nom": "Small bell"
+    },
+    "8001": {
+      "nom": "Guantes de la guardia Capital"
+    },
+    "8002": {
+      "nom": "Leather gloves"
+    },
+    "9001": {
+      "nom": "Turquoise sidecut"
+    },
+    "9002": {
+      "nom": "Blonde bob with bangs"
+    },
+    "9003": {
+      "nom": "Blonde bun with bangs"
+    },
+    "9004": {
+      "nom": "French braid"
+    },
+    "9005": {
+      "nom": "Brown bangs"
+    },
+    "9006": {
+      "nom": "Man bun"
+    },
+    "9007": {
+      "nom": "\"Fairy waves\" hairstyle"
+    },
+    "21001": {
+      "nom": "Espada de entrenamiento"
+    },
+    "21002": {
+      "nom": "Espada noble"
+    },
+    "21003": {
+      "nom": "Espada ornamentada"
+    },
+    "21004": {
+      "nom": "Espada eliseana"
+    },
+    "21005": {
+      "nom": "Spider leg"
+    },
+    "21006": {
+      "nom": "Wasp sting"
+    },
+    "21007": {
+      "nom": "Frog's eye"
+    },
+    "21008": {
+      "nom": "Coldsting's blade"
+    },
+    "22001": {
+      "nom": "Gran espada de entrenamiento"
+    },
+    "22002": {
+      "nom": "Gran espada noble"
+    },
+    "22003": {
+      "nom": "Gran espada ornamentada"
+    },
+    "22004": {
+      "nom": "Elisean claymore"
+    },
+    "22005": {
+      "nom": "Coldsting's claymore"
+    },
+    "23001": {
+      "nom": "Daga de entrenamiento"
+    },
+    "23002": {
+      "nom": "Daga noble"
+    },
+    "23003": {
+      "nom": "Daga ornamentada"
+    },
+    "23004": {
+      "nom": "Daga eliseana"
+    },
+    "23005": {
+      "nom": "Coldsting's sting"
+    },
+    "24001": {
+      "nom": "Escudo de entrenamiento"
+    },
+    "24002": {
+      "nom": "Escudo noble"
+    },
+    "24003": {
+      "nom": "Escudo adornado"
+    },
+    "24004": {
+      "nom": "Escudo elisean"
+    },
+    "24005": {
+      "nom": "Coldsting's shield"
+    },
+    "25001": {
+      "nom": "Arco de entrenamiento"
+    },
+    "25002": {
+      "nom": "Arco noble"
+    },
+    "25003": {
+      "nom": "Arco adornado"
+    },
+    "25004": {
+      "nom": "Arco eliseano"
+    },
+    "25005": {
+      "nom": "Coldsting's bow"
+    },
+    "26001": {
+      "nom": "Vendaje simple"
+    }
+  },
+  "statequipement": {
+    "1": {
+      "text": "Bonus de ataque: %1%"
+    },
+    "2": {
+      "text": "Bonus de ataque por habilidades: %1%"
+    },
+    "3": {
+      "text": "Bonus de ataque para armas: %1%"
+    },
+    "4": {
+      "text": "Bonus de curación: %1%"
+    },
+    "5": {
+      "text": "Bonus de daño: %1%"
+    },
+    "6": {
+      "text": "Bonus de salud máxima: %1%"
+    },
+    "7": {
+      "text": "Daño de fuego: %1"
+    },
+    "8": {
+      "text": "Daño por hielo: %1"
+    },
+    "9": {
+      "text": "Daño del rayo: %1"
+    },
+    "10": {
+      "text": "Bonus de resistencia: %1%"
+    },
+    "11": {
+      "text": "Bonus de salud máxima de la mascota: %1%"
+    },
+    "12": {
+      "text": "Bonus por daños de mascotas: %1%"
+    },
+    "13": {
+      "text": "Daño por veneno: %1"
+    }
+  },
+  "titre": {
+    "0": {
+      "text": "Sin título"
+    },
+    "1": {
+      "text": "Guardia"
+    },
+    "2": {
+      "text": "Ratón de establo"
+    },
+    "3": {
+      "text": "Billboard"
+    },
+    "4": {
+      "text": "Aventurero"
+    },
+    "5": {
+      "text": "Explorador"
+    },
+    "6": {
+      "text": "Luchador"
+    },
+    "7": {
+      "text": "Daredevil"
+    },
+    "8": {
+      "text": "Aldeano"
+    },
+    "9": {
+      "text": "Ratón del prado"
+    },
+    "10": {
+      "text": "Voluntario"
+    },
+    "11": {
+      "text": "Rookie"
+    },
+    "12": {
+      "text": "Buen samaritano"
+    },
+    "13": {
+      "text": "Ratoncito"
+    },
+    "14": {
+      "text": "Trabajos"
+    }
+  },
+  "talentTrees": {
+    "talent.arbre.26": "Periodista - Entrevista",
+    "talent.type.0": "Armas",
+    "talent.type.1": "Habilidades",
+    "talent.type.2": "Ratón",
+    "talent.arbre.1": "Espada",
+    "talent.arbre.2": "Daga",
+    "talent.arbre.3": "Escudo",
+    "talent.arbre.5": "Vendaje",
+    "talent.arbre.21": "Chef - Caldero",
+    "talent.arbre.22": "Chef - Trampa de picnic",
+    "talent.arbre.25": "Periodista - Informe",
+    "talent.arbre.27": "Estafador - Truco de cartas",
+    "talent.arbre.28": "Estafador - Vanish",
+    "talent.arbre.4": "Arco",
+    "talent.arbre.23": "Botánico - Elixir",
+    "talent.arbre.24": "Botánico - Pulgar Verde",
+    "talent.arbre.29": "Mascota"
+  }
+}

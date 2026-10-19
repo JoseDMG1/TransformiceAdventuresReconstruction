@@ -1,0 +1,101 @@
+[
+  {
+    "resource": "cuisto/i/100.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/100.png",
+    "status": 200,
+    "bytes": 961,
+    "width": 20,
+    "height": 20,
+    "sha256": "4da7fc36e0e723dada18cd89b70f9733347ac1f70bf489befc929593410b9ca9"
+  },
+  {
+    "resource": "cuisto/i/z100.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/z100.png",
+    "status": 200,
+    "bytes": 5636,
+    "width": 60,
+    "height": 60,
+    "sha256": "f08a84372c7a6adbd446ad669be02c20a40b12ea8a0205c319ed76e8e978d1bc"
+  },
+  {
+    "resource": "cuisto/i/i100.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/i100.png",
+    "status": 200,
+    "bytes": 4034,
+    "width": 400,
+    "height": 400,
+    "sha256": "b57a3aa2fdb41d9f68090277ab5dbf90f887aed1e04856a4a3d552af4f302b6d"
+  },
+  {
+    "resource": "cuisto/i/101.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/101.png",
+    "status": 200,
+    "bytes": 760,
+    "width": 16,
+    "height": 20,
+    "sha256": "d359f07de40eb2386df080c20dc46c675bb19da96bb80f8a2665515f115b846c"
+  },
+  {
+    "resource": "cuisto/i/z101.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/z101.png",
+    "status": 200,
+    "bytes": 6302,
+    "width": 60,
+    "height": 60,
+    "sha256": "dd51aa6b4d684eae3a4ba05fbe9a20ce3f401b96bf72dc58f14466c8c2e96d87"
+  },
+  {
+    "resource": "cuisto/i/i101.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/i101.png",
+    "status": 200,
+    "bytes": 3073,
+    "width": 400,
+    "height": 400,
+    "sha256": "3ea7f3aa336458c19cd80c9679ae8f8488965cd68ccce0f009f1e9ddfcdece49"
+  },
+  {
+    "resource": "cuisto/i/102.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/102.png",
+    "status": 200,
+    "bytes": 643,
+    "width": 20,
+    "height": 20,
+    "sha256": "8ba6b6c16a3e91cd9b2dfcbdc306d60a86de1d61f222ae3f15f9ce3ca554f931"
+  },
+  {
+    "resource": "cuisto/i/z102.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/z102.png",
+    "status": 200,
+    "bytes": 5497,
+    "width": 60,
+    "height": 60,
+    "sha256": "fa0c8dd04ccc1af1a8d0b17d2f0ad8b621e33ba82980650f12f934a592995db3"
+  },
+  {
+    "resource": "cuisto/i/i102.png",
+    "url": "https://data.atelier801.com/tfmadv/cuisto/i/i102.png",
+    "status": 200,
+    "bytes": 3478,
+    "width": 400,
+    "height": 400,
+    "sha256": "c42ffdf5570ef6507f289f646febdc420656a9f720a71a4bf5db21f3fc181800"
+  },
+  {
+    "resource": "interface/jauge-lavage.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/jauge-lavage.png",
+    "status": 200,
+    "bytes": 2895,
+    "width": 31,
+    "height": 42,
+    "sha256": "dd6a11dd2f4bf3fc77cc627576b2bb40b0a9d6db4332678c4843f949a9b0b585"
+  },
+  {
+    "resource": "interface/jauge-cuisson.png",
+    "url": "https://data.atelier801.com/tfmadv/interface/jauge-cuisson.png",
+    "status": 200,
+    "bytes": 2891,
+    "width": 31,
+    "height": 42,
+    "sha256": "b9e8bfee65a4f578760e08844d72b400d3eb599b862f55207560539fd98894d7"
+  }
+]

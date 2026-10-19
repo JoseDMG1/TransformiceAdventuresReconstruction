@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/ClipAnim.js",
+    "status": 200,
+    "file": "0-ClipAnim.js",
+    "bytes": 83896,
+    "sha256": "879c5637bb57c9fd6c3c04cbc1930a2698d09f820f77c880ff98060ecd947ddc"
+  },
+  {
+    "url": "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/Look.js",
+    "status": 200,
+    "file": "1-Look.js",
+    "bytes": 1984,
+    "sha256": "06da70c1db067a41d947bf8a127b25421f7c40dd00f948c3857480e80650ba2f"
+  },
+  {
+    "url": "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/MondeADV.js",
+    "status": 200,
+    "file": "2-MondeADV.js",
+    "bytes": 104104,
+    "sha256": "c4d04c42fcd5b90b9392bf34d2971d1619095602a5d1495f0abdf4f9021c3ce7"
+  },
+  {
+    "url": "https://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/ClipAnim.js",
+    "status": 200,
+    "file": "3-ClipAnim.js",
+    "bytes": 83896,
+    "sha256": "879c5637bb57c9fd6c3c04cbc1930a2698d09f820f77c880ff98060ecd947ddc"
+  }
+]

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Transformice Adventures</title>
+	<link rel="icon" href="ressources/souris.ico" />
+	<link rel="stylesheet" type="text/css" href="I_Style.css">
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+<script src="lib/pixi.js?v=18"></script>
+<script src="lib/pixi-projection.js"></script>
+<script src="lib/pixi-particles.js"></script>
+<script src="lib/howler.js"></script>
+<script src="lib/vanilla-picker.min.js"></script>
+<script src="lib/cjs/c-js.js"></script>
+<script src="lib/pako.min.js"></script>
+<script src="lib/require.js"></script>
+<script>
+	fetch("./configADV.json?d=" + Date.now())
+		.then(function (resp) {
+			return resp.json();
+		}).then(function (config) {
+		require(["dist/Transformice-adventure-client/src/_tfmAdventure/TFMAdventure"], function () {
+			window.lancement(config);
+		});
+	});
+</script>
+</body>
+</html>
+
+

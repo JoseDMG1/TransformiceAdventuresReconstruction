@@ -1,0 +1,107 @@
+{
+  "recoveredAt": "2026-10-18T08:34:39.065Z",
+  "source": "https://data.atelier801.com/tfmadv/sons/",
+  "evidence": [
+    "reference/original-data/MondeADV-2021.js",
+    "reference/wayback-client/dist/Transformice-adventure-client/src/_tfmAdventure/TFMAdventure.js",
+    "reference/wayback-client/dist/Transformice-adventure-client/src/interfaces/IntroADV.js"
+  ],
+  "records": [
+    {
+      "name": "ambiance/foret",
+      "url": "https://data.atelier801.com/tfmadv/sons/ambiance/foret.mp3",
+      "file": "ambiance/foret.mp3",
+      "bytes": 494862,
+      "sha256": "3e6f7e40122d99d26f9ba46fabd2661351a8233664cb4d60e5cf199ba5b4a007",
+      "status": 200
+    },
+    {
+      "name": "ambiance/foret2",
+      "url": "https://data.atelier801.com/tfmadv/sons/ambiance/foret2.mp3",
+      "file": "ambiance/foret2.mp3",
+      "bytes": 1120547,
+      "sha256": "5f73ab4f13bb83e9ab8089a35faa860618e5d7c67598447f8d1cc5a68e96eb4b",
+      "status": 200
+    },
+    {
+      "name": "ambiance/prairie",
+      "url": "https://data.atelier801.com/tfmadv/sons/ambiance/prairie.mp3",
+      "file": "ambiance/prairie.mp3",
+      "bytes": 2261912,
+      "sha256": "67f029f9bd811c58a177b3cf108fdf50a6cdd5c187c5b50e1fa1965af6a68295",
+      "status": 200
+    },
+    {
+      "name": "ambiance/vent",
+      "url": "https://data.atelier801.com/tfmadv/sons/ambiance/vent.mp3",
+      "file": "ambiance/vent.mp3",
+      "bytes": 1709824,
+      "sha256": "163f9e7798cdc5304a7332c33d2545e88c8d3573b479f079a6ccf0905b7fbe0a",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_combat1",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_combat1.mp3",
+      "file": "musique/tfmadv_combat1.mp3",
+      "bytes": 330395,
+      "sha256": "2e54b37a6e23fd2fab0881ea183e84a28d18a5a667de68617885c6cc2adb6d97",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_combat2",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_combat2.mp3",
+      "file": "musique/tfmadv_combat2.mp3",
+      "bytes": 781791,
+      "sha256": "625e40b868957dfb674e6e1a091a03e5db0a0fee6dc6c688f5488653432c877b",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_combat3",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_combat3.mp3",
+      "file": "musique/tfmadv_combat3.mp3",
+      "bytes": 548988,
+      "sha256": "a0905128f9a78c7042e19e7401f6c9ad7c93ed2382549a45dbad59325eed98ee",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_combat4",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_combat4.mp3",
+      "file": "musique/tfmadv_combat4.mp3",
+      "bytes": 465814,
+      "sha256": "888e03110afd16488020ad991fdf4004a4f77b0d68491321737ef582163df48a",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_intro",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_intro.mp3",
+      "file": "musique/tfmadv_intro.mp3",
+      "bytes": 948557,
+      "sha256": "4577da8e754024cc5eb45a1314d02306030569dd596b00baa45e69967caa95d6",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_intro2",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_intro2.mp3",
+      "file": "musique/tfmadv_intro2.mp3",
+      "bytes": 56005,
+      "sha256": "eef5c35ab07e34707a8ae41304ec707642c43a01b381d04c2e6acb17ac55fd18",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_musique2",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_musique2.mp3",
+      "file": "musique/tfmadv_musique2.mp3",
+      "bytes": 1255966,
+      "sha256": "28121a9418603b75ef37784dd7e1cac05285c4c7541f9c58aeba6e9e35f50013",
+      "status": 200
+    },
+    {
+      "name": "musique/tfmadv_musique3",
+      "url": "https://data.atelier801.com/tfmadv/sons/musique/tfmadv_musique3.mp3",
+      "file": "musique/tfmadv_musique3.mp3",
+      "bytes": 910732,
+      "sha256": "581b25cf46d0a1d4b75aedd6012238c3ca39fa5ed3f845ab2d89385b98fda994",
+      "status": 200
+    }
+  ]
+}

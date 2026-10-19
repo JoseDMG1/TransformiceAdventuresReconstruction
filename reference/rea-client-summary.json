@@ -1,0 +1,39 @@
+{
+  "evidence_id": "ev_6dfff47c4a2703576390fbcc4c8e245f337b2ca7807e2ebcdc7f434a7d8986dd",
+  "subject": {
+    "name": "wayback-client",
+    "digest": {
+      "sha256": "b1de32ffbe96f5c7715fb6fde4a82c35513789e597ee244e6da71e5d5c5c6288"
+    },
+    "local_path": "C:\\Users\\Jose\\Desktop\\TransformiceAdventuresReconstruction\\reference\\wayback-client",
+    "format": "directory",
+    "architecture": null
+  },
+  "operation": "analyze_javascript_application",
+  "authority": "shipped-artifact",
+  "confidence": "derived",
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "dist/Transformice-adventure-client/src/interfaces/editeur/EditeurADV.js: Resource constraint during analyze_javascript_application: Semantic graph for dist/Transformice-adventure-client/src/interfaces/editeur/EditeurADV.js exceeds the parent's remaining result budget; static and module facts were retained",
+    "homepage.html has 1 inline JavaScript body starting at line 18 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "tfmadv.js: Resource constraint during analyze_javascript_application: Semantic graph for tfmadv.js exceeds the parent's remaining result budget; static and module facts were retained"
+  ],
+  "result_keys": [
+    "input_path",
+    "format",
+    "root_artifact_sha256",
+    "inventory_manifest_id",
+    "inventory_graph_sha256",
+    "integrity_contradictions",
+    "graph",
+    "summary",
+    "statistics",
+    "limitations",
+    "semantic_graph"
+  ]
+}

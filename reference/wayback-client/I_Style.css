@@ -1,0 +1,245 @@
+/*
+########################################
+#  ➔ Base
+########################################
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+textarea:focus, input:focus, button:focus, select:focus {
+    outline: none;
+}
+
+/*
+########################################
+#  ➔ Police
+########################################
+*/
+
+@font-face {
+    font-family: "police-nom";
+    src: url("./ressources/polices/grobold.ttf");
+}
+
+html, body, input, textarea, button, select {
+    font-family: Verdana, sans-serif;
+    color: #EBDDC3;
+}
+
+input, textarea, button, select {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #222222;
+    font-size: 20px;
+    /*text-align: center;*/
+}
+
+/*
+########################################
+#  ➔ Texte
+########################################
+*/
+
+.I_Texte {
+    color: #EBDDC3;
+}
+
+.I_Champ .texte {
+    background-color: transparent;
+    padding: 0.2em;
+    width: 100%;
+    box-sizing: border-box;
+    color: #7BBD40;
+}
+
+.I_Champ.fond {
+    background-color: #281B12;
+    border-radius: 0.4em;
+    box-shadow: inset 1px 1px 1px #000000CC, inset -1px -1px 1px #927a5a;
+}
+
+.I_Champ::placeholder {
+    color: #baa694;
+    opacity: 1;
+}
+
+.I_Champ .selecteur {
+    cursor: pointer;
+    width: 1.5em;
+    height: 1em;
+    border-radius: 0.1em;
+    margin: auto;
+    margin-left: 0.3em;
+    color: #070E07;
+}
+
+/*
+########################################
+#  ➔ Bouton
+########################################
+*/
+
+.I_Bouton {
+    justify-content: center;
+    padding: 0.4em;
+    background-color: #44662C;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 1px #97D64E, inset -1px -1px 1px #070E07;
+}
+
+.I_Bouton .texte {
+    color: #E8FFCE;
+}
+
+.I_Bouton:hover {
+    filter: brightness(120%);
+}
+
+.I_Bouton:active {
+    filter: brightness(70%);
+    box-shadow: inset 1px 1px 1px #070E07, inset -1px -1px 1px #97D64E;
+}
+
+.I_Bouton:disabled {
+    filter: grayscale(1);
+}
+
+.I_BoutonEtat .croix {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    background-color: #281B12;
+    border-radius: 0.2em;
+    box-shadow: inset 1px 1px 1px #000000CC, inset -1px -1px 1px #927A5A;
+    align-self: center;
+}
+
+.I_BoutonEtat .texte {
+    margin-left: 0.3em;
+    /*color: #E8FFCE;*/
+}
+
+.I_BoutonChoixMultiples {
+    display: flex;
+    color: #7BBD40;
+    background-color: #281B12;
+    border-radius: 0.4em;
+    padding: 0.1em;
+    box-shadow: inset 1px 1px 1px #000000CC, inset -1px -1px 1px #927A5A;
+}
+
+/*
+########################################
+#  ➔ Fenêtre
+########################################
+*/
+
+.I_Fenetre {
+    margin-top: 1.5em;
+}
+
+.I_Fenetre .titre {
+    position: absolute;
+    left: 0;
+    top: -2em;
+    width: 100%;
+    height: 2.5em;
+    color: #D4F98E;
+    text-align: center;
+    line-height: 2.5em;
+    font-weight: bold;
+    background-image: url(https://data.atelier801.com/tfmadv/interface/fond-titre.png);
+    background-size: contain;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.I_Fenetre .titre::before {
+    content: "";
+    background-image: url(https://data.atelier801.com/tfmadv/interface/decoration-titre.png);
+    background-position-y: center;
+    width: 8.6em;
+    height: 100%;
+    margin-right: 0.25em;
+}
+
+.I_Fenetre .titre::after {
+    content: "";
+    background-image: url(https://data.atelier801.com/tfmadv/interface/decoration-titre.png);
+    background-position-y: center;
+    width: 8.6em;
+    height: 100%;
+    transform: scaleX(-1);
+    margin-left: 0.25em;
+}
+
+.I_Fenetre.fond {
+    background: url("ressources/bois2.png") repeat;
+    padding: 12px;
+}
+
+.I_Fenetre .cadre {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px + 2em);
+    position: absolute;
+    top: calc(-50px + -2em);
+    left: -50px;
+    border-image: url("ressources/cadre2.png") 100 / 1 / 0 repeat;
+    border-style: solid;
+    border-width: 100px;
+}
+
+.I_Fenetre .bouton-fermer {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: calc(50px + 1.5em - 98px - 1.25em);
+    right: -42px;
+    background: url("https://data.atelier801.com/tfmadv/interface/bouton-fermer.png") no-repeat center center;
+    background-size: contain;
+}
+
+/*
+########################################
+#  ➔ Ascenseur
+########################################
+*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: #1e140f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #44662c;
+    border-radius: 2px;
+}
+
+/*
+########################################
+#  ➔ Divers
+########################################
+*/
+
+.I_Image {
+}
+
+.I_ImagePixi {
+}
+

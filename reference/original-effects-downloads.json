@@ -1,0 +1,2222 @@
+[
+  {
+    "resource": "fx/botaniste_elixir_maison/4.png",
+    "owners": [
+      "effect:13",
+      "effect:86"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/4.png",
+    "status": 200,
+    "bytes": 842,
+    "width": 42,
+    "height": 42,
+    "sha256": "70a159327641b61a800add001cc96ddfcb3c9c96be46bc01d2e97e19070ce3f0"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/engrais_cercle1.png",
+    "owners": [
+      "effect:85"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/engrais_cercle1.png",
+    "status": 200,
+    "bytes": 1136,
+    "width": 70,
+    "height": 69,
+    "sha256": "d6bbc13f0252dd8a561ef1b994505cba4063fdc6cda9f87d128be51d08703d1d"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fiole_botaniste.png",
+    "owners": [
+      "effect:57"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fiole_botaniste.png",
+    "status": 200,
+    "bytes": 2746,
+    "width": 53,
+    "height": 32,
+    "sha256": "b07bf4fdbcb56ec8f0c5ed301c0ed0c39625b9e90ab4bb5d214ec349f2dd8e69"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur1.png",
+    "owners": [
+      "effect:7"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur1.png",
+    "status": 200,
+    "bytes": 5324,
+    "width": 56,
+    "height": 44,
+    "sha256": "d6851633624a460a18d9fafe979dba5c4819b564ed293a0465e778bca98c2905"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur2.png",
+    "owners": [
+      "effect:7"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur2.png",
+    "status": 200,
+    "bytes": 8544,
+    "width": 89,
+    "height": 57,
+    "sha256": "c1332c9bba803fe7fa9fcf444ffdb3f4564214b2d0b496ce9c775a2c7a9c5ad8"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur3.png",
+    "owners": [
+      "effect:9",
+      "effect:85"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur3.png",
+    "status": 200,
+    "bytes": 3054,
+    "width": 37,
+    "height": 37,
+    "sha256": "1a4cabaddc8283f75e1901d58bd0e936704a1a190dadfa492d3252c9b74e8633"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur4.png",
+    "owners": [
+      "effect:9"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur4.png",
+    "status": 200,
+    "bytes": 4194,
+    "width": 60,
+    "height": 60,
+    "sha256": "9c3dd2c20ee55866dfa1cd520e447af043e831ac102898477194d6dfe8244ebc"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur5.png",
+    "owners": [
+      "effect:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur5.png",
+    "status": 200,
+    "bytes": 9266,
+    "width": 94,
+    "height": 61,
+    "sha256": "c4d9ebb5241236376904293b1dd7c4f2bd2b6eb36282c135a2df9e1707f1e4f6"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/fleur6.png",
+    "owners": [
+      "effect:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/fleur6.png",
+    "status": 200,
+    "bytes": 5220,
+    "width": 56,
+    "height": 44,
+    "sha256": "d6754ac36c8dd2397db026821f45ab00b9223dd798a518e441ac6bc54b57909c"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/nuage1.png",
+    "owners": [
+      "effect:15"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/nuage1.png",
+    "status": 200,
+    "bytes": 15508,
+    "width": 104,
+    "height": 87,
+    "sha256": "a0c8965207dd2dfc6e6cfd09703e0a98234fc4a75372768e064e9089df3ffb07"
+  },
+  {
+    "resource": "fx/botaniste_elixir_maison/nuage2.png",
+    "owners": [
+      "effect:13"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_elixir_maison/nuage2.png",
+    "status": 200,
+    "bytes": 15318,
+    "width": 104,
+    "height": 87,
+    "sha256": "f0b9e901f41c43aa4f70e9aea4cb613f1bce1c7fa85732d5c979c9dc461ab9f0"
+  },
+  {
+    "resource": "fx/botaniste_poudre_disparition/4.png",
+    "owners": [
+      "effect:10",
+      "effect:93"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_poudre_disparition/4.png",
+    "status": 200,
+    "bytes": 842,
+    "width": 42,
+    "height": 42,
+    "sha256": "70a159327641b61a800add001cc96ddfcb3c9c96be46bc01d2e97e19070ce3f0"
+  },
+  {
+    "resource": "fx/botaniste_poudre_disparition/6.png",
+    "owners": [
+      "effect:10",
+      "effect:93"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/botaniste_poudre_disparition/6.png",
+    "status": 200,
+    "bytes": 23664,
+    "width": 128,
+    "height": 129,
+    "sha256": "53eb30b49f915346a12dece03eecc5fe110e1bc60556fc99f99e7903a82bdd27"
+  },
+  {
+    "resource": "fx/cartes/carte1.png",
+    "owners": [
+      "effect:41"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/carte1.png",
+    "status": 200,
+    "bytes": 1040,
+    "width": 30,
+    "height": 20,
+    "sha256": "014fd71fc6087a734485a49f5400edfc8c85099ac8ea9585818ada74f9257eb5"
+  },
+  {
+    "resource": "fx/cartes/carte2.png",
+    "owners": [
+      "effect:42"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/carte2.png",
+    "status": 200,
+    "bytes": 1033,
+    "width": 30,
+    "height": 20,
+    "sha256": "14518fb7294a6bd87f4cb8e48f387afb9d1dbb74a5fb895579e7613b058c66a2"
+  },
+  {
+    "resource": "fx/cartes/carte3.png",
+    "owners": [
+      "effect:43"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/carte3.png",
+    "status": 200,
+    "bytes": 1182,
+    "width": 30,
+    "height": 20,
+    "sha256": "f367cc299cb73cb71c82c854f3d344b18b38a9a42909d06c06aa84b0b6c3ee6f"
+  },
+  {
+    "resource": "fx/cartes/carte4.png",
+    "owners": [
+      "effect:44"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/carte4.png",
+    "status": 200,
+    "bytes": 969,
+    "width": 30,
+    "height": 20,
+    "sha256": "72c7516662b0ecf414ace320eae7efe8799c3bfa5df49c56d36b4ec1b0178834"
+  },
+  {
+    "resource": "fx/cartes/coeur_zone1.png",
+    "owners": [
+      "effect:63"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/coeur_zone1.png",
+    "status": 200,
+    "bytes": 13506,
+    "width": 284,
+    "height": 283,
+    "sha256": "20f180d4f322225cb4ab83811d56670d9d453ceb8bf67f9d896cdb9f8448c860"
+  },
+  {
+    "resource": "fx/cartes/trefle_face.png",
+    "owners": [
+      "effect:62"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cartes/trefle_face.png",
+    "status": 200,
+    "bytes": 887,
+    "width": 35,
+    "height": 50,
+    "sha256": "6db1a48e46209b9c203f778f1f13a638b4fbefe2bffaf207e4715c7256d52849"
+  },
+  {
+    "resource": "fx/cuistot_piege/baluchon.png",
+    "owners": [
+      "effect:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/baluchon.png",
+    "status": 200,
+    "bytes": 12322,
+    "width": 114,
+    "height": 69,
+    "sha256": "e7f8c3fd49b5a8ce0a05129d3afd2143fa608dd173b36814b7bab6a55c86a47d"
+  },
+  {
+    "resource": "fx/cuistot_piege/choc.png",
+    "owners": [
+      "effect:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/choc.png",
+    "status": 200,
+    "bytes": 1524,
+    "width": 149,
+    "height": 88,
+    "sha256": "d337d21f6b330a71e25d622a78be93b84f5c3e8ca0ceb4a7df4c706bb532bbe6"
+  },
+  {
+    "resource": "fx/cuistot_piege/piege1.png",
+    "owners": [
+      "effect:21",
+      "effect:23"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/piege1.png",
+    "status": 200,
+    "bytes": 6548,
+    "width": 92,
+    "height": 69,
+    "sha256": "7957c8494f5ad6b902bb2eb970cdde8eeb5620852c7a24b98e3c799d61b22500"
+  },
+  {
+    "resource": "fx/cuistot_piege/piege2.png",
+    "owners": [
+      "effect:22",
+      "effect:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/piege2.png",
+    "status": 200,
+    "bytes": 5773,
+    "width": 92,
+    "height": 68,
+    "sha256": "fa21dd576a180b8f7d1bcb9c4bbc8c9ff04d5897ef05bae3ff52d8593e0d800b"
+  },
+  {
+    "resource": "fx/cuistot_piege/piege3.png",
+    "owners": [
+      "effect:21"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/piege3.png",
+    "status": 200,
+    "bytes": 10469,
+    "width": 103,
+    "height": 98,
+    "sha256": "7c59d8f12ba20358ce635807c26425d042c9159c08966b8e2f151b35b6ff2cb5"
+  },
+  {
+    "resource": "fx/cuistot_piege/pique.png",
+    "owners": [
+      "effect:18"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/pique.png",
+    "status": 200,
+    "bytes": 652,
+    "width": 24,
+    "height": 21,
+    "sha256": "cae276ad73f791dea387cf709aec037a995211016e1284adb2a9ab994cd846b4"
+  },
+  {
+    "resource": "fx/cuistot_piege/tissumorceau.png",
+    "owners": [
+      "effect:19"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/cuistot_piege/tissumorceau.png",
+    "status": 200,
+    "bytes": 1306,
+    "width": 25,
+    "height": 31,
+    "sha256": "2dafa44cd66334c0d76b52178e0a51d393260131b3d24958f9ec7df065aaee6d"
+  },
+  {
+    "resource": "fx/elixir_maison/ronce1.png",
+    "owners": [
+      "effect:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/elixir_maison/ronce1.png",
+    "status": 200,
+    "bytes": 3254,
+    "width": 66,
+    "height": 33,
+    "sha256": "e0edce85ede1a3a7405ae1c6512e0df32460c4d508b514502a492dd7bba41c09"
+  },
+  {
+    "resource": "fx/elixir_maison/ronce2.png",
+    "owners": [
+      "effect:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/elixir_maison/ronce2.png",
+    "status": 200,
+    "bytes": 25031,
+    "width": 200,
+    "height": 144,
+    "sha256": "5489f7bd03a2d36b59504690466c7c5a77383b6453c23dee485aabc6d55e312d"
+  },
+  {
+    "resource": "fx/elixir_maison/ronce3.png",
+    "owners": [
+      "effect:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/elixir_maison/ronce3.png",
+    "status": 200,
+    "bytes": 10982,
+    "width": 127,
+    "height": 59,
+    "sha256": "b7abc295bc703dfae4bff20293fd93d80fb5f5cae7eb52301118d897f5be7d55"
+  },
+  {
+    "resource": "fx/elixir_maison/ronce4.png",
+    "owners": [
+      "effect:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/elixir_maison/ronce4.png",
+    "status": 200,
+    "bytes": 3149,
+    "width": 100,
+    "height": 29,
+    "sha256": "154ffa906149ce78f3e5f49b793c7e5fb937a6e860852c95d50119efd57cc622"
+  },
+  {
+    "resource": "fx/hit_physique/1.png",
+    "owners": [
+      "effect:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit_physique/1.png",
+    "status": 200,
+    "bytes": 2845,
+    "width": 129,
+    "height": 101,
+    "sha256": "a885754ea2736858285e9f27d6fb09ce48200d1d3fce75186ab9edd9d383801b"
+  },
+  {
+    "resource": "fx/hit_physique/2.png",
+    "owners": [
+      "effect:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit_physique/2.png",
+    "status": 200,
+    "bytes": 3123,
+    "width": 112,
+    "height": 112,
+    "sha256": "8f1bf16c6ab542abcf952de41b64876bf459a44bead2bcef40e13137e697ba13"
+  },
+  {
+    "resource": "fx/hit/carreau1.png",
+    "owners": [
+      "effect:76"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/carreau1.png",
+    "status": 200,
+    "bytes": 6470,
+    "width": 167,
+    "height": 167,
+    "sha256": "9a5d598fc6e3f37d50602f15b6202c961139e4a23cd73c725694c8b9e39a43dc"
+  },
+  {
+    "resource": "fx/hit/FXstun1.png",
+    "owners": [
+      "effect:76"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/FXstun1.png",
+    "status": 200,
+    "bytes": 870,
+    "width": 30,
+    "height": 28,
+    "sha256": "9a3c2dc48b79aef1a552412cb01534c3c880e70a98685514fed5b9c77bd97c78"
+  },
+  {
+    "resource": "fx/hit/hitflash1.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/hitflash1.png",
+    "status": 200,
+    "bytes": 8550,
+    "width": 180,
+    "height": 180,
+    "sha256": "cdd48de338b418ac2f04e114e9576b1deaeff756b3ecedcce24c3d3703e529d4"
+  },
+  {
+    "resource": "fx/hit/hitflash2.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/hitflash2.png",
+    "status": 200,
+    "bytes": 8320,
+    "width": 180,
+    "height": 180,
+    "sha256": "f7d1019811756efec719618271e538c72ae2383f23d6e249ed3f263369d28dcc"
+  },
+  {
+    "resource": "fx/hit/hitflash7.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/hitflash7.png",
+    "status": 200,
+    "bytes": 18461,
+    "width": 200,
+    "height": 200,
+    "sha256": "86144163b4ecceeffba06564a5ba268383f260b038161682eaff07ef4b18cd0c"
+  },
+  {
+    "resource": "fx/hit/impact2.png",
+    "owners": [
+      "effect:77"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/impact2.png",
+    "status": 200,
+    "bytes": 285,
+    "width": 95,
+    "height": 9,
+    "sha256": "e504ae89b5030983da68338e066f586cace06fed0acc3e04b6b8b9930dd3c9c1"
+  },
+  {
+    "resource": "fx/hit/particule_soin1.png",
+    "owners": [
+      "effect:75"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/particule_soin1.png",
+    "status": 200,
+    "bytes": 912,
+    "width": 42,
+    "height": 42,
+    "sha256": "7c8069375ade462fbbc0f1220905b2b394aed572cab5daa555837c15be25e6df"
+  },
+  {
+    "resource": "fx/hit/pique2.png",
+    "owners": [
+      "effect:77"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/pique2.png",
+    "status": 200,
+    "bytes": 2474,
+    "width": 94,
+    "height": 72,
+    "sha256": "891ad8a7add121577d32c51c14ad90768f12e7d6d822bdf183f6440fc4e943f4"
+  },
+  {
+    "resource": "fx/hit/pique3.png",
+    "owners": [
+      "effect:77"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/pique3.png",
+    "status": 200,
+    "bytes": 2063,
+    "width": 94,
+    "height": 54,
+    "sha256": "ca008636d50fc15993677d1dc175cb4c32930c4ff49c2f6ee48b0e64263b03d1"
+  },
+  {
+    "resource": "fx/hit/poison1.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/poison1.png",
+    "status": 200,
+    "bytes": 10359,
+    "width": 100,
+    "height": 100,
+    "sha256": "544d0083582b9d4ecc8a3ef87eca1def659f7955f392bcc1d57ebf2e85adf9b3"
+  },
+  {
+    "resource": "fx/hit/poisonbulle1.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/poisonbulle1.png",
+    "status": 200,
+    "bytes": 23765,
+    "width": 162,
+    "height": 162,
+    "sha256": "a6873bbc28c6f361988d11e220b27536327163ba00c59a57c8f556d1de6f9582"
+  },
+  {
+    "resource": "fx/hit/poisonsplash1.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/poisonsplash1.png",
+    "status": 200,
+    "bytes": 78399,
+    "width": 451,
+    "height": 342,
+    "sha256": "8690c669ace664d0701621a5db92c271e7067f89ff507da0301928a9a60419ff"
+  },
+  {
+    "resource": "fx/hit/poisonsplash2.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/poisonsplash2.png",
+    "status": 200,
+    "bytes": 70246,
+    "width": 451,
+    "height": 342,
+    "sha256": "4a68c8b66d8dd195b070705201d985d07e24b85f7c0d440b8bb522462d51e417"
+  },
+  {
+    "resource": "fx/hit/poisonstar.png",
+    "owners": [
+      "effect:39"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/poisonstar.png",
+    "status": 200,
+    "bytes": 7642,
+    "width": 228,
+    "height": 179,
+    "sha256": "a7c7abe867acd5414974756822d55a516b9d71f307e2253cfd5426aa838342f4"
+  },
+  {
+    "resource": "fx/hit/projectile_poison1.png",
+    "owners": [
+      "effect:68",
+      "effect:69"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/projectile_poison1.png",
+    "status": 200,
+    "bytes": 3368,
+    "width": 54,
+    "height": 54,
+    "sha256": "8065f2dd840bac0f8721bb9e02f012ed98e3dd9ced11220c5b7ce3757270814c"
+  },
+  {
+    "resource": "fx/hit/projectile_poison2.png",
+    "owners": [
+      "effect:68",
+      "effect:69"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/projectile_poison2.png",
+    "status": 200,
+    "bytes": 3508,
+    "width": 54,
+    "height": 54,
+    "sha256": "17382c830ab0d88e340fc3f8bb30d8ff919546d69783882bf49eaf30a57a78cc"
+  },
+  {
+    "resource": "fx/hit/projectile_soin1.png",
+    "owners": [
+      "effect:75"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/projectile_soin1.png",
+    "status": 200,
+    "bytes": 3480,
+    "width": 54,
+    "height": 54,
+    "sha256": "5aeaf696dfdc657df9266d272730edf66e99e77be60e2efe77387e316ff6191f"
+  },
+  {
+    "resource": "fx/hit/trefle1.png",
+    "owners": [
+      "effect:92"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/trefle1.png",
+    "status": 200,
+    "bytes": 4103,
+    "width": 96,
+    "height": 105,
+    "sha256": "11c1848c1de37a744d38767b2e96cc26cd0e1ef97eb5d47d8f5d494c9d27c52d"
+  },
+  {
+    "resource": "fx/hit/zone_soin1.png",
+    "owners": [
+      "effect:108"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/zone_soin1.png",
+    "status": 200,
+    "bytes": 14354,
+    "width": 404,
+    "height": 404,
+    "sha256": "d5bd215bb5b3c6c27a0bd527214740d74dd472e5e8b65b1738e8a62856bcb268"
+  },
+  {
+    "resource": "fx/hit/zone_soin2.png",
+    "owners": [
+      "effect:108"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/zone_soin2.png",
+    "status": 200,
+    "bytes": 40059,
+    "width": 404,
+    "height": 401,
+    "sha256": "76a31b2efe49087d4c5a48d10fe9559ebf742851a7caa4f35eb51cfd588ae044"
+  },
+  {
+    "resource": "fx/hit/zone_soin3.png",
+    "owners": [
+      "effect:108"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/zone_soin3.png",
+    "status": 200,
+    "bytes": 86165,
+    "width": 328,
+    "height": 342,
+    "sha256": "ba70d01351362a31353e290954e504c0aa2b8350618b65ef579799ed0873f9d2"
+  },
+  {
+    "resource": "fx/hit/zone_soin4.png",
+    "owners": [
+      "effect:108"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/zone_soin4.png",
+    "status": 200,
+    "bytes": 37941,
+    "width": 301,
+    "height": 322,
+    "sha256": "f6ff085d36b9b5c4adc8b57630872e3b2540819d9b9bd10b3ae05bc0a4c92fcc"
+  },
+  {
+    "resource": "fx/hit/zone_soin5.png",
+    "owners": [
+      "effect:108"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/hit/zone_soin5.png",
+    "status": 200,
+    "bytes": 19744,
+    "width": 267,
+    "height": 270,
+    "sha256": "ec73afc1ae10237c7cdf46a5e03864a001dc8721746e49dfcdf005c7d306e19c"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c1.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c1.png",
+    "status": 200,
+    "bytes": 176,
+    "width": 11,
+    "height": 11,
+    "sha256": "c061c1a416737ef4f58544ba49118b59ed5e8597948052d1e36e88e085c4885a"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c2.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c2.png",
+    "status": 200,
+    "bytes": 682,
+    "width": 43,
+    "height": 43,
+    "sha256": "48359b717f68821ccf9297216ea3a9ef2894e8d29dfffa79f54e180a3e9b6ea0"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c3.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c3.png",
+    "status": 200,
+    "bytes": 848,
+    "width": 54,
+    "height": 54,
+    "sha256": "5c9a44c8fe024818a5648577a8adc536e3bf9710eb679d8657984566f7ed61fd"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c4.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c4.png",
+    "status": 200,
+    "bytes": 916,
+    "width": 60,
+    "height": 59,
+    "sha256": "2dcb9a1c5c6c9ff0f0cc20426c5ebdd5597f28646922923d8c228d3295ce2fe1"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c5.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c5.png",
+    "status": 200,
+    "bytes": 886,
+    "width": 62,
+    "height": 62,
+    "sha256": "ad036da9bd2110d631eeb52dded8607920446383b9cdbefebb5577e4816abd8d"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c6.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c6.png",
+    "status": 200,
+    "bytes": 815,
+    "width": 63,
+    "height": 63,
+    "sha256": "e7c3aff36c4bc3d5063936e2f5e90f5f4a7dd068b815a7dca8c30cd4fa46388f"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c7.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c7.png",
+    "status": 200,
+    "bytes": 774,
+    "width": 64,
+    "height": 63,
+    "sha256": "6181a2c9d0ae3ccb592f634cf180ee5bf0fdc425be7e78060d3649f3c27610d3"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c8.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c8.png",
+    "status": 200,
+    "bytes": 620,
+    "width": 63,
+    "height": 63,
+    "sha256": "80ac1010fd2183e7c77664f3f7b73d0a6fbd20d12788bfaf85296366d90290de"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/c9.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/c9.png",
+    "status": 200,
+    "bytes": 290,
+    "width": 63,
+    "height": 63,
+    "sha256": "754e7444cbb8ec258fca82fca3eac01c9454096cf2d7e5c4116ea06d761fa453"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/hitflash3.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/hitflash3.png",
+    "status": 200,
+    "bytes": 7626,
+    "width": 228,
+    "height": 179,
+    "sha256": "52c2603740ab978ae5ce4609e166eb89926c4bd082d5f68680948262fc39c097"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink1.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink1.png",
+    "status": 200,
+    "bytes": 245,
+    "width": 10,
+    "height": 26,
+    "sha256": "971e8cb2cce915110b43e64cec229da885567023ac526f7823e42700e3fee2b3"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink10.png",
+    "owners": [
+      "effect:50",
+      "effect:51"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink10.png",
+    "status": 200,
+    "bytes": 1260,
+    "width": 103,
+    "height": 61,
+    "sha256": "949ee7bd50ac9495ca864fe0c7df57d3173d99eac7e682413ccb4f2708e8cf08"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink2.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink2.png",
+    "status": 200,
+    "bytes": 343,
+    "width": 31,
+    "height": 32,
+    "sha256": "3df6be855dddd43deda1b8706c757c9d863d64e4721735de6a10b50cf0632e50"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink3.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink3.png",
+    "status": 200,
+    "bytes": 424,
+    "width": 27,
+    "height": 51,
+    "sha256": "fe8c409fd40636b26725be74125ee8d61122c27be196bde2dd8db3c657aea0ba"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink4.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink4.png",
+    "status": 200,
+    "bytes": 341,
+    "width": 24,
+    "height": 30,
+    "sha256": "b5fa5585c23bdecf6cc681e5c3647133a0cb6c5bc8c45a5d03e37d174e7d3d15"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink5.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink5.png",
+    "status": 200,
+    "bytes": 242,
+    "width": 19,
+    "height": 16,
+    "sha256": "1e414824c8991c9ff3742891eeacb5dbd18fb3d2fa285aa9a6d68c632a132c08"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink6.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink6.png",
+    "status": 200,
+    "bytes": 282,
+    "width": 23,
+    "height": 15,
+    "sha256": "5f5330e480c8247b77e76b9e2f7a6e99186e303caa9f19da172521cc6c36f235"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink7.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink7.png",
+    "status": 200,
+    "bytes": 250,
+    "width": 19,
+    "height": 15,
+    "sha256": "f5e5ca67091415e0ae021232d323b063988e3e6b30cb9a4cc540c11630ca13da"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink8.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink8.png",
+    "status": 200,
+    "bytes": 278,
+    "width": 27,
+    "height": 14,
+    "sha256": "04e95f1abb102b07b48010ef15f16cf2d3f841323f44062c3455f806e9c8ad48"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/ink9.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/ink9.png",
+    "status": 200,
+    "bytes": 239,
+    "width": 34,
+    "height": 19,
+    "sha256": "4c85ee6def02153d5cd0cc77eb0107ffbcc7f631ca207077c349a84b89a72c59"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/inkstar1.png",
+    "owners": [
+      "effect:51"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/inkstar1.png",
+    "status": 200,
+    "bytes": 2030,
+    "width": 40,
+    "height": 40,
+    "sha256": "102e4cb71f8eef829e8cb298f1035a18dbe99adfdb9091a0e82180217d38adaf"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p1.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p1.png",
+    "status": 200,
+    "bytes": 1104,
+    "width": 32,
+    "height": 32,
+    "sha256": "7dbbb4394f02505a40c9bac99ad1bc4b90f9cb7e9d9adad54cbcb36657a3337d"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p10.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p10.png",
+    "status": 200,
+    "bytes": 1172,
+    "width": 33,
+    "height": 29,
+    "sha256": "5176bed77d2e468ff734342ba7c330ce85b2c3c856354b813e1f69985bd5cf23"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p11.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p11.png",
+    "status": 200,
+    "bytes": 1079,
+    "width": 33,
+    "height": 24,
+    "sha256": "94385c96aabfd882c6f305fb0ecdf15da74c0caba2c601bd23df8c5a3029d89a"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p12.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p12.png",
+    "status": 200,
+    "bytes": 877,
+    "width": 23,
+    "height": 29,
+    "sha256": "59d19dabd51154d757ac1047e481342e4b6538b100220a47fe4caef06937a3a5"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p13.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p13.png",
+    "status": 200,
+    "bytes": 869,
+    "width": 29,
+    "height": 24,
+    "sha256": "2de6535f832f496185adefdf41a460ba3042cf5281c51f019cf9035b48e60268"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p14.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p14.png",
+    "status": 200,
+    "bytes": 871,
+    "width": 33,
+    "height": 20,
+    "sha256": "6e4ede51d06378036d85c0f099983bbff90d0f097d9e887280874ea0948fd785"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p15.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p15.png",
+    "status": 200,
+    "bytes": 848,
+    "width": 37,
+    "height": 17,
+    "sha256": "af9cc1c7c1607f6b55594574c42120261ec87426acce71c60455b16494037ac2"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p16.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p16.png",
+    "status": 200,
+    "bytes": 944,
+    "width": 38,
+    "height": 15,
+    "sha256": "975b84c7408684dc84d7a768da14844731b2828b56687db8da1a280fbe4f6f8c"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p17.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p17.png",
+    "status": 200,
+    "bytes": 853,
+    "width": 36,
+    "height": 15,
+    "sha256": "aecfdcb2363fc1cb059ab857130e1b82ff3d61ad1b5f0237826f6e784246d5d9"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p18.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p18.png",
+    "status": 200,
+    "bytes": 760,
+    "width": 30,
+    "height": 15,
+    "sha256": "0b97aad32d1a1f94e1bb4ae3f199aa0d164ebc179aa12419622e56573c3715f4"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p19.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p19.png",
+    "status": 200,
+    "bytes": 886,
+    "width": 24,
+    "height": 31,
+    "sha256": "19189eec8ed70beee25acc01aaa636421e2e9d62adb6d1301eb618a9fa0a786a"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p2.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p2.png",
+    "status": 200,
+    "bytes": 962,
+    "width": 36,
+    "height": 22,
+    "sha256": "efe858f4ba0155657e49bab6d0749499d01b00d1a0eda9f85d6e1f9c2b52483d"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p20.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p20.png",
+    "status": 200,
+    "bytes": 858,
+    "width": 29,
+    "height": 29,
+    "sha256": "bcc4cb4c4898c914489ff6bba90f80af6683634baea03fe8b06b38a48981bd58"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p21.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p21.png",
+    "status": 200,
+    "bytes": 954,
+    "width": 33,
+    "height": 25,
+    "sha256": "e1718e4fd86e21b320df8fbf29a9368617b133d82a19a5ea4f11c22eea9df8d2"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p22.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p22.png",
+    "status": 200,
+    "bytes": 877,
+    "width": 36,
+    "height": 20,
+    "sha256": "cf012ff457b6892d4a3121e3911715ee4994dcddd3717ce19c66eabafe62eeac"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p23.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p23.png",
+    "status": 200,
+    "bytes": 849,
+    "width": 37,
+    "height": 17,
+    "sha256": "05e0ef0c74e16bf302401479dd449ef71af60c14f8c775bfb7effc0be5919edb"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p24.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p24.png",
+    "status": 200,
+    "bytes": 782,
+    "width": 34,
+    "height": 17,
+    "sha256": "d6a0d0282fb8d174c6199b86f04c932a3749b42bed3f06a0994593a741d32962"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p25.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p25.png",
+    "status": 200,
+    "bytes": 863,
+    "width": 31,
+    "height": 22,
+    "sha256": "2bbd7450b8996532aa1e5fa4ea03054542f792bc421214b24a69e1efcf539cb6"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p3.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p3.png",
+    "status": 200,
+    "bytes": 1031,
+    "width": 32,
+    "height": 27,
+    "sha256": "e5e28d523e3912460839d65ce861d94b1cee6568e7669711415794f42d42fb49"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p4.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p4.png",
+    "status": 200,
+    "bytes": 1125,
+    "width": 35,
+    "height": 31,
+    "sha256": "ee8ae935bcb44bb18d5beeae2605664efeffa7f0cd130eeb3f3ca8f19c0d9a3d"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p5.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p5.png",
+    "status": 200,
+    "bytes": 1355,
+    "width": 39,
+    "height": 36,
+    "sha256": "e28dcc2fdac1e1a6df42b73f4a0b3d7d892c5eb4e7ff5f63f1814c589d9baeb7"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p6.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p6.png",
+    "status": 200,
+    "bytes": 1078,
+    "width": 49,
+    "height": 22,
+    "sha256": "7bc9eb514b580b25a151bd8c26214fa13f3aad500f77b268e316a8d9dbb60423"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p7.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p7.png",
+    "status": 200,
+    "bytes": 1164,
+    "width": 35,
+    "height": 33,
+    "sha256": "2542225fc9599e68f49921fd554d89350cf94ade633638b93336f69eba1382b8"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/p8.png",
+    "owners": [
+      "effect:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/p8.png",
+    "status": 200,
+    "bytes": 1143,
+    "width": 29,
+    "height": 35,
+    "sha256": "f54472143fc060861b827994d86426186feb315f83d2435c64b5613b2cf0a331"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/plume1.png",
+    "owners": [
+      "effect:50"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/plume1.png",
+    "status": 200,
+    "bytes": 5659,
+    "width": 86,
+    "height": 61,
+    "sha256": "a5a9e74d94ab5321d762ae0d31dc4451d7844984cc3bd3437de88f3653456a4b"
+  },
+  {
+    "resource": "fx/journaliste_nouvelle/tampon1.png",
+    "owners": [
+      "effect:51"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/journaliste_nouvelle/tampon1.png",
+    "status": 200,
+    "bytes": 5106,
+    "width": 90,
+    "height": 90,
+    "sha256": "8dd765407083ee2d896e2c6c040b7224aa8ecf733ab9c7b084cf20c6b8ebe3e0"
+  },
+  {
+    "resource": "fx/objectif/objectif1.png",
+    "owners": [
+      "effect:72"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/objectif/objectif1.png",
+    "status": 200,
+    "bytes": 22881,
+    "width": 150,
+    "height": 150,
+    "sha256": "63be216c5a47404dc79ae39a445158eba67adbcd796b1450561eff3d1e753a8d"
+  },
+  {
+    "resource": "fx/poison_dot/1.png",
+    "owners": [
+      "effect:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_dot/1.png",
+    "status": 200,
+    "bytes": 2031,
+    "width": 32,
+    "height": 32,
+    "sha256": "18c136159fec821732d7ed3c09887d617db1ed21cef82d6eccbbbdf5bc6bbe86"
+  },
+  {
+    "resource": "fx/poison_dot/2.png",
+    "owners": [
+      "effect:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_dot/2.png",
+    "status": 200,
+    "bytes": 2768,
+    "width": 49,
+    "height": 48,
+    "sha256": "bf0baf42d619788d647927cbb5f33c865b4da1bdc114fcb6cb2fe1a05b093021"
+  },
+  {
+    "resource": "fx/poison_flaque/nuage1.png",
+    "owners": [
+      "effect:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_flaque/nuage1.png",
+    "status": 200,
+    "bytes": 21764,
+    "width": 140,
+    "height": 124,
+    "sha256": "23f09cb60beaa2c5e98fdb00e246237fef7bf62697a6dedbe98e216aa59dbbec"
+  },
+  {
+    "resource": "fx/poison_flaque/poison_flaque.png",
+    "owners": [
+      "effect:3"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_flaque/poison_flaque.png",
+    "status": 200,
+    "bytes": 119688,
+    "width": 500,
+    "height": 500,
+    "sha256": "586141daa672cc9c328b7c8700d4dc93785811825abda66bd5b39aad9ebb9db0"
+  },
+  {
+    "resource": "fx/poison_hit/1.png",
+    "owners": [
+      "effect:2"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/1.png",
+    "status": 200,
+    "bytes": 1981,
+    "width": 32,
+    "height": 32,
+    "sha256": "ba25c0acb7f346f29a1eeea1420b8228c804d45a1c1e1ff99c836cfdd1583acf"
+  },
+  {
+    "resource": "fx/poison_hit/2.png",
+    "owners": [
+      "effect:2"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/2.png",
+    "status": 200,
+    "bytes": 2526,
+    "width": 49,
+    "height": 48,
+    "sha256": "3fc593c12b7ea7b9045908caba1272c97c274c133c6bb5ac8d33574773a97cc4"
+  },
+  {
+    "resource": "fx/poison_hit/3.png",
+    "owners": [
+      "effect:2"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/3.png",
+    "status": 200,
+    "bytes": 2306,
+    "width": 119,
+    "height": 64,
+    "sha256": "b96e9b6a5f20e39486945be3cf5fd5bbde2a6954d119767ad0d9615169699ef5"
+  },
+  {
+    "resource": "fx/poison_hit/4.png",
+    "owners": [
+      "effect:2"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/4.png",
+    "status": 200,
+    "bytes": 2189,
+    "width": 119,
+    "height": 64,
+    "sha256": "b291b75b62deee066921746393a5d78ab0925cd7c40f6d8283daefd12b45d940"
+  },
+  {
+    "resource": "fx/poison_hit/5.png",
+    "owners": [
+      "effect:2",
+      "effect:4"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/5.png",
+    "status": 200,
+    "bytes": 15508,
+    "width": 104,
+    "height": 87,
+    "sha256": "a0c8965207dd2dfc6e6cfd09703e0a98234fc4a75372768e064e9089df3ffb07"
+  },
+  {
+    "resource": "fx/poison_hit/6.png",
+    "owners": [
+      "effect:2"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/poison_hit/6.png",
+    "status": 200,
+    "bytes": 7665,
+    "width": 100,
+    "height": 100,
+    "sha256": "58a1d072959f84b7289d9adbc90dfa13a27e2d53e38281c8ca50b7725636e135"
+  },
+  {
+    "resource": "fx/soin_rayon/1.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/1.png",
+    "status": 200,
+    "bytes": 7298,
+    "width": 98,
+    "height": 96,
+    "sha256": "64847df2bd8b17589b62a9903fb615fa71f7dcf23500e9380872ed7c316de768"
+  },
+  {
+    "resource": "fx/soin_rayon/10.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/10.png",
+    "status": 200,
+    "bytes": 3818,
+    "width": 82,
+    "height": 240,
+    "sha256": "9b2adee835fa639e6bbc4c2be0281da6502cbf5503fbd38bb6b174f9ad2feb80"
+  },
+  {
+    "resource": "fx/soin_rayon/11.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/11.png",
+    "status": 200,
+    "bytes": 4144,
+    "width": 82,
+    "height": 240,
+    "sha256": "4e5816cd746266828b0370602561f4e1c9d6ce5ae8efe3aac81ce1eb5628e0ce"
+  },
+  {
+    "resource": "fx/soin_rayon/12.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/12.png",
+    "status": 200,
+    "bytes": 1969,
+    "width": 82,
+    "height": 240,
+    "sha256": "4067b45aae3fc7b19d714490f684f1ac22fbe02e96275c8df4f406c3dbfe1bb5"
+  },
+  {
+    "resource": "fx/soin_rayon/13.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/13.png",
+    "status": 200,
+    "bytes": 1108,
+    "width": 82,
+    "height": 240,
+    "sha256": "393da46474be78c7268c00f537bd4570cee1ffd32cee3c57db256d004d70bb6b"
+  },
+  {
+    "resource": "fx/soin_rayon/14.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/14.png",
+    "status": 200,
+    "bytes": 288,
+    "width": 48,
+    "height": 127,
+    "sha256": "b148baa6f90cb04f5d294dea34501347f8f968f384733b6dc7fd9196542aae94"
+  },
+  {
+    "resource": "fx/soin_rayon/2.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/2.png",
+    "status": 200,
+    "bytes": 1498,
+    "width": 42,
+    "height": 42,
+    "sha256": "605564b2018cde45030802f735d6a96d78ab2cfbdb2d3bd50190ef9f35e96f1f"
+  },
+  {
+    "resource": "fx/soin_rayon/3.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/3.png",
+    "status": 200,
+    "bytes": 4047,
+    "width": 82,
+    "height": 240,
+    "sha256": "77d96773a4b12cd4c4b3c588786bfc971e35c53a1d2017d68913174bb9f21ed7"
+  },
+  {
+    "resource": "fx/soin_rayon/4.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/4.png",
+    "status": 200,
+    "bytes": 4455,
+    "width": 82,
+    "height": 240,
+    "sha256": "8c61896acaef6cbf3d76cacea4c351b257ef77586f4c757a72d159432da55b5f"
+  },
+  {
+    "resource": "fx/soin_rayon/5.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/5.png",
+    "status": 200,
+    "bytes": 4983,
+    "width": 82,
+    "height": 240,
+    "sha256": "61fcaf2204aadb2dfe29b9a25e633971a3e5bc2985f02938900be0490dfe34ff"
+  },
+  {
+    "resource": "fx/soin_rayon/6.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/6.png",
+    "status": 200,
+    "bytes": 5823,
+    "width": 82,
+    "height": 240,
+    "sha256": "f0e1a94669d49221c77e5095c003c7cf1595378e5cfde35c21ae8039936c85fa"
+  },
+  {
+    "resource": "fx/soin_rayon/7.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/7.png",
+    "status": 200,
+    "bytes": 4862,
+    "width": 82,
+    "height": 240,
+    "sha256": "aa0ad596d31282f8c7720a2d776b68470816ca85374b53c186a3ab25c3c42e1e"
+  },
+  {
+    "resource": "fx/soin_rayon/8.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/8.png",
+    "status": 200,
+    "bytes": 3837,
+    "width": 82,
+    "height": 240,
+    "sha256": "89834ce54649011cac79011329c5325278476df592327983c5d0a86555cb2acb"
+  },
+  {
+    "resource": "fx/soin_rayon/9.png",
+    "owners": [
+      "effect:48"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_rayon/9.png",
+    "status": 200,
+    "bytes": 2714,
+    "width": 82,
+    "height": 240,
+    "sha256": "afc6f75698a04904a7f4561305084255f098c61f25cc0b6a7c4a4b149b1e8c1d"
+  },
+  {
+    "resource": "fx/soin_recu/2.png",
+    "owners": [
+      "effect:26",
+      "effect:33"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_recu/2.png",
+    "status": 200,
+    "bytes": 912,
+    "width": 42,
+    "height": 42,
+    "sha256": "7c8069375ade462fbbc0f1220905b2b394aed572cab5daa555837c15be25e6df"
+  },
+  {
+    "resource": "fx/soin_recu/3.png",
+    "owners": [
+      "effect:33"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_recu/3.png",
+    "status": 200,
+    "bytes": 10046,
+    "width": 176,
+    "height": 176,
+    "sha256": "844169fe5f8660ddc80ba11c8f9298eb459c00380a508e16d86c2588f62e876d"
+  },
+  {
+    "resource": "fx/soin_recu/5.png",
+    "owners": [
+      "effect:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/soin_recu/5.png",
+    "status": 200,
+    "bytes": 12172,
+    "width": 150,
+    "height": 150,
+    "sha256": "f5e7171974f03089a598a3d5c82c4313925c1c1b518e609310694a827e5c2f0d"
+  },
+  {
+    "resource": "fx/toile/1.png",
+    "owners": [
+      "effect:12"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/toile/1.png",
+    "status": 200,
+    "bytes": 7204,
+    "width": 143,
+    "height": 49,
+    "sha256": "272cc2dc2574292c55458adbf00cc43078227e68f906f02719da481be5db8c4f"
+  },
+  {
+    "resource": "fx/toile/2.png",
+    "owners": [
+      "effect:12"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/fx/toile/2.png",
+    "status": 200,
+    "bytes": 1369,
+    "width": 130,
+    "height": 39,
+    "sha256": "5303f4f30dfa03a026ba0e27febcbd16a122e79def2a6b1d8be8f05497f616b6"
+  },
+  {
+    "resource": "interface/temoignage/1.png",
+    "owners": [
+      "effect:99"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/1.png",
+    "status": 200,
+    "bytes": 1573,
+    "width": 30,
+    "height": 30,
+    "sha256": "48850ade84f7f353d787c18b2c2381053c76b1b1be9a3d01be081457ffae2f34"
+  },
+  {
+    "resource": "interface/temoignage/2.png",
+    "owners": [
+      "effect:100"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/2.png",
+    "status": 200,
+    "bytes": 1521,
+    "width": 30,
+    "height": 30,
+    "sha256": "6b24baff8c411d0f27d67fca55d070de04bea36a2637f719cafbe47bcf20f641"
+  },
+  {
+    "resource": "interface/temoignage/3.png",
+    "owners": [
+      "effect:101"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/3.png",
+    "status": 200,
+    "bytes": 1525,
+    "width": 30,
+    "height": 30,
+    "sha256": "a2a9e3749ddd7b41318781413850f489e58f292ca71c2626ad7ae0f98a6bbe88"
+  },
+  {
+    "resource": "interface/temoignage/4.png",
+    "owners": [
+      "effect:102"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/4.png",
+    "status": 200,
+    "bytes": 1524,
+    "width": 30,
+    "height": 30,
+    "sha256": "82c9a618647ae8d62e7efe519ec697e4f0b02c813d80687b64cf49ba6ae5fd1e"
+  },
+  {
+    "resource": "interface/temoignage/5.png",
+    "owners": [
+      "effect:103"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/5.png",
+    "status": 200,
+    "bytes": 1526,
+    "width": 30,
+    "height": 30,
+    "sha256": "f3567bab4523d7d8cd33a5afd7c0115996cad260f0e5a2280906d11c6fc14304"
+  },
+  {
+    "resource": "interface/temoignage/6.png",
+    "owners": [
+      "effect:104"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/6.png",
+    "status": 200,
+    "bytes": 1512,
+    "width": 30,
+    "height": 30,
+    "sha256": "2707ca415a606fcce766cf9b592f23ef97bd5f42582b2829a4b2edc507a28d70"
+  },
+  {
+    "resource": "interface/temoignage/7.png",
+    "owners": [
+      "effect:105"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/7.png",
+    "status": 200,
+    "bytes": 1545,
+    "width": 30,
+    "height": 30,
+    "sha256": "edf6bc0fa1bf93d7c10de3ca098c00e74d63e9b591eb48d3bce67667bccaf9aa"
+  },
+  {
+    "resource": "interface/temoignage/8.png",
+    "owners": [
+      "effect:106"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/8.png",
+    "status": 200,
+    "bytes": 1609,
+    "width": 30,
+    "height": 30,
+    "sha256": "40eadb9473c2f2823bef5b01b52641b822b9729967897224fca1eca2ce74a412"
+  },
+  {
+    "resource": "interface/temoignage/9.png",
+    "owners": [
+      "effect:107"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/interface/temoignage/9.png",
+    "status": 200,
+    "bytes": 1488,
+    "width": 30,
+    "height": 30,
+    "sha256": "407f95c538fdbea87a199bf26ff9583e0bc58a03d77edaa7572cb1b22937bc42"
+  },
+  {
+    "resource": "monstre/chaudron1/bulle1.png",
+    "owners": [
+      "effect:60",
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/bulle1.png",
+    "status": 200,
+    "bytes": 423,
+    "width": 20,
+    "height": 20,
+    "sha256": "1a2998dbdb1e1e62adc0246eb0b2a3a7bf30c72c01cc055eab448a3712deeec4"
+  },
+  {
+    "resource": "monstre/chaudron1/chaleur1.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaleur1.png",
+    "status": 200,
+    "bytes": 973,
+    "width": 75,
+    "height": 46,
+    "sha256": "ad64f854b3d29198d0048a25a69c8c334fe716882fae3af776fcf516f9be9cb2"
+  },
+  {
+    "resource": "monstre/chaudron1/chaudron_indicateur1.png",
+    "owners": [
+      "effect:87"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaudron_indicateur1.png",
+    "status": 200,
+    "bytes": 763,
+    "width": 50,
+    "height": 52,
+    "sha256": "5939f82018352bd71046418b5b4dede1e074b254d700a7caea6719da6982331e"
+  },
+  {
+    "resource": "monstre/chaudron1/chaudron_indicateur2.png",
+    "owners": [
+      "effect:88"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaudron_indicateur2.png",
+    "status": 200,
+    "bytes": 2179,
+    "width": 80,
+    "height": 80,
+    "sha256": "9a690f238f5b285f87bdbf3bca56c20c5caf9b666f88ade121fd2dc7492cc45b"
+  },
+  {
+    "resource": "monstre/chaudron1/chaudron1.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaudron1.png",
+    "status": 200,
+    "bytes": 6403,
+    "width": 78,
+    "height": 58,
+    "sha256": "d49b5dc80a5ab278e90ab54f44f4b30b7728fc6e1dfd7b62a9dead179fd47f5a"
+  },
+  {
+    "resource": "monstre/chaudron1/chaudron2.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaudron2.png",
+    "status": 200,
+    "bytes": 1657,
+    "width": 74,
+    "height": 23,
+    "sha256": "ab40ebc1c2f25d43e68973039332dc22065f0d4aaa12ce38d951e881486ea0b8"
+  },
+  {
+    "resource": "monstre/chaudron1/chaudron3.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/chaudron3.png",
+    "status": 200,
+    "bytes": 2750,
+    "width": 78,
+    "height": 58,
+    "sha256": "ba8196fbf64196193224522810f81b8a6adfea09b44a5ed6ddddd9f6e9fa6bfe"
+  },
+  {
+    "resource": "monstre/chaudron1/eponge1.png",
+    "owners": [
+      "effect:60"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/eponge1.png",
+    "status": 200,
+    "bytes": 1827,
+    "width": 37,
+    "height": 33,
+    "sha256": "f0ee8c87b9d5385d753cdfe766c3b35506c2979a423616004a8dca1879dcf8f2"
+  },
+  {
+    "resource": "monstre/chaudron1/feu1.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/feu1.png",
+    "status": 200,
+    "bytes": 972,
+    "width": 46,
+    "height": 35,
+    "sha256": "f16ece98017a678bb5d1dea108d6979b11e4b44c5956058e0b154af799e374f8"
+  },
+  {
+    "resource": "monstre/chaudron1/feu2.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/feu2.png",
+    "status": 200,
+    "bytes": 1400,
+    "width": 64,
+    "height": 30,
+    "sha256": "e2da930eef0ec98900ca4e98e419a485e05cac9e5b2fa5229db7f9c01ba61b90"
+  },
+  {
+    "resource": "monstre/chaudron1/fumee1.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/fumee1.png",
+    "status": 200,
+    "bytes": 453,
+    "width": 32,
+    "height": 26,
+    "sha256": "8ebc8d7ace3d7c42bdf91c85045d3cb51b61203b8e3522b56d79ab652d36f431"
+  },
+  {
+    "resource": "monstre/chaudron1/savon1.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/savon1.png",
+    "status": 200,
+    "bytes": 2253,
+    "width": 76,
+    "height": 39,
+    "sha256": "0eb0205f3060b49fb8535c14266d7fa39fa70a9505bd5d97343ed0eda12b07dd"
+  },
+  {
+    "resource": "monstre/chaudron1/savon2.png",
+    "owners": [
+      "monster:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/savon2.png",
+    "status": 200,
+    "bytes": 1195,
+    "width": 60,
+    "height": 23,
+    "sha256": "6078e2f546805838bd7edf45526b114c6d2c087076857a46102375f4d73c78e5"
+  },
+  {
+    "resource": "monstre/chaudron1/shiny1.png",
+    "owners": [
+      "effect:60"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/chaudron1/shiny1.png",
+    "status": 200,
+    "bytes": 808,
+    "width": 44,
+    "height": 44,
+    "sha256": "92f6fb3872ec27b9cd9047d077d865f25b83f6e26c431cf6e562eef5fa379603"
+  },
+  {
+    "resource": "monstre/piege1/piege.png",
+    "owners": [
+      "monster:9"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/piege1/piege.png",
+    "status": 200,
+    "bytes": 13745,
+    "width": 121,
+    "height": 73,
+    "sha256": "b465604c0a869427d58166b8f062b218f0cd4602f22dacab9b18a57e94d7cb02"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon_graine.png",
+    "owners": [
+      "effect:61"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon_graine.png",
+    "status": 200,
+    "bytes": 543,
+    "width": 24,
+    "height": 11,
+    "sha256": "155b395621d671aa87e50b65b2c4a2ab2bb7dda23bd812abd32bc0c349b97b1e"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_1.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_1.png",
+    "status": 200,
+    "bytes": 4034,
+    "width": 44,
+    "height": 49,
+    "sha256": "dec645024e841bce1016f6b1a6097f1d63f093ae85ead958295981f2f09453e6"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_2.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_2.png",
+    "status": 200,
+    "bytes": 1559,
+    "width": 44,
+    "height": 30,
+    "sha256": "49504190638ab24185c29a3fe825098e1bcb42e7c3ab1ca332fb5f2ed0750b5d"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_3.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_3.png",
+    "status": 200,
+    "bytes": 941,
+    "width": 27,
+    "height": 24,
+    "sha256": "30c84f14633d71e00b3f1d0f048f87d97a37083d8b7988eafdd02ca62f2d4bc3"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_4.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_4.png",
+    "status": 200,
+    "bytes": 655,
+    "width": 18,
+    "height": 24,
+    "sha256": "ec40b542e3df53f4df6d7d54e44790671a8a4754b8667d35cc71c1e0c89f6c0b"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_5.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_5.png",
+    "status": 200,
+    "bytes": 1013,
+    "width": 33,
+    "height": 22,
+    "sha256": "074fd73dfe0fcce41f37856fa3e193fef74f032654a42845322d45efb8a5f545"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/chardon1_6.png",
+    "owners": [
+      "monster:25"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/chardon1_6.png",
+    "status": 200,
+    "bytes": 1706,
+    "width": 45,
+    "height": 28,
+    "sha256": "335d72fbff2883433f27e92ae087bc5b37efebc0b4bc65a009a83c0ad346af22"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet1_1.png",
+    "owners": [
+      "monster:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet1_1.png",
+    "status": 200,
+    "bytes": 1773,
+    "width": 23,
+    "height": 61,
+    "sha256": "46b27bb4bff3add687fba363548dca16b69e93902596bb1dd1512f16bc354941"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet1_2.png",
+    "owners": [
+      "monster:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet1_2.png",
+    "status": 200,
+    "bytes": 1233,
+    "width": 29,
+    "height": 22,
+    "sha256": "c1faff1d134f3507ccfd39ab33c7b07ec6745fdf0fcc09ddd05ac02ba495d81c"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet1_3.png",
+    "owners": [
+      "monster:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet1_3.png",
+    "status": 200,
+    "bytes": 2754,
+    "width": 38,
+    "height": 43,
+    "sha256": "dc9f9d9269ac01c7862a6e323e7ebd34529ac94adcfa3060f735872d0f937adf"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet1_4.png",
+    "owners": [
+      "monster:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet1_4.png",
+    "status": 200,
+    "bytes": 2400,
+    "width": 42,
+    "height": 39,
+    "sha256": "6cf47fdc605ba305793379a4bc8234ef67cbf3be5868bc8713bfaf85208ff70d"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_1.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_1.png",
+    "status": 200,
+    "bytes": 2655,
+    "width": 18,
+    "height": 97,
+    "sha256": "07161732cfbbf14a79d354f1ee1f14c3fbb1ac5b18d97cc420bd0e1e72b17425"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_2.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_2.png",
+    "status": 200,
+    "bytes": 961,
+    "width": 26,
+    "height": 22,
+    "sha256": "61521795512c7411087d942231cad54094197199dc60e7ddf01565e6631443e8"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_3.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_3.png",
+    "status": 200,
+    "bytes": 2910,
+    "width": 43,
+    "height": 50,
+    "sha256": "f9c8a352c13de63edba87cdc9dee03fed364391a213bb30a791b6561fcd2d39f"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_4.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_4.png",
+    "status": 200,
+    "bytes": 1016,
+    "width": 30,
+    "height": 21,
+    "sha256": "92e5a338e4ddfd958163c8751a34031ff667844f9ffdb615ac58c13aa89e319b"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_5.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_5.png",
+    "status": 200,
+    "bytes": 1606,
+    "width": 26,
+    "height": 34,
+    "sha256": "1cc1f656ad0653a2f2b15e3d6be1b16c94aa3b50ec38ca14d48ac18db85a0893"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet2_6.png",
+    "owners": [
+      "monster:24"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet2_6.png",
+    "status": 200,
+    "bytes": 3152,
+    "width": 51,
+    "height": 63,
+    "sha256": "408e835ef7433f5e65e7c0127ba83458130549102f1568e9bd1751ff0e730f29"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_1.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_1.png",
+    "status": 200,
+    "bytes": 3499,
+    "width": 43,
+    "height": 115,
+    "sha256": "0086c8001ba2c9363430075c5f469927203fc42ff3b962fc67071194b0ebaa3f"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_2.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_2.png",
+    "status": 200,
+    "bytes": 2568,
+    "width": 55,
+    "height": 57,
+    "sha256": "b232406f35611adef7419be6c11a3b5507113834a0e2407c6932228dda360447"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_3.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_3.png",
+    "status": 200,
+    "bytes": 3069,
+    "width": 43,
+    "height": 51,
+    "sha256": "f77c142afcced420bf554db1d5c998cfdb58b1d8531a9c66f5d36e22a92ef52d"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_4.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_4.png",
+    "status": 200,
+    "bytes": 1166,
+    "width": 30,
+    "height": 25,
+    "sha256": "33e238f3736684616b31682566d4c83c7d455794ab69a9869492ea9ebeb5a6de"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_5.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_5.png",
+    "status": 200,
+    "bytes": 2328,
+    "width": 38,
+    "height": 41,
+    "sha256": "9b6b8dece5aed84f6f3d42b29d9b563b4df373297ca11b77f003cd88587874d8"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_6.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_6.png",
+    "status": 200,
+    "bytes": 908,
+    "width": 25,
+    "height": 20,
+    "sha256": "86ca4b62fd5682c37176b96f92c4d87afc00e13f384a2e70fa66762763bbec0d"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_7.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_7.png",
+    "status": 200,
+    "bytes": 1906,
+    "width": 30,
+    "height": 38,
+    "sha256": "5e1653774a53bf8a16ec486275a86421610ed53c8b4328a45596064d193518d8"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/muguet3_8.png",
+    "owners": [
+      "monster:28"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/muguet3_8.png",
+    "status": 200,
+    "bytes": 3963,
+    "width": 54,
+    "height": 87,
+    "sha256": "2a09d8d69c7a2d76f816d61e44df3c27dcc17c3d07e56ff6d4569745df02b764"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/ronce1_1.png",
+    "owners": [
+      "monster:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/ronce1_1.png",
+    "status": 200,
+    "bytes": 4060,
+    "width": 58,
+    "height": 46,
+    "sha256": "df7d80609a457a0e7b7e10418cfaf7eaf1c42e97d9f2cf31e4815a688b96b19f"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/ronce1_2.png",
+    "owners": [
+      "monster:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/ronce1_2.png",
+    "status": 200,
+    "bytes": 2838,
+    "width": 47,
+    "height": 42,
+    "sha256": "b7212b660b5a45b80ef4201b16d8d0cb68734e0480b1eda3871cc5d0ea591252"
+  },
+  {
+    "resource": "monstre/plantes_botaniste/ronce1_3.png",
+    "owners": [
+      "monster:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/plantes_botaniste/ronce1_3.png",
+    "status": 200,
+    "bytes": 1261,
+    "width": 34,
+    "height": 18,
+    "sha256": "58599853789def56849a8de5c829b65e7ebf5b511b3e607c58dea400101d77dc"
+  }
+]

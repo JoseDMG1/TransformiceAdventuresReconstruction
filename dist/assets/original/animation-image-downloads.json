@@ -1,0 +1,6055 @@
+[
+  {
+    "resource": "anim/fxfrappe2_4.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe2_4.png",
+    "status": 200,
+    "bytes": 10946
+  },
+  {
+    "resource": "anim/fxfrappe1_3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe1_3.png",
+    "status": 200,
+    "bytes": 14654
+  },
+  {
+    "resource": "anim/fxfrappe2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe2.png",
+    "status": 200,
+    "bytes": 16490
+  },
+  {
+    "resource": "anim/fxfrappe1_2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe1_2.png",
+    "status": 200,
+    "bytes": 18443
+  },
+  {
+    "resource": "anim/fxfrappe1.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe1.png",
+    "status": 200,
+    "bytes": 25084
+  },
+  {
+    "resource": "anim/fxfrappe2_3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe2_3.png",
+    "status": 200,
+    "bytes": 16173
+  },
+  {
+    "resource": "anim/fxfrappe2_2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe2_2.png",
+    "status": 200,
+    "bytes": 14911
+  },
+  {
+    "resource": "anim/fxfrappe3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe3.png",
+    "status": 200,
+    "bytes": 19590
+  },
+  {
+    "resource": "anim/fxfrappe3_2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe3_2.png",
+    "status": 200,
+    "bytes": 12358
+  },
+  {
+    "resource": "anim/fxfrappe3_3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxfrappe3_3.png",
+    "status": 200,
+    "bytes": 10280
+  },
+  {
+    "resource": "anim/fxsmash4.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxsmash4.png",
+    "status": 200,
+    "bytes": 10846
+  },
+  {
+    "resource": "anim/fxsmash3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxsmash3.png",
+    "status": 200,
+    "bytes": 11230
+  },
+  {
+    "resource": "anim/fxsmash1.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxsmash1.png",
+    "status": 200,
+    "bytes": 3264
+  },
+  {
+    "resource": "anim/carnet.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/carnet.png",
+    "status": 200,
+    "bytes": 602
+  },
+  {
+    "resource": "anim/carnet_plume.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/carnet_plume.png",
+    "status": 200,
+    "bytes": 378
+  },
+  {
+    "resource": "anim/incantation2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/incantation2.png",
+    "status": 200,
+    "bytes": 1035
+  },
+  {
+    "resource": "anim/incantation1.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/incantation1.png",
+    "status": 200,
+    "bytes": 198
+  },
+  {
+    "resource": "anim/fxsmash2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/fxsmash2.png",
+    "status": 200,
+    "bytes": 48338
+  },
+  {
+    "resource": "anim/objet_glow1.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/objet_glow1.png",
+    "status": 200,
+    "bytes": 3366
+  },
+  {
+    "resource": "anim/FXstun2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/FXstun2.png",
+    "status": 200,
+    "bytes": 263
+  },
+  {
+    "resource": "anim/objet_glow3.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/objet_glow3.png",
+    "status": 200,
+    "bytes": 703
+  },
+  {
+    "resource": "anim/objet_glow2.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/objet_glow2.png",
+    "status": 200,
+    "bytes": 3454
+  },
+  {
+    "resource": "anim/FXstun1.png",
+    "owner": 2,
+    "url": "https://data.atelier801.com/tfmadv/anim/FXstun1.png",
+    "status": 200,
+    "bytes": 870
+  },
+  {
+    "resource": "monstre/guepe1/abdomen1.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/abdomen1.png",
+    "status": 200,
+    "bytes": 4092
+  },
+  {
+    "resource": "monstre/guepe1/thorax.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/thorax.png",
+    "status": 200,
+    "bytes": 1904
+  },
+  {
+    "resource": "monstre/guepe1/pattearriere.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/pattearriere.png",
+    "status": 200,
+    "bytes": 566
+  },
+  {
+    "resource": "monstre/guepe1/patteavant.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/patteavant.png",
+    "status": 200,
+    "bytes": 737
+  },
+  {
+    "resource": "monstre/guepe1/tete1.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/tete1.png",
+    "status": 200,
+    "bytes": 3029
+  },
+  {
+    "resource": "monstre/guepe1/antenne2.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/antenne2.png",
+    "status": 200,
+    "bytes": 688
+  },
+  {
+    "resource": "monstre/guepe1/antenne1.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/antenne1.png",
+    "status": 200,
+    "bytes": 732
+  },
+  {
+    "resource": "monstre/guepe1/aile.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/aile.png",
+    "status": 200,
+    "bytes": 1415
+  },
+  {
+    "resource": "monstre/guepe1/ombre.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/ombre.png",
+    "status": 200,
+    "bytes": 453
+  },
+  {
+    "resource": "monstre/guepe1/abdomen2.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/abdomen2.png",
+    "status": 200,
+    "bytes": 2222
+  },
+  {
+    "resource": "monstre/guepe1/abdomen4.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/abdomen4.png",
+    "status": 200,
+    "bytes": 2209
+  },
+  {
+    "resource": "monstre/guepe1/abdomen3.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/abdomen3.png",
+    "status": 200,
+    "bytes": 3362
+  },
+  {
+    "resource": "monstre/guepe1/FXattaque3.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/FXattaque3.png",
+    "status": 200,
+    "bytes": 3172
+  },
+  {
+    "resource": "monstre/guepe1/tete3.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/tete3.png",
+    "status": 200,
+    "bytes": 2739
+  },
+  {
+    "resource": "monstre/guepe1/tete2.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/tete2.png",
+    "status": 200,
+    "bytes": 2454
+  },
+  {
+    "resource": "monstre/guepe1/FXstun2.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "monstre/guepe1/tete4.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/tete4.png",
+    "status": 200,
+    "bytes": 2599
+  },
+  {
+    "resource": "monstre/guepe1/FXstun1.png",
+    "owner": 3,
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "monstre/araignee1/patte4.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte4.png",
+    "status": 200,
+    "bytes": 763
+  },
+  {
+    "resource": "monstre/araignee1/corps1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps1.png",
+    "status": 200,
+    "bytes": 15164
+  },
+  {
+    "resource": "monstre/araignee1/tete1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/tete1.png",
+    "status": 200,
+    "bytes": 5875
+  },
+  {
+    "resource": "monstre/araignee1/patte3.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte3.png",
+    "status": 200,
+    "bytes": 1318
+  },
+  {
+    "resource": "monstre/araignee1/patte2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte2.png",
+    "status": 200,
+    "bytes": 1482
+  },
+  {
+    "resource": "monstre/araignee1/patte1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte1.png",
+    "status": 200,
+    "bytes": 1372
+  },
+  {
+    "resource": "monstre/araignee1/FXattaque2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/FXattaque2.png",
+    "status": 200,
+    "bytes": 2219
+  },
+  {
+    "resource": "monstre/araignee1/tete3.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/tete3.png",
+    "status": 200,
+    "bytes": 4084
+  },
+  {
+    "resource": "monstre/araignee1/tete2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/tete2.png",
+    "status": 200,
+    "bytes": 5553
+  },
+  {
+    "resource": "monstre/araignee1/corps2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps2.png",
+    "status": 200,
+    "bytes": 3237
+  },
+  {
+    "resource": "monstre/araignee1/corps3.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps3.png",
+    "status": 200,
+    "bytes": 8372
+  },
+  {
+    "resource": "monstre/araignee1/corps4.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps4.png",
+    "status": 200,
+    "bytes": 7314
+  },
+  {
+    "resource": "monstre/araignee1/FXattaque1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/FXattaque1.png",
+    "status": 200,
+    "bytes": 5724
+  },
+  {
+    "resource": "monstre/araignee1/soie2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/soie2.png",
+    "status": 200,
+    "bytes": 740
+  },
+  {
+    "resource": "monstre/araignee1/soie1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/soie1.png",
+    "status": 200,
+    "bytes": 321
+  },
+  {
+    "resource": "monstre/araignee1/corps5.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps5.png",
+    "status": 200,
+    "bytes": 14113
+  },
+  {
+    "resource": "monstre/araignee1/tete4.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/tete4.png",
+    "status": 200,
+    "bytes": 3809
+  },
+  {
+    "resource": "monstre/araignee1/corps6.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/corps6.png",
+    "status": 200,
+    "bytes": 15852
+  },
+  {
+    "resource": "monstre/araignee1/patte7.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte7.png",
+    "status": 200,
+    "bytes": 1358
+  },
+  {
+    "resource": "monstre/araignee1/patte6.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte6.png",
+    "status": 200,
+    "bytes": 1126
+  },
+  {
+    "resource": "monstre/araignee1/patte5.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/patte5.png",
+    "status": 200,
+    "bytes": 1024
+  },
+  {
+    "resource": "monstre/araignee1/FXstun2.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "monstre/araignee1/FXstun1.png",
+    "owner": 4,
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "monstre/herisson1/patteavant1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/patteavant1.png",
+    "status": 200,
+    "bytes": 548
+  },
+  {
+    "resource": "monstre/herisson1/pattearriere1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/pattearriere1.png",
+    "status": 200,
+    "bytes": 527
+  },
+  {
+    "resource": "monstre/herisson1/tete1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete1.png",
+    "status": 200,
+    "bytes": 1806
+  },
+  {
+    "resource": "monstre/herisson1/dos1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/dos1.png",
+    "status": 200,
+    "bytes": 5489
+  },
+  {
+    "resource": "monstre/herisson1/FXattaque1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/FXattaque1.png",
+    "status": 200,
+    "bytes": 2157
+  },
+  {
+    "resource": "monstre/herisson1/tete3.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete3.png",
+    "status": 200,
+    "bytes": 2061
+  },
+  {
+    "resource": "monstre/herisson1/dos3.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/dos3.png",
+    "status": 200,
+    "bytes": 2275
+  },
+  {
+    "resource": "monstre/herisson1/dos2.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/dos2.png",
+    "status": 200,
+    "bytes": 3527
+  },
+  {
+    "resource": "monstre/herisson1/tete2.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete2.png",
+    "status": 200,
+    "bytes": 2122
+  },
+  {
+    "resource": "monstre/herisson1/FXattaque2.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/FXattaque2.png",
+    "status": 200,
+    "bytes": 1057
+  },
+  {
+    "resource": "monstre/herisson1/tete4.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete4.png",
+    "status": 200,
+    "bytes": 2137
+  },
+  {
+    "resource": "monstre/herisson1/dos4.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/dos4.png",
+    "status": 200,
+    "bytes": 8837
+  },
+  {
+    "resource": "monstre/herisson1/dos5.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/dos5.png",
+    "status": 200,
+    "bytes": 3854
+  },
+  {
+    "resource": "monstre/herisson1/pattecourse.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/pattecourse.png",
+    "status": 200,
+    "bytes": 2794
+  },
+  {
+    "resource": "monstre/herisson1/tete5.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete5.png",
+    "status": 200,
+    "bytes": 2649
+  },
+  {
+    "resource": "monstre/herisson1/sueurcourse1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/sueurcourse1.png",
+    "status": 200,
+    "bytes": 233
+  },
+  {
+    "resource": "monstre/herisson1/sueurcourse2.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/sueurcourse2.png",
+    "status": 200,
+    "bytes": 134
+  },
+  {
+    "resource": "monstre/herisson1/sueurcourse3.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/sueurcourse3.png",
+    "status": 200,
+    "bytes": 225
+  },
+  {
+    "resource": "monstre/herisson1/sueurcourse4.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/sueurcourse4.png",
+    "status": 200,
+    "bytes": 146
+  },
+  {
+    "resource": "monstre/herisson1/tete7.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete7.png",
+    "status": 200,
+    "bytes": 1844
+  },
+  {
+    "resource": "monstre/herisson1/tete8.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete8.png",
+    "status": 200,
+    "bytes": 1626
+  },
+  {
+    "resource": "monstre/herisson1/corps1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/corps1.png",
+    "status": 200,
+    "bytes": 6545
+  },
+  {
+    "resource": "monstre/herisson1/patte3.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/patte3.png",
+    "status": 200,
+    "bytes": 680
+  },
+  {
+    "resource": "monstre/herisson1/patte5.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/patte5.png",
+    "status": 200,
+    "bytes": 642
+  },
+  {
+    "resource": "monstre/herisson1/patte4.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/patte4.png",
+    "status": 200,
+    "bytes": 573
+  },
+  {
+    "resource": "monstre/herisson1/tete9.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete9.png",
+    "status": 200,
+    "bytes": 305
+  },
+  {
+    "resource": "monstre/herisson1/tete6.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/tete6.png",
+    "status": 200,
+    "bytes": 2171
+  },
+  {
+    "resource": "monstre/herisson1/FXstun2.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "monstre/grenouille1/cuisse1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/cuisse1.png",
+    "status": 200,
+    "bytes": 2531
+  },
+  {
+    "resource": "monstre/herisson1/FXstun1.png",
+    "owner": 5,
+    "url": "https://data.atelier801.com/tfmadv/monstre/herisson1/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "monstre/grenouille1/patte1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/patte1.png",
+    "status": 200,
+    "bytes": 1618
+  },
+  {
+    "resource": "monstre/grenouille1/jambe1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/jambe1.png",
+    "status": 200,
+    "bytes": 2422
+  },
+  {
+    "resource": "monstre/grenouille1/dos1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/dos1.png",
+    "status": 200,
+    "bytes": 2523
+  },
+  {
+    "resource": "monstre/grenouille1/epaulearriere1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/epaulearriere1.png",
+    "status": 200,
+    "bytes": 500
+  },
+  {
+    "resource": "monstre/grenouille1/mainarriere1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/mainarriere1.png",
+    "status": 200,
+    "bytes": 847
+  },
+  {
+    "resource": "monstre/grenouille1/brasarriere1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/brasarriere1.png",
+    "status": 200,
+    "bytes": 869
+  },
+  {
+    "resource": "monstre/grenouille1/oeil2.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil2.png",
+    "status": 200,
+    "bytes": 1511
+  },
+  {
+    "resource": "monstre/grenouille1/corps1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/corps1.png",
+    "status": 200,
+    "bytes": 6272
+  },
+  {
+    "resource": "monstre/grenouille1/bouche1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/bouche1.png",
+    "status": 200,
+    "bytes": 2520
+  },
+  {
+    "resource": "monstre/grenouille1/epauleavant1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/epauleavant1.png",
+    "status": 200,
+    "bytes": 647
+  },
+  {
+    "resource": "monstre/grenouille1/mainavant1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/mainavant1.png",
+    "status": 200,
+    "bytes": 829
+  },
+  {
+    "resource": "monstre/grenouille1/brasavant1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/brasavant1.png",
+    "status": 200,
+    "bytes": 823
+  },
+  {
+    "resource": "monstre/grenouille1/oeil1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil1.png",
+    "status": 200,
+    "bytes": 2299
+  },
+  {
+    "resource": "monstre/grenouille1/oeil4.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil4.png",
+    "status": 200,
+    "bytes": 1271
+  },
+  {
+    "resource": "monstre/grenouille1/langue1_hit.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/langue1_hit.png",
+    "status": 200,
+    "bytes": 1441
+  },
+  {
+    "resource": "monstre/grenouille1/oeil3.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil3.png",
+    "status": 200,
+    "bytes": 2357
+  },
+  {
+    "resource": "monstre/grenouille1/langue1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/langue1.png",
+    "status": 200,
+    "bytes": 1360
+  },
+  {
+    "resource": "monstre/grenouille1/mainavant2.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/mainavant2.png",
+    "status": 200,
+    "bytes": 570
+  },
+  {
+    "resource": "monstre/grenouille1/patte2.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/patte2.png",
+    "status": 200,
+    "bytes": 1084
+  },
+  {
+    "resource": "monstre/grenouille1/patte3.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/patte3.png",
+    "status": 200,
+    "bytes": 2276
+  },
+  {
+    "resource": "monstre/grenouille1/langue2.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/langue2.png",
+    "status": 200,
+    "bytes": 872
+  },
+  {
+    "resource": "monstre/grenouille1/cadavre1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/cadavre1.png",
+    "status": 200,
+    "bytes": 12091
+  },
+  {
+    "resource": "monstre/grenouille1/ombre1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/ombre1.png",
+    "status": 200,
+    "bytes": 581
+  },
+  {
+    "resource": "monstre/grenouille1/oeil6.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil6.png",
+    "status": 200,
+    "bytes": 981
+  },
+  {
+    "resource": "monstre/grenouille1/oeil5.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/oeil5.png",
+    "status": 200,
+    "bytes": 1510
+  },
+  {
+    "resource": "monstre/grenouille1/FXstun2.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "monstre/grenouille1/FXstun1.png",
+    "owner": 7,
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "monstre/scarabee1/pied3.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/pied3.png",
+    "status": 200,
+    "bytes": 496
+  },
+  {
+    "resource": "monstre/scarabee1/patte2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/patte2.png",
+    "status": 200,
+    "bytes": 1644
+  },
+  {
+    "resource": "monstre/scarabee1/jambe1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/jambe1.png",
+    "status": 200,
+    "bytes": 984
+  },
+  {
+    "resource": "monstre/scarabee1/corps1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corps1.png",
+    "status": 200,
+    "bytes": 3878
+  },
+  {
+    "resource": "monstre/scarabee1/patte1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/patte1.png",
+    "status": 200,
+    "bytes": 1754
+  },
+  {
+    "resource": "monstre/scarabee1/pied1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/pied1.png",
+    "status": 200,
+    "bytes": 514
+  },
+  {
+    "resource": "monstre/scarabee1/elytre2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/elytre2.png",
+    "status": 200,
+    "bytes": 1463
+  },
+  {
+    "resource": "monstre/scarabee1/aile1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/aile1.png",
+    "status": 200,
+    "bytes": 4759
+  },
+  {
+    "resource": "monstre/scarabee1/oeil2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/oeil2.png",
+    "status": 200,
+    "bytes": 618
+  },
+  {
+    "resource": "monstre/scarabee1/crane1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/crane1.png",
+    "status": 200,
+    "bytes": 7596
+  },
+  {
+    "resource": "monstre/scarabee1/elytre1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/elytre1.png",
+    "status": 200,
+    "bytes": 8530
+  },
+  {
+    "resource": "monstre/scarabee1/corne1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corne1.png",
+    "status": 200,
+    "bytes": 2898
+  },
+  {
+    "resource": "monstre/scarabee1/corne2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corne2.png",
+    "status": 200,
+    "bytes": 1644
+  },
+  {
+    "resource": "monstre/scarabee1/corne3.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corne3.png",
+    "status": 200,
+    "bytes": 1438
+  },
+  {
+    "resource": "monstre/scarabee1/corne4.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corne4.png",
+    "status": 200,
+    "bytes": 1136
+  },
+  {
+    "resource": "monstre/scarabee1/FX_epee1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/FX_epee1.png",
+    "status": 200,
+    "bytes": 26307
+  },
+  {
+    "resource": "monstre/scarabee1/poussiere.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/poussiere.png",
+    "status": 200,
+    "bytes": 289
+  },
+  {
+    "resource": "monstre/scarabee1/oeil1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/oeil1.png",
+    "status": 200,
+    "bytes": 1137
+  },
+  {
+    "resource": "monstre/scarabee1/pied4.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/pied4.png",
+    "status": 200,
+    "bytes": 399
+  },
+  {
+    "resource": "monstre/scarabee1/pied2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/pied2.png",
+    "status": 200,
+    "bytes": 401
+  },
+  {
+    "resource": "monstre/scarabee1/corps2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/corps2.png",
+    "status": 200,
+    "bytes": 8256
+  },
+  {
+    "resource": "monstre/scarabee1/oeil3.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/oeil3.png",
+    "status": 200,
+    "bytes": 297
+  },
+  {
+    "resource": "monstre/scarabee1/oeil4.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/oeil4.png",
+    "status": 200,
+    "bytes": 327
+  },
+  {
+    "resource": "monstre/scarabee1/elytre3.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/elytre3.png",
+    "status": 200,
+    "bytes": 5456
+  },
+  {
+    "resource": "monstre/scarabee1/FXstun2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "monstre/scarabee1/crane2.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/crane2.png",
+    "status": 200,
+    "bytes": 9963
+  },
+  {
+    "resource": "monstre/scarabee1/FXstun1.png",
+    "owner": 10,
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "picto/souris/dummybotaniste.png",
+    "owner": 19,
+    "url": "https://data.atelier801.com/tfmadv/picto/souris/dummybotaniste.png",
+    "status": 200,
+    "bytes": 24539
+  },
+  {
+    "resource": "equipement/2/brasarriere1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasarriere1.png",
+    "status": 200,
+    "bytes": 650
+  },
+  {
+    "resource": "equipement/2/brasarriere2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasarriere2.png",
+    "status": 200,
+    "bytes": 899
+  },
+  {
+    "resource": "equipement/2/brasavant1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant1.png",
+    "status": 200,
+    "bytes": 856
+  },
+  {
+    "resource": "picto/village/scarecrow.png",
+    "owner": 40,
+    "url": "https://data.atelier801.com/tfmadv/picto/village/scarecrow.png",
+    "status": 200,
+    "bytes": 49756
+  },
+  {
+    "resource": "equipement/2/brasavant2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant2.png",
+    "status": 200,
+    "bytes": 1013
+  },
+  {
+    "resource": "equipement/2/brasavant3.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant3.png",
+    "status": 200,
+    "bytes": 1213
+  },
+  {
+    "resource": "equipement/2/brasavant4.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant4.png",
+    "status": 200,
+    "bytes": 1270
+  },
+  {
+    "resource": "equipement/2/brasavant5.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant5.png",
+    "status": 200,
+    "bytes": 1048
+  },
+  {
+    "resource": "equipement/2/brasavant6.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant6.png",
+    "status": 200,
+    "bytes": 1122
+  },
+  {
+    "resource": "equipement/2/brasavant7.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant7.png",
+    "status": 200,
+    "bytes": 941
+  },
+  {
+    "resource": "equipement/2/brasavant8.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant8.png",
+    "status": 200,
+    "bytes": 1025
+  },
+  {
+    "resource": "equipement/2/brasavant9.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/brasavant9.png",
+    "status": 200,
+    "bytes": 864
+  },
+  {
+    "resource": "equipement/2/cuissearriere1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/cuissearriere1.png",
+    "status": 200,
+    "bytes": 1114
+  },
+  {
+    "resource": "equipement/2/cuisseavant1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/cuisseavant1.png",
+    "status": 200,
+    "bytes": 1321
+  },
+  {
+    "resource": "equipement/2/FXshiny.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/FXshiny.png",
+    "status": 200,
+    "bytes": 462
+  },
+  {
+    "resource": "equipement/2/FXstun1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038
+  },
+  {
+    "resource": "equipement/2/FXstun2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/FXstun2.png",
+    "status": 200,
+    "bytes": 354
+  },
+  {
+    "resource": "equipement/2/oreillearriere1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/oreillearriere1.png",
+    "status": 200,
+    "bytes": 929
+  },
+  {
+    "resource": "equipement/2/oreilleavant1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/oreilleavant1.png",
+    "status": 200,
+    "bytes": 3605
+  },
+  {
+    "resource": "equipement/2/oreilleavant2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/oreilleavant2.png",
+    "status": 200,
+    "bytes": 3150
+  },
+  {
+    "resource": "equipement/2/patte1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/patte1.png",
+    "status": 200,
+    "bytes": 929
+  },
+  {
+    "resource": "equipement/2/patte2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/patte2.png",
+    "status": 200,
+    "bytes": 755
+  },
+  {
+    "resource": "equipement/2/patte3.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/patte3.png",
+    "status": 200,
+    "bytes": 949
+  },
+  {
+    "resource": "equipement/2/patte4.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/patte4.png",
+    "status": 200,
+    "bytes": 879
+  },
+  {
+    "resource": "equipement/2/patte5.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/patte5.png",
+    "status": 200,
+    "bytes": 1106
+  },
+  {
+    "resource": "equipement/2/queue1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/queue1.png",
+    "status": 200,
+    "bytes": 2655
+  },
+  {
+    "resource": "equipement/2/queue2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/queue2.png",
+    "status": 200,
+    "bytes": 2797
+  },
+  {
+    "resource": "equipement/2/queue5.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/queue5.png",
+    "status": 200,
+    "bytes": 2424
+  },
+  {
+    "resource": "equipement/2/queue6.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/queue6.png",
+    "status": 200,
+    "bytes": 2727
+  },
+  {
+    "resource": "equipement/2/queue7.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/queue7.png",
+    "status": 200,
+    "bytes": 2608
+  },
+  {
+    "resource": "equipement/2/tete1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete1.png",
+    "status": 200,
+    "bytes": 2957
+  },
+  {
+    "resource": "equipement/2/tete4.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete4.png",
+    "status": 200,
+    "bytes": 2957
+  },
+  {
+    "resource": "equipement/2/tete5.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete5.png",
+    "status": 200,
+    "bytes": 2563
+  },
+  {
+    "resource": "equipement/2/tete6.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete6.png",
+    "status": 200,
+    "bytes": 2673
+  },
+  {
+    "resource": "equipement/2/tete7.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete7.png",
+    "status": 200,
+    "bytes": 2954
+  },
+  {
+    "resource": "equipement/2/tete2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete2.png",
+    "status": 200,
+    "bytes": 3368
+  },
+  {
+    "resource": "equipement/2/tete3.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete3.png",
+    "status": 200,
+    "bytes": 3060
+  },
+  {
+    "resource": "equipement/2/tete8.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/tete8.png",
+    "status": 200,
+    "bytes": 3366
+  },
+  {
+    "resource": "equipement/2/teteprofil3.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/teteprofil3.png",
+    "status": 200,
+    "bytes": 3603
+  },
+  {
+    "resource": "equipement/2/teteangle2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/teteangle2.png",
+    "status": 200,
+    "bytes": 3875
+  },
+  {
+    "resource": "equipement/2/torse1.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/torse1.png",
+    "status": 200,
+    "bytes": 2628
+  },
+  {
+    "resource": "equipement/2/torse2.png",
+    "owner": "mouse-base",
+    "url": "https://data.atelier801.com/tfmadv/equipement/2/torse2.png",
+    "status": 200,
+    "bytes": 2897
+  },
+  {
+    "resource": "equipement/11/brasarriere1.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasarriere1.png",
+    "status": 200,
+    "bytes": 282,
+    "width": 17,
+    "height": 20,
+    "sha256": "0266ad38992fdaceaccb9be6a4f36afb854ab5e92e07b53818e52c7eb3d492ad"
+  },
+  {
+    "resource": "equipement/11/brasarriere2.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasarriere2.png",
+    "status": 200,
+    "bytes": 331,
+    "width": 26,
+    "height": 18,
+    "sha256": "3720c6f2b7a97721daedbac1f9e8b2535b8c41753af9ebbb20e6cb6c2b865b9d"
+  },
+  {
+    "resource": "equipement/11/brasavant1.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant1.png",
+    "status": 200,
+    "bytes": 320,
+    "width": 22,
+    "height": 22,
+    "sha256": "cfd521a77a4638f876428bd1bf2911c9048e6c9135bf8e80d6889d5553f1314a"
+  },
+  {
+    "resource": "equipement/11/brasavant2.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant2.png",
+    "status": 200,
+    "bytes": 375,
+    "width": 29,
+    "height": 22,
+    "sha256": "dd4f82714848aba19c677d04fb2d3580180b65352dbeda01e9a397afe5ef7cf5"
+  },
+  {
+    "resource": "equipement/11/brasavant3.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant3.png",
+    "status": 200,
+    "bytes": 306,
+    "width": 34,
+    "height": 16,
+    "sha256": "f0a764310bc238988d9521ecde24b30a89268c1c8ecff97068805987cd611328"
+  },
+  {
+    "resource": "equipement/11/brasavant4.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant4.png",
+    "status": 200,
+    "bytes": 337,
+    "width": 38,
+    "height": 17,
+    "sha256": "dc73970014516d2c13c277ccf86442c9966e633b2b12fe3f8b387ac5d1f27001"
+  },
+  {
+    "resource": "equipement/11/brasavant5.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant5.png",
+    "status": 200,
+    "bytes": 390,
+    "width": 28,
+    "height": 22,
+    "sha256": "3cfd5ddb197df1bdaf744229bff8bfd3b1ba29a285dc450ed9a23f92fa9c0197"
+  },
+  {
+    "resource": "equipement/11/brasavant6.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant6.png",
+    "status": 200,
+    "bytes": 281,
+    "width": 28,
+    "height": 17,
+    "sha256": "0e9c9c9346134b0c79c46120efa30f129ea8a74ac171d696b9288dfdb885d186"
+  },
+  {
+    "resource": "equipement/11/brasavant7.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant7.png",
+    "status": 200,
+    "bytes": 379,
+    "width": 38,
+    "height": 17,
+    "sha256": "061e31449ac32c02fbc7af62ce1b1efb6d7fab3e154f69451cabcfeebc3ae261"
+  },
+  {
+    "resource": "equipement/11/brasavant8.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant8.png",
+    "status": 200,
+    "bytes": 369,
+    "width": 39,
+    "height": 18,
+    "sha256": "c0b8f2f3c23b70a0f82f41f25e1ff46c217f042639faed8112829e1c19205011"
+  },
+  {
+    "resource": "equipement/11/brasavant9.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/brasavant9.png",
+    "status": 200,
+    "bytes": 217,
+    "width": 13,
+    "height": 16,
+    "sha256": "66293846a8c2647c06d0c26ba174300d79ce9333cacfe6cb8c9d743f8e1b71de"
+  },
+  {
+    "resource": "equipement/11/tunique1.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/tunique1.png",
+    "status": 200,
+    "bytes": 1151,
+    "width": 40,
+    "height": 32,
+    "sha256": "2c1d3c2155ee8f05ac3d7cdbde1ed75d7f23160d61ef2d13f0f9a3ebed61193d"
+  },
+  {
+    "resource": "equipement/11/tunique2.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/tunique2.png",
+    "status": 200,
+    "bytes": 1223,
+    "width": 41,
+    "height": 34,
+    "sha256": "2f3ac38347965c1b8c082a7c4a7ad04f441bc0a09d5640b9646eecfde31b333e"
+  },
+  {
+    "resource": "equipement/11/tunique3.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/tunique3.png",
+    "status": 200,
+    "bytes": 944,
+    "width": 40,
+    "height": 32,
+    "sha256": "80c7dcb12e27a712118ddc62b3713eae667ce92a742d75386921ac46de122cf1"
+  },
+  {
+    "resource": "equipement/11/tuniqueepaulearriere1.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/tuniqueepaulearriere1.png",
+    "status": 200,
+    "bytes": 342,
+    "width": 19,
+    "height": 18,
+    "sha256": "0368f6372661169a7bbe0d899fb0a5101b86ed69719dec3a6782a61bea8a2651"
+  },
+  {
+    "resource": "equipement/11/tuniqueepauleavant1.png",
+    "owners": [
+      "clothing:11"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/11/tuniqueepauleavant1.png",
+    "status": 200,
+    "bytes": 378,
+    "width": 23,
+    "height": 18,
+    "sha256": "12d2533f6723bd44355c0398afef1b5f547a65b6a73866183465dcc54056c8a7"
+  },
+  {
+    "resource": "equipement/14/cape1.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/cape1.png",
+    "status": 200,
+    "bytes": 2269,
+    "width": 56,
+    "height": 59,
+    "sha256": "32c5868daeaaebe3714b90d85a5d3bf9355bd8417ba56ab8de9bfb963f34bbd8"
+  },
+  {
+    "resource": "equipement/14/cape2.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/cape2.png",
+    "status": 200,
+    "bytes": 2242,
+    "width": 68,
+    "height": 46,
+    "sha256": "5e508d844fb451bb3c69076b34ab8be6830e6439d4c568e9fa5b645a065f4f7e"
+  },
+  {
+    "resource": "equipement/14/chapeau1.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/chapeau1.png",
+    "status": 200,
+    "bytes": 543,
+    "width": 46,
+    "height": 21,
+    "sha256": "d5d7e487d31a46bc60732fa997a783b6b506ad8743e4e4f3e2923843ef35ebaa"
+  },
+  {
+    "resource": "equipement/14/chapeau2.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/chapeau2.png",
+    "status": 200,
+    "bytes": 555,
+    "width": 43,
+    "height": 21,
+    "sha256": "491e8214f56e8657cd13214ba935f478248c04b32808e365820cbb080c74293a"
+  },
+  {
+    "resource": "equipement/14/chapeau3.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/chapeau3.png",
+    "status": 200,
+    "bytes": 566,
+    "width": 49,
+    "height": 21,
+    "sha256": "bd36a62a5bb1734b1840fd4b6ec7054c7c93891828d2e092d65174162edb78e4"
+  },
+  {
+    "resource": "equipement/14/chapeau4.png",
+    "owners": [
+      "clothing:14"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/14/chapeau4.png",
+    "status": 200,
+    "bytes": 543,
+    "width": 46,
+    "height": 21,
+    "sha256": "d5d7e487d31a46bc60732fa997a783b6b506ad8743e4e4f3e2923843ef35ebaa"
+  },
+  {
+    "resource": "equipement/15/bijou1.png",
+    "owners": [
+      "clothing:15"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/15/bijou1.png",
+    "status": 200,
+    "bytes": 1315,
+    "width": 34,
+    "height": 39,
+    "sha256": "b342a75701aca501539f2588401f6762aded715f5fb2eb8d790e3e75c986127a"
+  },
+  {
+    "resource": "equipement/16/arme1-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/arme1-e2m.png",
+    "status": 200,
+    "bytes": 6053,
+    "width": 98,
+    "height": 45,
+    "sha256": "8d3ce6b808da8ca3248104386ca15a7700aaaa1dd8beb675344616560e467f12"
+  },
+  {
+    "resource": "equipement/16/armeFXattaque1-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/armeFXattaque1-e2m.png",
+    "status": 200,
+    "bytes": 16075,
+    "width": 351,
+    "height": 248,
+    "sha256": "076bdf9e101b825932f2942c6f47cf9819ce90304aad809f856d6f0c87ebad10"
+  },
+  {
+    "resource": "equipement/16/armeFXattaque2-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/armeFXattaque2-e2m.png",
+    "status": 200,
+    "bytes": 3297,
+    "width": 396,
+    "height": 67,
+    "sha256": "79e247149ddb89418d68f09ce816817bcd7c42a01bb5e879d04055eb5bcb14f0"
+  },
+  {
+    "resource": "equipement/16/armeFXattaque3-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/armeFXattaque3-e2m.png",
+    "status": 200,
+    "bytes": 4005,
+    "width": 286,
+    "height": 72,
+    "sha256": "dad693f587ebede41c26f7c6d62a16d07ccaf0495b6cf33f28fde4d7781eb55e"
+  },
+  {
+    "resource": "equipement/16/armeFXattaque4-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/armeFXattaque4-e2m.png",
+    "status": 200,
+    "bytes": 1589,
+    "width": 299,
+    "height": 25,
+    "sha256": "bd6ab2cef737b5f43ece4aeec7afbeb91d07457720dbdc1c364984a1318e9b56"
+  },
+  {
+    "resource": "equipement/16/armemanche1-e2m.png",
+    "owners": [
+      "clothing:16"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/16/armemanche1-e2m.png",
+    "status": 200,
+    "bytes": 1507,
+    "width": 46,
+    "height": 27,
+    "sha256": "18e226991c085e228285929fe855957fa8793d3d90afb451a269dfb42da5bb5e"
+  },
+  {
+    "resource": "equipement/17/chapeau1.png",
+    "owners": [
+      "clothing:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/17/chapeau1.png",
+    "status": 200,
+    "bytes": 5532,
+    "width": 63,
+    "height": 60,
+    "sha256": "6322782222adfaf41a2fbf6e9ffdead9ddec6b51fede3eba62e5770326230757"
+  },
+  {
+    "resource": "equipement/17/chapeau2.png",
+    "owners": [
+      "clothing:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/17/chapeau2.png",
+    "status": 200,
+    "bytes": 5562,
+    "width": 59,
+    "height": 59,
+    "sha256": "322609d3af07c55e244210a4b7e9c62cb6da6a057fbfe43ff47d3808c17bb53e"
+  },
+  {
+    "resource": "equipement/17/chapeau3.png",
+    "owners": [
+      "clothing:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/17/chapeau3.png",
+    "status": 200,
+    "bytes": 5490,
+    "width": 65,
+    "height": 56,
+    "sha256": "23ca7306d3c61b5210ec02f074dc8ff1f8a228d747b0962291f12d0d16562d28"
+  },
+  {
+    "resource": "equipement/17/chapeau4.png",
+    "owners": [
+      "clothing:17"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/17/chapeau4.png",
+    "status": 200,
+    "bytes": 5715,
+    "width": 63,
+    "height": 60,
+    "sha256": "2a0e10fd9b6de33c77eb4f0ccd26a4e36963505f2b728e5454bc811a3022ce16"
+  },
+  {
+    "resource": "equipement/18/chapeau1.png",
+    "owners": [
+      "clothing:18"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/18/chapeau1.png",
+    "status": 200,
+    "bytes": 1776,
+    "width": 44,
+    "height": 38,
+    "sha256": "af591f00c9817dcb1e3125c1f540ca21d720151acb682cb63ccfa2ba162613eb"
+  },
+  {
+    "resource": "equipement/18/chapeau2.png",
+    "owners": [
+      "clothing:18"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/18/chapeau2.png",
+    "status": 200,
+    "bytes": 1999,
+    "width": 50,
+    "height": 46,
+    "sha256": "a4032fb099cbd50a99049c56fdc25f2ed2907b2edc93c50e3093fb9f36feac14"
+  },
+  {
+    "resource": "equipement/18/chapeau3.png",
+    "owners": [
+      "clothing:18"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/18/chapeau3.png",
+    "status": 200,
+    "bytes": 1906,
+    "width": 50,
+    "height": 38,
+    "sha256": "3c6b81cb6efefeeea3e9e3485e5f17f6bac9cdd577e9644980ee8f7cbcf2c625"
+  },
+  {
+    "resource": "equipement/18/chapeau4.png",
+    "owners": [
+      "clothing:18"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/18/chapeau4.png",
+    "status": 200,
+    "bytes": 1776,
+    "width": 44,
+    "height": 38,
+    "sha256": "af591f00c9817dcb1e3125c1f540ca21d720151acb682cb63ccfa2ba162613eb"
+  },
+  {
+    "resource": "equipement/20/arc_onde.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arc_onde.png",
+    "status": 200,
+    "bytes": 872,
+    "width": 92,
+    "height": 104,
+    "sha256": "2fd471f5916ac8db2db2c781cc31fcf70ae01abb29b384666fafbe25eb0c5538"
+  },
+  {
+    "resource": "equipement/20/arme1-arc_bas.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arme1-arc_bas.png",
+    "status": 200,
+    "bytes": 530,
+    "width": 21,
+    "height": 36,
+    "sha256": "5923ceaca412e05aa777c37d4b3638430b6a7017a4b472fb4eb5cf7642a91eaa"
+  },
+  {
+    "resource": "equipement/20/arme1-arc_carquois.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arme1-arc_carquois.png",
+    "status": 200,
+    "bytes": 1180,
+    "width": 52,
+    "height": 28,
+    "sha256": "8b55d49fdf578b980942e914dd39bbe471d69d8b9e7debe4c3e43e5378bb4028"
+  },
+  {
+    "resource": "equipement/20/arme1-arc_haut.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arme1-arc_haut.png",
+    "status": 200,
+    "bytes": 1352,
+    "width": 39,
+    "height": 68,
+    "sha256": "706473bd2ebec10c20d8bac5a971754f286297e576f1ca1b2c176eca0f425abc"
+  },
+  {
+    "resource": "equipement/20/arme1-arc_manche.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arme1-arc_manche.png",
+    "status": 200,
+    "bytes": 157,
+    "width": 11,
+    "height": 15,
+    "sha256": "aeffd9f9acd956ef3a673f71af63fec37feb6b994404c29316572fd3c507e7cb"
+  },
+  {
+    "resource": "equipement/20/arme1-arc.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/arme1-arc.png",
+    "status": 200,
+    "bytes": 1837,
+    "width": 39,
+    "height": 110,
+    "sha256": "e039d59075b682edb5b98d4dd2d3b0071dab52e2dc60dfbf778d030e9aebe3a0"
+  },
+  {
+    "resource": "equipement/20/armefleche1-arc.png",
+    "owners": [
+      "clothing:20"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/20/armefleche1-arc.png",
+    "status": 200,
+    "bytes": 454,
+    "width": 98,
+    "height": 10,
+    "sha256": "6091b65b9c4f02061fe31b5c365805c66d877d0e4610fdfb7a47a6b55c03abb1"
+  },
+  {
+    "resource": "equipement/22/arme1.png",
+    "owners": [
+      "clothing:22"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/22/arme1.png",
+    "status": 200,
+    "bytes": 2446,
+    "width": 70,
+    "height": 33,
+    "sha256": "58ddf817751848a1483c53517f62dcc872c143f6ac92b816be7ed093b5bf6164"
+  },
+  {
+    "resource": "equipement/22/armemanche1.png",
+    "owners": [
+      "clothing:22"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/22/armemanche1.png",
+    "status": 200,
+    "bytes": 997,
+    "width": 27,
+    "height": 24,
+    "sha256": "084135bcfffa38ba3e67db5d2eae27c00e07592bf46ca9ea0eab666e180663cc"
+  },
+  {
+    "resource": "equipement/26/chapeau1.png",
+    "owners": [
+      "clothing:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/26/chapeau1.png",
+    "status": 200,
+    "bytes": 4659,
+    "width": 90,
+    "height": 59,
+    "sha256": "6d7e79cb9634dbfdb5e70eeb4553811889f670805775af22e10f7b323f3acc71"
+  },
+  {
+    "resource": "equipement/26/chapeau2.png",
+    "owners": [
+      "clothing:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/26/chapeau2.png",
+    "status": 200,
+    "bytes": 3120,
+    "width": 80,
+    "height": 40,
+    "sha256": "0e4d27cd045c93f2130f4fbfea235b41531b2852a9f0f9dca7ba49da9e9401d7"
+  },
+  {
+    "resource": "equipement/26/chapeau3.png",
+    "owners": [
+      "clothing:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/26/chapeau3.png",
+    "status": 200,
+    "bytes": 3538,
+    "width": 75,
+    "height": 60,
+    "sha256": "182091472662e1bab30b1b533aeba52edee82f45ca5b5dda77c7423e9df46c1a"
+  },
+  {
+    "resource": "equipement/26/chapeau4.png",
+    "owners": [
+      "clothing:26"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/26/chapeau4.png",
+    "status": 200,
+    "bytes": 3139,
+    "width": 72,
+    "height": 52,
+    "sha256": "cebaa952632f2141f09a4c58e539f77a2b712696cebeec7c72b860914ec4f045"
+  },
+  {
+    "resource": "equipement/27/tunique1.png",
+    "owners": [
+      "clothing:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/27/tunique1.png",
+    "status": 200,
+    "bytes": 3889,
+    "width": 53,
+    "height": 54,
+    "sha256": "01e0d501229faf2684995a27794abdc2fd52dab1271c1616b38adf280fdbf9b0"
+  },
+  {
+    "resource": "equipement/27/tunique2.png",
+    "owners": [
+      "clothing:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/27/tunique2.png",
+    "status": 200,
+    "bytes": 2801,
+    "width": 41,
+    "height": 51,
+    "sha256": "9795a4d00d27a786c9aabea53194954aaeaa0739a6694703af99bbe040a2fc8c"
+  },
+  {
+    "resource": "equipement/27/tunique3.png",
+    "owners": [
+      "clothing:27"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/27/tunique3.png",
+    "status": 200,
+    "bytes": 3037,
+    "width": 50,
+    "height": 55,
+    "sha256": "4ea9dae1913e270a98776df85e9b07adf1e248989e9efeaf0870013120ee10bf"
+  },
+  {
+    "resource": "equipement/5/arme1.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/arme1.png",
+    "status": 200,
+    "bytes": 3596,
+    "width": 70,
+    "height": 33,
+    "sha256": "f2cae6193fe01f2302d9cb8bcfb7d29dfbf4c43bb31667362c4fb0d40168a690"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque1.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque1.png",
+    "status": 200,
+    "bytes": 9560,
+    "width": 291,
+    "height": 189,
+    "sha256": "63897aae43d33601729936c3e19993f393bb149559efa67f632ef40468a1001e"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque2_2.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque2_2.png",
+    "status": 200,
+    "bytes": 1768,
+    "width": 234,
+    "height": 52,
+    "sha256": "59f9362d374ed52923a56fdb2a7109279ab88198e18ee9b361d99b0c5d4b4f13"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque2.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque2.png",
+    "status": 200,
+    "bytes": 6261,
+    "width": 312,
+    "height": 86,
+    "sha256": "f37c642bec2158d49cf6d50b8a783993f92bfcfb3f88835985dd83aa201ff25a"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque3.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque3.png",
+    "status": 200,
+    "bytes": 5892,
+    "width": 324,
+    "height": 42,
+    "sha256": "f5101d497d17531088c4803effa32063f4ea55ba54c24eca78b65957c10126fb"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque4.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque4.png",
+    "status": 200,
+    "bytes": 9560,
+    "width": 291,
+    "height": 189,
+    "sha256": "63897aae43d33601729936c3e19993f393bb149559efa67f632ef40468a1001e"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque5_2.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque5_2.png",
+    "status": 200,
+    "bytes": 4070,
+    "width": 233,
+    "height": 52,
+    "sha256": "757dd5121065940a8bd6330a6c5cb0f3994460cd87c2de8db5dcf1f419e8c9b9"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque5.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque5.png",
+    "status": 200,
+    "bytes": 3585,
+    "width": 300,
+    "height": 68,
+    "sha256": "ff130e35f18ca991bb43c0b1fe21bb5ef4c5127effbdac69f0b1451cd305b532"
+  },
+  {
+    "resource": "equipement/5/armeFXattaque6.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armeFXattaque6.png",
+    "status": 200,
+    "bytes": 5757,
+    "width": 324,
+    "height": 42,
+    "sha256": "7f359c44ea959954c39c24559011bcb93894c526d523f07bae866b29c6534a40"
+  },
+  {
+    "resource": "equipement/5/armemanche1.png",
+    "owners": [
+      "clothing:5"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/5/armemanche1.png",
+    "status": 200,
+    "bytes": 763,
+    "width": 27,
+    "height": 14,
+    "sha256": "8b8e9fd2e1a197ba1bee3c006da669cb380a0a27564d8b6e837392b3553fec49"
+  },
+  {
+    "resource": "equipement/6/bouclier1.png",
+    "owners": [
+      "clothing:6"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/6/bouclier1.png",
+    "status": 200,
+    "bytes": 1317,
+    "width": 30,
+    "height": 42,
+    "sha256": "ec43a5b6558fa5acb4604686d03c5a555bf5f5bb2afd0d80d7597b86ca05d4d7"
+  },
+  {
+    "resource": "equipement/6/bouclier2.png",
+    "owners": [
+      "clothing:6"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/6/bouclier2.png",
+    "status": 200,
+    "bytes": 1599,
+    "width": 40,
+    "height": 53,
+    "sha256": "1f3a1157b818b85d4925cb404a463a52e2d99650da7ecf7a54949a1bec227db9"
+  },
+  {
+    "resource": "equipement/6/bouclier3.png",
+    "owners": [
+      "clothing:6"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/6/bouclier3.png",
+    "status": 200,
+    "bytes": 1317,
+    "width": 30,
+    "height": 42,
+    "sha256": "ec43a5b6558fa5acb4604686d03c5a555bf5f5bb2afd0d80d7597b86ca05d4d7"
+  },
+  {
+    "resource": "equipement/8/chapeau1.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau1.png",
+    "status": 200,
+    "bytes": 7246,
+    "width": 87,
+    "height": 87,
+    "sha256": "eea9a39b282051cd440a4bf22617c2f2cd4dee0a40c20a6e91d9880efdb46be6"
+  },
+  {
+    "resource": "equipement/8/chapeau1up.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau1up.png",
+    "status": 200,
+    "bytes": 4730,
+    "width": 87,
+    "height": 87,
+    "sha256": "31a11b8396617b4257ab702c092562041e8e45fe4bc1dcb0ebbc6f250a4b6a91"
+  },
+  {
+    "resource": "equipement/8/chapeau2.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau2.png",
+    "status": 200,
+    "bytes": 7511,
+    "width": 110,
+    "height": 110,
+    "sha256": "7fa225be9faced0b411c07dec769466bcf8c3b69b09bd6b990bf33cace82e8da"
+  },
+  {
+    "resource": "equipement/8/chapeau2up.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau2up.png",
+    "status": 200,
+    "bytes": 2353,
+    "width": 68,
+    "height": 45,
+    "sha256": "32903ecea97c7392c668629d373698e140f6a316ec5fb4597d4804fd2df5f8e9"
+  },
+  {
+    "resource": "equipement/8/chapeau3.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau3.png",
+    "status": 200,
+    "bytes": 7589,
+    "width": 87,
+    "height": 87,
+    "sha256": "7fd9c1466bab9252fe067395ebecbc0d964fdba9ecb0f52cbd0a493ab7ac1eaf"
+  },
+  {
+    "resource": "equipement/8/chapeau3up.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau3up.png",
+    "status": 200,
+    "bytes": 2205,
+    "width": 55,
+    "height": 56,
+    "sha256": "cea973fc36e430026d1b7dd1a197539314f1a629ec1b3b163ed28ff04182793d"
+  },
+  {
+    "resource": "equipement/8/chapeau4.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau4.png",
+    "status": 200,
+    "bytes": 7593,
+    "width": 87,
+    "height": 87,
+    "sha256": "c29b689eb737ffb5c67384384b0dd612f0a454855e22142f8d3263eecc126f4b"
+  },
+  {
+    "resource": "equipement/8/chapeau4up.png",
+    "owners": [
+      "clothing:8"
+    ],
+    "url": "https://data.atelier801.com/tfmadv/equipement/8/chapeau4up.png",
+    "status": 200,
+    "bytes": 2631,
+    "width": 60,
+    "height": 55,
+    "sha256": "7127780a357990bb80d6992cb2e438da2ef9741370579c21bd99385f57859d95"
+  },
+  {
+    "resource": "monstre/araignee1boss/corps1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/corps1.png",
+    "status": 200,
+    "bytes": 43742,
+    "width": 196,
+    "height": 193,
+    "sha256": "b5fd17fc435bd77b3f7b8f21538bc48556999e129b03422e939de8ae7b3d7b89"
+  },
+  {
+    "resource": "monstre/araignee1boss/corps5.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/corps5.png",
+    "status": 200,
+    "bytes": 38449,
+    "width": 229,
+    "height": 186,
+    "sha256": "67e16252022e7b59b35509d6bdb0f80ccb6f00b59a44f589903bd0222c594782"
+  },
+  {
+    "resource": "monstre/araignee1boss/corps6.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/corps6.png",
+    "status": 200,
+    "bytes": 8866,
+    "width": 114,
+    "height": 152,
+    "sha256": "c32e4f1d0f80fd039acf4a368048beff50421253c5ddc2e2d23c8d5481448200"
+  },
+  {
+    "resource": "monstre/araignee1boss/crete1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/crete1.png",
+    "status": 200,
+    "bytes": 13011,
+    "width": 124,
+    "height": 123,
+    "sha256": "d8c6797bf1d4a3ba44f3789e43552367caeb2b5096612cdce5ba501bf46c5f99"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee1.png",
+    "status": 200,
+    "bytes": 3623,
+    "width": 208,
+    "height": 94,
+    "sha256": "55f8980412272caa6e5de2896f26c76a4dc780b0bd4b948525ea69125dc2dd68"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee10.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee10.png",
+    "status": 200,
+    "bytes": 6943,
+    "width": 308,
+    "height": 157,
+    "sha256": "a5c7c9400cbe26e914dd695d9b927181200b59a987153bdd4c38a7ff0782f935"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee11.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee11.png",
+    "status": 200,
+    "bytes": 4862,
+    "width": 301,
+    "height": 157,
+    "sha256": "8739d717bb1501e66c3eb898dc66f20e2607fd0eeed2561b17fe23ab95f33a45"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee12.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee12.png",
+    "status": 200,
+    "bytes": 2591,
+    "width": 285,
+    "height": 150,
+    "sha256": "059549bdc6b7a7ec36c7229f9b6b7a7be23d3f93c3f87a809408c1ece594736d"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee13.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee13.png",
+    "status": 200,
+    "bytes": 2580,
+    "width": 285,
+    "height": 150,
+    "sha256": "7c2fdb246f4d6dbfefde1549e86c51bb8be06016c6039c245d8c572599c02c98"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee14.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee14.png",
+    "status": 200,
+    "bytes": 2985,
+    "width": 285,
+    "height": 150,
+    "sha256": "5e297f8a3eeade3e092872d1061da6d45fb144590793514850ed31f79ad36a34"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee2.png",
+    "status": 200,
+    "bytes": 4349,
+    "width": 242,
+    "height": 116,
+    "sha256": "5c195dadb19baa0a4ca6661c40d4b8eee0291afae68018daa65a77922ca4fd0a"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee3.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee3.png",
+    "status": 200,
+    "bytes": 4490,
+    "width": 249,
+    "height": 125,
+    "sha256": "a8e133af1323b90ca980404f4041ccff1d210fc655f12c24383b9c68bdb0330c"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee4.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee4.png",
+    "status": 200,
+    "bytes": 4802,
+    "width": 229,
+    "height": 129,
+    "sha256": "f96d46a0e14d9fe5473e82b316fc3e363b8b61e4c2638dc7d18736afb7ac0d86"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee5.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee5.png",
+    "status": 200,
+    "bytes": 2238,
+    "width": 155,
+    "height": 96,
+    "sha256": "28e3046af726a8f88529e7d5a7e267bf694ce4362df43be3aae51007d5a48e6c"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee6.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee6.png",
+    "status": 200,
+    "bytes": 856,
+    "width": 115,
+    "height": 95,
+    "sha256": "4b1129305159cc01a5c749582fb29114cd925bc8c51cbf518ed49860311d66ce"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee7.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee7.png",
+    "status": 200,
+    "bytes": 3312,
+    "width": 278,
+    "height": 134,
+    "sha256": "3cdf95d75ba88484430d5183c9b49300b1be18fb2fc4cf3a5d6b0a2fbf807f7d"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee8.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee8.png",
+    "status": 200,
+    "bytes": 7359,
+    "width": 306,
+    "height": 154,
+    "sha256": "eb30bf0c3beea3795b5d5b33c7cb938f2c207d15bc3fb1ed9e0c1df10d71ebe8"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxfumee9.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxfumee9.png",
+    "status": 200,
+    "bytes": 9333,
+    "width": 310,
+    "height": 157,
+    "sha256": "7fcf9707d5629b30517a52a820e33e78e37f605106a39b76a95ba5d5383f7c88"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxsmash1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxsmash1.png",
+    "status": 200,
+    "bytes": 3858,
+    "width": 135,
+    "height": 51,
+    "sha256": "2eb130ccdd8c8d302f9e55831b0303065d0e4e0a99035bc0b99f43093815343a"
+  },
+  {
+    "resource": "monstre/araignee1boss/fxsmash2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/fxsmash2.png",
+    "status": 200,
+    "bytes": 46330,
+    "width": 478,
+    "height": 150,
+    "sha256": "7dea7962eb448708707d0f42d73d9467a65c76f6a1662e6abaffb58f53d858bb"
+  },
+  {
+    "resource": "monstre/araignee1boss/FXstun1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/araignee1boss/FXstun2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte1.png",
+    "status": 200,
+    "bytes": 3290,
+    "width": 30,
+    "height": 65,
+    "sha256": "f9e6eb50fd83f3e08db27dbf77b48627f4bc196851b6e8a27f0139f520f26a97"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte2.png",
+    "status": 200,
+    "bytes": 3738,
+    "width": 39,
+    "height": 72,
+    "sha256": "79934fa0bfbfaace079ff549074b28d4b9b78f30ac57ec04ccac84fb4f222c56"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte3.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte3.png",
+    "status": 200,
+    "bytes": 3035,
+    "width": 37,
+    "height": 71,
+    "sha256": "0dc285fd81e7541ee313cd429f3b68377fe0bb4f231e45621b6106ff0a64e220"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte4.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte4.png",
+    "status": 200,
+    "bytes": 1558,
+    "width": 21,
+    "height": 59,
+    "sha256": "bd5879eb7f6b74a0c0b16b20f4eb99fdc732e272ef2393bd65c408315b8461df"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte5.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte5.png",
+    "status": 200,
+    "bytes": 2833,
+    "width": 65,
+    "height": 21,
+    "sha256": "4c6bc173c4dbf983cc1ad734dba324d0dfa8347ae8ad7b1c9d22e625c64f1401"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte6.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte6.png",
+    "status": 200,
+    "bytes": 3359,
+    "width": 54,
+    "height": 44,
+    "sha256": "dab3daa6d70ffe3f32768c3b7b5e8402e2370fb9caec5848b8be74ecb9244f47"
+  },
+  {
+    "resource": "monstre/araignee1boss/patte7.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/patte7.png",
+    "status": 200,
+    "bytes": 4804,
+    "width": 67,
+    "height": 60,
+    "sha256": "41ea15fe7f7ee1fbaf395bd781c86a76379d40a10686393f2832047846e4a04e"
+  },
+  {
+    "resource": "monstre/araignee1boss/soie1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/soie1.png",
+    "status": 200,
+    "bytes": 566,
+    "width": 41,
+    "height": 33,
+    "sha256": "5610cf15b5d757a8075e792923af68ac41c03dd4d7a07dd591fc3d1123e85162"
+  },
+  {
+    "resource": "monstre/araignee1boss/soie2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/soie2.png",
+    "status": 200,
+    "bytes": 2087,
+    "width": 163,
+    "height": 44,
+    "sha256": "9476eb7405268f363a27d1059880e04fd6c01c53845a6ba6631ffa94a96961ab"
+  },
+  {
+    "resource": "monstre/araignee1boss/soie3.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/soie3.png",
+    "status": 200,
+    "bytes": 13704,
+    "width": 146,
+    "height": 146,
+    "sha256": "0ca955aa885a7013fa9e4af3be52e4f26deefb34c6684182a49281b5c678ccaa"
+  },
+  {
+    "resource": "monstre/araignee1boss/tete1.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/tete1.png",
+    "status": 200,
+    "bytes": 14213,
+    "width": 101,
+    "height": 110,
+    "sha256": "08ae1c9ab6de56f7f60dc1567b5694caacebb2cae31214a4593e83cad2f52050"
+  },
+  {
+    "resource": "monstre/araignee1boss/tete2.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/tete2.png",
+    "status": 200,
+    "bytes": 18568,
+    "width": 101,
+    "height": 110,
+    "sha256": "54a3ba0f7fa1162cff815293461620e8a4633ae5c2f0e2e4bbbb92559b18951f"
+  },
+  {
+    "resource": "monstre/araignee1boss/tete3.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/tete3.png",
+    "status": 200,
+    "bytes": 13608,
+    "width": 93,
+    "height": 122,
+    "sha256": "d181d9609e5d5df333312195658b9515826ad2751899cc194ee3faab125f2350"
+  },
+  {
+    "resource": "monstre/araignee1boss/tete4.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/tete4.png",
+    "status": 200,
+    "bytes": 17924,
+    "width": 126,
+    "height": 132,
+    "sha256": "7198da0f684ae40a7ac05b4e6d737e66f605ef6c6efc2969a422fbe60c115448"
+  },
+  {
+    "resource": "monstre/araignee1boss/tete5.png",
+    "owners": [
+      15
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss/tete5.png",
+    "status": 200,
+    "bytes": 17631,
+    "width": 103,
+    "height": 111,
+    "sha256": "0b2f7a2e65d171565363a779334182b654c3b52fcbf8ce8f8189b0c62b5fdc19"
+  },
+  {
+    "resource": "monstre/araignee1boss2/corps1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/corps1.png",
+    "status": 200,
+    "bytes": 50905,
+    "width": 196,
+    "height": 193,
+    "sha256": "20af2ebd06e953452c0c1ebc916b4ce7fe30c15c76c0762660c022385707c531"
+  },
+  {
+    "resource": "monstre/araignee1boss2/corps5.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/corps5.png",
+    "status": 200,
+    "bytes": 43879,
+    "width": 229,
+    "height": 186,
+    "sha256": "8a9ae28ba00c32f82e69f4f10da82f241147e4ccdde044285ccd61298a24dbd3"
+  },
+  {
+    "resource": "monstre/araignee1boss2/corps6.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/corps6.png",
+    "status": 200,
+    "bytes": 10586,
+    "width": 113,
+    "height": 153,
+    "sha256": "925b05cb0b5ab22a14b54454cac21b4a0cb2f1bffc444c910c61d449579370ee"
+  },
+  {
+    "resource": "monstre/araignee1boss2/crete1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/crete1.png",
+    "status": 200,
+    "bytes": 13778,
+    "width": 124,
+    "height": 123,
+    "sha256": "528fd962bf81b82036496865abba1b3f1202b12bdfbde83857aa3ab6a0b7be90"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee1.png",
+    "status": 200,
+    "bytes": 3623,
+    "width": 208,
+    "height": 94,
+    "sha256": "55f8980412272caa6e5de2896f26c76a4dc780b0bd4b948525ea69125dc2dd68"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee10.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee10.png",
+    "status": 200,
+    "bytes": 6943,
+    "width": 308,
+    "height": 157,
+    "sha256": "a5c7c9400cbe26e914dd695d9b927181200b59a987153bdd4c38a7ff0782f935"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee11.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee11.png",
+    "status": 200,
+    "bytes": 4862,
+    "width": 301,
+    "height": 157,
+    "sha256": "8739d717bb1501e66c3eb898dc66f20e2607fd0eeed2561b17fe23ab95f33a45"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee12.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee12.png",
+    "status": 200,
+    "bytes": 2591,
+    "width": 285,
+    "height": 150,
+    "sha256": "059549bdc6b7a7ec36c7229f9b6b7a7be23d3f93c3f87a809408c1ece594736d"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee13.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee13.png",
+    "status": 200,
+    "bytes": 2580,
+    "width": 285,
+    "height": 150,
+    "sha256": "7c2fdb246f4d6dbfefde1549e86c51bb8be06016c6039c245d8c572599c02c98"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee14.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee14.png",
+    "status": 200,
+    "bytes": 2985,
+    "width": 285,
+    "height": 150,
+    "sha256": "5e297f8a3eeade3e092872d1061da6d45fb144590793514850ed31f79ad36a34"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee2.png",
+    "status": 200,
+    "bytes": 4349,
+    "width": 242,
+    "height": 116,
+    "sha256": "5c195dadb19baa0a4ca6661c40d4b8eee0291afae68018daa65a77922ca4fd0a"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee3.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee3.png",
+    "status": 200,
+    "bytes": 4490,
+    "width": 249,
+    "height": 125,
+    "sha256": "a8e133af1323b90ca980404f4041ccff1d210fc655f12c24383b9c68bdb0330c"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee4.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee4.png",
+    "status": 200,
+    "bytes": 4802,
+    "width": 229,
+    "height": 129,
+    "sha256": "f96d46a0e14d9fe5473e82b316fc3e363b8b61e4c2638dc7d18736afb7ac0d86"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee5.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee5.png",
+    "status": 200,
+    "bytes": 2238,
+    "width": 155,
+    "height": 96,
+    "sha256": "28e3046af726a8f88529e7d5a7e267bf694ce4362df43be3aae51007d5a48e6c"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee6.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee6.png",
+    "status": 200,
+    "bytes": 856,
+    "width": 115,
+    "height": 95,
+    "sha256": "4b1129305159cc01a5c749582fb29114cd925bc8c51cbf518ed49860311d66ce"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee7.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee7.png",
+    "status": 200,
+    "bytes": 3312,
+    "width": 278,
+    "height": 134,
+    "sha256": "3cdf95d75ba88484430d5183c9b49300b1be18fb2fc4cf3a5d6b0a2fbf807f7d"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee8.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee8.png",
+    "status": 200,
+    "bytes": 7359,
+    "width": 306,
+    "height": 154,
+    "sha256": "eb30bf0c3beea3795b5d5b33c7cb938f2c207d15bc3fb1ed9e0c1df10d71ebe8"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxfumee9.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxfumee9.png",
+    "status": 200,
+    "bytes": 9333,
+    "width": 310,
+    "height": 157,
+    "sha256": "7fcf9707d5629b30517a52a820e33e78e37f605106a39b76a95ba5d5383f7c88"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxsmash1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxsmash1.png",
+    "status": 200,
+    "bytes": 3858,
+    "width": 135,
+    "height": 51,
+    "sha256": "2eb130ccdd8c8d302f9e55831b0303065d0e4e0a99035bc0b99f43093815343a"
+  },
+  {
+    "resource": "monstre/araignee1boss2/fxsmash2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/fxsmash2.png",
+    "status": 200,
+    "bytes": 46330,
+    "width": 478,
+    "height": 150,
+    "sha256": "7dea7962eb448708707d0f42d73d9467a65c76f6a1662e6abaffb58f53d858bb"
+  },
+  {
+    "resource": "monstre/araignee1boss2/FXstun1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/araignee1boss2/FXstun2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte1.png",
+    "status": 200,
+    "bytes": 4776,
+    "width": 30,
+    "height": 65,
+    "sha256": "2e898c2a9a71049ffb9bfc6770120ec5ad3a859d44203c166a47c19288300d48"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte2.png",
+    "status": 200,
+    "bytes": 5875,
+    "width": 39,
+    "height": 72,
+    "sha256": "24ff821139c4555edc48b7636e0939b2d99e91b66f32a024a782f66b2f5d45be"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte3.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte3.png",
+    "status": 200,
+    "bytes": 4585,
+    "width": 37,
+    "height": 71,
+    "sha256": "4d22004bb8652903639bebd1bbf5bf00d1892663074fe7d0d21c544c57e009b0"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte4.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte4.png",
+    "status": 200,
+    "bytes": 2989,
+    "width": 21,
+    "height": 59,
+    "sha256": "5feecbfbd3e943f5b81c3493f17eef0bd85dc43ac4e88ca03f58b58f509f2c45"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte5.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte5.png",
+    "status": 200,
+    "bytes": 4114,
+    "width": 65,
+    "height": 21,
+    "sha256": "0a2f1a69cfccf465c7a043a1d24a652deb24e8a53806a18edc4e21407ef40175"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte6.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte6.png",
+    "status": 200,
+    "bytes": 4616,
+    "width": 54,
+    "height": 44,
+    "sha256": "ba267575fa15a40346e70eb74b36dc9d6a2d3210025d83f7d900ae0ef687ba81"
+  },
+  {
+    "resource": "monstre/araignee1boss2/patte7.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/patte7.png",
+    "status": 200,
+    "bytes": 5961,
+    "width": 67,
+    "height": 60,
+    "sha256": "497ccf378398ca36baa61fbdfd6bac4a2d99d3023023ea911388ad0e1bc58f28"
+  },
+  {
+    "resource": "monstre/araignee1boss2/soie1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/soie1.png",
+    "status": 200,
+    "bytes": 2036,
+    "width": 41,
+    "height": 33,
+    "sha256": "e88537c10ffe14f0f2903df524d7905772ae1762454f19752793b85c183cc26e"
+  },
+  {
+    "resource": "monstre/araignee1boss2/soie2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/soie2.png",
+    "status": 200,
+    "bytes": 3615,
+    "width": 163,
+    "height": 44,
+    "sha256": "11d66e26bb0fedb641a80dd2ed6574e8ef6b61519e2d8f33ae81cb633918444f"
+  },
+  {
+    "resource": "monstre/araignee1boss2/soie3.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/soie3.png",
+    "status": 200,
+    "bytes": 11708,
+    "width": 146,
+    "height": 146,
+    "sha256": "2087cf4d23b520358a0f70d2f7dabc8300a0662e7e448ee65df80b868d6c1fa8"
+  },
+  {
+    "resource": "monstre/araignee1boss2/tete1.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/tete1.png",
+    "status": 200,
+    "bytes": 17261,
+    "width": 101,
+    "height": 110,
+    "sha256": "b7e37c8477e00450202eb23e2c89003a127e0b4e5a5d23b63a2c8ab707646deb"
+  },
+  {
+    "resource": "monstre/araignee1boss2/tete2.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/tete2.png",
+    "status": 200,
+    "bytes": 17242,
+    "width": 101,
+    "height": 110,
+    "sha256": "78560aa779e9d9e97baee83a58bb969275e77b3d0a415b0fba4b389ca14ed20c"
+  },
+  {
+    "resource": "monstre/araignee1boss2/tete3.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/tete3.png",
+    "status": 200,
+    "bytes": 16527,
+    "width": 93,
+    "height": 122,
+    "sha256": "fe5fa7b2954f98ca78543e3a07c0da598c90773b3e3fdb23fd3be939e0d46a59"
+  },
+  {
+    "resource": "monstre/araignee1boss2/tete4.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/tete4.png",
+    "status": 200,
+    "bytes": 17144,
+    "width": 126,
+    "height": 132,
+    "sha256": "da3be4e64b15f202a4fde42a1ded5a200a636c10017c4efc9f63bb2ad0bc0374"
+  },
+  {
+    "resource": "monstre/araignee1boss2/tete5.png",
+    "owners": [
+      43
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1boss2/tete5.png",
+    "status": 200,
+    "bytes": 18343,
+    "width": 103,
+    "height": 111,
+    "sha256": "7cf55a7ea28eb7052e56945ba1250e82af2b4109f65062b2323d61b884065ece"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps1.png",
+    "status": 200,
+    "bytes": 16479,
+    "width": 115,
+    "height": 115,
+    "sha256": "4c99e79c7c29ef6ac751817f6b0295176717489b18c55467f2bc7c89d84c40a3"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps2.png",
+    "status": 200,
+    "bytes": 3283,
+    "width": 72,
+    "height": 79,
+    "sha256": "a1e237dc05a9a5f9eb6c3a23fbf799861cd5026449fd87076e0180eb9fe6b033"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps3.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps3.png",
+    "status": 200,
+    "bytes": 9467,
+    "width": 101,
+    "height": 91,
+    "sha256": "b1942ac85a15faa6c153b0ccb0637a0baec04e618c6ca40c756b47310f8482f1"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps4.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps4.png",
+    "status": 200,
+    "bytes": 7366,
+    "width": 79,
+    "height": 97,
+    "sha256": "9a636fd26fa4fe1851a62255864afa205ea86867da42f26905d997cef8ba09bf"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps5.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps5.png",
+    "status": 200,
+    "bytes": 15937,
+    "width": 129,
+    "height": 126,
+    "sha256": "9cb15863d0da24fa006382f49aa2ab65a88f529faae2b4560115c56983b30b6b"
+  },
+  {
+    "resource": "monstre/araignee1niv2/corps6.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/corps6.png",
+    "status": 200,
+    "bytes": 17559,
+    "width": 113,
+    "height": 107,
+    "sha256": "2b51e0803be85136affc30adbd6c6c5be23bc973e2fc115257152387e49bb1f6"
+  },
+  {
+    "resource": "monstre/araignee1niv2/FXattaque1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/FXattaque1.png",
+    "status": 200,
+    "bytes": 5882,
+    "width": 138,
+    "height": 95,
+    "sha256": "e643cbbcb02a2722eb63ec38d98a868aa413171a6479597b0ff62dde352b1ae3"
+  },
+  {
+    "resource": "monstre/araignee1niv2/FXattaque2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/FXattaque2.png",
+    "status": 200,
+    "bytes": 2219,
+    "width": 85,
+    "height": 173,
+    "sha256": "e09fab32cc07d84a3a4f382073a48fcaba07b1e2b0fb2eab2bde0b8c0e7da7e1"
+  },
+  {
+    "resource": "monstre/araignee1niv2/FXstun1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/araignee1niv2/FXstun2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte1.png",
+    "status": 200,
+    "bytes": 1575,
+    "width": 22,
+    "height": 42,
+    "sha256": "281fca7f5c63701569d8a356788d6cdef3128615dab34ef64c5453fc99ef0ee4"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte2.png",
+    "status": 200,
+    "bytes": 1656,
+    "width": 26,
+    "height": 45,
+    "sha256": "ee9b53ecb383a5f8a933edbac4c311d6d5e989b48ff185a6d866811836326af2"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte3.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte3.png",
+    "status": 200,
+    "bytes": 1402,
+    "width": 26,
+    "height": 45,
+    "sha256": "d95fb840525e0422010dab603555fb195140ad5700bf0a3f001ea21c7f484ee4"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte4.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte4.png",
+    "status": 200,
+    "bytes": 748,
+    "width": 16,
+    "height": 37,
+    "sha256": "b7d35bc830f6b2ce6218437ffeaae11adf7032b93584b19a120cea69996fea91"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte5.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte5.png",
+    "status": 200,
+    "bytes": 1123,
+    "width": 41,
+    "height": 16,
+    "sha256": "0d2447a76df706169947a5069ea502101641426dfceeebc702890c14fda402e8"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte6.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte6.png",
+    "status": 200,
+    "bytes": 1213,
+    "width": 35,
+    "height": 29,
+    "sha256": "ad82772d210ebdb5d6af7f6a98a447dedb1c0ffe6c246ce1c57d086d07ee57b3"
+  },
+  {
+    "resource": "monstre/araignee1niv2/patte7.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/patte7.png",
+    "status": 200,
+    "bytes": 1481,
+    "width": 42,
+    "height": 38,
+    "sha256": "a26f979dd88924d5c3fa41fd6bb63639103ab9dd27698ecfe5d34069a9de7d38"
+  },
+  {
+    "resource": "monstre/araignee1niv2/soie1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/soie1.png",
+    "status": 200,
+    "bytes": 321,
+    "width": 45,
+    "height": 37,
+    "sha256": "8147a11b366c74863e8379065e2a9fed4dd334d580fbbd8c8256aa32890320e1"
+  },
+  {
+    "resource": "monstre/araignee1niv2/soie2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/soie2.png",
+    "status": 200,
+    "bytes": 740,
+    "width": 167,
+    "height": 44,
+    "sha256": "7e0709dddcc65e6cd851642ff4c35b6e40cf54025285d238650eb0d953e2c629"
+  },
+  {
+    "resource": "monstre/araignee1niv2/tete1.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/tete1.png",
+    "status": 200,
+    "bytes": 5760,
+    "width": 63,
+    "height": 69,
+    "sha256": "96ec49370f14eafbe48799e15362ca64fb21a721df7287e4aa4b3548ab266f77"
+  },
+  {
+    "resource": "monstre/araignee1niv2/tete2.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/tete2.png",
+    "status": 200,
+    "bytes": 5790,
+    "width": 62,
+    "height": 69,
+    "sha256": "dca500084e8c0a43537e84eb7a879759f68731aef76178f60a0bda8ccbbe577e"
+  },
+  {
+    "resource": "monstre/araignee1niv2/tete3.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/tete3.png",
+    "status": 200,
+    "bytes": 4153,
+    "width": 57,
+    "height": 65,
+    "sha256": "7d830c6092e7c46f20d93b516a2542499814dd88a886d12dfd84905ccc873e2c"
+  },
+  {
+    "resource": "monstre/araignee1niv2/tete4.png",
+    "owners": [
+      30
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/araignee1niv2/tete4.png",
+    "status": 200,
+    "bytes": 3950,
+    "width": 59,
+    "height": 66,
+    "sha256": "4773491177e1c3a0118b72cb3b85a0fc016b69458e7afee4a1cc802782a697d8"
+  },
+  {
+    "resource": "monstre/grenouille1boss/bouche1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/bouche1.png",
+    "status": 200,
+    "bytes": 9184,
+    "width": 136,
+    "height": 105,
+    "sha256": "dfbd1161b1925e62faabf63f7ef6be795cc9aa0a2b7939e9d323e178c86fa684"
+  },
+  {
+    "resource": "monstre/grenouille1boss/brasarriere1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/brasarriere1.png",
+    "status": 200,
+    "bytes": 4497,
+    "width": 49,
+    "height": 58,
+    "sha256": "9824792d84693b13e5fabd952e74b88133e115df7d66f711fd2fbba5eceba6ee"
+  },
+  {
+    "resource": "monstre/grenouille1boss/brasavant1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/brasavant1.png",
+    "status": 200,
+    "bytes": 3733,
+    "width": 35,
+    "height": 59,
+    "sha256": "b3ecca49af8affc844a637f5090b60fae34635ffa55a9a49cee9317eb22a75f6"
+  },
+  {
+    "resource": "monstre/grenouille1boss/cadavre1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/cadavre1.png",
+    "status": 200,
+    "bytes": 57734,
+    "width": 396,
+    "height": 170,
+    "sha256": "4d5efb19ecbf38f6ddf85f8079692c8be9c95022b87652fd7bf66d0957b305c3"
+  },
+  {
+    "resource": "monstre/grenouille1boss/corps1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/corps1.png",
+    "status": 200,
+    "bytes": 39211,
+    "width": 219,
+    "height": 252,
+    "sha256": "d08482ca0110b87e02fb9f6eda3546f880fbcc6106b8f45d8d3559e883859123"
+  },
+  {
+    "resource": "monstre/grenouille1boss/cuisse1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/cuisse1.png",
+    "status": 200,
+    "bytes": 9089,
+    "width": 78,
+    "height": 121,
+    "sha256": "76fde0d7821f647d74c5f3ff72cbc065ad4159170e75723eb55509d0496f5564"
+  },
+  {
+    "resource": "monstre/grenouille1boss/dos1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/dos1.png",
+    "status": 200,
+    "bytes": 7198,
+    "width": 120,
+    "height": 87,
+    "sha256": "27ca1f0c722f7702f89bf608bc86883bb57c7bf432d4491e9cecd52bf281d69a"
+  },
+  {
+    "resource": "monstre/grenouille1boss/epaulearriere1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/epaulearriere1.png",
+    "status": 200,
+    "bytes": 2774,
+    "width": 34,
+    "height": 39,
+    "sha256": "de447fc917f3561d4d7fce663ea5771b3f79a4d455bb44b7cffbfe35bd486176"
+  },
+  {
+    "resource": "monstre/grenouille1boss/epauleavant1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/epauleavant1.png",
+    "status": 200,
+    "bytes": 4259,
+    "width": 48,
+    "height": 50,
+    "sha256": "c93726a1db6f4072398cb5a023917831dc1d0eca20fd9120de468725f4cef707"
+  },
+  {
+    "resource": "monstre/grenouille1boss/FXstun1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/grenouille1boss/FXstun2.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/grenouille1boss/jambe1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/jambe1.png",
+    "status": 200,
+    "bytes": 9343,
+    "width": 83,
+    "height": 116,
+    "sha256": "00e5c39e394136089553b9be1ec7e68476b8756922aadea1cc0935df9a986e79"
+  },
+  {
+    "resource": "monstre/grenouille1boss/langue1_hit.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/langue1_hit.png",
+    "status": 200,
+    "bytes": 1474,
+    "width": 49,
+    "height": 57,
+    "sha256": "5142e1c2ed5b9dcf816b6acef8b645d40481c83c4c02a9c68b752ed64b57538d"
+  },
+  {
+    "resource": "monstre/grenouille1boss/langue1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/langue1.png",
+    "status": 200,
+    "bytes": 3180,
+    "width": 142,
+    "height": 22,
+    "sha256": "4fef5a4e12280a0f3d955338950bbf2a05d3b0e8d96a5584fb1f3e76feaba857"
+  },
+  {
+    "resource": "monstre/grenouille1boss/langue2.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/langue2.png",
+    "status": 200,
+    "bytes": 2551,
+    "width": 36,
+    "height": 31,
+    "sha256": "315140a57dc464fe31ad992c09f7838881428731416f5c8fe5c405348aad7c55"
+  },
+  {
+    "resource": "monstre/grenouille1boss/mainarriere1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/mainarriere1.png",
+    "status": 200,
+    "bytes": 3052,
+    "width": 42,
+    "height": 31,
+    "sha256": "47f2e8c518a7819928cebb1f081826d21fcde0b8c6453fce785e660d1defbf8e"
+  },
+  {
+    "resource": "monstre/grenouille1boss/mainavant1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/mainavant1.png",
+    "status": 200,
+    "bytes": 3531,
+    "width": 63,
+    "height": 37,
+    "sha256": "b75f9e06d1c93fce1e97126d03acdde7e9fd3c1f7c52329d523653537e6f000d"
+  },
+  {
+    "resource": "monstre/grenouille1boss/mainavant2.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/mainavant2.png",
+    "status": 200,
+    "bytes": 2337,
+    "width": 46,
+    "height": 46,
+    "sha256": "52dd95763c12b8d18689ee5bb12f8721c5b7831e08f9de0ff4ed0dc1f9fa47e3"
+  },
+  {
+    "resource": "monstre/grenouille1boss/moustachearriere1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/moustachearriere1.png",
+    "status": 200,
+    "bytes": 2490,
+    "width": 58,
+    "height": 75,
+    "sha256": "42f2f45e6a3f233fd26bfa918b3bab26d73d623a2989712f7c1da66a83dcb9ef"
+  },
+  {
+    "resource": "monstre/grenouille1boss/moustacheavant1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/moustacheavant1.png",
+    "status": 200,
+    "bytes": 2722,
+    "width": 69,
+    "height": 88,
+    "sha256": "ac8fd5b2be953895cd128ff391c45ead392f347822694b0918cd18733e1c551d"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil1.png",
+    "status": 200,
+    "bytes": 6612,
+    "width": 72,
+    "height": 52,
+    "sha256": "1f69a3fb132ac9cb9bd7697aa8e0addc148d9d1020f77fc52a0d6fac53f3d338"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil2.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil2.png",
+    "status": 200,
+    "bytes": 3813,
+    "width": 43,
+    "height": 38,
+    "sha256": "7b6c0312318f62d444c6659906cdaad6911def590b0ea950011a1042e7afe4c4"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil3.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil3.png",
+    "status": 200,
+    "bytes": 6612,
+    "width": 72,
+    "height": 52,
+    "sha256": "1f69a3fb132ac9cb9bd7697aa8e0addc148d9d1020f77fc52a0d6fac53f3d338"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil4.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil4.png",
+    "status": 200,
+    "bytes": 3813,
+    "width": 43,
+    "height": 38,
+    "sha256": "7b6c0312318f62d444c6659906cdaad6911def590b0ea950011a1042e7afe4c4"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil5.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil5.png",
+    "status": 200,
+    "bytes": 4112,
+    "width": 72,
+    "height": 52,
+    "sha256": "0dfc2330bd4bfbf23d513ae6934542a16b363d822354f4cf9f2486d36b9bf6c2"
+  },
+  {
+    "resource": "monstre/grenouille1boss/oeil6.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/oeil6.png",
+    "status": 200,
+    "bytes": 1882,
+    "width": 43,
+    "height": 38,
+    "sha256": "da9e6eb91a212dfd974afaecd19b75d1d17777935b3bb418a562449583302b1d"
+  },
+  {
+    "resource": "monstre/grenouille1boss/ombre1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/ombre1.png",
+    "status": 200,
+    "bytes": 581,
+    "width": 134,
+    "height": 15,
+    "sha256": "36738340a51d0db88cbeedf7d4ba7d761b598983d6fabca39ff8f24597b01604"
+  },
+  {
+    "resource": "monstre/grenouille1boss/patte1.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/patte1.png",
+    "status": 200,
+    "bytes": 4871,
+    "width": 80,
+    "height": 38,
+    "sha256": "980f9dea1783afbb44175df2d320229b2edd3481aadaa5e73b10c3ee2a75c2b6"
+  },
+  {
+    "resource": "monstre/grenouille1boss/patte2.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/patte2.png",
+    "status": 200,
+    "bytes": 4583,
+    "width": 63,
+    "height": 97,
+    "sha256": "9059e06e819369dfad9cf57b5023281a9c7952c260a804a9545035297403d20b"
+  },
+  {
+    "resource": "monstre/grenouille1boss/patte3.png",
+    "owners": [
+      46
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1boss/patte3.png",
+    "status": 200,
+    "bytes": 5394,
+    "width": 78,
+    "height": 99,
+    "sha256": "decfd32cdfc449066385666ef88f2c286c58d1c65f7a5d1274abadbce5a76ac9"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/bouche1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/bouche1.png",
+    "status": 200,
+    "bytes": 2627,
+    "width": 83,
+    "height": 44,
+    "sha256": "e5f2dfa2974353ad1968dad5125718ac3243b5df57cc36a5c0a61a8135780a13"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/brasarriere1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/brasarriere1.png",
+    "status": 200,
+    "bytes": 1165,
+    "width": 22,
+    "height": 29,
+    "sha256": "ebc1d0f21d67c169ad90a55950189bda4c6e300dc555f84aa3a9d529725612cf"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/brasavant1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/brasavant1.png",
+    "status": 200,
+    "bytes": 1109,
+    "width": 17,
+    "height": 33,
+    "sha256": "7272e91d57de068378ae5e342fb6bd5ec0587dfa92fddbf746c56ada7078c2fb"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/cadavre1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/cadavre1.png",
+    "status": 200,
+    "bytes": 14164,
+    "width": 187,
+    "height": 82,
+    "sha256": "a6d8c8177bfc8d8a467b047b97a34abc7e8ace058377c7c722dfe7dac1bba462"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/corps1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/corps1.png",
+    "status": 200,
+    "bytes": 6134,
+    "width": 93,
+    "height": 77,
+    "sha256": "4d0880b2a0e1bba3fd99baf39becd5b1ae658b80fdfd2c6ecdc929cc76f2fc4d"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/cuisse1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/cuisse1.png",
+    "status": 200,
+    "bytes": 2530,
+    "width": 29,
+    "height": 68,
+    "sha256": "6aa5c905efb1bed156b3162c4bd3b6c92a97798cc095d8480d0c51104f3efa01"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/dos1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/dos1.png",
+    "status": 200,
+    "bytes": 2724,
+    "width": 70,
+    "height": 50,
+    "sha256": "887e38d2989ce73e64bd4f341be2c18f6d87fd7814733d6659200cd5da763430"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/epaulearriere1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/epaulearriere1.png",
+    "status": 200,
+    "bytes": 664,
+    "width": 20,
+    "height": 24,
+    "sha256": "4bc8b9163889d326f6f82f032154e11ea33d4db843d12e6d003a323b5b09ab20"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/epauleavant1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/epauleavant1.png",
+    "status": 200,
+    "bytes": 746,
+    "width": 17,
+    "height": 25,
+    "sha256": "b8c955e1a1f47eedefdec51688082e9d8ddfaf2aa674950b91b5bbde54e381bb"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/FXstun1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/FXstun2.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/jambe1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/jambe1.png",
+    "status": 200,
+    "bytes": 2690,
+    "width": 29,
+    "height": 65,
+    "sha256": "bf2b5eee5ea3bc2d31975361da496afd544eb17f00f0f3e44206d255383e0e24"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/langue1_hit.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/langue1_hit.png",
+    "status": 200,
+    "bytes": 1441,
+    "width": 53,
+    "height": 61,
+    "sha256": "c76eabbe4384ead1d71c92ed826b781bc1ccb59b25b6328cd73aba0e6a1b00a2"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/langue1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/langue1.png",
+    "status": 200,
+    "bytes": 1973,
+    "width": 146,
+    "height": 26,
+    "sha256": "4527d85f6a2163d045927d0244180dd43496251d63571c7c5d471d4dd076bea5"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/langue2.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/langue2.png",
+    "status": 200,
+    "bytes": 2551,
+    "width": 36,
+    "height": 31,
+    "sha256": "315140a57dc464fe31ad992c09f7838881428731416f5c8fe5c405348aad7c55"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/mainarriere1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/mainarriere1.png",
+    "status": 200,
+    "bytes": 836,
+    "width": 25,
+    "height": 19,
+    "sha256": "f7acfc6b5d81cbb618bbdf3f51c58a99a56784c199da1dc564cf756f51a8d137"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/mainavant1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/mainavant1.png",
+    "status": 200,
+    "bytes": 829,
+    "width": 29,
+    "height": 16,
+    "sha256": "1ef6caeaea276d35863633c7696ae6e9b6875a4b8918cd7f24235f6de26c7a90"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/mainavant2.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/mainavant2.png",
+    "status": 200,
+    "bytes": 838,
+    "width": 23,
+    "height": 24,
+    "sha256": "53d4ed41dd3bc33be02d5f7aa132e6ea6e8ac684975495598793eb39f7629fff"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil1.png",
+    "status": 200,
+    "bytes": 2299,
+    "width": 34,
+    "height": 36,
+    "sha256": "1eb06787a930c2c3fe43bef98a7e65e519150ed68d897784af7cb52bee7a7130"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil2.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil2.png",
+    "status": 200,
+    "bytes": 1511,
+    "width": 26,
+    "height": 30,
+    "sha256": "414239afc5a3817f7a244d8fc51526340be5e19c7773fefc0d45d222e980a060"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil3.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil3.png",
+    "status": 200,
+    "bytes": 2357,
+    "width": 34,
+    "height": 37,
+    "sha256": "a21272c91dbf2c39a1ed67f0a5b3631c0cfeee2caa3919952f6b2b66eede49bc"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil4.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil4.png",
+    "status": 200,
+    "bytes": 1271,
+    "width": 26,
+    "height": 30,
+    "sha256": "d73a6dd477e3063842a0ce46d8d7ee922824f4add8a8aca40a192f626ef01bb1"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil5.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil5.png",
+    "status": 200,
+    "bytes": 1510,
+    "width": 35,
+    "height": 37,
+    "sha256": "ac1943889206524c7f553d9024f095bb2020e9c46fcc530934ba654f8b757ab6"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/oeil6.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/oeil6.png",
+    "status": 200,
+    "bytes": 981,
+    "width": 26,
+    "height": 30,
+    "sha256": "335bb5428ca58f8140df4c4ebe16e46406ceb4efb8834721d2a5a55da4ed8fbf"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/patte1.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/patte1.png",
+    "status": 200,
+    "bytes": 1343,
+    "width": 47,
+    "height": 24,
+    "sha256": "0a2d962bce5090b6a81f46c875688885e9ccf934b6f294f08544b316acf5a0a9"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/patte2.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/patte2.png",
+    "status": 200,
+    "bytes": 1887,
+    "width": 31,
+    "height": 47,
+    "sha256": "790517a01cfa7f0de6fbac8fb80a749634c542b6f9b5fb6c4ab1452c758e4834"
+  },
+  {
+    "resource": "monstre/grenouille1bossadd/patte3.png",
+    "owners": [
+      49
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1bossadd/patte3.png",
+    "status": 200,
+    "bytes": 2570,
+    "width": 38,
+    "height": 48,
+    "sha256": "32b441bad469075064a8a265c272b881574aeb5d907e57a0a544dcc6d4ef29ee"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/bouche1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/bouche1.png",
+    "status": 200,
+    "bytes": 4213,
+    "width": 92,
+    "height": 60,
+    "sha256": "9dd62dcac2f389413a85a3b8385ba80f1c6b3695995b1dd264d66827ca945e04"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/brasarriere1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/brasarriere1.png",
+    "status": 200,
+    "bytes": 1073,
+    "width": 22,
+    "height": 31,
+    "sha256": "f72455d26568117c59d1380645b2742d17b9b8c7f16767cbecfd32f188656bd5"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/brasavant1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/brasavant1.png",
+    "status": 200,
+    "bytes": 1047,
+    "width": 22,
+    "height": 31,
+    "sha256": "2b6d347476b041573e999199e43ffa20e91556d9a530db9e25fc1329dc707d78"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/cadavre1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/cadavre1.png",
+    "status": 200,
+    "bytes": 13820,
+    "width": 187,
+    "height": 82,
+    "sha256": "f2348f689d1a2fa3106c7a8d0e9b0289fdec0c8542dcee25dd84921c62e0dbba"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/corps1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/corps1.png",
+    "status": 200,
+    "bytes": 6578,
+    "width": 96,
+    "height": 83,
+    "sha256": "b4ceadc3159f803b0d1c3d347b91c6a9f7c2b265bdc0d2b9db8e1c705f9a1acd"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/cuisse1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/cuisse1.png",
+    "status": 200,
+    "bytes": 2530,
+    "width": 29,
+    "height": 68,
+    "sha256": "6ed438816965abebceb0bd379027b2aef04ab59620568858904ba5955bf39cfb"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/dos1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/dos1.png",
+    "status": 200,
+    "bytes": 2355,
+    "width": 70,
+    "height": 50,
+    "sha256": "e07fb3381771cf00dbc63c1581e68120817fe33535d9e62db07569f961092264"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/epaulearriere1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/epaulearriere1.png",
+    "status": 200,
+    "bytes": 1266,
+    "width": 32,
+    "height": 32,
+    "sha256": "53177dc23b198f1fbf6aa47c11e61af7a2adb93f538d5836c47704d1fe1bcc43"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/epauleavant1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/epauleavant1.png",
+    "status": 200,
+    "bytes": 1262,
+    "width": 32,
+    "height": 32,
+    "sha256": "73110c7e1c616c0901001216050e1453edb7639e7422f15e14d3fa74bd440b28"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/FXstun1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/FXstun2.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/jambe1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/jambe1.png",
+    "status": 200,
+    "bytes": 2414,
+    "width": 28,
+    "height": 64,
+    "sha256": "499c0c9093211b6a5ccb8aabc30cbc6944b58dc42bc776973d5e4eae52754ef0"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/langue1_hit.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/langue1_hit.png",
+    "status": 200,
+    "bytes": 1441,
+    "width": 53,
+    "height": 61,
+    "sha256": "c76eabbe4384ead1d71c92ed826b781bc1ccb59b25b6328cd73aba0e6a1b00a2"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/langue1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/langue1.png",
+    "status": 200,
+    "bytes": 1360,
+    "width": 146,
+    "height": 26,
+    "sha256": "d969ad85e3516965fd830765c89aef12b3ad053908ee671273cee7e58cc157dc"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/langue2.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/langue2.png",
+    "status": 200,
+    "bytes": 872,
+    "width": 40,
+    "height": 35,
+    "sha256": "849a3dec88dc8e80d5184eb41fac46b196e2bae1d6325e44e3cae3b23406938f"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/mainarriere1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/mainarriere1.png",
+    "status": 200,
+    "bytes": 850,
+    "width": 26,
+    "height": 19,
+    "sha256": "a6e5c46e9664bca90370e92b5bf016f4c981139159cab33fb85781c5ccfb704d"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/mainavant1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/mainavant1.png",
+    "status": 200,
+    "bytes": 723,
+    "width": 28,
+    "height": 15,
+    "sha256": "0a2162c4a69c032269689a1cd888ccd7bbcfbc03703c9727c593b3438f8750c5"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/mainavant2.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/mainavant2.png",
+    "status": 200,
+    "bytes": 573,
+    "width": 23,
+    "height": 24,
+    "sha256": "3722894e7649b148c1427803bd8470636936969bbd54de3e71c43a3e0a561d37"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil1.png",
+    "status": 200,
+    "bytes": 2646,
+    "width": 42,
+    "height": 48,
+    "sha256": "71f7fd938b80f7cf9c63e6876e08539403aa18ba93595b3348739b4a2f675a22"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil2.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil2.png",
+    "status": 200,
+    "bytes": 1855,
+    "width": 38,
+    "height": 39,
+    "sha256": "2fa37cae893b4d0eb866f6d3a7cbbcf7e1f893fd068d2160aab878b250def5ad"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil3.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil3.png",
+    "status": 200,
+    "bytes": 2590,
+    "width": 41,
+    "height": 48,
+    "sha256": "6504108303db4cbdd901e1e12a5e70e66d8a97e5bff81f56692e397a09a053e9"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil4.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil4.png",
+    "status": 200,
+    "bytes": 1809,
+    "width": 38,
+    "height": 39,
+    "sha256": "39eeb5526d8f00644c7adf0f3756ccecfa3b09b427bb2635689ecf8ed592c037"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil5.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil5.png",
+    "status": 200,
+    "bytes": 2370,
+    "width": 41,
+    "height": 48,
+    "sha256": "ad33728840ddda60aadc0dd39ae1f08d871ed1d16ac4e49602d96f9e2b037e9e"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/oeil6.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/oeil6.png",
+    "status": 200,
+    "bytes": 1527,
+    "width": 39,
+    "height": 39,
+    "sha256": "f610d87880266d9f96b31e97086af901935b0dae54213650e15dfa46a428c14c"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/ombre1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/ombre1.png",
+    "status": 200,
+    "bytes": 581,
+    "width": 134,
+    "height": 15,
+    "sha256": "36738340a51d0db88cbeedf7d4ba7d761b598983d6fabca39ff8f24597b01604"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/patte1.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/patte1.png",
+    "status": 200,
+    "bytes": 1595,
+    "width": 47,
+    "height": 24,
+    "sha256": "0d3372b249fc9ff4110badaedf135e75026dab3720348b6308d5c01d71eb20a4"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/patte2.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/patte2.png",
+    "status": 200,
+    "bytes": 1073,
+    "width": 31,
+    "height": 47,
+    "sha256": "af237be94a42d983c90875ff438e976e3da8eca7adf27c405de25a20c1072221"
+  },
+  {
+    "resource": "monstre/grenouille1niv2/patte3.png",
+    "owners": [
+      38
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/grenouille1niv2/patte3.png",
+    "status": 200,
+    "bytes": 2254,
+    "width": 38,
+    "height": 48,
+    "sha256": "74c52d321b4d02497c123074ea0f6b702d4030dc1b9c1268d8adfadb47bef775"
+  },
+  {
+    "resource": "monstre/guepe1boss/abdomen5.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/abdomen5.png",
+    "status": 200,
+    "bytes": 28735,
+    "width": 152,
+    "height": 173,
+    "sha256": "180cc7060c7ecf332a23427692cef06435ab10d1606bcd6d36211b4f45688ed9"
+  },
+  {
+    "resource": "monstre/guepe1boss/abdomen6.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/abdomen6.png",
+    "status": 200,
+    "bytes": 21106,
+    "width": 152,
+    "height": 114,
+    "sha256": "877141d71fd338e17c6451cd35193c67d17847a401d3c1bc124e2ba4f0ef3379"
+  },
+  {
+    "resource": "monstre/guepe1boss/abdomen7.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/abdomen7.png",
+    "status": 200,
+    "bytes": 35842,
+    "width": 212,
+    "height": 205,
+    "sha256": "52c735bc86fb6b8c8d5a108e424b98ce4c11f5690f7a8b90f464c12ddefc5a16"
+  },
+  {
+    "resource": "monstre/guepe1boss/abdomen8.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/abdomen8.png",
+    "status": 200,
+    "bytes": 17959,
+    "width": 232,
+    "height": 89,
+    "sha256": "dca1b12083aaec2fc2fb6a7fc07d494d490dee636eaa5b3b8799fb1d0f27344e"
+  },
+  {
+    "resource": "monstre/guepe1boss/aile2.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/aile2.png",
+    "status": 200,
+    "bytes": 10429,
+    "width": 74,
+    "height": 203,
+    "sha256": "0cdf5a334e1ff21566ef1c0646a7bf7ed7d2937e16de4be6c2a87b8842dc9720"
+  },
+  {
+    "resource": "monstre/guepe1boss/antenne1.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/antenne1.png",
+    "status": 200,
+    "bytes": 2531,
+    "width": 32,
+    "height": 54,
+    "sha256": "2eb4521d8e65b85a3ad12304f97a59c941064f89b71089983aeb98341cace971"
+  },
+  {
+    "resource": "monstre/guepe1boss/antenne2.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/antenne2.png",
+    "status": 200,
+    "bytes": 2730,
+    "width": 47,
+    "height": 40,
+    "sha256": "f28893f47359497bf6756f8d13cf6e06294c212d9b054e75d1c5fdfbd3a51784"
+  },
+  {
+    "resource": "monstre/guepe1boss/FXattaque1.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/FXattaque1.png",
+    "status": 200,
+    "bytes": 18317,
+    "width": 467,
+    "height": 371,
+    "sha256": "5e484228e0c2af14466f6095e663d70d6ed0eed3561ce2ac95dc38faeba67788"
+  },
+  {
+    "resource": "monstre/guepe1boss/FXattaque3.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/FXattaque3.png",
+    "status": 200,
+    "bytes": 12898,
+    "width": 246,
+    "height": 369,
+    "sha256": "8a419b292b4d88f9e77ae0a4396bdb85b3310fb519acefbe8341d8a162ab2877"
+  },
+  {
+    "resource": "monstre/guepe1boss/FXstun1.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/guepe1boss/FXstun2.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/guepe1boss/pattearriere.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/pattearriere.png",
+    "status": 200,
+    "bytes": 2304,
+    "width": 24,
+    "height": 51,
+    "sha256": "dc4275cb84ec0fbe556ebaad1f8a24652a9bc1b24f9ce105bd3094e2623d5eb1"
+  },
+  {
+    "resource": "monstre/guepe1boss/patteavant.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/patteavant.png",
+    "status": 200,
+    "bytes": 2288,
+    "width": 36,
+    "height": 45,
+    "sha256": "fe35c556d261d7b987c9889d1ef03d9016ae65a82a459168eaf3566fd58c9304"
+  },
+  {
+    "resource": "monstre/guepe1boss/tete1.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/tete1.png",
+    "status": 200,
+    "bytes": 9233,
+    "width": 82,
+    "height": 76,
+    "sha256": "0011f39c904a1f40394367dd9f64792a16862497e9a01cd1681f16ce504f124e"
+  },
+  {
+    "resource": "monstre/guepe1boss/tete2.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/tete2.png",
+    "status": 200,
+    "bytes": 9410,
+    "width": 82,
+    "height": 76,
+    "sha256": "de22f0919776c449f3803d1311ec41444feb312e977e89834d830146c6e17139"
+  },
+  {
+    "resource": "monstre/guepe1boss/tete3.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/tete3.png",
+    "status": 200,
+    "bytes": 9356,
+    "width": 82,
+    "height": 76,
+    "sha256": "8f2e8d871260332de86c434a63f84127cc298c68c6547c248c64bb5144c47dea"
+  },
+  {
+    "resource": "monstre/guepe1boss/tete4.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/tete4.png",
+    "status": 200,
+    "bytes": 9349,
+    "width": 82,
+    "height": 76,
+    "sha256": "c52466ddb7fceeed884f5e24c945369bde7b7cb00c48cf8640a71cb8278a0985"
+  },
+  {
+    "resource": "monstre/guepe1boss/thorax2.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/thorax2.png",
+    "status": 200,
+    "bytes": 9370,
+    "width": 138,
+    "height": 108,
+    "sha256": "15cb5f65454d04642e26a3b151ec0a72558cf54e41995441b770cc49423575dc"
+  },
+  {
+    "resource": "monstre/guepe1boss/thorax3.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/thorax3.png",
+    "status": 200,
+    "bytes": 4645,
+    "width": 83,
+    "height": 69,
+    "sha256": "c691fd7fd3a92b313e5ae28bbd661cd744a6de8eb26b62b9cedc29654b65bfcb"
+  },
+  {
+    "resource": "monstre/guepe1boss/thorax4.png",
+    "owners": [
+      44
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1boss/thorax4.png",
+    "status": 200,
+    "bytes": 1855,
+    "width": 37,
+    "height": 37,
+    "sha256": "6d5e25516cbbeda04f5800ecb68fb6fa13fd38a726568d5d36b3858970f0fdda"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/abdomen1.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/abdomen1.png",
+    "status": 200,
+    "bytes": 4949,
+    "width": 56,
+    "height": 67,
+    "sha256": "7db581d856d500cf26e074e13701ef0a5c463728e1864cca449a9f6ca0f335f3"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/abdomen2.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/abdomen2.png",
+    "status": 200,
+    "bytes": 3584,
+    "width": 53,
+    "height": 65,
+    "sha256": "4841983e7e463bbd93a0ec32de185299100b2ea53e68f95dccf4e2c32b56e2b0"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/abdomen3.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/abdomen3.png",
+    "status": 200,
+    "bytes": 6711,
+    "width": 83,
+    "height": 93,
+    "sha256": "d38f8590ac66048730555d8b657dd388b18b82b9ed224c669814d4d5b311deb9"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/abdomen4.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/abdomen4.png",
+    "status": 200,
+    "bytes": 4193,
+    "width": 107,
+    "height": 41,
+    "sha256": "f7e8b1c88fe5832b024ceaaca3bc369cf4f40b5bf9dee12bcefd040ecdd2f7a3"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/aile.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/aile.png",
+    "status": 200,
+    "bytes": 2227,
+    "width": 20,
+    "height": 99,
+    "sha256": "e9a8e55ffcec09c2478be14fbf1126299180c7fdd9c54cec67381ee65a2d5d28"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/antenne1.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/antenne1.png",
+    "status": 200,
+    "bytes": 782,
+    "width": 19,
+    "height": 37,
+    "sha256": "1fc8e14b9dd781ac67787de73024633b357c80a75af9ebfb144027282ee5c9dd"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/antenne2.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/antenne2.png",
+    "status": 200,
+    "bytes": 767,
+    "width": 33,
+    "height": 24,
+    "sha256": "b89bcf62cc446b4c0e7cf04425c0bb9f7f867d2c0b8716c394f37510cf7ec2a6"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/FXattaque3.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/FXattaque3.png",
+    "status": 200,
+    "bytes": 7907,
+    "width": 118,
+    "height": 170,
+    "sha256": "6b99cb58a500cd54ebd3d788c05a16118efaf3f82d83cdb82b1a618718f93d48"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/pattearriere.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/pattearriere.png",
+    "status": 200,
+    "bytes": 516,
+    "width": 11,
+    "height": 25,
+    "sha256": "0d9371d433646dc3664ca68c3cf039dee41fd21e118ce430fd8826186cfab75b"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/patteavant.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/patteavant.png",
+    "status": 200,
+    "bytes": 763,
+    "width": 21,
+    "height": 29,
+    "sha256": "ee67e97a2fe9017b9e81b3a5e32817da5ffb4c88a5899da5858d279a00964e63"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/tete1.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/tete1.png",
+    "status": 200,
+    "bytes": 3566,
+    "width": 44,
+    "height": 43,
+    "sha256": "7ae4cf704b8e8516a0fa68c6d4386150f170dc44022dd35562dadd12d67145d0"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/tete2.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/tete2.png",
+    "status": 200,
+    "bytes": 3041,
+    "width": 44,
+    "height": 43,
+    "sha256": "afbb3a8085762ac87b9dd83defc5a607065e648bb0949565ed3cffc471a88343"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/tete3.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/tete3.png",
+    "status": 200,
+    "bytes": 3440,
+    "width": 50,
+    "height": 43,
+    "sha256": "b3144bf76459b44fb27e8eb2618f8d1ab2b2cf9eb41dddd4ec05b904875927f5"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/tete4.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/tete4.png",
+    "status": 200,
+    "bytes": 3300,
+    "width": 44,
+    "height": 43,
+    "sha256": "9466a652d10f610d30de1884662a3f67a544634071ffdd19593c8681ae0ac1d4"
+  },
+  {
+    "resource": "monstre/guepe1bossadd/thorax.png",
+    "owners": [
+      50
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1bossadd/thorax.png",
+    "status": 200,
+    "bytes": 2494,
+    "width": 48,
+    "height": 45,
+    "sha256": "80981d607db402c7bf0a44da511083d6d88c6cb03268303b97fdb25cb0aa36b5"
+  },
+  {
+    "resource": "monstre/guepe1niv2/abdomen1.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/abdomen1.png",
+    "status": 200,
+    "bytes": 4051,
+    "width": 54,
+    "height": 65,
+    "sha256": "f36f49934833012563a97320f6d6e068b0f6b1bbe606b692f4b7c22fddab667e"
+  },
+  {
+    "resource": "monstre/guepe1niv2/abdomen2.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/abdomen2.png",
+    "status": 200,
+    "bytes": 2250,
+    "width": 53,
+    "height": 65,
+    "sha256": "8b282a9416b0f1f2678bb7e55fe4c5a64ff1b6e8b3516f78268d437a7c835119"
+  },
+  {
+    "resource": "monstre/guepe1niv2/abdomen3.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/abdomen3.png",
+    "status": 200,
+    "bytes": 3380,
+    "width": 83,
+    "height": 93,
+    "sha256": "4876adbacb553ea911370ff3410f198fce8d4790ad51bb9dc7213aece7c1842d"
+  },
+  {
+    "resource": "monstre/guepe1niv2/abdomen4.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/abdomen4.png",
+    "status": 200,
+    "bytes": 2205,
+    "width": 107,
+    "height": 41,
+    "sha256": "2c3de1c8153c8b8548a7ef272e406c5f63b289d0ffdf0d8c4eeef2388e5e7eb2"
+  },
+  {
+    "resource": "monstre/guepe1niv2/aile.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/aile.png",
+    "status": 200,
+    "bytes": 1415,
+    "width": 53,
+    "height": 98,
+    "sha256": "f88a71ffc68199fab4958865a7f971bf6ac877fb4495dee6b130a710a3d27d79"
+  },
+  {
+    "resource": "monstre/guepe1niv2/antenne1.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/antenne1.png",
+    "status": 200,
+    "bytes": 732,
+    "width": 19,
+    "height": 36,
+    "sha256": "1f3d44ee47833655e8d33ca8d92b96df5d27c9ba303abd3296b32cc7272c5af4"
+  },
+  {
+    "resource": "monstre/guepe1niv2/antenne2.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/antenne2.png",
+    "status": 200,
+    "bytes": 688,
+    "width": 32,
+    "height": 23,
+    "sha256": "fc4cd431112170956e4892825dde751fe6458e8ca66440b3df2f1a0c772bc77f"
+  },
+  {
+    "resource": "monstre/guepe1niv2/FXattaque1.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/FXattaque1.png",
+    "status": 200,
+    "bytes": 4547,
+    "width": 214,
+    "height": 171,
+    "sha256": "62ad59171300349fca108ab70620eb678d9d4d5b3cc6b9a943a1f6f601b0b515"
+  },
+  {
+    "resource": "monstre/guepe1niv2/FXattaque3.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/FXattaque3.png",
+    "status": 200,
+    "bytes": 3185,
+    "width": 118,
+    "height": 170,
+    "sha256": "2fbb3fffc3a9437abfbdd4bed1c708311a8a73d221b813ba7ca3bd3db5933a0a"
+  },
+  {
+    "resource": "monstre/guepe1niv2/FXstun1.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/guepe1niv2/FXstun2.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/guepe1niv2/pattearriere.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/pattearriere.png",
+    "status": 200,
+    "bytes": 558,
+    "width": 11,
+    "height": 27,
+    "sha256": "1cd169cb2adbffcfcd118c0b3a5959edb5f17c63833c97dac2cb0f836ade2a7f"
+  },
+  {
+    "resource": "monstre/guepe1niv2/patteavant.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/patteavant.png",
+    "status": 200,
+    "bytes": 731,
+    "width": 20,
+    "height": 28,
+    "sha256": "99dbd60594849d0be5f92f7a934849ddd9024ffc7d807d9469f13055d976b7fb"
+  },
+  {
+    "resource": "monstre/guepe1niv2/tete1.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/tete1.png",
+    "status": 200,
+    "bytes": 3019,
+    "width": 43,
+    "height": 42,
+    "sha256": "80e75174c15b9a3a2d81d39590f699c25c6abe91f8544a19109e724bf3191dce"
+  },
+  {
+    "resource": "monstre/guepe1niv2/tete2.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/tete2.png",
+    "status": 200,
+    "bytes": 2443,
+    "width": 43,
+    "height": 42,
+    "sha256": "883d4dd987b763e0fd8fc9b8fa68cb5a0bc9c838de76aa9b3402252790c3d653"
+  },
+  {
+    "resource": "monstre/guepe1niv2/tete3.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/tete3.png",
+    "status": 200,
+    "bytes": 2808,
+    "width": 48,
+    "height": 42,
+    "sha256": "35856ecd876223e85458435cbc0ba66a9fc9b5b57ce1ea33e320d8054bf10d51"
+  },
+  {
+    "resource": "monstre/guepe1niv2/tete4.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/tete4.png",
+    "status": 200,
+    "bytes": 2592,
+    "width": 43,
+    "height": 42,
+    "sha256": "f9f4b98f1ecf7b1020b165a7dbfe4db5ba9c61bbf1293657da1bb0e262d45368"
+  },
+  {
+    "resource": "monstre/guepe1niv2/thorax2.png",
+    "owners": [
+      32
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/guepe1niv2/thorax2.png",
+    "status": 200,
+    "bytes": 1812,
+    "width": 55,
+    "height": 50,
+    "sha256": "469638974c68b8dd0a16b77e9dc119576e2cf19747fdb382e2444ca94f6a8bc7"
+  },
+  {
+    "resource": "monstre/mandragore1/bras.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/bras.png",
+    "status": 200,
+    "bytes": 8869,
+    "width": 144,
+    "height": 67,
+    "sha256": "ddd7a774494409ab30d81541ebd3bbb82d67813cae2efed38e2777338e61090f"
+  },
+  {
+    "resource": "monstre/mandragore1/corps1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/corps1.png",
+    "status": 200,
+    "bytes": 2135,
+    "width": 53,
+    "height": 33,
+    "sha256": "dbc452fb17751258878156be38562103e16cbaec5f7ae0e07d247a1112a74b38"
+  },
+  {
+    "resource": "monstre/mandragore1/corps2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/corps2.png",
+    "status": 200,
+    "bytes": 1348,
+    "width": 53,
+    "height": 22,
+    "sha256": "d1f0545120c84180c79bb38c29d45cffd88ae777f167b56e66487bf579574f11"
+  },
+  {
+    "resource": "monstre/mandragore1/feuille1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/feuille1.png",
+    "status": 200,
+    "bytes": 848,
+    "width": 36,
+    "height": 16,
+    "sha256": "f2dabbea033a2a7cd9f8e662ffcb581ccf827750f742f5972fa7dd5df54eeb77"
+  },
+  {
+    "resource": "monstre/mandragore1/feuille2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/feuille2.png",
+    "status": 200,
+    "bytes": 881,
+    "width": 20,
+    "height": 47,
+    "sha256": "dcae1e0e4c527e54b9b4a6be2fff7ef070b8f6680cfedc60bdb6b76b94af3baf"
+  },
+  {
+    "resource": "monstre/mandragore1/feuille3.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/feuille3.png",
+    "status": 200,
+    "bytes": 1239,
+    "width": 20,
+    "height": 47,
+    "sha256": "4742eddca9bbba2a03a6b752e2da57069b333bf193720038f25f0018a2729bf7"
+  },
+  {
+    "resource": "monstre/mandragore1/feuille4.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/feuille4.png",
+    "status": 200,
+    "bytes": 1501,
+    "width": 26,
+    "height": 47,
+    "sha256": "76422eb0c1508dab10ea73e3ee23bc291cf626e326ebd739a3dd8998b175101a"
+  },
+  {
+    "resource": "monstre/mandragore1/feuille5.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/feuille5.png",
+    "status": 200,
+    "bytes": 1611,
+    "width": 32,
+    "height": 45,
+    "sha256": "bd7f647683fab9733186b76f95584ce62e4e05d85cb966a84806e3e8e3667644"
+  },
+  {
+    "resource": "monstre/mandragore1/fx.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/fx.png",
+    "status": 200,
+    "bytes": 41056,
+    "width": 241,
+    "height": 168,
+    "sha256": "0bfd8f4116c019b3d1cda1163f1593a45e5d66c1950c2bbd2663fb2cfbb2030e"
+  },
+  {
+    "resource": "monstre/mandragore1/FXstun1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/FXstun1.png",
+    "status": 200,
+    "bytes": 687,
+    "width": 25,
+    "height": 24,
+    "sha256": "54fa798351d6c6cb9f45e21879cbb71162408cec7b334ce143fe04a50a326c98"
+  },
+  {
+    "resource": "monstre/mandragore1/FXstun2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/FXstun2.png",
+    "status": 200,
+    "bytes": 231,
+    "width": 20,
+    "height": 20,
+    "sha256": "160197c2139811afae7821565f97970c632038e2737d4f6745b62d77d109bef7"
+  },
+  {
+    "resource": "monstre/mandragore1/jambe1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/jambe1.png",
+    "status": 200,
+    "bytes": 586,
+    "width": 15,
+    "height": 20,
+    "sha256": "df914956bb569692d577b2a24f1bf54011b6cc246a757eabe7823c20a8d9dae5"
+  },
+  {
+    "resource": "monstre/mandragore1/nuage2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/nuage2.png",
+    "status": 200,
+    "bytes": 17693,
+    "width": 104,
+    "height": 87,
+    "sha256": "3e199579c3049338b295c15e6651d8aa32019bd6eda0c1e1a20fd5137561f634"
+  },
+  {
+    "resource": "monstre/mandragore1/petale1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/petale1.png",
+    "status": 200,
+    "bytes": 1600,
+    "width": 27,
+    "height": 45,
+    "sha256": "55704abb1d185944afc8154958472f6b55f839c7dfaa3e08e862183f7c8faf82"
+  },
+  {
+    "resource": "monstre/mandragore1/petale2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/petale2.png",
+    "status": 200,
+    "bytes": 1503,
+    "width": 24,
+    "height": 44,
+    "sha256": "92b5a433f84786abfcc4010140d2b5af486ca7251f23ee2a293d4f17d8a3dbeb"
+  },
+  {
+    "resource": "monstre/mandragore1/petale3.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/petale3.png",
+    "status": 200,
+    "bytes": 1389,
+    "width": 25,
+    "height": 45,
+    "sha256": "dc382449ee58e783f8d966d56f6f3289d2325a5886cf443d90e207f45e529734"
+  },
+  {
+    "resource": "monstre/mandragore1/pistil.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/pistil.png",
+    "status": 200,
+    "bytes": 1225,
+    "width": 32,
+    "height": 56,
+    "sha256": "11847268a611a7017f80a11dfc7796b9c1dbc7880e1c35ddd7410afba5ddfba6"
+  },
+  {
+    "resource": "monstre/mandragore1/speedline1.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/speedline1.png",
+    "status": 200,
+    "bytes": 4738,
+    "width": 111,
+    "height": 53,
+    "sha256": "bf78ffc33b33f0887f0466d781f42f5c4fec6c0baed0df292eadad1adb01eb95"
+  },
+  {
+    "resource": "monstre/mandragore1/speedline2.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/speedline2.png",
+    "status": 200,
+    "bytes": 5269,
+    "width": 108,
+    "height": 47,
+    "sha256": "b1975da86391feee290459e8e80eb2a1593627d4caa172a7d8476a6aff5348ce"
+  },
+  {
+    "resource": "monstre/mandragore1/speedline3.png",
+    "owners": [
+      17
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/mandragore1/speedline3.png",
+    "status": 200,
+    "bytes": 3901,
+    "width": 91,
+    "height": 47,
+    "sha256": "b30e5cc39c432574a671d6cd493f7c8a601a408c49779e26ea34b77709d129ae"
+  },
+  {
+    "resource": "monstre/scarabee1boss/aile1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/aile1.png",
+    "status": 200,
+    "bytes": 17437,
+    "width": 235,
+    "height": 67,
+    "sha256": "f351419288cfe65b711288d3b4718df3e18b98515b0c586ec00f0fd8bce1936f"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corne1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corne1.png",
+    "status": 200,
+    "bytes": 6759,
+    "width": 81,
+    "height": 108,
+    "sha256": "9b327e9a6b6254822826e9e4ed2f6c3786da6fa0fa681c80ec6d4142809f9a35"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corne5.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corne5.png",
+    "status": 200,
+    "bytes": 17283,
+    "width": 120,
+    "height": 157,
+    "sha256": "54e047155d9957570bc14ebac27ea41b196d6fa65863c669b221fc4238a7583b"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corne6.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corne6.png",
+    "status": 200,
+    "bytes": 2575,
+    "width": 31,
+    "height": 36,
+    "sha256": "40e13e832eb24b56679504d3e236c935b8949971d7ec2c2f26cc1679ff72e7c0"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corne7.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corne7.png",
+    "status": 200,
+    "bytes": 8643,
+    "width": 75,
+    "height": 136,
+    "sha256": "7cd4e642f3e63e1a24a0eca1389e3279e0994c224a4ede8c1aa7ff7b44a6f40a"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corne8.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corne8.png",
+    "status": 200,
+    "bytes": 2625,
+    "width": 28,
+    "height": 34,
+    "sha256": "d1651728a368df09fe37d2e399ccefe6f4617f446fe51e39d514b0aefd6eb658"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corps1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corps1.png",
+    "status": 200,
+    "bytes": 7252,
+    "width": 181,
+    "height": 138,
+    "sha256": "88c22de6c400d21046204c3b6db355dc329d46a3167520506502c4b057349aa8"
+  },
+  {
+    "resource": "monstre/scarabee1boss/corps2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/corps2.png",
+    "status": 200,
+    "bytes": 18165,
+    "width": 215,
+    "height": 143,
+    "sha256": "0240a9d104b39d6a2efa3393fd9fd8be5f00306b14c3f64d8d6b042ec83f0f39"
+  },
+  {
+    "resource": "monstre/scarabee1boss/crane1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/crane1.png",
+    "status": 200,
+    "bytes": 10836,
+    "width": 155,
+    "height": 138,
+    "sha256": "b77705a5766208bd3927f4d07896059e9981ae6d04faa34dc934c7dcaf7b4264"
+  },
+  {
+    "resource": "monstre/scarabee1boss/crane2_light.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/crane2_light.png",
+    "status": 200,
+    "bytes": 7424,
+    "width": 131,
+    "height": 64,
+    "sha256": "7238d9e4a12ec5d075174a3e8eeee53c5587520ff297e7af7a774f4c0670de04"
+  },
+  {
+    "resource": "monstre/scarabee1boss/crane2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/crane2.png",
+    "status": 200,
+    "bytes": 23493,
+    "width": 210,
+    "height": 134,
+    "sha256": "5569830750b1fc05312e4506cd3d46615ea457074b989e32f8a08b0a3dddbe9f"
+  },
+  {
+    "resource": "monstre/scarabee1boss/elytre1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/elytre1.png",
+    "status": 200,
+    "bytes": 24383,
+    "width": 160,
+    "height": 127,
+    "sha256": "d233e45a3a3db8577cf1d7b7b9f55c2485bdbb5764b6d1099214f3228535ac34"
+  },
+  {
+    "resource": "monstre/scarabee1boss/elytre2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/elytre2.png",
+    "status": 200,
+    "bytes": 3946,
+    "width": 89,
+    "height": 41,
+    "sha256": "b388bb33a7194497adb5bc8fd443e24f613ace3ca28a5a794894987426a81452"
+  },
+  {
+    "resource": "monstre/scarabee1boss/elytre3_light.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/elytre3_light.png",
+    "status": 200,
+    "bytes": 5401,
+    "width": 130,
+    "height": 35,
+    "sha256": "5cd245a19b5b86fa3b0548ca3ed66e87ab30c01a1974ebb0841753628d32a55d"
+  },
+  {
+    "resource": "monstre/scarabee1boss/elytre3.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/elytre3.png",
+    "status": 200,
+    "bytes": 8701,
+    "width": 188,
+    "height": 63,
+    "sha256": "44befe211e94b8e03f3b7ba3673dcf06ee3360108cae74710acb99bca623c417"
+  },
+  {
+    "resource": "monstre/scarabee1boss/FX_epee1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/FX_epee1.png",
+    "status": 200,
+    "bytes": 26307,
+    "width": 367,
+    "height": 193,
+    "sha256": "e0f0ade2d51197664047c05bd80d89b1883c2c38d0e46a80600faf370cf795a0"
+  },
+  {
+    "resource": "monstre/scarabee1boss/FXstun1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/scarabee1boss/FXstun2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/scarabee1boss/jambe1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/jambe1.png",
+    "status": 200,
+    "bytes": 3378,
+    "width": 35,
+    "height": 51,
+    "sha256": "87d3207cb8cfb686c57db04dc53b1eaa1ea0d6603edff80623c55cb69d57596a"
+  },
+  {
+    "resource": "monstre/scarabee1boss/oeil1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/oeil1.png",
+    "status": 200,
+    "bytes": 3087,
+    "width": 51,
+    "height": 35,
+    "sha256": "2a5b97d6357d7e9eaf95cf230fe91c1760c2f30bf3e8afa1fd5dc9e8f94f07e0"
+  },
+  {
+    "resource": "monstre/scarabee1boss/oeil2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/oeil2.png",
+    "status": 200,
+    "bytes": 2999,
+    "width": 46,
+    "height": 25,
+    "sha256": "c63c2703b5f16119b1bd99086e006c87e9286cc2bb69fd4849b459f3db11cdb8"
+  },
+  {
+    "resource": "monstre/scarabee1boss/oeil3.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/oeil3.png",
+    "status": 200,
+    "bytes": 2577,
+    "width": 42,
+    "height": 20,
+    "sha256": "f4140b521c8c190c82509be591fa21dee5b8b4aad46963bc98b834ad47e0281b"
+  },
+  {
+    "resource": "monstre/scarabee1boss/oeil4.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/oeil4.png",
+    "status": 200,
+    "bytes": 1736,
+    "width": 20,
+    "height": 23,
+    "sha256": "160350ff96233b4013420fcab2661eddf9c127ece651b679b1600a155f6bf0b6"
+  },
+  {
+    "resource": "monstre/scarabee1boss/patte1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/patte1.png",
+    "status": 200,
+    "bytes": 4179,
+    "width": 44,
+    "height": 58,
+    "sha256": "cbcda40e8444874be1dc5d4d2a12a54894612c87709d427473685fe41f62c831"
+  },
+  {
+    "resource": "monstre/scarabee1boss/patte2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/patte2.png",
+    "status": 200,
+    "bytes": 4029,
+    "width": 44,
+    "height": 58,
+    "sha256": "40667ec7f41f2035517f97ae783748c190afe988f983fec28dcd121b30f13b54"
+  },
+  {
+    "resource": "monstre/scarabee1boss/pied1.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/pied1.png",
+    "status": 200,
+    "bytes": 2557,
+    "width": 41,
+    "height": 22,
+    "sha256": "d9a598b3177cc99447767b1d46e68a9f8ae46078e5a72f5062e64441be24c46d"
+  },
+  {
+    "resource": "monstre/scarabee1boss/pied2.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/pied2.png",
+    "status": 200,
+    "bytes": 2969,
+    "width": 40,
+    "height": 31,
+    "sha256": "6f4f8b1321c580283aebdf0b9dfd2055e8d9a1f217a810bd02f0300e7fbb5b1f"
+  },
+  {
+    "resource": "monstre/scarabee1boss/pied3.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/pied3.png",
+    "status": 200,
+    "bytes": 2473,
+    "width": 41,
+    "height": 22,
+    "sha256": "45912777f7ad5923e98f91d6a695b76cf1d66717b6dec006e464659bd23cc16f"
+  },
+  {
+    "resource": "monstre/scarabee1boss/pied4.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/pied4.png",
+    "status": 200,
+    "bytes": 2853,
+    "width": 40,
+    "height": 31,
+    "sha256": "021e36e25618b614e5486c4fcad120ff20f0b623986486aed5b7689703286190"
+  },
+  {
+    "resource": "monstre/scarabee1boss/poussiere.png",
+    "owners": [
+      45,
+      47
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1boss/poussiere.png",
+    "status": 200,
+    "bytes": 289,
+    "width": 43,
+    "height": 23,
+    "sha256": "78cb60a24122d4ee7ffec8f29d0dca8b4d701f922500f81d05cd334746c98ed1"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/aile1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/aile1.png",
+    "status": 200,
+    "bytes": 6728,
+    "width": 162,
+    "height": 49,
+    "sha256": "2a7247d48e384ed06381e85e291fe28a6018c84ac8cea1faa8fb06a1af5b4a3e"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corne1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corne1.png",
+    "status": 200,
+    "bytes": 5069,
+    "width": 45,
+    "height": 82,
+    "sha256": "059ebee0723a0f8286ffbd1b3a4b49ed9f1f41a90c3f7ee222115dfb875858d0"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corne2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corne2.png",
+    "status": 200,
+    "bytes": 3042,
+    "width": 41,
+    "height": 36,
+    "sha256": "fdbaa04317669a9bb50488dcd44810d815dd1b4d6b25a977b57c13ba2d3659e1"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corne3.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corne3.png",
+    "status": 200,
+    "bytes": 3300,
+    "width": 32,
+    "height": 41,
+    "sha256": "5137f2bd73a98c90a984ff1b4a2fdd9fc486a8522b3bbe69772ad108e822c355"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corne4.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corne4.png",
+    "status": 200,
+    "bytes": 2735,
+    "width": 25,
+    "height": 32,
+    "sha256": "4300afa4abe30c2350c298eab2546084dbc0888e96159fe44efb9a0c8a6b13b2"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corps1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corps1.png",
+    "status": 200,
+    "bytes": 4839,
+    "width": 147,
+    "height": 104,
+    "sha256": "302d66be84395f562e6b381c4c5617973f5300d0975123efa31d147159aebe09"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/corps2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/corps2.png",
+    "status": 200,
+    "bytes": 9769,
+    "width": 161,
+    "height": 107,
+    "sha256": "50a41d82072c618f98d640e997653a4bd1e1384c21dee4ae761c92a653e81f65"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/crane1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/crane1.png",
+    "status": 200,
+    "bytes": 8836,
+    "width": 108,
+    "height": 99,
+    "sha256": "08bc2d76d87fc3d8808385dbb16d9a843b9740b3c76a56b5544ac727081d24e6"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/crane2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/crane2.png",
+    "status": 200,
+    "bytes": 13145,
+    "width": 127,
+    "height": 89,
+    "sha256": "57c1718fff798a600385f14a2ddee356ddf8665a9c89d6c93e42c413d303a6dc"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/elytre1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/elytre1.png",
+    "status": 200,
+    "bytes": 12488,
+    "width": 103,
+    "height": 98,
+    "sha256": "975134976184bdf41c9166565315eb20bdbe10f711e8faa07058b3dd516e97fe"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/elytre2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/elytre2.png",
+    "status": 200,
+    "bytes": 3021,
+    "width": 63,
+    "height": 22,
+    "sha256": "bc0fa4ab55ed964e4eac18a92f30640341a22ea6c3f9fe7b099d836d2dbb73d6"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/elytre3.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/elytre3.png",
+    "status": 200,
+    "bytes": 7576,
+    "width": 140,
+    "height": 46,
+    "sha256": "92b795d927fc32f57bc40582644c9b9e34309b719a3272b4f93ba4777b4f4b24"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/FX_epee1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/FX_epee1.png",
+    "status": 200,
+    "bytes": 26307,
+    "width": 367,
+    "height": 193,
+    "sha256": "e0f0ade2d51197664047c05bd80d89b1883c2c38d0e46a80600faf370cf795a0"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/FXstun1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/FXstun1.png",
+    "status": 200,
+    "bytes": 1038,
+    "width": 26,
+    "height": 24,
+    "sha256": "f29f43423f131cdd585d2165501a512c29258c226a8ae2fafd695a4fbaa6ecc6"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/FXstun2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/FXstun2.png",
+    "status": 200,
+    "bytes": 354,
+    "width": 20,
+    "height": 20,
+    "sha256": "48c7c4112a7a12d0261cbf04206d2d5a3dae01b95a6cd90e6c82fa239967ea70"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/jambe1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/jambe1.png",
+    "status": 200,
+    "bytes": 2302,
+    "width": 19,
+    "height": 37,
+    "sha256": "9882f37a51443d96e9858cf63a3c5a1b7ca76eeedc2d4d3dc26134246ae8c702"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/oeil1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/oeil1.png",
+    "status": 200,
+    "bytes": 2608,
+    "width": 33,
+    "height": 27,
+    "sha256": "ef5c32522366cd90888b98f7eeba8a91fafebea70ec97734e7631e15dc45f838"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/oeil2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/oeil2.png",
+    "status": 200,
+    "bytes": 2762,
+    "width": 34,
+    "height": 27,
+    "sha256": "306d0fc01f790db64eb658682077e89f20169762606bb212284b5c661cc93565"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/oeil3.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/oeil3.png",
+    "status": 200,
+    "bytes": 2112,
+    "width": 32,
+    "height": 17,
+    "sha256": "b2c54de546388ec21ecc7ddff6548633d9561805114f1f48183ff0265d567893"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/oeil4.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/oeil4.png",
+    "status": 200,
+    "bytes": 2148,
+    "width": 21,
+    "height": 24,
+    "sha256": "5d07afdc96b2cac7982f91dede3429ac06b006d7d527297a52a13b9e867e0ef5"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/patte1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/patte1.png",
+    "status": 200,
+    "bytes": 2489,
+    "width": 32,
+    "height": 43,
+    "sha256": "54fbfdc44b374fee7a5eae87bdb247666e5a15a756a352256d04094cb1c9179b"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/patte2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/patte2.png",
+    "status": 200,
+    "bytes": 2378,
+    "width": 32,
+    "height": 43,
+    "sha256": "b909a829698e2c21855a6ad7a2df9ddb2749d82163259bb14506a06a23a65e6e"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/pied1.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/pied1.png",
+    "status": 200,
+    "bytes": 1746,
+    "width": 27,
+    "height": 12,
+    "sha256": "3c5b82275140c17e4214af913398a1b41b15864333e69cba28243b2c80751d45"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/pied2.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/pied2.png",
+    "status": 200,
+    "bytes": 2275,
+    "width": 27,
+    "height": 18,
+    "sha256": "5206cbb485fbc3474aba61e5833e08e01f4fc5df7353c4b941c18973891ad5c2"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/pied3.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/pied3.png",
+    "status": 200,
+    "bytes": 1723,
+    "width": 27,
+    "height": 12,
+    "sha256": "cbc7be5daa73225871c59ed626e56813a76aec17e6be8fd44c581764bec880a3"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/pied4.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/pied4.png",
+    "status": 200,
+    "bytes": 2306,
+    "width": 27,
+    "height": 18,
+    "sha256": "70a7e9350c3b8efcf0e88416b0fcdc11ec8a9a613fb9f0eb10dfaf4fa84b2009"
+  },
+  {
+    "resource": "monstre/scarabee1niv2/poussiere.png",
+    "owners": [
+      41
+    ],
+    "url": "https://data.atelier801.com/tfmadv/monstre/scarabee1niv2/poussiere.png",
+    "status": 200,
+    "bytes": 289,
+    "width": 43,
+    "height": 23,
+    "sha256": "78cb60a24122d4ee7ffec8f29d0dca8b4d701f922500f81d05cd334746c98ed1"
+  },
+  {
+    "resource": "monstre/coffre1/coffre1.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/coffre1.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 8013,
+    "sha256": "d5bffff299ea6782095c429dcbf7770c34bf797fd41508dfb2f7cbcdd0f3a052"
+  },
+  {
+    "resource": "monstre/coffre1/coffre2.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/coffre2.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 5612,
+    "sha256": "3c9129e11197fd931dd033368f31dcfc80d6a36d17c4a1f3bbf7929eb0570a18"
+  },
+  {
+    "resource": "monstre/coffre1/coffre3.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/coffre3.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 2871,
+    "sha256": "baf682adadbcbe8217193d586c1f9a58add9749c9275b6caceb03a5bef9ccf0b"
+  },
+  {
+    "resource": "monstre/coffre1/coffre4.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/coffre4.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 1583,
+    "sha256": "1043db4b5711d8fcfc57e9e2f7fdf1210965562cd279412f34c5ce91434edc87"
+  },
+  {
+    "resource": "monstre/coffre1/coffre5.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/coffre5.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 711,
+    "sha256": "b0f107d1796d99c11cd43cdf8dea230b72c357a71baa6f0eb42275eb15498382"
+  },
+  {
+    "resource": "monstre/coffre1/ombre.png",
+    "owner": 14,
+    "url": "https://data.atelier801.com/tfmadv/monstre/coffre1/ombre.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 265,
+    "sha256": "22d338cbb95f44910fb1f9066747100fcc280874d88b5c9d286e6bb711327652"
+  }
+]

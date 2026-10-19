@@ -1,0 +1,8 @@
+{
+  "source": "reference/wayback-client/tfmadv.js",
+  "sourceSha256": "0877765817f48a889f9efebd773eac8d7e67fb941b9cdab2c309a58bc187f740",
+  "startCharacter": 14146,
+  "endCharacterExclusive": 17376,
+  "extractSha256": "7416645fdbf88beacff45f07c026a96fcd5c94a85d215effbb813201e7c2fe52",
+  "analysisWrapper": "Parentheses and semicolon added to parse anonymous original factory as inert expression."
+}

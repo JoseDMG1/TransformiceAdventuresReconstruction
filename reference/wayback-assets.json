@@ -1,0 +1,1354 @@
+﻿[
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/enums/Communaute.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1994,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/enums/Communaute.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/AnimLogoAtelier801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2573,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/AnimLogoAtelier801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/Couleur.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2061,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/Couleur.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/divers/InterfaceConnexionAtlas.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3501,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/divers/InterfaceConnexionAtlas.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Bouton.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1725,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Bouton.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_BoutonChoixMultiples.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2174,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_BoutonChoixMultiples.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_BoutonEtat.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1592,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_BoutonEtat.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_ChampTexte.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2701,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_ChampTexte.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Conteneur.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2644,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Conteneur.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Element.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2927,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Element.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Image.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1729,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Image.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_ImagePixi.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1614,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_ImagePixi.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Texte.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1677,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Texte.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/elements/I_Tooltip.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2307,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/elements/I_Tooltip.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/I_Style.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  858,
+        "captura":  "20210321081606",
+        "url_wayback":  "https://web.archive.org/web/20210321081606id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/I_Style.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/souruis/Souruis.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1136,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/souruis/Souruis.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/interface/tribulle/Chat801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2987,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/interface/tribulle/Chat801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/affichage/animation/AnimMath.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2515,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/AnimMath.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/affichage/animation/ClipAnim.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  12642,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/ClipAnim.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/affichage/animation/Look.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1086,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/animation/Look.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/affichage/Image.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1085,
+        "captura":  "20210321081606",
+        "url_wayback":  "https://web.archive.org/web/20210321081606id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/Image.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/affichage/MoteurShader.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1846,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/affichage/MoteurShader.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/auth/EnumTypeAuthentification.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  871,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/auth/EnumTypeAuthentification.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/auth/InfoJoueurPrincipal.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1117,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/auth/InfoJoueurPrincipal.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/auth/OutilsAuthentification.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1372,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/auth/OutilsAuthentification.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/controles/Clavier.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1956,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/controles/Clavier.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/controles/Manette.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1920,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/controles/Manette.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/crypt/CryptUtil.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1343,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/crypt/CryptUtil.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/crypt/SHAKikoo.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2032,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/crypt/SHAKikoo.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/divers/AutorisationJoueur801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  889,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/divers/AutorisationJoueur801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/divers/CacheLocal801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  955,
+        "captura":  "20210321081606",
+        "url_wayback":  "https://web.archive.org/web/20210321081606id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/divers/CacheLocal801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/divers/Chips.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2518,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/divers/Chips.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/divers/EnumDroit.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  806,
+        "captura":  "20210321081606",
+        "url_wayback":  "https://web.archive.org/web/20210321081606id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/divers/EnumDroit.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/limonadmin/Limonadmin.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2736,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/limonadmin/Limonadmin.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/Mathematiques.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1134,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/Mathematiques.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/Module801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3051,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/Module801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/reseau/ChaineOctet.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3294,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/reseau/ChaineOctet.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/reseau/Msg801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1366,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/reseau/Msg801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/reseau/ProtoM801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  4128,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/reseau/ProtoM801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/son/MoteurSon.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2041,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/son/MoteurSon.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/son/Son.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1738,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/son/Son.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/Steamice.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1584,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/Steamice.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/Trad801.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2634,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/Trad801.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/UtilHTML.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1545,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/UtilHTML.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Souritheque-client/src/outils/UtilPIXI.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1132,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Souritheque-client/src/outils/UtilPIXI.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/tfmadv.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  128250,
+        "captura":  "20190814192154",
+        "url_wayback":  "https://web.archive.org/web/20190814192154id_/http://transformice-adventures.com/dist/tfmadv.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_animation/ClipAnimProjection.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1664,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_animation/ClipAnimProjection.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_enums/SlotEquipementADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  920,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_enums/SlotEquipementADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/GestionnaireCollisionsMondeADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3541,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/GestionnaireCollisionsMondeADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/InfoExtremiteCollisionADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  882,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/InfoExtremiteCollisionADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/PortionMondeCollisionADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1655,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/PortionMondeCollisionADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/RechercheCollisionsProchesADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  921,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/RechercheCollisionsProchesADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/RechercheExtremiteProcheADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1106,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/RechercheExtremiteProcheADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/ResultatRechercheExtremiteProcheADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  976,
+        "captura":  "20210321081606",
+        "url_wayback":  "https://web.archive.org/web/20210321081606id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/ResultatRechercheExtremiteProcheADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/ResultatRechercheIntersectionADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  972,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/ResultatRechercheIntersectionADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_collisions/SegmentCollisionADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1365,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_collisions/SegmentCollisionADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/AplatADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1850,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/AplatADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/AplatMobileADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1537,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/AplatMobileADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/MobileADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  11524,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/MobileADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/MoteurBibliothequeSonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1440,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/MoteurBibliothequeSonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/ClipNomADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  4289,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/ClipNomADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/EffetMobileADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1650,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/EffetMobileADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/InfoCommuneElement.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  916,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/InfoCommuneElement.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileInterviewADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2308,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileInterviewADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileMarmiteADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2668,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileMarmiteADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileTemoignageADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1754,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/MobileTemoignageADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/BulleChatADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2465,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/BulleChatADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/MondeADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  17074,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/MondeADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_monde/MoteurEffetSpeciauxADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1592,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/MoteurEffetSpeciauxADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/CacheLocalADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1453,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/CacheLocalADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/ClavierADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2396,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/ClavierADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/ConfigADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  886,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/ConfigADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/MoteurPerformance.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1406,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/MoteurPerformance.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/OptionsADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1892,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/OptionsADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/ProtoADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  11181,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/ProtoADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/_tfmAdventure/TFMAdventure.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  6154,
+        "captura":  "20210321081559",
+        "url_wayback":  "https://web.archive.org/web/20210321081559id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/_tfmAdventure/TFMAdventure.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3624,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeArc.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2341,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeArc.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeBandage.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1224,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeBandage.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeBouclier.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1197,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeBouclier.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeCuistoAjout.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1101,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeCuistoAjout.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeDague.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1295,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeDague.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/ArmeEpee.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1294,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/ArmeEpee.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/armes/OutilsArmeADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1308,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/armes/OutilsArmeADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/gameplay/InterfaceCompetenceADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  5039,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/gameplay/InterfaceCompetenceADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/graphismes/ShaderCamouflage.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2560,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/graphismes/ShaderCamouflage.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/graphismes/ShaderFlammes.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1310,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/graphismes/ShaderFlammes.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/graphismes/ShaderTransparencePicto.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2022,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/graphismes/ShaderTransparencePicto.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/AdminADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1522,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/AdminADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/AdminApparence.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3855,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/AdminApparence.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/AdminDons.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2342,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/AdminDons.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/AdminFX.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2062,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/AdminFX.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/AdminMonstre.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2454,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/AdminMonstre.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/ElementFX.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1216,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/ElementFX.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/ElementMonstre.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1278,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/ElementMonstre.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/admin/VieuxAdminEquipement.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3928,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/admin/VieuxAdminEquipement.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/BarreXPADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2306,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/BarreXPADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/editeur/EditeurADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  17115,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/editeur/EditeurADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/editeur/InterfaceOptionMonde.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2614,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/editeur/InterfaceOptionMonde.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/EditeurCreature.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  4561,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/EditeurCreature.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/EncartAideADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1466,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/EncartAideADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceCarteMondeADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1325,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceCarteMondeADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceChargementADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3651,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceChargementADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceDecoADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1505,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceDecoADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceDialogueADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3663,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceDialogueADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceEchecInvitationJoueurDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1677,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceEchecInvitationJoueurDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceEcurie.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2924,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceEcurie.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceEmoteADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1897,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceEmoteADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceInvitationJoueurDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1676,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceInvitationJoueurDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceJoueurADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  6011,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceJoueurADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceKickstarterDV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1943,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceKickstarterDV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceLancementDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  4306,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceLancementDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceLancementDonjonImminentADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2156,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceLancementDonjonImminentADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceLiensExternesADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1472,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceLiensExternesADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceLoginADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  5402,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceLoginADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceMenuADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1482,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceMenuADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceMetierADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3508,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceMetierADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationArretLancementDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1711,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationArretLancementDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationDissolutionGroupeDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1510,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationDissolutionGroupeDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationInvitationDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1728,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceNotificationInvitationDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceOptionDebug.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1403,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceOptionDebug.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceOptionsADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3848,
+        "captura":  "20210321081604",
+        "url_wayback":  "https://web.archive.org/web/20210321081604id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceOptionsADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceQueteADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3341,
+        "captura":  "20210321081601",
+        "url_wayback":  "https://web.archive.org/web/20210321081601id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceQueteADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceRecompense.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2521,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceRecompense.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceRecompenseRencontre.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2486,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceRecompenseRencontre.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceSauvegardeDonjon.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2055,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceSauvegardeDonjon.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceSelectionDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2777,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceSelectionDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceSortieDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1708,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceSortieDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceStatutRechercheJoueursDonjonADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1827,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceStatutRechercheJoueursDonjonADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/InterfaceTalents.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  4945,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/InterfaceTalents.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/IntroADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  3638,
+        "captura":  "20210321081600",
+        "url_wayback":  "https://web.archive.org/web/20210321081600id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/IntroADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/NotificationADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2158,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/NotificationADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/types/EquipementADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  2565,
+        "captura":  "20210321081602",
+        "url_wayback":  "https://web.archive.org/web/20210321081602id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/types/EquipementADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/interfaces/types/RecompenseADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1819,
+        "captura":  "20210321081605",
+        "url_wayback":  "https://web.archive.org/web/20210321081605id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/interfaces/types/RecompenseADV.js"
+    },
+    {
+        "area":  "cliente",
+        "archivo":  "/dist/Transformice-adventure-client/src/outils/MathADV.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  1043,
+        "captura":  "20210321081603",
+        "url_wayback":  "https://web.archive.org/web/20210321081603id_/http://transformice-adventures.com/dist/Transformice-adventure-client/src/outils/MathADV.js"
+    },
+    {
+        "area":  "configuracion",
+        "archivo":  "/configADV.json",
+        "tipo":  "application/json",
+        "bytes":  598,
+        "captura":  "20210706093338",
+        "url_wayback":  "https://web.archive.org/web/20210706093338id_/https://transformice-adventures.com/configADV.json"
+    },
+    {
+        "area":  "configuracion",
+        "archivo":  "/configADV.json",
+        "tipo":  "application/json",
+        "bytes":  324,
+        "captura":  "20190707221914",
+        "url_wayback":  "https://web.archive.org/web/20190707221914id_/http://www.transformice-adventures.com:80/configADV.json"
+    },
+    {
+        "area":  "configuracion",
+        "archivo":  "/configADV.json",
+        "tipo":  "application/json",
+        "bytes":  600,
+        "captura":  "20201204131041",
+        "url_wayback":  "https://web.archive.org/web/20201204131041id_/http://transformice-adventures.com/configADV.json"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/favicon.ico",
+        "tipo":  "text/html",
+        "bytes":  4404,
+        "captura":  "20180822105703",
+        "url_wayback":  "https://web.archive.org/web/20180822105703id_/http://transformice-adventures.com/favicon.ico"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/I_Style.css",
+        "tipo":  "text/css",
+        "bytes":  1718,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/I_Style.css"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/cjs/c-js.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  32621,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/cjs/c-js.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/howler.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  20632,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/howler.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/pako.min.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  14902,
+        "captura":  "20201231070237",
+        "url_wayback":  "https://web.archive.org/web/20201231070237id_/http://transformice-adventures.com/lib/pako.min.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/pixi.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  267748,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/pixi.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/pixi-particles.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  18144,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/pixi-particles.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/pixi-projection.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  23952,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/pixi-projection.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/require.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  7297,
+        "captura":  "20201231070241",
+        "url_wayback":  "https://web.archive.org/web/20201231070241id_/http://transformice-adventures.com/lib/require.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/lib/vanilla-picker.min.js",
+        "tipo":  "application/x-javascript",
+        "bytes":  6693,
+        "captura":  "20190522023919",
+        "url_wayback":  "https://web.archive.org/web/20190522023919id_/http://transformice-adventures.com/lib/vanilla-picker.min.js"
+    },
+    {
+        "area":  "dependencias",
+        "archivo":  "/robots.txt",
+        "tipo":  "text/plain",
+        "bytes":  401,
+        "captura":  "20180719163308",
+        "url_wayback":  "https://web.archive.org/web/20180719163308id_/http://transformice-adventures.com/robots.txt"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/bois2.png",
+        "tipo":  "image/png",
+        "bytes":  60714,
+        "captura":  "20190621214006",
+        "url_wayback":  "https://web.archive.org/web/20190621214006id_/http://transformice-adventures.com/ressources/bois2.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/cadre2.png",
+        "tipo":  "image/png",
+        "bytes":  20869,
+        "captura":  "20190618044120",
+        "url_wayback":  "https://web.archive.org/web/20190618044120id_/http://transformice-adventures.com/ressources/cadre2.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/distorsion.png",
+        "tipo":  "image/png",
+        "bytes":  52314,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/effets/distorsion.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/distorsion2.png",
+        "tipo":  "image/png",
+        "bytes":  364975,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/effets/distorsion2.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/ecume.png",
+        "tipo":  "image/png",
+        "bytes":  13453,
+        "captura":  "20190522023931",
+        "url_wayback":  "https://web.archive.org/web/20190522023931id_/http://transformice-adventures.com/ressources/effets/ecume.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/masque-camouflage.png",
+        "tipo":  "image/png",
+        "bytes":  11769,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/effets/masque-camouflage.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/particule-camouflage.png",
+        "tipo":  "image/png",
+        "bytes":  1371,
+        "captura":  "20190522023933",
+        "url_wayback":  "https://web.archive.org/web/20190522023933id_/http://transformice-adventures.com/ressources/effets/particule-camouflage.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/trainee_bout.png",
+        "tipo":  "image/png",
+        "bytes":  2123,
+        "captura":  "20190522023933",
+        "url_wayback":  "https://web.archive.org/web/20190522023933id_/http://transformice-adventures.com/ressources/effets/trainee_bout.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/effets/trainee_ligne.png",
+        "tipo":  "image/png",
+        "bytes":  592,
+        "captura":  "20190522023933",
+        "url_wayback":  "https://web.archive.org/web/20190522023933id_/http://transformice-adventures.com/ressources/effets/trainee_ligne.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/ombre.png",
+        "tipo":  "image/png",
+        "bytes":  1790,
+        "captura":  "20190522023933",
+        "url_wayback":  "https://web.archive.org/web/20190522023933id_/http://transformice-adventures.com/ressources/ombre.png"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/polices/grobold.ttf",
+        "tipo":  "application/octet-stream",
+        "bytes":  30477,
+        "captura":  "20190522023936",
+        "url_wayback":  "https://web.archive.org/web/20190522023936id_/http://transformice-adventures.com/ressources/polices/grobold.ttf"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/camouflage.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  637,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/shaders/camouflage.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/eau.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  1095,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/shaders/eau.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/flammes.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  2108,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/shaders/flammes.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/lumiere.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  1190,
+        "captura":  "20190522023932",
+        "url_wayback":  "https://web.archive.org/web/20190522023932id_/http://transformice-adventures.com/ressources/shaders/lumiere.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/test.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  725,
+        "captura":  "20190522023931",
+        "url_wayback":  "https://web.archive.org/web/20190522023931id_/http://transformice-adventures.com/ressources/shaders/test.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/shaders/transparence.frag",
+        "tipo":  "application/octet-stream",
+        "bytes":  629,
+        "captura":  "20190522023931",
+        "url_wayback":  "https://web.archive.org/web/20190522023931id_/http://transformice-adventures.com/ressources/shaders/transparence.frag"
+    },
+    {
+        "area":  "recursos-visuales",
+        "archivo":  "/ressources/souris.ico",
+        "tipo":  "image/x-icon",
+        "bytes":  13769,
+        "captura":  "20190522023922",
+        "url_wayback":  "https://web.archive.org/web/20190522023922id_/http://transformice-adventures.com/ressources/souris.ico"
+    },
+    {
+        "area":  "sitio",
+        "archivo":  "/",
+        "tipo":  "text/html",
+        "bytes":  990,
+        "captura":  "20230131004227",
+        "url_wayback":  "https://web.archive.org/web/20230131004227id_/https://transformice-adventures.com/"
+    },
+    {
+        "area":  "sitio",
+        "archivo":  "/",
+        "tipo":  "text/html",
+        "bytes":  4398,
+        "captura":  "20180806065112",
+        "url_wayback":  "https://web.archive.org/web/20180806065112id_/http://transformice-adventures.com/"
+    }
+]

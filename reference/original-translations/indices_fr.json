@@ -1,0 +1,1302 @@
+{
+  "talent": {
+    "1": {
+      "nom": "Épéiste",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "2": {
+      "nom": "Longue lame",
+      "description": "Augmente la portée de votre épée."
+    },
+    "3": {
+      "nom": "Lame épaisse",
+      "description": "Augmente le nombre d'ennemis touchés par attaque."
+    },
+    "4": {
+      "nom": "Voie du guerrier",
+      "description": "Augmente la vitesse de récupération des charges."
+    },
+    "5": {
+      "nom": "Lame assoifée",
+      "description": "Augmente temporairement les dégâts de l'épée après avoir touché au moins 3 ennemis simultanément."
+    },
+    "6": {
+      "nom": "Lame précise",
+      "description": "Toucher une seule cible donne une chance de ne pas consommer de charge."
+    },
+    "7": {
+      "nom": "Vicieux",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "8": {
+      "nom": "Croc traître",
+      "description": "Augmente les dégâts de poison infligé par la dague."
+    },
+    "9": {
+      "nom": "Croc impactant",
+      "description": "Augmente les dégâts initiaux de la dague."
+    },
+    "10": {
+      "nom": "Voie du prédateur",
+      "description": "Augmente la vitesse de récupération des charges."
+    },
+    "11": {
+      "nom": "Croc féroce",
+      "description": "Les dégâts initiaux infligés aux ennemis non empoisonnés sont augmentés."
+    },
+    "12": {
+      "nom": "Croc impitoyable",
+      "description": "Les dégâts sont augmentés contre les cibles ayant moins de 50% de vie restante."
+    },
+    "13": {
+      "nom": "Protecteur",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "14": {
+      "nom": "Parade de riposte",
+      "description": "Les attaques bloquées infligent des dégâts à l'attaquant."
+    },
+    "15": {
+      "nom": "Parade imposante",
+      "description": "Après avoir paré une attaque, les dégâts subis sont réduits temporairement."
+    },
+    "16": {
+      "nom": "Voie de la sentinelle",
+      "description": "Augmente la vitesse de récupération des charges."
+    },
+    "17": {
+      "nom": "Dressage : Garde",
+      "description": "Votre familier peut également parer des attaques."
+    },
+    "18": {
+      "nom": "Parade galvanisante",
+      "description": "Augmente la puissance des soins reçus."
+    },
+    "19": {
+      "nom": "Archer",
+      "description": "Augmente la vitesse de tir."
+    },
+    "20": {
+      "nom": "Tir droit",
+      "description": "Plus la cible touchée est éloignée, plus les dégâts sont augmentés."
+    },
+    "21": {
+      "nom": "Tir à bout portant",
+      "description": "Si la cible touchée est trop proche, elle est repoussée."
+    },
+    "22": {
+      "nom": "Voie du tireur d'élite",
+      "description": "Tirer sur un ennemi isolé augmente les dégâts infligés."
+    },
+    "23": {
+      "nom": "Dressage : Ramasseur",
+      "description": "Votre familier vous rapporte parfois vos flèches."
+    },
+    "24": {
+      "nom": "Tir concentré",
+      "description": "Augmente les dégâts de l'arc mais réduit la vitesse de tir."
+    },
+    "25": {
+      "nom": "Infirmier",
+      "description": "Augmente les soins personnels."
+    },
+    "26": {
+      "nom": "Premiers soins",
+      "description": "Augmente les soins initiaux des bandages."
+    },
+    "27": {
+      "nom": "Traitement",
+      "description": "Augmente les soins périodiques des bandages."
+    },
+    "28": {
+      "nom": "Voix du secouriste",
+      "description": "Augmente la vitesse de récupération des charges."
+    },
+    "29": {
+      "nom": "Thérapie de groupe",
+      "description": "Les bandages soignent un allié supplémentaire."
+    },
+    "30": {
+      "nom": "Dressage : Sauveteur",
+      "description": "Votre familier peut soigner les alliés blessés."
+    },
+    "31": {
+      "nom": "Saucier",
+      "description": "Augmente la durée d'effet des recettes."
+    },
+    "32": {
+      "nom": "Sauce parfumée",
+      "description": "Votre chaudron peut être attaqué par les ennemis."
+    },
+    "33": {
+      "nom": "Dressage : Commis",
+      "description": "Votre familier peut ajouter des ingrédients à votre chaudron."
+    },
+    "34": {
+      "nom": "Serveur",
+      "description": "Réduit les dégâts subis lorsque vous portez votre chaudron."
+    },
+    "35": {
+      "nom": "Sauce rafraîchissante",
+      "description": "Augmente les soins prodigués par le chaudron."
+    },
+    "36": {
+      "nom": "Sauce épicée",
+      "description": "Augmente les dégâts infligés par le chaudron."
+    },
+    "37": {
+      "nom": "Trappeur",
+      "description": "Réduit la durée d'armement du piège une fois posé."
+    },
+    "38": {
+      "nom": "Piège cinglant",
+      "description": "Augmente la durée d'étourdissement du piège."
+    },
+    "39": {
+      "nom": "Piège acéré",
+      "description": "Augmente les dégâts du piège."
+    },
+    "40": {
+      "nom": "Pisteur",
+      "description": "Les dégâts du piège augmentent progressivement tant qu'il n'a pas été déclenché."
+    },
+    "41": {
+      "nom": "Dressage : Chasseur",
+      "description": "Votre familier peut réactiver un piège déclenché."
+    },
+    "42": {
+      "nom": "Piège collant",
+      "description": "Ralentit les ennemis touchés par le piège."
+    },
+    "43": {
+      "nom": "Médecins sans limites",
+      "description": "Augmente le rayon de l'Élixir."
+    },
+    "44": {
+      "nom": "Décoction anesthésiante",
+      "description": "Réduit temporairement les dégâts des ennemis touchés par l'Élixir."
+    },
+    "45": {
+      "nom": "Décoction hypodermique",
+      "description": "Ralentit temporairement les ennemis touchés par l'Élixir."
+    },
+    "46": {
+      "nom": "Alchimiste accompli",
+      "description": "Augmente les dégâts périodiques de l'Élixir."
+    },
+    "47": {
+      "nom": "Médicament antipyrétique",
+      "description": "Réduit les dégâts élémentaires subis par les alliés sous l'effet de votre Élixir."
+    },
+    "48": {
+      "nom": "Médicament stimulant",
+      "description": "Les alliés sous l'effet de votre Élixir ne peuvent pas être ralentis."
+    },
+    "49": {
+      "nom": "Dressage : Jardinier",
+      "description": "Vos plantes poussent plus vite si elles sont près de votre familier."
+    },
+    "50": {
+      "nom": "Culture pharmaceutique",
+      "description": "Le muguet est planté en priorité. Améliore les soins prodigués par le muguet."
+    },
+    "51": {
+      "nom": "Engrais épineuse",
+      "description": "La ronce pousse plus rapidement."
+    },
+    "52": {
+      "nom": "Herboriste",
+      "description": "Augmente les points de vie de vos plantes."
+    },
+    "53": {
+      "nom": "Culture sauvage",
+      "description": "Le chardon est planté en priorité. Améliore la portée d'attaque du chardon."
+    },
+    "54": {
+      "nom": "Engrais médicinal",
+      "description": "Le muguet vous soigne en plus de soigner sa cible."
+    },
+    "55": {
+      "nom": "Érudit",
+      "description": "Activer un témoignage vous soigne par la même occasion."
+    },
+    "56": {
+      "nom": "Chronique apaisante",
+      "description": "Augmente les soins prodigués par vos reportages."
+    },
+    "57": {
+      "nom": "Chronique diversifiée",
+      "description": "Augmente les dégâts élémentaires infligés par vos reportages."
+    },
+    "58": {
+      "nom": "Chronique commémorative",
+      "description": "Lorsque votre familier est à terre, il génère régulièrement des témoignage de soins."
+    },
+    "59": {
+      "nom": "Faux témoignage",
+      "description": "Votre familier fait parfois apparaître un témoignage aléatoire."
+    },
+    "60": {
+      "nom": "Chronique préventive",
+      "description": "Activer un témoignage de soin vous confère un bouclier temporaire."
+    },
+    "61": {
+      "nom": "Informateur",
+      "description": "Augmente le rayon des interviews."
+    },
+    "62": {
+      "nom": "Investigation sanitaire",
+      "description": "Activer un témoignage de soin réduit le délai de récupération d'Interview."
+    },
+    "63": {
+      "nom": "Investigation dangereuse",
+      "description": "Activer un témoignage de dégâts élémentaires réduit le délai de récupération d'Interview."
+    },
+    "64": {
+      "nom": "Investigation d'urgence",
+      "description": "Les soins de vos interview sont fortement augmentés sur les alliés à terre."
+    },
+    "65": {
+      "nom": "Dressage : Témoin",
+      "description": "Augmente l'attaque du familier s'il se trouve dans la zone d'effet d'une interview."
+    },
+    "66": {
+      "nom": "Immunité journalistique",
+      "description": "Réduit les dégâts subis lorsque vous êtes dans la zone d'effet d'une interview."
+    },
+    "67": {
+      "nom": "Croupier",
+      "description": "Réduit le délai de récupération de Tour de carte."
+    },
+    "68": {
+      "nom": "Pique de feu",
+      "description": "Augmente la puissance de l'as de pique. Il inflige désormais des dégâts de feu."
+    },
+    "69": {
+      "nom": "Carreau de glace",
+      "description": "Gel les ennemis touchés par l'as de carreau et augmente la durée d'étourdissement."
+    },
+    "70": {
+      "nom": "Dame de cœur",
+      "description": "Augmente les soins de votre as de cœur sur vous et votre familier."
+    },
+    "71": {
+      "nom": "Dressage : Lapin blanc",
+      "description": "Après avoir lancé Tour de carte, augmente les dégâts de la prochaine attaque de votre familier."
+    },
+    "72": {
+      "nom": "Valet de trèfle",
+      "description": "Diminue le bonus de dégâts de l'as de trèfle mais confère un bouclier à l'activation."
+    },
+    "73": {
+      "nom": "Art de l'évasion",
+      "description": "Disparition annule les effets limitant vos déplacements."
+    },
+    "74": {
+      "nom": "Entracte",
+      "description": "Disparition rend des points de vie à l'activation."
+    },
+    "75": {
+      "nom": "Acrobatie",
+      "description": "Améliore le bonus de dégâts conféré par Disparition."
+    },
+    "76": {
+      "nom": "Prestation éblouissante",
+      "description": "Étourdit le premier ennemi touché lorsque vous êtes invisible."
+    },
+    "77": {
+      "nom": "Dressage : Cirque",
+      "description": "Votre familier disparaît avec vous et attaque votre première cible."
+    },
+    "78": {
+      "nom": "Tirer sa révérence",
+      "description": "Disparition se déclenche automatiquement lorsque vous subissez trop de dégâts."
+    },
+    "79": {
+      "nom": "Don't Stop Me Now",
+      "description": "Plus votre familier est blessé, plus sa résistance aux dégâts augmente."
+    },
+    "80": {
+      "nom": "Bon Samaritain",
+      "description": "Augmente les soins reçus par votre familier."
+    },
+    "81": {
+      "nom": "Flash",
+      "description": "Augmente la vitesse d'attaque de votre familier."
+    },
+    "82": {
+      "nom": "Meilleur ami des souris",
+      "description": "Lorsque vous êtes à terre, votre familier essaye de vous relever."
+    },
+    "83": {
+      "nom": "Déchaîné ",
+      "description": "Augmente les dégâts de votre familier."
+    },
+    "84": {
+      "nom": "Infaillible",
+      "description": "Augmente les points de vie maximum de votre familier."
+    }
+  },
+  "don": {
+    "1001": {
+      "nom": "Attaque circulaire",
+      "description": "Augmente le nombre d'ennemis touchés à chaque attaque."
+    },
+    "1002": {
+      "nom": "Entaille",
+      "description": "Augmente les dégâts sur les cibles supplémentaires."
+    },
+    "1003": {
+      "nom": "Botte secrète",
+      "description": "Ne touche plus d'ennemis supplémentaires mais augmente les dégâts infligés."
+    },
+    "1004": {
+      "nom": "Duelliste",
+      "description": "Ralentit la cible principale."
+    },
+    "1005": {
+      "nom": "Enchaînement",
+      "description": "Les attaques consécutives infligent de plus en plus de dégâts."
+    },
+    "1006": {
+      "nom": "Parade",
+      "description": "Donne une chance de parer les attaques reçues."
+    },
+    "1007": {
+      "nom": "Riposte",
+      "description": "Les dégâts sont augmentés contre le dernier ennemi vous ayant attaqué."
+    },
+    "1008": {
+      "nom": "Balestra",
+      "description": "Ne pas attaquer pendant un certain temps augmente les dégâts de la prochaine attaque."
+    },
+    "1101": {
+      "nom": "Poison virulent",
+      "description": "Tous les dégâts de poison sont infligés instantanément."
+    },
+    "1102": {
+      "nom": "Poison d'agonie",
+      "description": "Les dégâts initiaux sont réduits, mais les dégâts du poison sont augmentés."
+    },
+    "1103": {
+      "nom": "Lame aiguisée",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "1104": {
+      "nom": "Contrat",
+      "description": "Attaquer dans le dos augmente les dégâts."
+    },
+    "1105": {
+      "nom": "Point faible",
+      "description": "Les dégâts de la première utilisation sont augmentés."
+    },
+    "1106": {
+      "nom": "Paratonnerre",
+      "description": "Les dégâts de poison sont augmentés et deviennent des dégâts de foudre."
+    },
+    "1107": {
+      "nom": "Bonne nuit",
+      "description": "La dernière occurrence de poison infligée par la dague est fortement augmentée."
+    },
+    "1108": {
+      "nom": "Poison rampant",
+      "description": "Le poison de la dague peut se cumuler plusieurs fois."
+    },
+    "1201": {
+      "nom": "Perce armure",
+      "description": "Les dégâts sont augmentés s'ils sont mitigés."
+    },
+    "1202": {
+      "nom": "Assommer",
+      "description": "Tous les 3 coups, la cible est étourdie."
+    },
+    "1301": {
+      "nom": "Tir puissant",
+      "description": "Les flèches traversent un ennemi supplémentaire."
+    },
+    "1401": {
+      "nom": "Grand carquois",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "1402": {
+      "nom": "Carquois sans fond",
+      "description": "Augmente la vitesse de récupération."
+    },
+    "1403": {
+      "nom": "Tir perçant",
+      "description": "Les flèches traversent les ennemis."
+    },
+    "1404": {
+      "nom": "Tir critique",
+      "description": "Les flèches étourdissent les ennemis."
+    },
+    "1405": {
+      "nom": "Angle mort",
+      "description": "Les flèches rebondissent sur les ennemis proches."
+    },
+    "1406": {
+      "nom": "Tir de précision",
+      "description": "Les dégâts des flèches sont augmentés mais la vitesse de tir est réduite."
+    },
+    "1407": {
+      "nom": "Rafale",
+      "description": "Augmente la vitesse de tir."
+    },
+    "1408": {
+      "nom": "Flèche empoisonnée",
+      "description": "Les dégâts des flèches sont augmentés mais sont infligés sur la durée."
+    },
+    "1409": {
+      "nom": "Flèche enflammée",
+      "description": "Les flèches peuvent toucher plusieurs cibles mais les dégâts sont réduits."
+    },
+    "1501": {
+      "nom": "Aspect de la tortue",
+      "description": "Augmente le nombre d'utilisations."
+    },
+    "1502": {
+      "nom": "Aspect du scarabée",
+      "description": "Augmente la vitesse de récupération."
+    },
+    "1503": {
+      "nom": "Aspect du hérisson",
+      "description": "Retourne une partie des dégâts bloqués."
+    },
+    "1504": {
+      "nom": "Aspect du renard",
+      "description": "Bloquer une attaque ajoute parfois une utilisation à votre seconde arme."
+    },
+    "1505": {
+      "nom": "Aspect du requin",
+      "description": "Une partie des dégâts bloqués sont convertis en soin."
+    },
+    "1506": {
+      "nom": "Aspect de l'ours",
+      "description": "Une partie des dégâts bloqués sont convertis en bouclier."
+    },
+    "1507": {
+      "nom": "Aspect du serpent",
+      "description": "Donne 30% de chances de bloquer une attaque, sans consommer de charge, même si le bouclier n'est pas levé."
+    },
+    "1508": {
+      "nom": "Aspect du chat",
+      "description": "Une partie des dégâts bloqués sont ajoutés à votre prochaine attaque."
+    },
+    "1509": {
+      "nom": "Aspect du corbeau",
+      "description": "Augmente le rayon de protection des alliés."
+    },
+    "1701": {
+      "nom": "Économie d'échelle",
+      "description": "Augmente le nombre d'utilisations maximum."
+    },
+    "1702": {
+      "nom": "Ravitaillement",
+      "description": "Augmente la vitesse de récupération."
+    },
+    "1704": {
+      "nom": "Triage",
+      "description": "Soigne deux alliés en même temps."
+    },
+    "1705": {
+      "description": "Les soins excédentaires sont convertis en bouclier.",
+      "nom": "Vaccination"
+    },
+    "1706": {
+      "nom": "Chirurgie",
+      "description": "Les soins de la dernière utilisation sont augmentée."
+    },
+    "1707": {
+      "nom": "Stérilisation",
+      "description": "Augmente les soins prodigués au soigneur."
+    },
+    "1708": {
+      "nom": "Désinfectant",
+      "description": "Les soins sur la durée infligent des dégâts au monstre le plus proche."
+    },
+    "1709": {
+      "nom": "Vitamine",
+      "description": "Réduit les dégâts subis par la cible pendant les soins."
+    },
+    "1710": {
+      "nom": "Effet placebo",
+      "description": "Augmente la durée des soins périodiques."
+    },
+    "10000": {
+      "nom": "Ronces",
+      "description": "Les ennemis touchés subissent des dégâts physiques supplémentaires en plus d'être immobilisés pendant 5 secondes."
+    },
+    "10001": {
+      "nom": "Toxine améliorée",
+      "description": "Ne soigne plus les alliés mais les dégâts sont augmentés."
+    },
+    "10002": {
+      "nom": "Huile essentielle",
+      "description": "N'inflige plus de dégâts aux ennemis mais les soins sont augmentés."
+    },
+    "10003": {
+      "nom": "Substance interdite",
+      "description": "Augmente les dégâts des alliés pendant la durée de l'effet."
+    },
+    "10004": {
+      "nom": "Distillation avancée",
+      "description": "La durée des effets est augmentée."
+    },
+    "10005": {
+      "nom": "Nature déchaînée",
+      "description": "Invoque une feuille vivante pouvant attaquer les ennemis."
+    },
+    "10006": {
+      "nom": "Essence élastique",
+      "description": "La fiole rebondit, explosant une fois supplémentaire."
+    },
+    "10101": {
+      "nom": "Poudre aveuglante",
+      "description": "Étourdit les ennemis proches."
+    },
+    "10102": {
+      "nom": "Poudre chromatique",
+      "description": "Applique les effets aux alliés proches."
+    },
+    "10103": {
+      "nom": "Poudre miraculeuse",
+      "description": "Les dégâts ne sont plus augmentés mais les effets de soins le sont fortement."
+    },
+    "10104": {
+      "nom": "Poudre de contrebande",
+      "description": "Le bonus de dégâts est augmenté."
+    },
+    "10105": {
+      "nom": "Poudre instable",
+      "description": "Quand l'effet prend fin une explosion se déclenche au point d'origine de la disparition."
+    },
+    "10106": {
+      "nom": "Tornade",
+      "description": "Déclenche l’apparition d'une tornade infligeant des dégâts aux ennemis au moment de la disparition."
+    },
+    "10108": {
+      "nom": "Poudre vampirique",
+      "description": "Les dégâts infligés aux ennemis pendant la durée de l'effet vous soignent."
+    },
+    "10109": {
+      "nom": "Leurre",
+      "description": "Invoque un leurre qui n'attaque pas, mais qui peut être pris pour cible par vos adversaires."
+    },
+    "10110": {
+      "nom": "Poudre énergétique",
+      "description": "Augmente votre vitesse de récupération d'utilisation d'objet pendant la durée de l'effet."
+    },
+    "10111": {
+      "nom": "Poudre vivace",
+      "description": "Augmente votre vitesse de déplacement pendant la durée de l'effet."
+    },
+    "10112": {
+      "description": "Invoque une feuille vivante pouvant attaquer les ennemis.",
+      "nom": "Poudre fertilisante"
+    },
+    "10201": {
+      "nom": "Permaculture",
+      "description": "Les plantes poussent toutes seules lorsqu'elle sont proches d'une autre plante."
+    },
+    "10202": {
+      "nom": "Apiculture",
+      "description": "Une abeille vient défendre vos plantes quand elles sont attaquées."
+    },
+    "10203": {
+      "nom": "Carduus ferox",
+      "description": "Les dégâts de votre chardon sont augmentés mais il peut vous attaquer."
+    },
+    "10204": {
+      "nom": "Carduus multa",
+      "description": "Votre chardon peut attaquer plusieurs ennemis en même temps."
+    },
+    "10205": {
+      "nom": "Carduus venenum",
+      "description": "Votre chardon empoisonne et ralentit les ennemis touchés."
+    },
+    "10206": {
+      "nom": "Jachère",
+      "description": "Vous ne pouvez planter plus que des ronces, mais elles sont plus résistantes."
+    },
+    "10207": {
+      "nom": "Sous-bois marécageux",
+      "description": "Vos ronces infligent périodiquement des dégâts de poison aux ennemis proches."
+    },
+    "10208": {
+      "nom": "Mauvaise herbe",
+      "description": "Quand une plante est détruite, une ronce apparaît à la place."
+    },
+    "10209": {
+      "nom": "Pollinisation",
+      "description": "Votre muguet soigne les autres plantes proches automatiquement."
+    },
+    "10210": {
+      "nom": "Bouture sauvage",
+      "description": "Votre muguet a une chance de se multiplier tout seul."
+    },
+    "10211": {
+      "nom": "Muguet rose",
+      "description": "Les soins de votre muguet sont augmentés et les soins excédentaires sont convertis en bouclier."
+    },
+    "11000": {
+      "nom": "Cuisine végétarienne",
+      "description": "Les ingrédients améliorant l'attaque apparaissent moins souvent."
+    },
+    "11001": {
+      "nom": "Cuisine carnivore",
+      "description": "Les ingrédients prodiguant des soins apparaissent moins souvent."
+    },
+    "11002": {
+      "description": "Les ingrédients améliorant la défense apparaissent moins souvent.",
+      "nom": "Cuisine exotique"
+    },
+    "11003": {
+      "nom": "Barbecue",
+      "description": "Augmente la puissance des recettes améliorant l'attaque."
+    },
+    "11004": {
+      "nom": "Double friture",
+      "description": "Augmente la puissance des recettes améliorant la défense."
+    },
+    "11005": {
+      "nom": "Mirepoix",
+      "description": "Augmente la puissance des recettes prodiguant des soins."
+    },
+    "11006": {
+      "description": "Augmente le rayon des effets du chaudron.",
+      "nom": "Chef saucier"
+    },
+    "11007": {
+      "nom": "Fidèle chaudron",
+      "description": "Votre chaudron vous suit !"
+    },
+    "11008": {
+      "nom": "Friture au fromage",
+      "description": "Le chaudron inflige des dégâts de feu aux ennemis proches quand vous y ajoutez un ingrédient."
+    },
+    "11009": {
+      "nom": "Julienne de fromage",
+      "description": "Les effets de soin infligent aussi des dégâts aux ennemis."
+    },
+    "11011": {
+      "nom": "Manique chauffante",
+      "description": "Vous faire attaquer en portant votre chaudron augmente la durée de ses effets."
+    },
+    "11200": {
+      "nom": "Piège magnétique",
+      "description": "Avant de se refermer, le piège attire les ennemis proches."
+    },
+    "11201": {
+      "nom": "Traumatisme",
+      "description": "Après l'activation du piège, les ennemis subissent des dégâts lorsqu'ils se déplacent."
+    },
+    "11202": {
+      "nom": "Piège à dragon",
+      "description": "Les dégâts des pièges sont drastiquement augmentés lorsqu'ils touchent une cible ayant été touchée par un autre piège moins de 2 secondes plus tôt."
+    },
+    "11203": {
+      "nom": "Détente rouillée",
+      "description": "Si le piège reste armé pendant plus de deux secondes, ses dégâts sont augmentés."
+    },
+    "11204": {
+      "nom": "Mise à feu manuelle",
+      "description": "Le piège se déclenche manuellement et les dégâts sont augmentés."
+    },
+    "11205": {
+      "nom": "Piège à ours",
+      "description": "Le rayon d'effet et les dégâts du piège sont augmentés."
+    },
+    "11206": {
+      "nom": "Piège rasoir",
+      "description": "Le piège n'affecte plus qu'une cible mais ses dégâts sont fortement augmentés."
+    },
+    "11207": {
+      "nom": "Piège incendiaire",
+      "description": "Après l'activation, le piège brûle le sol et les ennemis s'y trouvant."
+    },
+    "11209": {
+      "nom": "Piège totémique",
+      "description": "Après l'activation du piège, une enclume tombe du ciel sur les ennemis."
+    },
+    "12000": {
+      "nom": "Témoignage mort",
+      "description": "Permet de récolter des témoignages de mort."
+    },
+    "13000": {
+      "nom": "Tricheur",
+      "description": "Réduit le temps de récupération de Tour de Cartes lorsque deux cartes différentes sont jouées à la suite."
+    },
+    "13001": {
+      "nom": "Manche longue",
+      "description": "Les alliés touchés par l'as de cœur renvoient la prochaine attaque reçue."
+    },
+    "13002": {
+      "nom": "Beau parleur",
+      "description": "L'as de cœur prodigue un bouclier supplémentaire."
+    },
+    "13003": {
+      "nom": "Bonimenteur",
+      "description": "Augmente le rayon d'effet de l'as de cœur."
+    },
+    "13004": {
+      "nom": "Friponnerie",
+      "description": "Les dégâts infligés à un ennemi immobilisé par l'as de carreau sont augmentés."
+    },
+    "13005": {
+      "nom": "Arnaque",
+      "description": "Augmente le nombre d'ennemis touchés par l'as de carreau."
+    },
+    "13006": {
+      "nom": "Chantage",
+      "description": "L'as de carreau étourdit les ennemis au lieu de les immobiliser."
+    },
+    "13007": {
+      "nom": "Bluff",
+      "description": "Les dégâts de l'as de trèfle sont fortement augmentés mais pendant une courte durée vous êtes étourdi et subissez des dégâts augmentés."
+    },
+    "13008": {
+      "nom": "Coup bas",
+      "description": "L'as de trèfle inflige des dégâts augmentés aux ennemis ralentis et fortement augmentés aux ennemis étourdis."
+    },
+    "13009": {
+      "nom": "Langue de vipère",
+      "description": "Les dégâts de l'as de trèfle sont augmentés mais infligés sur la durée sous forme de poison."
+    },
+    "13010": {
+      "nom": "La promesse",
+      "description": "Un as de pique supplémentaire est lancé sur chaque ennemi proche."
+    },
+    "13011": {
+      "nom": "Le tour",
+      "description": "L'as de pique revient vers le Fripon après quelques instants."
+    },
+    "13012": {
+      "nom": "Le prestige",
+      "description": "Le premier ennemi touché par votre as de pique est ralenti, le deuxième est étourdi et le troisième explose."
+    },
+    "14000": {
+      "nom": "Scandale d'état",
+      "description": "Les reportages \"Foudre\" frappent tous les ennemis à proximité."
+    },
+    "14001": {
+      "nom": "Photographe de guerre",
+      "description": "Les améliorations d'armes affectent les alliées proches."
+    },
+    "14002": {
+      "nom": "Pigiste",
+      "description": "Réduit le délai de récupération."
+    },
+    "14003": {
+      "nom": "Chroniqueur",
+      "description": "Les effets de poison infligent leurs dégâts instantanément."
+    },
+    "14004": {
+      "nom": "Documentaire animalier",
+      "description": "Vous et votre familier infligez des dégâts de glace supplémentaire."
+    },
+    "14005": {
+      "nom": "Article de fond",
+      "description": "Les soins appliquent un bouclier supplémentaire."
+    },
+    "14006": {
+      "nom": "Propagande",
+      "description": "Les ennemis empoisonnés par vos reportages subissent plus de dégâts."
+    },
+    "14007": {
+      "nom": "Agence de presse",
+      "description": "Augmente la fréquence d'apparition des témoignages."
+    },
+    "14500": {
+      "nom": "Rubrique",
+      "description": "Augmente le rayon des interviews."
+    },
+    "14501": {
+      "nom": "Conférence de presse",
+      "description": "Augmente la durée des interviews."
+    },
+    "14502": {
+      "nom": "Stagiaire",
+      "description": "Votre familier peut déclencher des interviews."
+    },
+    "14503": {
+      "nom": "Tabloïd",
+      "description": "Les ennemis proches sont attirés sur les interviews."
+    },
+    "14504": {
+      "nom": "Diffamation",
+      "description": "Les ennemis présents dans une interview lors de son activation sont gelés."
+    },
+    "14505": {
+      "nom": "Petites annonces",
+      "description": "Réduit le délai de récupération."
+    },
+    "14506": {
+      "nom": "Première page",
+      "description": "Interview déclenche un témoignage proche supplémentaire."
+    },
+    "14507": {
+      "description": "Déclenche une explosion de feu à l'activation d'une interview.",
+      "nom": "Scoop"
+    },
+    "14508": {
+      "nom": "Investigation",
+      "description": "Fait tomber la foudre quand une interview est déclenchée."
+    }
+  },
+  "metier": {
+    "1": {
+      "nom": "Botaniste"
+    },
+    "2": {
+      "nom": "Cuisinier"
+    },
+    "3": {
+      "nom": "Journaliste"
+    },
+    "4": {
+      "nom": "Fripon"
+    }
+  },
+  "equipement": {
+    "1": {
+      "nom": "Casque d'apprenti héros"
+    },
+    "2": {
+      "nom": "Toque de cuisinier"
+    },
+    "3": {
+      "nom": "Bandana de botaniste"
+    },
+    "4": {
+      "nom": "Chapeau de la voyante"
+    },
+    "5": {
+      "nom": "Casque de journaliste"
+    },
+    "6": {
+      "nom": "Fédora de Fripon"
+    },
+    "7": {
+      "nom": "Kouronne de la gratitude"
+    },
+    "8": {
+      "nom": "Chapeau de l'explorateur"
+    },
+    "9": {
+      "nom": "Haut-de-forme classique"
+    },
+    "10": {
+      "nom": "Chapeau de paille de fermier"
+    },
+    "11": {
+      "nom": "Couronne de fleur printannière"
+    },
+    "12": {
+      "nom": "Couronne de fleur automnale"
+    },
+    "13": {
+      "nom": "Bonnet bleu d'hiver"
+    },
+    "14": {
+      "nom": "Chapeau étoilé"
+    },
+    "15": {
+      "nom": "Coiffe à plume"
+    },
+    "16": {
+      "nom": "Nœud blanc"
+    },
+    "17": {
+      "nom": "Kabuto de Volcorne"
+    },
+    "18": {
+      "nom": "Duvet de Dardegivre"
+    },
+    "1001": {
+      "nom": "Foulard de cuisinier"
+    },
+    "1002": {
+      "nom": "Cape d'apprenti héros"
+    },
+    "1003": {
+      "nom": "Foulard vert"
+    },
+    "1004": {
+      "nom": "Ras de cou à fleur"
+    },
+    "1005": {
+      "nom": "Tour de cou en dentelle bleue"
+    },
+    "1006": {
+      "nom": "Grelot brillant"
+    },
+    "1007": {
+      "nom": "Noeud papillon rouge"
+    },
+    "1008": {
+      "nom": "Elytres de Volcorne"
+    },
+    "1009": {
+      "nom": "Ailes de givre"
+    },
+    "2001": {
+      "nom": "Tablier de cuisine"
+    },
+    "2002": {
+      "nom": "Tablier de jardinage"
+    },
+    "2003": {
+      "nom": "Tablier de chef"
+    },
+    "2004": {
+      "nom": "Tablier à cœur "
+    },
+    "2005": {
+      "nom": "Chemise de journaliste"
+    },
+    "2006": {
+      "nom": "Tunique blanche du paysan"
+    },
+    "2007": {
+      "nom": "Tunique verte du paysan"
+    },
+    "2008": {
+      "nom": "Tunique luxueuse"
+    },
+    "2009": {
+      "nom": "Chemise tartan verte"
+    },
+    "2010": {
+      "nom": "Chemise du bûcheron"
+    },
+    "2011": {
+      "nom": "Gilet de serveur"
+    },
+    "2012": {
+      "nom": "Poncho en laine"
+    },
+    "2013": {
+      "nom": "Manteau de Fripon"
+    },
+    "2014": {
+      "nom": "Chemise de l'explorateur"
+    },
+    "2015": {
+      "nom": "Armure de garde de la Capitale"
+    },
+    "2016": {
+      "nom": "Tablier de cuir"
+    },
+    "2017": {
+      "nom": "Veste du Don"
+    },
+    "3001": {
+      "nom": "Bandeau de combattant"
+    },
+    "3002": {
+      "nom": "Pince-nez classique"
+    },
+    "3003": {
+      "nom": "Perle bleue"
+    },
+    "3004": {
+      "nom": "Tiare ornementée"
+    },
+    "4001": {
+      "nom": "Voile de bonne aventure"
+    },
+    "4002": {
+      "nom": "Épi de blé"
+    },
+    "4003": {
+      "nom": "Vieille pipe en bois"
+    },
+    "4004": {
+      "nom": "Crayon à papier"
+    },
+    "4005": {
+      "nom": "Nageoire du Don"
+    },
+    "5001": {
+      "nom": "Boucles florales"
+    },
+    "5002": {
+      "nom": "Boucles d'oreille des champs"
+    },
+    "5003": {
+      "nom": "Nœud rose"
+    },
+    "5004": {
+      "nom": "Boucles de bonne aventure"
+    },
+    "5005": {
+      "nom": "Boucles de laiton"
+    },
+    "5006": {
+      "nom": "Marguerite"
+    },
+    "5007": {
+      "nom": "Hibiscus"
+    },
+    "5008": {
+      "nom": "Boucle de la gratitude"
+    },
+    "6002": {
+      "nom": "Fourrure grise"
+    },
+    "6003": {
+      "nom": "Fourrure blanche"
+    },
+    "6004": {
+      "nom": "Fourrure noire"
+    },
+    "6005": {
+      "nom": "Fourrure des champs"
+    },
+    "6006": {
+      "nom": "Fourrure des villes"
+    },
+    "6007": {
+      "nom": "Fourrure de la gratitude"
+    },
+    "6008": {
+      "nom": "Fourrure brune tachetée"
+    },
+    "6009": {
+      "nom": "Fourrure brune foncée"
+    },
+    "6010": {
+      "nom": "Fourrure duveteuse"
+    },
+    "6011": {
+      "nom": "Fourrure Calopsitte"
+    },
+    "7001": {
+      "nom": "Bijou de la gratitude"
+    },
+    "7002": {
+      "nom": "Clochette"
+    },
+    "8001": {
+      "nom": "Gant de garde de la Capitale"
+    },
+    "8002": {
+      "nom": "Gants de cuir"
+    },
+    "9001": {
+      "nom": "Sidecut bleue"
+    },
+    "9002": {
+      "nom": "Carré blond à frange"
+    },
+    "9003": {
+      "nom": "Chignon blond à frange"
+    },
+    "9004": {
+      "nom": "Tresse noire"
+    },
+    "9005": {
+      "nom": "Mèches brunes"
+    },
+    "9006": {
+      "nom": "Chignon pour homme"
+    },
+    "9007": {
+      "nom": "Coupe \"Vagues féériques\""
+    },
+    "21001": {
+      "nom": "Épée d'entraînement"
+    },
+    "21002": {
+      "nom": "Épée noble"
+    },
+    "21003": {
+      "nom": "Épée ornementée"
+    },
+    "21004": {
+      "nom": "Épée Eliséenne"
+    },
+    "21005": {
+      "nom": "Patte d'araignée"
+    },
+    "21006": {
+      "nom": "Dard de guêpe"
+    },
+    "21007": {
+      "nom": "Oeil de grenouille"
+    },
+    "21008": {
+      "nom": "Lame de givre"
+    },
+    "22001": {
+      "nom": "Espadon d'entraînement"
+    },
+    "22002": {
+      "nom": "Grande épée noble"
+    },
+    "22003": {
+      "nom": "Espadon ornementé"
+    },
+    "22004": {
+      "nom": "Claymore Eliséenne"
+    },
+    "22005": {
+      "nom": "Claymore de givre"
+    },
+    "23001": {
+      "nom": "Dague d'entraînement"
+    },
+    "23002": {
+      "nom": "Dague noble"
+    },
+    "23003": {
+      "nom": "Dague ornementée"
+    },
+    "23004": {
+      "nom": "Dague Eliséenne"
+    },
+    "23005": {
+      "nom": "Dard de givre"
+    },
+    "24001": {
+      "nom": "Bouclier d'entraînement"
+    },
+    "24002": {
+      "nom": "Bouclier noble"
+    },
+    "24003": {
+      "nom": "Bouclier ornementé"
+    },
+    "24004": {
+      "nom": "Bouclier Eliséen"
+    },
+    "24005": {
+      "nom": "Bouclier de givre"
+    },
+    "25001": {
+      "nom": "Arc d'entraînement"
+    },
+    "25002": {
+      "nom": "Arc noble"
+    },
+    "25003": {
+      "nom": "Arc ornementé"
+    },
+    "25004": {
+      "nom": "Arc Eliséen"
+    },
+    "25005": {
+      "nom": "Arc de givre"
+    },
+    "26001": {
+      "nom": "Bandages simples"
+    }
+  },
+  "statequipement": {
+    "1": {
+      "text": "Bonus d'attaque : %1%"
+    },
+    "2": {
+      "text": "Bonus d'attaque des compétences : %1%"
+    },
+    "3": {
+      "text": "Bonus d'attaque des armes : %1%"
+    },
+    "4": {
+      "text": "Bonus de soins : %1%"
+    },
+    "5": {
+      "text": "Bonus de dégâts : %1%"
+    },
+    "6": {
+      "text": "Bonus de points de vie : %1%"
+    },
+    "7": {
+      "text": "Dégâts de feu : %1"
+    },
+    "8": {
+      "text": "Dégâts de glace : %1"
+    },
+    "9": {
+      "text": "Dégâts de foudre : %1"
+    },
+    "10": {
+      "text": "Bonus de résistance : %1%"
+    },
+    "11": {
+      "text": "Bonus de points de vie du familier : %1%"
+    },
+    "12": {
+      "text": "Bonus de dégâts du familier : %1%"
+    },
+    "13": {
+      "text": "Dégâts de poison : %1"
+    }
+  },
+  "titre": {
+    "0": {
+      "text": "Aucun titre"
+    },
+    "1": {
+      "text": "Garde"
+    },
+    "2": {
+      "text": "Palefrenier"
+    },
+    "3": {
+      "text": "Tableau d'affichage"
+    },
+    "4": {
+      "text": "Aventurier"
+    },
+    "5": {
+      "text": "Explorateur"
+    },
+    "6": {
+      "text": "Combattant"
+    },
+    "7": {
+      "text": "Casse-cou"
+    },
+    "8": {
+      "text": "Villageois"
+    },
+    "9": {
+      "text": "Souris des plaines"
+    },
+    "10": {
+      "text": "Volontaire"
+    },
+    "11": {
+      "text": "Novice"
+    },
+    "12": {
+      "text": "Bon(|ne) samaritain(|e)"
+    },
+    "13": {
+      "text": "Souriceau"
+    },
+    "14": {
+      "text": "Métiers"
+    }
+  },
+  "talentTrees": {
+    "talent.arbre.26": "Journaliste - Interview",
+    "talent.type.0": "Armes",
+    "talent.type.1": "Compétences",
+    "talent.type.2": "Souris",
+    "talent.arbre.1": "Épée",
+    "talent.arbre.2": "Dague",
+    "talent.arbre.3": "Bouclier",
+    "talent.arbre.5": "Bandage",
+    "talent.arbre.21": "Cuisinier - Chaudron",
+    "talent.arbre.22": "Cuisinier - Piège à pique-nique",
+    "talent.arbre.25": "Journaliste - Reportage",
+    "talent.arbre.27": "Fripon - Tour de carte",
+    "talent.arbre.28": "Fripon - Disparition",
+    "talent.arbre.4": "Arc",
+    "talent.arbre.23": "Botaniste - Élixir",
+    "talent.arbre.24": "Botaniste - Main Verte",
+    "talent.arbre.29": "Familier"
+  }
+}

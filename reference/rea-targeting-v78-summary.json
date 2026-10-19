@@ -1,0 +1,49 @@
+{
+  "evidence_id": "ev_afce03e82f51bc4cccb94404a332ebf89b46e28d2b7267dfcdd8583bf57566f2",
+  "subject": {
+    "name": "wayback-client",
+    "digest": {
+      "sha256": "b1de32ffbe96f5c7715fb6fde4a82c35513789e597ee244e6da71e5d5c5c6288"
+    },
+    "local_path": "C:\\Users\\Jose\\Desktop\\TransformiceAdventuresReconstruction\\reference\\wayback-client",
+    "format": "directory",
+    "architecture": null
+  },
+  "operation": "analyze_javascript_application",
+  "parameters": {
+    "format": "auto",
+    "integrity_policy": "fail",
+    "max_semantic_nodes": 1000,
+    "max_semantic_nodes_per_file": 1000,
+    "source_paths": [
+      "dist/Transformice-adventure-client/src/gameplay/InterfaceCompetenceADV.js"
+    ]
+  },
+  "statistics": {
+    "relevant_files": 66,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 24883,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 1,
+    "visited_ast_nodes": 3440,
+    "findings": 1,
+    "modules": 0,
+    "parse_failures": 0
+  },
+  "source_selection": {
+    "requested_paths": [
+      "dist/Transformice-adventure-client/src/gameplay/InterfaceCompetenceADV.js"
+    ],
+    "unselected_files": 65
+  },
+  "limitations": [
+    "Caller-selected source analysis leaves 65 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ],
+  "uncompressed_sha256": "ff76ac6b39a1589530712c97edb63d6885c0b294512109989c93c2065a2d97a6"
+}
