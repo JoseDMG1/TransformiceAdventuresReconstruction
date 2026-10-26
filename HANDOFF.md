@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.195.0. Ultima entrega: reference/IMPLEMENTATION_V195.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.196.0. Ultima entrega: reference/IMPLEMENTATION_V196.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.196: el catálogo del tutorial declara su propio suelo y cercas/tocones alrededor de Papaille a partir de los fotogramas 0010/0060. `tutorial-art.js` concentra los trazados; no cambian colisiones ni coordenadas guardadas. Prueba de navegador de rescate/reanudación/regreso y sintaxis aprobadas. Falta el carro, la criatura de carga y una composición equivalente al fotograma original; ver `reference/IMPLEMENTATION_V196.md` y su captura local.
 - v0.195: corregido el descarte de partidas del tutorial después de rescatar a Picpic. El validador todavía exigía enemigos en fase 1, regla incompatible con el recorrido sin combate de v0.184. Se conservan fases antiguas 1/2 y formato de guardado. Pruebas de lógica y recorrido de tutorial nuevo/reanudado en Chrome aprobados; ver `reference/IMPLEMENTATION_V195.md` para alcance de la comprobación.
 - v0.194: corrige una regresión de v0.193 que seleccionaba ambiente sin reproducirlo. `ambient-audio.js` controla una voz con comprobaciones de un segundo, reintentos y limpieza al cambiar de escena. Cuatro pruebas aprobadas; revisión de sintaxis de 76 archivos y comprobación de carga/reproducción real en Chrome, sin errores. No equivale a escucha comparativa ni recorrido completo; se conserva la estimación de fidelidad. Ver `reference/IMPLEMENTATION_V194.md`.
 - v0.193: la música de combate sigue la fase activa del encuentro local, no solo la presencia de enemigos vivos; la primera pista del mundo espera 5 s y los cambios de fase 1 s, según `MondeADV-2021.js` y `ProtoADV.js`. El ambiente se vuelve a comprobar cada segundo como en el bucle original. Sin cambios al guardado; falta escucha y cotejo en navegador. Ver `reference/IMPLEMENTATION_V193.md`.
@@ -130,7 +131,7 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - No afirmar reconstruccion completa: siguen faltando sectores originales, tablas del servidor, equivalencia de todas las combinaciones de dones y cifras de balance. El texto del don1201 ya esta implementado; sus cifras y el alcance de «mitigar» siguen siendo locales por ausencia de reglas del servidor.
 - Continuar con fidelidad de escenarios, eventos de animacion y patrones observables; mantener la separacion entre evidencia y aproximaciones.
 
-### Pendientes vigentes en v0.195
+### Pendientes vigentes en v0.196
 
 - Validación: tutorial nuevo/reanudado y regreso con Papaille aprobados en Chrome. El recorrido completo automatizado terminó en derrota durante la expedición; siguen pendientes victoria, retorno final y exportación/importación de la versión actual. Conservar los criterios completos y mejorar el manejo del bot; no ajustar el balance solo para aprobar la automatización.
 - Audio: v0.193 ajusta el indicador local a la fase de encuentro y replica los intervalos observados al iniciar/cambiar música y al comprobar ambiente. Falta comparar en navegador sincronía, balance, pausas, comportamiento al pausar/cambiar escena y política de autoplay. La fase local aproxima el booleano que el cliente recibía del servidor.

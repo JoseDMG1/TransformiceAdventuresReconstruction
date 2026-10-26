@@ -193,7 +193,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
     mapId: definition.id,
     width,
     height,
-    ground: makeGround(width, height, definition.groundSeed + index, definition.id === "village", area?.groundLayout),
+    ground: makeGround(width, height, definition.groundSeed + index, definition.id === "village", content.groundLayout),
     areaId: area?.id ?? null,
     objects,
     colliders,

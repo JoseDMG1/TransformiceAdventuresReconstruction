@@ -322,6 +322,7 @@ try {
     await key(yCode, "keyUp");
     await wait(120);
     await tap("KeyE");
+    await shot("papaille");
     for (let page = 0; page < 8 && !(await evaluate("document.getElementById('dialogue').hidden")); page++)
       await tap("KeyE");
     await wait(200);

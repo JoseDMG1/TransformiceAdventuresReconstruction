@@ -63,6 +63,7 @@ export const MAPS = Object.freeze({
     id: "tutorial",
     name: "Claro del tutorial",
     hudName: "El comienzo del sendero",
+    groundLayout: "tutorial-clearing",
     saveName: "Tutorial",
     size: { width: 1850, height: 1250 },
     seedOffset: 0,
@@ -70,7 +71,18 @@ export const MAPS = Object.freeze({
     protectedAreas: [{ left: 330, right: 1500, top: 340, bottom: 960 }],
     treeAvoidAreas: [{ left: 260, right: 1600, top: 300, bottom: 1140 }],
     decoration: { backgroundCount: 220, foregroundCount: 95 },
-    fixedObjects: [],
+    // Frame 0060: two rails frame Papaille's clearing; positions are local
+    // traces. Decorative only until original fence collision data is known.
+    fixedObjects: [
+      { kind: "tutorialFence", x: 1235, y: 535, scale: 1.15 },
+      { kind: "tutorialFence", x: 1530, y: 535, scale: 1.15 },
+      { kind: "tutorialFence", x: 1430, y: 995, scale: 1.15 },
+      { kind: "tutorialFence", x: 1725, y: 995, scale: 1.15 },
+      { kind: "stump", x: 1080, y: 515, scale: 1.7 },
+      { kind: "stump", x: 1130, y: 1110, scale: 2.6 },
+      { kind: "flowerbed", x: 1110, y: 535, scale: 0.8 },
+      { kind: "flowerbed", x: 1310, y: 985, scale: 0.8 },
+    ],
     fixedColliders: [],
     npcs: [{ character: "papaille", x: 1360, y: 710, tutorialColor: "#ba9d6d" }],
     interactables: [],

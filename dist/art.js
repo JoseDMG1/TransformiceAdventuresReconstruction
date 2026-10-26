@@ -9,6 +9,7 @@ import { WEAPONS } from "./combat.js";
 import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters.js";
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
 import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
+import { drawTutorialClearing, drawTutorialFence } from "./tutorial-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -1068,6 +1069,7 @@ const sizes = {
   lamp: [50, 135, 25, 124],
   fountain: [150, 110, 73, 85],
   bench: [165, 100, 82, 87],
+  tutorialFence: [265, 82, 132, 75],
   fern: [110, 100, 55, 85],
   fernFan: [300, 230, 150, 220],
 };
@@ -1093,6 +1095,7 @@ export function decoration(c, o) {
     if (o.kind === "lamp") lamp(cc);
     if (o.kind === "fountain") fountain(cc);
     if (o.kind === "bench") bench(cc, o.variant || 0);
+    if (o.kind === "tutorialFence") drawTutorialFence(cc);
     if (o.kind === "fern") fern(cc, 55, 85, 1.7, o.variant || 0);
     if (o.kind === "fernFan") fernFan(cc, o.variant || 0);
   });
@@ -1110,12 +1113,15 @@ export function makeGround(width, height, seed, village = false, layout = "meado
   const r = seeded(seed);
   const isOpenVillagePlaza = (x, y) =>
     ((x - width * 0.5) / 560) ** 2 + ((y - height * 0.5) / 310) ** 2 < 1;
+  const isTutorialClearing = (x, y) => layout === "tutorial-clearing" &&
+    x > width * 0.12 && x < width * 0.96 && y > height * 0.38 && y < height * 0.79;
   c.fillStyle = village ? "#8fae43" : layout.startsWith("forest-") ? FOREST_PALETTE.grass : "#86a93c";
   c.fillRect(0, 0, width, height);
   for (let i = 0; i < 450; i++) {
     const x = r() * width,
       y = r() * height;
     if (village && isOpenVillagePlaza(x, y)) continue;
+    if (isTutorialClearing(x, y)) continue;
     ellipse(
       c,
       x,
@@ -1137,7 +1143,10 @@ export function makeGround(width, height, seed, village = false, layout = "meado
     draw();
     c.stroke();
   };
-  if (layout === "forest-corridor") {
+  if (layout === "tutorial-clearing") {
+    drawTutorialClearing(c, width, height);
+    drawClearingGrass(c, width, height, seeded(seed ^ 0x51ab39));
+  } else if (layout === "forest-corridor") {
     // Dark edges are visible in the footage where grass meets the worn trail.
     const route = () => {
       c.moveTo(-40, 675);
@@ -1259,6 +1268,7 @@ export function makeGround(width, height, seed, village = false, layout = "meado
     const x = r() * width,
       y = r() * height;
     if (village && isOpenVillagePlaza(x, y) && i % 5 !== 0) continue;
+    if (isTutorialClearing(x, y) && i % 5 !== 0) continue;
     if (i % 3 === 0) {
       ellipse(c, x, y, 4 + r() * 5, 2 + r() * 3, "#b0b96a", "#8e9f4c", 0.7);
     } else grass(c, x, y, 0.4 + r() * 0.4);
@@ -1267,11 +1277,12 @@ export function makeGround(width, height, seed, village = false, layout = "meado
     const x = r() * width,
       y = r() * height;
     if (village && isOpenVillagePlaza(x, y)) continue;
+    if (isTutorialClearing(x, y)) continue;
     flower(c, x, y, i % 4 ? "#ebecc3" : "#ab80bc", 0.6 + r() * 0.3);
   }
   if (layout.startsWith("forest-"))
     drawForestLitter(c, width, height, seeded(seed ^ 0x13579), layout === "forest-pond");
-  if (!village && !layout.startsWith("forest-")) {
+  if (!village && !layout.startsWith("forest-") && layout !== "tutorial-clearing") {
     c.beginPath();
     c.ellipse(width - 100, height - 100, 230, 135, -0.2, 0, TAU);
     c.fillStyle = "#7a9e43";
