@@ -72,13 +72,26 @@ button:disabled {
   border-color: #ebd68d;
   transform: translateY(-1px);
 }
-.location {
+.original-external-icons {
+  position: fixed;
+  top: clamp(4px, .52vw, 10px);
+  left: clamp(4px, .52vw, 10px);
   display: flex;
-  flex-direction: column;
-  text-shadow: 0 2px 3px #17250e;
+  pointer-events: none;
 }
-.location strong {
-  font-size: 18px;
+.original-external-icons img {
+  display: block;
+  width: clamp(14px, 2.0833vw, 40px);
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 .tiny {
   display: block;
@@ -1094,9 +1107,6 @@ h1 strong {
   }
   .control-hint {
     font-size: 9px;
-  }
-  .location strong {
-    font-size: 15px;
   }
 }
 @media (max-width: 620px) {

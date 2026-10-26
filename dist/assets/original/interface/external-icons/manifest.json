@@ -1,0 +1,38 @@
+{
+  "source": "reference/wayback-client/dist/Transformice-adventure-client/src/interfaces/InterfaceLiensExternesADV.js",
+  "sourceSha256": "42dd895ecf913df8e0a6b5a10dc4795bb031302d93cc4ced106eef8b0105152a",
+  "records": [
+    {
+      "file": "bouton-KS.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/bouton-KS.png",
+      "bytes": 3668,
+      "width": 40,
+      "height": 40,
+      "sha256": "bd422d10a59bc679ff00c8064dd418b00def9f06e5f3979a35491c1a7385e7fd"
+    },
+    {
+      "file": "bouton-forum.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/bouton-forum.png",
+      "bytes": 3595,
+      "width": 40,
+      "height": 40,
+      "sha256": "423fed63f5d4ed97ddd10702bcb32f838d264ba8dd9dcc2ccb85dc0f118084a6"
+    },
+    {
+      "file": "bouton-discord.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/bouton-discord.png",
+      "bytes": 4014,
+      "width": 40,
+      "height": 40,
+      "sha256": "98adb068931b4609a478ee1f15f27c6d9e9870bf921f4de4e8673805ac1baff8"
+    },
+    {
+      "file": "bouton-twitter.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/bouton-twitter.png",
+      "bytes": 3726,
+      "width": 40,
+      "height": 40,
+      "sha256": "da58027b7a0f1425f5d2b0486b8fd837f0d5db490c0ca6441b1657ea2dae0286"
+    }
+  ]
+}

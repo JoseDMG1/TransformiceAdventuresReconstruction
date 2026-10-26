@@ -3,6 +3,13 @@ import assert from "node:assert/strict";
 export async function checkEmotes({ evaluate, send, tap, shot, wait, waitFor }) {
   await waitFor("document.getElementById('xp-notice').hidden && !document.getElementById('announcements').textContent",
     "Arrival notices must finish before emote reference captures", 8000);
+  assert.equal(await evaluate(`(() => {
+    const row = document.querySelector('.original-external-icons');
+    const images = [...row.querySelectorAll('img')];
+    return images.length === 4 && images.every(i => i.complete && i.naturalWidth === 40)
+      && row.querySelectorAll('a, button').length === 0
+      && document.getElementById('area-name').getBoundingClientRect().width === 1;
+  })()`), true, "Recovered header icons must load locally without external actions or visible heading");
   const savedProfile = () => evaluate(`(() => {
     const save = JSON.parse(localStorage.getItem('tfma-local-v1'));
     delete save.journey;

@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.206.0. Ultima entrega: reference/IMPLEMENTATION_V206.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.207.0. Ultima entrega: reference/IMPLEMENTATION_V207.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.207: identificados y recuperados los cuatro iconos superiores (Kickstarter, foro, Discord y Twitter) mediante `InterfaceLiensExternesADV`. Se muestran como imágenes locales decorativas, sin enlaces. Retirado el encabezado permanente añadido «Mouscarpone / zona»; el nombre sigue accesible. Ver `reference/IMPLEMENTATION_V207.md`.
 - v0.206: tablón de aldea más ancho, con tejadillo de listones, borde azulado y papeles superpuestos, trazado del fotograma 03:00. Dibujo trasladado a `village-art.js`; posición e interacción conservadas. No es recurso original recuperado y los anuncios son marcas ilustrativas, no texto inferido. Ver `reference/IMPLEMENTATION_V206.md`.
 - v0.205: recuperada la clase pública `ClipAnimProjection` referenciada por el cliente; FX72 ahora se achata según el ángulo de cámara recuperado (adaptación ortográfica, no perspectiva completa). Dibujo aislado en `objective-art.js`, descarga con hash y prueba de transformación real en Canvas. Ver `reference/IMPLEMENTATION_V205.md`; escala absoluta y perspectiva siguen pendientes.
 - v0.204: interpolación de flecha distante según `0.1 * min(ms / 16.66666, 5)` del cliente archivado. Estado transitorio fuera del guardado; vuelve al centro al reaparecer y conserva posición relativa al redimensionar (adaptación local). Ver `reference/IMPLEMENTATION_V204.md`; la proyección del FX72 continúa pendiente.
@@ -149,7 +150,7 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 
 - Perfil: distribución y 12 iconos ya corresponden a REA; falta cotejo visual en navegador y el mapeo del inventario original para llenar ocho ranuras cosméticas y confirmar las asociaciones locales de cabeza, cuerpo y manos.
 - HUD: v0.189 oculta el panel persistente y centra la barra de acción; comprobar su ubicación, lectura y acceso al perfil en navegador.
-- Barra superior: v0.191 retira la etiqueta local no observada; cotejar nombre de zona, menú y controles de la esquina derecha. Las cuatro miniaturas superiores izquierdas del original siguen sin asignación fiable.
+- Barra superior: v0.207 identifica las cuatro miniaturas como enlaces externos originales, recupera sus imágenes y las conserva decorativas sin red. Se retiró el encabezado de zona local no observado; falta cotejar los controles de la esquina derecha y escala global del HUD. Ver `reference/IMPLEMENTATION_V207.md`.
 - Emotes: en v0.201 se comprobaron radial de F, menú de la pastilla, selección con clic real, clips y conservación del perfil a 640×360 y 1280×800. Corregidos marcos inventados y anclaje del icono. Falta cotejo de animaciones/tiempos contra ejecución original, especialmente duración de sentarse/bailar. Ver `reference/IMPLEMENTATION_V201.md`.
 - Perfil (retrato): v0.166 dibuja la mascota activa junto al ratón; falta cotejar escala y suelo contra `frame-1050.png`.
 - Cofre: ya usa el clip y arte original de ID14, incluida su apertura de 70 fotogramas; cotejar tamaño y alineación en navegador contra `frame-1040.png`. No están recuperadas las asignaciones/posibilidades autoritativas de dones.

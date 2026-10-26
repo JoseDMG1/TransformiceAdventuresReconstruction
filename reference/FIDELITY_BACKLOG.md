@@ -80,7 +80,7 @@ Para cada acción que aparece en el video, registrar: entrada → preparación �
 - Comparar el HUD completo: iconos superiores, chat/estado, barra de habilidades, objetivos, barras sobre actores, cooldowns, retratos, nombres, diálogos y paneles.
 - Comparar estados de tutorial y objetivos de Papaille/Mura, aldeas, perfil/equipo, mochila, talentos, trabajos, selector de expedición, regalos/dones, cofre y fin de recorrido.
 - Registrar texto original en español, posición, escala, tipografía, márgenes, navegación, confirmación/cancelación y duración de estados transitorios.
-- Mantener sin asignación los cuatro iconos pequeños superiores mientras su función no se determine con evidencia. No añadir traducción al francés.
+- Los cuatro iconos superiores quedaron identificados en v0.207 por `InterfaceLiensExternesADV`: Kickstarter, foro, Discord y Twitter. Sus imágenes locales se integran solo como decoración; los enlaces externos quedan fuera del alcance sin conexión. Cotejar tamaño/composición. No añadir traducción al francés.
 
 **Entregable:** inventario de pantallas/estados visibles con captura local y referencia emparejadas.  
 **Cierre:** cada pantalla/estado visible durante el recorrido tiene comparación; textos y transiciones observables coinciden o tienen diferencia documentada.
