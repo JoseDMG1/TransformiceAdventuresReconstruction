@@ -1,5 +1,62 @@
 // Local tracing of gameplay frames 0120/0180, not recovered sector geometry.
 // Drawing only: no collision, random-state or save changes.
+export function drawVillageBoard(c) {
+  c.save();
+  const polygon = (points, fill, stroke = "#66432c", width = 2) => {
+    c.beginPath();
+    points.forEach(([x, y], i) => i ? c.lineTo(x, y) : c.moveTo(x, y));
+    c.closePath();
+    c.fillStyle = fill;
+    c.fill();
+    c.strokeStyle = stroke;
+    c.lineWidth = width;
+    c.stroke();
+  };
+  c.fillStyle = "#53633355";
+  c.beginPath(); c.ellipse(83, 102, 74, 7, 0, 0, Math.PI * 2); c.fill();
+  polygon([[20, 76], [31, 76], [30, 104], [19, 104]], "#9c673b");
+  polygon([[136, 76], [146, 76], [145, 103], [135, 103]], "#9c673b");
+  polygon([[14, 22], [151, 22], [149, 91], [16, 93]], "#b77c47", "#674530", 3);
+  polygon([[24, 31], [140, 29], [138, 81], [25, 84]], "#9d8357", "#7d5c36", 2);
+  for (let x = 33; x < 138; x += 19) {
+    c.strokeStyle = "#80653f"; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(x, 32); c.lineTo(x - 2, 82); c.stroke();
+  }
+  // Low roof: teal ridge above the warm, uneven wooden slats visible at 03:00.
+  polygon([[10, 12], [154, 10], [160, 29], [5, 32]], "#b77945", "#68442e", 2.5);
+  for (let x = 16; x < 157; x += 12) {
+    c.strokeStyle = "#775136"; c.lineWidth = 1.6;
+    c.beginPath(); c.moveTo(x, 14); c.lineTo(x - 2, 29); c.stroke();
+    c.strokeStyle = "#d19659";
+    c.beginPath(); c.moveTo(x + 3, 15); c.lineTo(x + 2, 27); c.stroke();
+  }
+  polygon([[13, 8], [151, 6], [155, 13], [10, 15]], "#75a0a0", "#4a6862", 1.5);
+  // Paper silhouettes/marks are illustrative; no unreadable notice is transcribed.
+  const papers = [[29, 37, 24, 28, -.06], [62, 35, 35, 24, .09],
+    [108, 34, 22, 32, -.04], [52, 63, 31, 18, -.1], [90, 60, 27, 24, .08]];
+  papers.forEach(([x, y, w, h, angle], index) => {
+    c.save(); c.translate(x, y); c.rotate(angle);
+    polygon([[1, 1], [w, 0], [w - 1, h - 2], [w * .55, h], [0, h - 1]],
+      index % 2 ? "#d8c9a4" : "#e5d8b6", "#8e7757", .8);
+    c.strokeStyle = "#a79876"; c.lineWidth = 1;
+    for (let row = 0; row < 3; row++) {
+      c.beginPath(); c.moveTo(4, 6 + row * 4); c.lineTo(w - 4 - row % 2 * 5, 6 + row * 4); c.stroke();
+    }
+    if (h > 23) {
+      c.beginPath(); c.moveTo(w * .3, h - 4); c.lineTo(w * .5, h - 11);
+      c.lineTo(w * .7, h - 5); c.stroke();
+    }
+    c.fillStyle = "#6e5b3a";
+    c.beginPath(); c.arc(w / 2, 2, 1.4, 0, Math.PI * 2); c.fill();
+    c.restore();
+  });
+  polygon([[13, 85], [150, 83], [153, 93], [12, 96]], "#a7693c", "#71482c", 2);
+  for (const [x, y] of [[19, 37], [145, 35], [20, 88], [145, 87]]) {
+    c.fillStyle = "#e0aa68"; c.beginPath(); c.arc(x, y, 1.6, 0, Math.PI * 2); c.fill();
+  }
+  c.restore();
+}
+
 export function drawVillagePlaza(c) {
   c.save();
   c.beginPath();

@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.205.0. Ultima entrega: reference/IMPLEMENTATION_V205.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.206.0. Ultima entrega: reference/IMPLEMENTATION_V206.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.206: tablón de aldea más ancho, con tejadillo de listones, borde azulado y papeles superpuestos, trazado del fotograma 03:00. Dibujo trasladado a `village-art.js`; posición e interacción conservadas. No es recurso original recuperado y los anuncios son marcas ilustrativas, no texto inferido. Ver `reference/IMPLEMENTATION_V206.md`.
 - v0.205: recuperada la clase pública `ClipAnimProjection` referenciada por el cliente; FX72 ahora se achata según el ángulo de cámara recuperado (adaptación ortográfica, no perspectiva completa). Dibujo aislado en `objective-art.js`, descarga con hash y prueba de transformación real en Canvas. Ver `reference/IMPLEMENTATION_V205.md`; escala absoluta y perspectiva siguen pendientes.
 - v0.204: interpolación de flecha distante según `0.1 * min(ms / 16.66666, 5)` del cliente archivado. Estado transitorio fuera del guardado; vuelve al centro al reaparecer y conserva posición relativa al redimensionar (adaptación local). Ver `reference/IMPLEMENTATION_V204.md`; la proyección del FX72 continúa pendiente.
 - v0.203: flecha de objetivo distante en el borde real, con dirección desde el jugador y escala del lienzo lógico original 1280–1920. Sustituye márgenes fijos que la dejaban junto al personaje a 640×360. Umbral circular adaptado al zoom local; sigue pendiente interpolación original y proyección exacta del marcador de suelo. Ver `reference/IMPLEMENTATION_V203.md`.

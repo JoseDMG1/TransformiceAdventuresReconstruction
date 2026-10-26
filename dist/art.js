@@ -10,7 +10,7 @@ import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
 import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
 import { drawTutorialClearing, drawTutorialFence, drawTutorialCart } from "./tutorial-art.js";
-import { drawVillagePlaza } from "./village-art.js";
+import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -752,96 +752,6 @@ function villageHut(c, variant = 0) {
   line(c, [[variant === 2 ? 112 : 247, 176], [variant === 2 ? 112 : 247, 204]], "#d5b66d", 2);
   line(c, [[variant === 2 ? 98 : 233, 190], [variant === 2 ? 126 : 261, 190]], "#d5b66d", 2);
 }
-function board(c) {
-  shadow(c, 62, 112, 57, 10);
-  path(
-    c,
-    [
-      [10, 19],
-      [117, 19],
-      [115, 92],
-      [12, 92],
-    ],
-    "#9a7747",
-    "#5c4e2d",
-    3,
-  );
-  path(
-    c,
-    [
-      [18, 30],
-      [109, 30],
-      [109, 83],
-      [18, 83],
-    ],
-    "#bda170",
-    "#695737",
-    1.5,
-  );
-  path(
-    c,
-    [
-      [7, 17],
-      [18, 3],
-      [113, 3],
-      [124, 17],
-    ],
-    "#739270",
-    "#3c5c45",
-    2,
-  );
-  line(
-    c,
-    [
-      [22, 92],
-      [22, 113],
-    ],
-    "#735636",
-    8,
-  );
-  line(
-    c,
-    [
-      [104, 92],
-      [104, 111],
-    ],
-    "#735636",
-    8,
-  );
-  for (const [x, y, a] of [
-    [27, 38, 0.05],
-    [55, 48, -0.07],
-    [83, 34, 0.1],
-  ]) {
-    c.save();
-    c.translate(x, y);
-    c.rotate(a);
-    path(
-      c,
-      [
-        [0, 0],
-        [23, 0],
-        [23, 28],
-        [0, 28],
-      ],
-      "#e8dfb1",
-      "#88784e",
-      1,
-    );
-    for (let j = 0; j < 3; j++)
-      line(
-        c,
-        [
-          [4, 8 + j * 5],
-          [18, 8 + j * 5],
-        ],
-        "#b0a078",
-        1,
-      );
-    c.restore();
-  }
-  ellipse(c, 67, 25, 2, 2, "#ecd377", null);
-}
 function lamp(c) {
   shadow(c, 25, 124, 18, 7);
   line(
@@ -1066,7 +976,7 @@ const sizes = {
   rockCluster: [180, 105, 90, 86],
   building: [360, 320, 180, 280],
   hut: [360, 320, 180, 280],
-  board: [130, 125, 62, 110],
+  board: [166, 110, 83, 102],
   lamp: [50, 135, 25, 124],
   fountain: [150, 110, 73, 85],
   bench: [165, 100, 82, 87],
@@ -1093,7 +1003,7 @@ export function decoration(c, o) {
     if (o.kind === "rockCluster") rockCluster(cc, o.variant || 0);
     if (o.kind === "building") building(cc, o.variant || 0);
     if (o.kind === "hut") villageHut(cc, o.variant || 0);
-    if (o.kind === "board") board(cc);
+    if (o.kind === "board") drawVillageBoard(cc);
     if (o.kind === "lamp") lamp(cc);
     if (o.kind === "fountain") fountain(cc);
     if (o.kind === "bench") bench(cc, o.variant || 0);
