@@ -64,6 +64,7 @@ import { TESTIMONIES, REPORT_RULES, tickReportPoison } from "./journalism.js";
 import { FOREST_CLUES, normalizeForestClues, drawForestClue } from "./forest-story.js";
 import { objectiveTarget, objectiveProjection } from "./objectives.js";
 import { createDialogueText } from "./dialogue-text.js";
+import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
 import { CARD_PROJECTILE_EFFECTS, OBJECTIVE_GROUND_EFFECT } from "./effect-data.js";
 import { isPersistentEffect } from "./effect-state.js";
@@ -2547,10 +2548,11 @@ function advanceDialogue() {
     return;
   }
   if (dialogueQueue.length) {
-    const text = dialogueQueue.shift();
+    const { page: text, rest } = measureDialoguePage($("dialogue-text"), dialogueQueue.shift());
+    if (rest) dialogueQueue.unshift(rest);
     dialogueText.start(text, performance.now(), matchMedia("(prefers-reduced-motion: reduce)").matches);
     $("dialogue-text").setAttribute("aria-label", text);
-    $("dialogue-text").textContent = dialogueText.visible(performance.now());
+    renderDialoguePage($("dialogue-text"), dialogueText.visible(performance.now()), text);
     tone(420, 0.025);
   } else {
     $("dialogue").hidden = true;
@@ -5544,7 +5546,9 @@ function draw() {
 function frame(now) {
   if (!$("dialogue").hidden) {
     const visibleText = dialogueText.visible(now);
-    if ($("dialogue-text").textContent !== visibleText) $("dialogue-text").textContent = visibleText;
+    const textElement = $("dialogue-text");
+    if (textElement.firstChild?.textContent !== visibleText)
+      renderDialoguePage(textElement, visibleText, textElement.getAttribute("aria-label") || "");
     $("dialogue-next-label").textContent = dialogueText.complete(now)
       ? (dialogueQueue.length ? "Continuar" : "Terminar") : "Mostrar texto";
   }
@@ -5953,7 +5957,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.199.0",
+    version: "0.200.0",
   }),
 });
 resize();

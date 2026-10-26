@@ -942,11 +942,19 @@ h1 strong {
   left: 100%;
   background-image: url("assets/original/interface/dialogue/noms_right.png");
 }
-#dialogue-text {
+#dialogue-text, .dialogue-page-measure {
   font: clamp(9px, 1.25vw, 14px)/1.35 Georgia;
   margin: 4px 0;
-  min-height: 22px;
+  min-height: calc(110 * var(--dialogue-unit));
   white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.dialogue-page-measure {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+  min-height: 0;
+  margin: 0;
 }
 #dialogue-next {
   display: block;

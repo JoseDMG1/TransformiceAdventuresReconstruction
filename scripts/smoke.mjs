@@ -328,6 +328,33 @@ try {
     // Capture the complete first page, rather than its first animated letters.
     await wait(2500);
     await shot("papaille");
+    const pagination = await evaluate(`(async () => {
+      const { measureDialoguePage, renderDialoguePage } = await import('./dialogue-layout.js');
+      const element = document.getElementById('dialogue-text');
+      const source = 'Un mensaje largo con palabras y signos: ¡Hola, ratón! 🐭 '.repeat(8) + '_P_Final de la conversación.';
+      let rest = source, recovered = '', pages = 0, fit = true, stable = true;
+      const probe = document.createElement('p');
+      probe.className = 'dialogue-page-measure';
+      probe.style.width = element.getBoundingClientRect().width + 'px';
+      element.parentElement.append(probe);
+      try {
+        while (rest && pages < 100) {
+          const part = measureDialoguePage(element, rest);
+          renderDialoguePage(probe, '', part.page);
+          const hiddenHeight = probe.getBoundingClientRect().height;
+          renderDialoguePage(probe, part.page, part.page);
+          const fullHeight = probe.getBoundingClientRect().height;
+          stable &&= Math.abs(hiddenHeight - fullHeight) < .5;
+          fit &&= fullHeight <= parseFloat(getComputedStyle(element).minHeight) + .5;
+          recovered += part.page;
+          rest = part.rest;
+          pages++;
+        }
+      } finally { probe.remove(); }
+      return { fit, stable, complete: !rest && recovered === source.replaceAll('_P_', ''), pages };
+    })()`);
+    assert.ok(pagination.pages > 2 && pagination.fit && pagination.stable && pagination.complete,
+      "Long dialogue must fit, preserve text and reserve layout: " + JSON.stringify(pagination));
     if (referenceSize) {
       assert.equal(await evaluate(`(() => {
         const dialogue = document.getElementById('dialogue').getBoundingClientRect();
