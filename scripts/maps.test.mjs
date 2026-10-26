@@ -32,3 +32,21 @@ test("cart clearing removes matching trees and colliders without shifting other 
     else globalThis.document = oldDocument;
   }
 });
+
+test("every expedition route builds all ground variants without runtime errors", () => {
+  const oldDocument=globalThis.document;
+  const context=new Proxy({}, {get:()=>()=>{}});
+  globalThis.document={createElement:()=>({getContext:()=>context})};
+  try {
+    for(const length of MAPS.dungeon.expedition.encounterCounts) {
+      const scene=makeScene("dungeon",0,length);
+      assert.equal(scene.routeAreas.length,length);
+      assert.equal(scene.ground.width,scene.width);
+      assert.equal(scene.ground.height,scene.height);
+      assert.ok(scene.routeAreas.every(area=>Number.isFinite(area.spawn.x)));
+    }
+  } finally {
+    if(oldDocument===undefined) delete globalThis.document;
+    else globalThis.document=oldDocument;
+  }
+});

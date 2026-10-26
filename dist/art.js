@@ -8,7 +8,7 @@ import {
 import { WEAPONS } from "./combat.js";
 import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters.js";
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
-import { FOREST_PALETTE, drawForestLitter } from "./forest-art.js";
+import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
 import { drawTutorialClearing, drawTutorialFence, drawTutorialCart, drawTutorialDraftBeetle } from "./tutorial-art.js";
 import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 import { drawTutorialFlora } from "./tutorial-flora.js";

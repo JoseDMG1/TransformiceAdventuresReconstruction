@@ -5914,7 +5914,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.213.0",
+    version: "0.213.1",
   }),
 });
 resize();

@@ -31,3 +31,7 @@ Persisten diferencias de dibujo, paleta, densidad, proporción de tocones, apari
 - El guion de movimiento ahora espera acercarse realmente a Picpic mediante teclado, en vez de suponer una distancia tras 560 ms. Una primera ejecución avanzó 58,55 píxeles y falló un umbral de 60 durante la preparación de dibujos; se corrigió la espera del guion sin cambiar la velocidad del juego.
 
 El formato de guardado se mantiene en v13; no se reinicia el progreso. La estimación de fidelidad se conserva provisional en 47% hasta el cotejo global.
+
+## Corrección v0.213.1
+
+La pasada de expedición encontró `drawClearingGrass is not defined` al construir el bosque. La importación se había retirado al sustituir el suelo del tutorial, aunque otra rama de `makeGround` seguía utilizándola. Se restauró la importación. Una prueba nueva crea ambas rutas completas (3 y 7 encuentros), comprueba sus dimensiones y todas las variantes de suelo: reprodujo el fallo antes de restaurar la importación. No se altera el guardado ni el balance. El recorrido de navegador se repite después de la corrección.
