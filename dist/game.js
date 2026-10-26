@@ -5243,7 +5243,7 @@ function drawLocalEmote(targetContext) {
   targetContext.drawImage(
     image,
     player.x + side - image.naturalWidth / 2,
-    player.y - 30 - 30 * easeOut,
+    player.y - 30 - 30 * easeOut - image.naturalHeight / 2,
   );
 }
 function draw() {
@@ -5887,6 +5887,10 @@ $("dialogue").onclick = event => {
 Object.defineProperty(window, "adventure", {
   value: Object.freeze({
     snapshot: () => ({
+      emotes: {
+        icon: localEmote ? { ...localEmote } : null,
+        mouse: localMouseEmote ? { ...localMouseEmote } : null,
+      },
       forestClues: [...forestClues],
       clues: scene.interactables.filter(o => o.clueId).map(o => ({ id: o.clueId, x: o.x, y: o.y })),
       chest: scene.interactables.find(o => o.id === "chest") ?? null,
@@ -5957,7 +5961,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.200.0",
+    version: "0.201.0",
   }),
 });
 resize();

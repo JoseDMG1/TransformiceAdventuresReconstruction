@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.200.0. Ultima entrega: reference/IMPLEMENTATION_V200.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.201.0. Ultima entrega: reference/IMPLEMENTATION_V201.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.201: radial de emotes sin marcos verdes inventados, conservando imágenes originales y radio de 50; anclaje vertical centrado del icono flotante corregido según `MobileADV`. Comprobaciones de menús, selección con ratón, clips y perfil guardado en `npm run test:emotes`. Ver `reference/IMPLEMENTATION_V201.md`; duración de sentarse/bailar y equivalencia visual completa siguen aproximadas.
 - Validación v0.200: `npm run test:browser` completo aprobado tras corregir el uso de controles del bot. Incluye jefe, victoria, retorno, guardados/recompensas, exportación/importación y pruebas adicionales de trabajos. Registro y capturas en `reference/VALIDATION_V200_EXPEDITION.md`. No se cambió el balance ni se cierra el cotejo de fidelidad.
 - v0.200: diálogo paginado por altura medida en el navegador, con delimitador original `_P_` y cortes por línea/palabra; las letras pendientes reservan espacio transparente durante la escritura. Pruebas de conservación de texto y medidas reales en Chrome. No cambia guardados. Ver `reference/IMPLEMENTATION_V200.md`.
 - v0.199: marco, madera y rótulo originales de diálogo recuperados e integrados; retrato sin caja y nombre debajo. Manifiesto con rutas y hashes, recuperación reproducible y captura con texto completo. Escala, tipografía y paginación siguen siendo aproximaciones locales. Ver `reference/IMPLEMENTATION_V199.md`.
@@ -144,7 +145,7 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - Perfil: distribución y 12 iconos ya corresponden a REA; falta cotejo visual en navegador y el mapeo del inventario original para llenar ocho ranuras cosméticas y confirmar las asociaciones locales de cabeza, cuerpo y manos.
 - HUD: v0.189 oculta el panel persistente y centra la barra de acción; comprobar su ubicación, lectura y acceso al perfil en navegador.
 - Barra superior: v0.191 retira la etiqueta local no observada; cotejar nombre de zona, menú y controles de la esquina derecha. Las cuatro miniaturas superiores izquierdas del original siguen sin asignación fiable.
-- Emotes: el radial de F y el menú de la pastilla ya están separados; cotejar presentación, duración y reproducción en navegador. Sin red ni cambios del guardado.
+- Emotes: en v0.201 se comprobaron radial de F, menú de la pastilla, selección con clic real, clips y conservación del perfil a 640×360 y 1280×800. Corregidos marcos inventados y anclaje del icono. Falta cotejo de animaciones/tiempos contra ejecución original, especialmente duración de sentarse/bailar. Ver `reference/IMPLEMENTATION_V201.md`.
 - Perfil (retrato): v0.166 dibuja la mascota activa junto al ratón; falta cotejar escala y suelo contra `frame-1050.png`.
 - Cofre: ya usa el clip y arte original de ID14, incluida su apertura de 70 fotogramas; cotejar tamaño y alineación en navegador contra `frame-1040.png`. No están recuperadas las asignaciones/posibilidades autoritativas de dones.
 - Arena: el arbolito de primer plano ya está trazado desde `frame-1020.jpg` y `frame-1040.png`; cotejar posición, escala y oclusión localmente. La clase de objeto/capa original no se puede saber sin el payload del sector.

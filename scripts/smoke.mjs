@@ -4,6 +4,7 @@ import { mkdir, writeFile, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { SAVE_VERSION, defaultProfile, encodeSave } from "../dist/persistence.js";
+import { checkEmotes } from "./emote-browser-checks.mjs";
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 const gameURL = process.env.GAME_URL || "http://127.0.0.1:8010";
@@ -127,7 +128,7 @@ try {
   await send("Runtime.enable");
   await send("Page.enable");
   const referenceSize = process.argv.includes("--reference-size");
-  if (referenceSize && !process.argv.includes("--tutorial-only"))
+  if (referenceSize && !process.argv.includes("--tutorial-only") && !process.argv.includes("--emotes"))
     throw Error("--reference-size requiere --tutorial-only; el bot de expedición usa otro encuadre.");
   await send("Emulation.setDeviceMetricsOverride", {
     width: referenceSize ? 640 : 1280,
@@ -383,7 +384,11 @@ try {
       "Papaille must lead to village",
     );
     await shot("village");
-    if (process.argv.includes("--tutorial-only")) {
+    if (process.argv.includes("--emotes")) {
+      await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      assert.equal(errors.length, 0, errors.join("\n"));
+      console.log("PASS: emote menus, real pointer selection, transient animations and unchanged saved profile.");
+    } else if (process.argv.includes("--tutorial-only")) {
       assert.equal(errors.length, 0, errors.join("\n"));
       console.log("PASS: Picpic rescue survives reload, Papaille returns to village, no runtime exceptions.");
     } else {
