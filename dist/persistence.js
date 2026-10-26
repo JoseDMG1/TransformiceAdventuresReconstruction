@@ -440,12 +440,8 @@ export function sanitizeJourney(value, profile) {
       (room === encounterCount && enemies.some((e) => e.hp > 0)))
   )
     return null;
-  if (
-    sceneKind === "tutorial" &&
-    integer(value.tutorialPhase, 0, 2, 0) === 1 &&
-    enemies.length === 0
-  )
-    return null;
+  // Rescuing Picpic leads directly to Papaille (v0.184). A phase-1 tutorial
+  // without enemies is valid; older phase-1/2 snapshots remain readable too.
   const pending =
     sceneKind === "dungeon" && room === encounterCount
       ? "victory"

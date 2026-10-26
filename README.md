@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.194.0
+# Transformice Adventures — versión local v0.195.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 
@@ -41,6 +41,7 @@ Debes estar quieto durante un segundo para completar una venda. Moverte interrum
 
 ## Funciones recientes
 
+- Corregida la reanudación después de rescatar a Picpic: recargar conserva el tutorial y permite seguir con Papaille.
 - Libreta visible con dos espacios, nombres e iconos de testimonios, incluidos los de muerte.
 - Cursores de área y línea, confirmación de lanzamiento y cancelación.
 - Veneno de reportaje independiente del veneno de la daga; ambos se conservan al guardar.
@@ -68,7 +69,7 @@ npm run test:browser
 
 `check` revisa la sintaxis. `test` comprueba combate, trabajos, talentos, guardados, testimonios y selección de objetivo. `test:features` utiliza Chrome instalado y un perfil aislado; necesita el servidor local activo. Sus capturas se guardan en `.local/`.
 
-La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V194.md](reference/IMPLEMENTATION_V194.md).
+La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V195.md](reference/IMPLEMENTATION_V195.md).
 
 ## Evidencia y alcance
 

@@ -302,25 +302,14 @@ try {
     assert.equal(
       await evaluate("adventure.snapshot().tutorialPhase"),
       1,
-      "Bandage must heal Picpic and start combat: " + JSON.stringify(await evaluate("adventure.snapshot()")),
+      "Bandage must heal Picpic and enable Papaille: " + JSON.stringify(await evaluate("adventure.snapshot()")),
     );
     await shot("tutorial");
-    await key("KeyJ");
-    for (let i = 0; i < 35; i++) {
-      await castSkill("KeyQ");
-      await castSkill("KeyR");
-      await tap("KeyH");
-      await wait(500);
-      if ((await evaluate("adventure.snapshot().tutorialPhase")) === 2) break;
-    }
-    await key("KeyJ", "keyUp");
-    const combat = await evaluate("adventure.snapshot()");
-    assert.equal(
-      combat.tutorialPhase,
-      2,
-      `Tutorial combat must finish: ${JSON.stringify(combat)}`,
-    );
-    assert.equal(combat.enemies, 0);
+    // v0.184 follows the recorded rescue -> Papaille route: no tutorial fight.
+    assert.equal(await evaluate("adventure.snapshot().enemies"), 0);
+    await reloadAndContinue();
+    assert.equal(await evaluate("adventure.snapshot().tutorialPhase"), 1);
+    assert.equal(await evaluate("adventure.snapshot().pet.injured"), false);
     // Walk normally toward Papaille, then use the actual interaction key.
     let pos = await evaluate("adventure.snapshot().position");
     await key("KeyD");
@@ -342,10 +331,14 @@ try {
       "Papaille must lead to village",
     );
     await shot("village");
+    if (process.argv.includes("--tutorial-only")) {
+      assert.equal(errors.length, 0, errors.join("\n"));
+      console.log("PASS: Picpic rescue survives reload, Papaille returns to village, no runtime exceptions.");
+    } else {
     await tap("KeyI");
     assert.equal(await evaluate("adventure.snapshot().modal"), "profile");
     await evaluate(
-      "document.querySelector('[data-weapon=dagger]').click();document.getElementById('confirm-loadout').click();document.querySelector('[data-secondary=shield]').click();document.getElementById('confirm-loadout').click()",
+      "document.querySelector('[data-tab=equipment]').click();document.querySelector('[data-weapon=dagger]').click();document.getElementById('confirm-loadout').click();document.querySelector('[data-secondary=shield]').click();document.getElementById('confirm-loadout').click()",
     );
     assert.equal(await evaluate("adventure.snapshot().weapon"), "dagger");
     await shot("equipment");
@@ -374,7 +367,7 @@ try {
     await key("KeyH", "keyUp");
     await tap("KeyI");
     await evaluate(
-      "document.querySelector('[data-weapon=greatsword]').click();document.getElementById('confirm-loadout').click()",
+      "document.querySelector('[data-tab=equipment]').click();document.querySelector('[data-weapon=greatsword]').click();document.getElementById('confirm-loadout').click()",
     );
     assert.equal(
       await evaluate(
@@ -404,7 +397,7 @@ try {
     );
     await tap("KeyI");
     await evaluate(
-      "document.querySelector('[data-weapon=bow]').click();document.getElementById('confirm-loadout').click();document.querySelector('[data-secondary=bandage]').click();document.getElementById('confirm-loadout').click()",
+      "document.querySelector('[data-tab=equipment]').click();document.querySelector('[data-weapon=bow]').click();document.getElementById('confirm-loadout').click();document.querySelector('[data-secondary=bandage]').click();document.getElementById('confirm-loadout').click()",
     );
     assert.equal(await evaluate("adventure.snapshot().weapon"), "bow");
     await evaluate(
@@ -493,13 +486,16 @@ try {
           y: 400 + (target.y - 12 - s.view.y) * s.view.zoom,
         });
       }
-      await key("KeyJ");
       if (i % 10 === 0) {
         await tap("KeyH");
         await castSkill("KeyQ");
         await castSkill("KeyR");
       }
-      await wait(100);
+      // Bow release is an input action: holding J indefinitely only charges it.
+      await key("KeyJ");
+      await wait(220);
+      await key("KeyJ", "keyUp");
+      await wait(180);
     }
     await key("KeyJ", "keyUp");
     assert.equal(won, true, "Three encounters and boss must complete");
@@ -589,7 +585,7 @@ try {
     await wait(250);
     await key("KeyJ", "keyUp");
     assert.equal(await evaluate("adventure.snapshot().invisible"), 0);
-    await castSkill("KeyF");
+    await castSkill("Digit3");
     assert.ok((await evaluate("adventure.snapshot().cooldowns.skill3")) > 0);
     await reloadAndContinue();
     assert.equal(
@@ -620,6 +616,7 @@ try {
     console.log(
       "PASS: full playthrough, expedition resume, pending reward/victory without duplicate loot, real export/import, invalid-file rejection, no runtime exceptions.",
     );
+    }
   }
 } finally {
   if (ws && ws.readyState === 1) ws.close();

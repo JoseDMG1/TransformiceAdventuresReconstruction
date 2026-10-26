@@ -35,6 +35,8 @@ Las notas son juicio experto, no una medición automática ni un intervalo estad
 
 ### P0 — Medir la versión vigente en navegador
 
+Actualización v0.195: se comprobó el tutorial nuevo, su reanudación después del rescate y la llegada a la aldea en Chrome; se corrigió un descarte de guardado. El recorrido completo automatizado terminó en derrota durante la expedición. El alcance P0 sigue abierto y la estimación no aumenta. Detalles en [IMPLEMENTATION_V195.md](IMPLEMENTATION_V195.md).
+
 **Estado:** pendiente. Es el primer paso porque determina si la versión actual carga, completa el ciclo y qué diferencias son reales.
 
 1. Registrar navegador, tamaño de ventana, versión `v0.193.0`, partida nueva y guardada/reanudada. No sobrescribir el perfil habitual; usar una copia o perfil aislado.

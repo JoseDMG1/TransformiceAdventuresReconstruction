@@ -45,6 +45,27 @@ test("tutorial imports always retain a usable bandage loadout", () => {
   assert.equal(result.weapon, "sword");
   assert.equal(result.secondary, "bandage");
 });
+test("rescued tutorial survives save/load without an invented combat", () => {
+  const state = {
+    ...journey(), scene: "tutorial", tutorialPhase: 1,
+    enemies: [], effects: [], projectiles: [],
+    pet: { x: 620, y: 630, hp: 40, injured: false },
+  };
+  const result = decodeSave(encodeSave(defaultProfile(), state));
+  assert.ok(result.journey, "The rescued tutorial must not be discarded");
+  assert.equal(result.journey.tutorialPhase, 1);
+  assert.equal(result.journey.player.x, state.player.x);
+  assert.equal(result.journey.pet.injured, false);
+  assert.deepEqual(result.journey.enemies, []);
+});
+test("legacy tutorial combat phases retain their existing state", () => {
+  for (const tutorialPhase of [1, 2]) {
+    const state = { ...journey(), scene: "tutorial", tutorialPhase };
+    const result = decodeSave(encodeSave(defaultProfile(), state));
+    assert.equal(result.journey.tutorialPhase, tutorialPhase);
+    assert.equal(result.journey.enemies[0].hp, state.enemies[0].hp);
+  }
+});
 test("v1 migration preserves profile and introduces no invented journey", () => {
   const result = decodeSave(
     JSON.stringify({

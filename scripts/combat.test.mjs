@@ -7,8 +7,8 @@ import {
   incomingDamage,
   inAttackArc,
 } from "../dist/combat.js";
-test("each weapon hits after windup exactly once, including resumed actions", () => {
-  for (const id of Object.keys(WEAPONS)) {
+test("melee weapons hit after windup exactly once, including resumed actions", () => {
+  for (const id of ["sword", "dagger", "greatsword"]) {
     const a = createAttack(id, 0);
     assert.equal(advanceAttack(a, WEAPONS[id].windup * 0.5).impact, false);
     const saved = JSON.parse(JSON.stringify(a));
@@ -16,6 +16,15 @@ test("each weapon hits after windup exactly once, including resumed actions", ()
     assert.equal(advanceAttack(saved, 1).impact, false);
     assert.equal(advanceAttack(saved, 1).finished, true);
   }
+});
+test("bow impact waits 150 ms after preparation and cannot duplicate after resume", () => {
+  const action = createAttack("bow", 0);
+  assert.equal(advanceAttack(action, WEAPONS.bow.windup).impact, false);
+  const saved = JSON.parse(JSON.stringify(action));
+  assert.equal(advanceAttack(saved, 0.149).impact, false);
+  assert.equal(advanceAttack(saved, 0.002).impact, true);
+  assert.equal(advanceAttack(saved, 1).impact, false);
+  assert.equal(advanceAttack(saved, 0).finished, true);
 });
 test("shield protects the aimed front, not the rear or an unknown origin", () => {
   const p = { x: 0, y: 0, angle: 0, guarding: true };
