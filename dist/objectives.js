@@ -22,17 +22,27 @@ export function objectiveTarget({ scene, pet, tutorialPhase, room, encounterStar
   return null;
 }
 
-export function objectiveProjection(target, camera, zoom, width, height) {
+// TFMAdventure.changerTailleFenetre clamps the longest logical axis to 1280..1920.
+export function originalInterfaceScale(width, height) {
+  const longest = Math.max(width, height);
+  return longest > 0 ? longest / Math.min(1920, Math.max(1280, longest)) : 1;
+}
+
+export function objectiveProjection(target, camera, zoom, width, height, player = camera) {
   if (!target || !(zoom > 0) || !(width > 0) || !(height > 0)) return null;
   const x = (target.x - camera.x) * zoom + width / 2;
   const y = (target.y - camera.y) * zoom + height / 2;
   const centerX = width / 2, centerY = height / 2;
-  const halfWidth = Math.max(20, width / 2 - 70);
-  const halfHeight = Math.max(20, height / 2 - 155);
-  const dx = x - centerX, dy = y - centerY;
-  const ratio = Math.max(Math.abs(dx) / halfWidth, Math.abs(dy) / halfHeight);
-  return ratio <= 1 ? { mode: "ground", x, y } : {
-    mode: "edge", x: centerX + dx / ratio, y: centerY + dy / ratio,
-    angle: Math.atan2(dy, dx),
+  const dx = target.x - player.x, dy = target.y - player.y;
+  // Adapt the original circular distance threshold to the local camera zoom.
+  if (Math.hypot(dx, dy) * zoom < Math.min(width, height) / 2)
+    return { mode: "ground", x, y };
+  const angle = Math.atan2(dy, dx);
+  const radius = Math.hypot(centerX, centerY);
+  return {
+    mode: "edge",
+    x: Math.max(0, Math.min(width, centerX + Math.cos(angle) * radius)),
+    y: Math.max(0, Math.min(height, centerY + Math.sin(angle) * radius)),
+    angle,
   };
 }

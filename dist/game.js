@@ -62,7 +62,7 @@ import { createSkillSystem } from "./skill-system.js";
 import { createTargetingSystem, skillTargeting } from "./targeting.js";
 import { TESTIMONIES, REPORT_RULES, tickReportPoison } from "./journalism.js";
 import { FOREST_CLUES, normalizeForestClues, drawForestClue } from "./forest-story.js";
-import { objectiveTarget, objectiveProjection } from "./objectives.js";
+import { objectiveTarget, objectiveProjection, originalInterfaceScale } from "./objectives.js";
 import { createDialogueText } from "./dialogue-text.js";
 import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
@@ -5260,7 +5260,7 @@ function draw() {
   }
   const navigationTarget = mode === "playing" && !modalKind && $("dialogue").hidden && !$("hud").hidden
     ? objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }) : null;
-  const navigationMarker = objectiveProjection(navigationTarget, camera, zoom, w, h);
+  const navigationMarker = objectiveProjection(navigationTarget, camera, zoom, w, h, player);
   ctx.save();
   ctx.translate(w / 2 + shakeX, h / 2 + shakeY);
   ctx.scale(zoom, zoom);
@@ -5533,8 +5533,10 @@ function draw() {
     ctx.save();
     ctx.translate(navigationMarker.x, navigationMarker.y);
     ctx.rotate(navigationMarker.angle);
+    const interfaceScale = originalInterfaceScale(w, h);
+    ctx.scale(interfaceScale, interfaceScale);
     if (objectiveArrow.complete && objectiveArrow.naturalWidth)
-      ctx.drawImage(objectiveArrow, -46, -20, 46, 40);
+      ctx.drawImage(objectiveArrow, -objectiveArrow.naturalWidth, -objectiveArrow.naturalHeight / 2);
     else {
       ctx.fillStyle = "#edcf67";
       ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(-24, -12); ctx.lineTo(-18, 0); ctx.lineTo(-24, 12); ctx.fill();
@@ -5961,7 +5963,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.202.0",
+    version: "0.203.0",
   }),
 });
 resize();
