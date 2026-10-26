@@ -458,6 +458,12 @@ try {
     await shot("village");
     if (process.argv.includes("--emotes")) {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      if (process.argv.includes("--viewport")) {
+        const { checkViewport } = await import("./viewport-browser-checks.mjs");
+        const report = await checkViewport({ evaluate, send, shot, waitFor });
+        await writeFile(".local/viewport.json", JSON.stringify(report,null,2));
+        console.log("PASS: real Canvas viewport scaling, centered follow camera and unchanged actor position across resize.");
+      }
       if (process.argv.includes("--quest-list")) {
         const { checkQuestList } = await import("./quest-browser-checks.mjs");
         const report = await checkQuestList({ evaluate, shot, waitFor });

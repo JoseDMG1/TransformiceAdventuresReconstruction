@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.211.0
+# Transformice Adventures — versión local v0.212.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 

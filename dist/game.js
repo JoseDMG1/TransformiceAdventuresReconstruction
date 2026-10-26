@@ -4884,19 +4884,7 @@ function resize() {
   canvas.width = Math.round(w * dpr);
   canvas.height = Math.round(h * dpr);
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  zoom = clamp(Math.min(w / 1200, h / 720), 0.65, 1.5);
-}
-function constrainCamera() {
-  const halfW = w / (zoom * 2),
-    halfH = h / (zoom * 2);
-  camera.x =
-    scene.width <= halfW * 2
-      ? scene.width / 2
-      : clamp(camera.x, halfW, scene.width - halfW);
-  camera.y =
-    scene.height <= halfH * 2
-      ? scene.height / 2
-      : clamp(camera.y, halfH, scene.height - halfH);
+  zoom = originalInterfaceScale(w, h);
 }
 function screenToWorld(x, y) {
   return { x: (x - w / 2) / zoom + camera.x, y: (y - h / 2) / zoom + camera.y };
@@ -5207,7 +5195,10 @@ function drawLocalEmote(targetContext) {
 function draw(elapsedMs = 0) {
   ctx.clearRect(0, 0, w, h);
   if (!scene) return;
-  constrainCamera();
+  // The original camera follows the player while sectors stream around it;
+  // local authored map bounds constrain movement, not camera presentation.
+  ctx.fillStyle = scene.backgroundColor;
+  ctx.fillRect(0, 0, w, h);
   let shakeX = 0;
   let shakeY = 0;
   if (camera.shakeUntil > time) {
@@ -5923,7 +5914,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.211.0",
+    version: "0.212.0",
   }),
 });
 resize();

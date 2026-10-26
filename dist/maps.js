@@ -114,6 +114,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
       width,
       height,
       ground,
+      backgroundColor: FOREST_PALETTE.grass,
       areaId: routeAreas[0]?.id ?? null,
       routeAreas,
       objects,
@@ -200,6 +201,8 @@ export function makeScene(kind, index = 0, routeLength = 0) {
     width,
     height,
     ground: makeGround(width, height, definition.groundSeed + index, definition.id === "village", content.groundLayout),
+    backgroundColor: definition.id === "village" ? "#8fae43"
+      : content.groundLayout?.startsWith("forest-") ? FOREST_PALETTE.grass : "#86a93c",
     areaId: area?.id ?? null,
     objects,
     colliders,

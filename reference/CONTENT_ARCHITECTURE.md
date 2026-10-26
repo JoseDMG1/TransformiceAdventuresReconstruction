@@ -4,6 +4,8 @@
 
 `dist/objectives.js` resuelve objetivos locales y proyecta el marcador visible o la flecha lejana. No modifica misiones, enemigos ni partidas. `dist/dialogue-text.js` mantiene el revelado del texto sin temporizadores ni DOM; la interfaz consulta su estado en cada fotograma y controla el avance.
 
+Desde v0.212, `viewport.js` centraliza la resolución lógica y su escala; mundo e indicador consumen el mismo cálculo. La simulación conserva coordenadas independientes del tamaño de ventana. `scene.backgroundColor` permite continuidad de fondo al seguir al jugador cerca del límite de un mapa local. Esa continuidad visual no implica sectores originales recuperados.
+
 Desde v0.209, `quest-data.js` describe las instrucciones y sus IDs locales; `quest-log.js` conserva una lista con eventos de añadir, validar y retirar, sin DOM ni guardados; `quest-view.js` dibuja las filas con identidad independiente. `game.js` comunica cambios reales del recorrido y actualiza el destino móvil. Para ampliar objetivos se añaden descriptores al catálogo y se comunica su validación explícitamente; cambiar texto o retirar una instrucción temporal no equivale a completarla. La lista se reconstruye desde la partida existente, sin otra versión del formato de guardado. La secuencia autoritativa de objetivos enviados por el servidor sigue ausente.
 
 Desde v0.210, `combat.js` concentra también el reloj real de carga/liberación del arco. `persistence.js` utiliza `restoredBowRelease` para conservar un disparo liberado sin restaurar entradas físicas y para reconstruir de forma finita impactos de partidas antiguas. La simulación y las pruebas usan `advanceAttack`; no mantienen dos cálculos distintos del retardo.

@@ -22,11 +22,7 @@ export function objectiveTarget({ scene, pet, tutorialPhase, room, encounterStar
   return null;
 }
 
-// TFMAdventure.changerTailleFenetre clamps the longest logical axis to 1280..1920.
-export function originalInterfaceScale(width, height) {
-  const longest = Math.max(width, height);
-  return longest > 0 ? longest / Math.min(1920, Math.max(1280, longest)) : 1;
-}
+export { originalInterfaceScale } from "./viewport.js";
 
 export function createObjectiveArrowMotion() {
   let position = null;
