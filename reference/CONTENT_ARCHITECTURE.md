@@ -4,6 +4,8 @@
 
 `dist/objectives.js` resuelve objetivos locales y proyecta el marcador visible o la flecha lejana. No modifica misiones, enemigos ni partidas. `dist/dialogue-text.js` mantiene el revelado del texto sin temporizadores ni DOM; la interfaz consulta su estado en cada fotograma y controla el avance.
 
+Desde v0.209, `quest-data.js` describe las instrucciones y sus IDs locales; `quest-log.js` conserva una lista con eventos de añadir, validar y retirar, sin DOM ni guardados; `quest-view.js` dibuja las filas con identidad independiente. `game.js` comunica cambios reales del recorrido y actualiza el destino móvil. Para ampliar objetivos se añaden descriptores al catálogo y se comunica su validación explícitamente; cambiar texto o retirar una instrucción temporal no equivale a completarla. La lista se reconstruye desde la partida existente, sin otra versión del formato de guardado. La secuencia autoritativa de objetivos enviados por el servidor sigue ausente.
+
 `dist/skill-data.js` aporta descripciones por habilidad e IDs de texto originales. `jobs.js` los incorpora a `ABILITIES`; el HUD y la ficha de Trabajos consumen ese registro. Las instrucciones de entrada describen el control local y no se confunden con parámetros recuperados del servidor.
 
 `dist/damage-effects.js` centraliza atribucion de dano para Polvo vampirico. Las fuentes desconocidas no heredan efectos y el dano de mascota es independiente. `dist/effect-data.js` concentra IDs visuales compartidos comprobados en los recursos. `dist/effect-state.js` define las entidades que captura y valida el guardado, evitando listas divergentes. `dist/actor-overlays.js` dibuja vida y estados en una capa independiente de los sprites y de la vegetacion.

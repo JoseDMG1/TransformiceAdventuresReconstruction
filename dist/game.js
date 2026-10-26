@@ -64,6 +64,9 @@ import { TESTIMONIES, REPORT_RULES, tickReportPoison } from "./journalism.js";
 import { FOREST_CLUES, normalizeForestClues, drawForestClue } from "./forest-story.js";
 import { objectiveTarget, objectiveProjection, originalInterfaceScale, createObjectiveArrowMotion } from "./objectives.js";
 import { drawObjectiveGround } from "./objective-art.js";
+import { createQuestTracker } from "./quest-log.js";
+import { createQuestView } from "./quest-view.js";
+import { describeQuests } from "./quest-data.js";
 import { createDialogueText } from "./dialogue-text.js";
 import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
@@ -269,8 +272,8 @@ let fieldSerial = 0;
 let forestClues = [];
 let papailleClueDialogue = null;
 let currentQuestKey = null;
-let pendingQuestDescription = "";
-let questTransitionId = 0;
+const questTracker = createQuestTracker();
+const questView = createQuestView($("quest-objectives"));
 const dialogueText = createDialogueText();
 let targetingSystem = null;
 let rewardOffer = [],
@@ -618,7 +621,7 @@ function completeTutorialRescue() {
   tutorialPhase = 1;
   pet.hp = petMaxHP();
   announce("¡Un nuevo amigo!", "PICPIC TE ACOMPAÑARÁ EN TU AVENTURA");
-  updateQuest();
+  updateQuest({ completePrevious: true });
   save();
   return true;
 }
@@ -957,7 +960,7 @@ function resumeRecord(record) {
   camera.x = player.x;
   camera.y = player.y;
   resetCameraEffects();
-  updateQuest();
+  updateQuest({ reset: true });
   updateHUD();
   if (journey.pending === "reward") openGifts();
   if (journey.pending === "victory") victory(false);
@@ -1367,7 +1370,7 @@ function enterScene(kind, index = 0, restoring = false, routeLength = 0) {
   resetSceneAudio();
   $("area-name").textContent = MAPS[scene.mapId]?.hudName ?? MAPS.dungeon.hudName;
   if (scene.kind === "dungeon" && !restoring) spawnRoom();
-  updateQuest();
+  updateQuest({ reset: true });
   updateHUD();
   if (!restoring) save();
 }
@@ -1505,73 +1508,15 @@ function spawnRoom() {
     : rules.attackCooldown;
   e.pattern = (e.pattern + 1) % 3;
 }
-function updateQuest() {
-  let title, description, questKey;
-  if (scene.kind === "village") {
-    const muraAdvicePending = profile.expeditions > 0 && !profile.muraAdviceSeen;
-    questKey = muraAdvicePending ? "village:mura" : "village:board";
-    title = muraAdvicePending
-      ? "Trabajos"
-      : profile.bestStep
-        ? "El bosque vuelve a llamar"
-        : "Un mundo por descubrir";
-    description = muraAdvicePending
-      ? "Habla con Mura para cambiar de trabajo. Puedes adquirir un trabajo secundario a partir del nivel 10. ¡No dudes en probar varias combinaciones! ¡Cambiar de trabajo es gratis!"
-      : profile.tutorial && profile.expeditions === 0
-        ? "Continúa el sendero."
-        : "Visita el tablón de la plaza para comenzar una expedición. Mura puede cambiar tu trabajo.";
-  } else if (scene.kind === "tutorial") {
-    questKey = `tutorial:${tutorialPhase}`;
-    title =
-      tutorialPhase === 0
-        ? "Un pequeño amigo"
-        : "El camino a casa";
-    description =
-      tutorialPhase === 0
-        ? tutorialRescueInstructions()
-        : "Habla con Papaille.";
-  } else {
-    questKey = encounterAwarded
-      ? `dungeon:${step}:${room}:chest`
-      : !encounterStarted
-        ? `dungeon:${step}:${room}:path`
-        : `dungeon:${step}:${room}:combat`;
-    title =
-      room === encounterCount - 1 ? ENCOUNTER_RULES.boss.name
-        : `Bosque Susurrante · Etapa ${step}`;
-    description = !encounterStarted
-      ? `Encuentro ${room + 1} / ${encounterCount} · Sigue el sendero hacia la siguiente zona.`
-      : `Encuentro ${Math.min(room + 1, encounterCount)} / ${encounterCount} · ${encounterAwarded ? "Abre el cofre de Elisah con E. Sigue el marcador." : "Derrota a los enemigos y busca el cofre."}`;
-  }
-  if (scene.kind === "dungeon" && papailleClueDialogue) {
-    questKey = `dungeon:papaille:${papailleClueDialogue}`;
-    title = "Papaille";
-    description = "Habla con Papaille.";
-  }
+function updateQuest(options = {}) {
+  const { title, objectives } = describeQuests({
+    scene, profile, pet, tutorialPhase, room, encounterStarted, encounterAwarded,
+    step, encounterCount, papailleClueDialogue,
+    rescueInstructions: tutorialRescueInstructions(), bossName: ENCOUNTER_RULES.boss.name,
+  });
   $("quest-title").textContent = title;
-  const questDescription = $("quest-description");
-  const questCheck = $("quest-check");
-  pendingQuestDescription = description;
-  if (questKey !== currentQuestKey) {
-    const previousKey = currentQuestKey;
-    const transitionId = ++questTransitionId;
-    currentQuestKey = questKey;
-    if (previousKey && questDescription.textContent) {
-      questCheck.classList.remove("is-completing");
-      void questCheck.offsetWidth;
-      questCheck.classList.add("is-completing");
-      window.setTimeout(() => {
-        if (transitionId !== questTransitionId) return;
-        questDescription.textContent = pendingQuestDescription;
-        questCheck.classList.remove("is-completing");
-      }, 500);
-    } else {
-      questDescription.textContent = description;
-      questCheck.classList.remove("is-completing");
-    }
-  } else if (!questCheck.classList.contains("is-completing")) {
-    questDescription.textContent = description;
-  }
+  questTracker.reconcile(objectives, options);
+  currentQuestKey = objectives[0]?.id ?? null;
   $("room-progress").innerHTML =
     scene.kind === "dungeon"
       ? Array.from(
@@ -2448,7 +2393,7 @@ function interact() {
       speak("Papaille", clue.lines, () => {
         forestClues = normalizeForestClues([...forestClues, clue.id]);
         papailleClueDialogue = null;
-        updateQuest();
+        updateQuest({ completePrevious: true });
         save();
       });
     }
@@ -2484,7 +2429,7 @@ function interact() {
     if (profile.expeditions > 0 && !profile.muraAdviceSeen) {
       profile.muraAdviceSeen = true;
       save();
-      updateQuest();
+      updateQuest({ completePrevious: true });
     }
     openProfile("jobs");
   } else if (id === "scarf") {
@@ -2902,7 +2847,7 @@ function openGifts() {
       effects = effects.filter((effect) => effect.kind !== "trap" && effect.kind !== "plant");
       scene.interactables = scene.interactables.filter((entry) => entry.id !== "chest");
       roomClearTimer = 0;
-      updateQuest();
+      updateQuest({ completePrevious: true });
       announce("El sendero continúa", `ZONA ${room + 1} DE ${encounterCount} · AVANZA HACIA EL ESTE`);
       save();
     }
@@ -4408,7 +4353,7 @@ function update(dt) {
     ) {
       encounterStarted = true;
       spawnRoom();
-      updateQuest();
+      updateQuest({ completePrevious: true });
       save();
     }
   }
@@ -4827,7 +4772,7 @@ function update(dt) {
           y: clamp(player.y, 120, scene.height - 100),
           text: "Abrir el cofre de Elisah",
         });
-      updateQuest();
+      updateQuest({ completePrevious: true });
       save();
     }
   }
@@ -5273,8 +5218,11 @@ function draw(elapsedMs = 0) {
     shakeX = Math.cos(camera.shakeAngle) * 10 * remaining + Math.random() - 0.5;
     shakeY = Math.sin(camera.shakeAngle) * 10 * remaining + Math.random() - 0.5;
   }
+  questTracker.updateTarget(currentQuestKey,
+    objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded,
+      muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }));
   const navigationTarget = mode === "playing" && !modalKind && $("dialogue").hidden && !$("hud").hidden
-    ? objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }) : null;
+    ? questTracker.target() : null;
   const navigationMarker = objectiveArrowMotion.update(
     objectiveProjection(navigationTarget, camera, zoom, w, h, player), w, h, elapsedMs,
   );
@@ -5571,6 +5519,8 @@ function frame(now) {
   const dt = Math.min(elapsedMs / 1000 || 0, 0.05);
   lastTime = now;
   update(dt);
+  questTracker.tick(now);
+  questView.render(questTracker.snapshot(), now);
   draw(elapsedMs);
   updateHUDPortrait();
   const preview = $("appearance-preview");
@@ -5899,6 +5849,8 @@ Object.defineProperty(window, "adventure", {
       clues: scene.interactables.filter(o => o.clueId).map(o => ({ id: o.clueId, x: o.x, y: o.y })),
       chest: scene.interactables.find(o => o.id === "chest") ?? null,
       objective: objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }),
+      objectives: questTracker.snapshot(),
+      objectiveMarker: questTracker.target(),
       targeting: targetingSystem.pending,
       fields: effects.filter(effect => effect.life > 0).map(effect => ({
         kind: effect.kind, x: effect.x, y: effect.y, subtype: effect.subtype,
@@ -5965,7 +5917,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.208.0",
+    version: "0.209.0",
   }),
 });
 resize();

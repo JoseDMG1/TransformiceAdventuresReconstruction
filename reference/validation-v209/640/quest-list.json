@@ -1,0 +1,18 @@
+{
+  "order": [
+    "fixture-b",
+    "fixture-a"
+  ],
+  "stableNode": true,
+  "checked": [
+    false,
+    true
+  ],
+  "checkDrawn": "\"✓\"",
+  "staysChecked": true,
+  "removingOne": true,
+  "remaining": [
+    "fixture-a"
+  ],
+  "empty": true
+}

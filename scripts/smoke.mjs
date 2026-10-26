@@ -26,7 +26,7 @@ const browser = spawn(
   ],
   { windowsHide: true, stdio: "ignore" },
 );
-let ws;
+let ws, captureFailure;
 try {
   let targets;
   for (let i = 0; i < 60; i++) {
@@ -106,6 +106,13 @@ try {
     await evaluate("Promise.all([...document.images].filter(i=>!i.complete).map(i=>new Promise(r=>{i.addEventListener('load',r,{once:true});i.addEventListener('error',r,{once:true});setTimeout(r,2000)})))");
     const r = await send("Page.captureScreenshot", { format: "png" });
     await writeFile(`.local/${name}.png`, Buffer.from(r.data, "base64"));
+  };
+  captureFailure = async () => {
+    const state = await evaluate("({state: window.adventure?.snapshot(), body: document.body.innerText.slice(-1000)})");
+    await writeFile(".local/browser-failure.json", JSON.stringify(state, null, 2));
+    console.error("Browser failure state:", JSON.stringify({ scene: state.state?.scene,
+      mode: state.state?.mode, modal: state.state?.modal, job: state.state?.job,
+      enemies: state.state?.enemies, body: state.body }));
   };
   const reloadAndContinue = async () => {
     await send("Page.reload");
@@ -291,6 +298,11 @@ try {
       "document.getElementById('play-button').click(); document.getElementById('name-input').value='Local'; document.getElementById('begin-tutorial').click()",
     );
     assert.equal(await evaluate("adventure.snapshot().scene"), "tutorial");
+    if (process.argv.includes("--quest-list")) {
+      await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:0' && !o.validated)",
+        "New tutorial must show the rescue objective");
+      assert.equal(await evaluate("document.querySelectorAll('#quest-objectives .quest-objective').length"), 1);
+    }
     const start = await evaluate("adventure.snapshot().position");
     await key("KeyD");
     await wait(560);
@@ -308,12 +320,27 @@ try {
       1,
       "Bandage must heal Picpic and enable Papaille: " + JSON.stringify(await evaluate("adventure.snapshot()")),
     );
+    if (process.argv.includes("--quest-list")) {
+      await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:0' && o.validated)",
+        "Rescuing Picpic must validate its own instruction");
+      await shot("quest-validated");
+      await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:1') && adventure.snapshot().objectives.some(o => o.id === 'tutorial:0')",
+        "New and retiring objectives must have independent rows");
+      await shot("quest-transition");
+      await waitFor("adventure.snapshot().objectives.length === 1 && adventure.snapshot().objectives[0].id === 'tutorial:1'",
+        "Only the completed rescue instruction should be removed");
+    }
     await shot("tutorial");
     // v0.184 follows the recorded rescue -> Papaille route: no tutorial fight.
     assert.equal(await evaluate("adventure.snapshot().enemies"), 0);
     await reloadAndContinue();
     assert.equal(await evaluate("adventure.snapshot().tutorialPhase"), 1);
     assert.equal(await evaluate("adventure.snapshot().pet.injured"), false);
+    if (process.argv.includes("--quest-list")) {
+      await waitFor("adventure.snapshot().objectives.length === 1 && adventure.snapshot().objectives[0].id === 'tutorial:1'",
+        "Reload must reconstruct only the current objective");
+      assert.equal(await evaluate("adventure.snapshot().objectives[0].validated"), false);
+    }
     // Walk normally toward Papaille, then use the actual interaction key.
     let pos = await evaluate("adventure.snapshot().position");
     await key("KeyD");
@@ -386,6 +413,12 @@ try {
     await shot("village");
     if (process.argv.includes("--emotes")) {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      if (process.argv.includes("--quest-list")) {
+        const { checkQuestList } = await import("./quest-browser-checks.mjs");
+        const report = await checkQuestList({ evaluate, shot, waitFor });
+        await writeFile(".local/quest-list.json", JSON.stringify(report, null, 2));
+        console.log("PASS: objective rescue validation, independent DOM rows, persistent checks, retirement and clean reload.");
+      }
       if (process.argv.includes("--objective-motion")) {
         const { checkObjectiveMotion } = await import("./objective-browser-checks.mjs");
         const trace = await checkObjectiveMotion({ evaluate, tap, key, shot, wait, waitFor });
@@ -607,9 +640,7 @@ try {
     const before = await evaluate(
       "JSON.parse(localStorage.getItem('tfma-local-v1'))",
     );
-    await send("Page.reload");
-    await wait(700);
-    await evaluate("document.getElementById('continue-button').click()");
+    await reloadAndContinue();
     assert.equal(await evaluate("adventure.snapshot().level"), before.level);
     assert.equal(await evaluate("adventure.snapshot().job"), before.job);
     await tap("Escape");
@@ -699,7 +730,8 @@ try {
     assert.equal(await evaluate("adventure.snapshot().secondaryJob"), null);
     await tap("KeyM");
     await evaluate("document.getElementById('begin-dungeon').click()");
-    await wait(180);
+    await waitFor("adventure.snapshot().scene === 'dungeon' && adventure.snapshot().testimonies.length > 0",
+      "Journalist must enter combat and produce the first testimony", 5000);
     assert.ok((await evaluate("adventure.snapshot().testimonies.length")) > 0);
     await castSkill("KeyQ");
     assert.ok((await evaluate("adventure.snapshot().cooldowns.skill1")) > 0);
@@ -716,6 +748,10 @@ try {
     );
     }
   }
+} catch (error) {
+  if (ws?.readyState === 1 && captureFailure)
+    try { await captureFailure(); } catch { /* Preserve the original assertion. */ }
+  throw error;
 } finally {
   if (ws && ws.readyState === 1) ws.close();
   browser.kill();

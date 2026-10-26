@@ -116,14 +116,20 @@ button:disabled {
 #quest #room-progress {
   display: none;
 }
-#quest-objective {
+#quest-objectives {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 5px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
 }
-#quest-check {
+.quest-objective {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 5px;
+  max-width: 100%;
+}
+.quest-check {
   flex: 0 0 10px;
   width: 10px;
   height: 10px;
@@ -132,10 +138,16 @@ button:disabled {
   box-sizing: border-box;
   opacity: 0.72;
 }
-#quest-check.is-completing {
-  animation: objective-validate 500ms ease-out both;
+.quest-objective[data-phase="entering"] {
+  animation: objective-enter 1500ms cubic-bezier(.16, 1, .3, 1) both;
 }
-#quest-check.is-completing::after {
+.quest-objective[data-phase="leaving"] {
+  animation: objective-leave 1500ms cubic-bezier(.16, 1, .3, 1) both;
+}
+.quest-objective.is-validating p {
+  animation: objective-validate 500ms linear both;
+}
+.quest-objective.is-validated .quest-check::after {
   content: "✓";
   display: block;
   color: #e7db9d;
@@ -143,9 +155,24 @@ button:disabled {
   text-align: center;
 }
 @keyframes objective-validate {
-  0% { transform: scale(1); }
-  55% { transform: scale(1.35); }
-  100% { transform: scale(1); opacity: 1; }
+  0% { padding-right: 2em; }
+  27.5%, 72.7%, 90.9%, 100% { padding-right: 0; }
+  54.5% { padding-right: .5em; }
+  81.8% { padding-right: .125em; }
+  95.4% { padding-right: .03125em; }
+}
+@keyframes objective-enter {
+  from { transform: translateX(calc(100% + 30px)); }
+  to { transform: translateX(0); }
+}
+@keyframes objective-leave {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(100% + 30px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quest-objective[data-phase] { animation: none; }
+  .quest-objective[data-phase="leaving"] { visibility: hidden; }
+  .quest-objective.is-validating p { animation: none; }
 }
 #quest p {
   font:
@@ -154,7 +181,7 @@ button:disabled {
   color: #f4f0d9;
   margin: 0;
 }
-#quest-objective p {
+.quest-objective p {
   flex: 0 1 auto;
 }
 #room-progress {
