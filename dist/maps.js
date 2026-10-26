@@ -183,7 +183,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
   const npcs = definition.npcs.map(characterAt);
   const interactables = [
     ...definition.interactables.map((entry) => ({ ...entry })),
-    ...npcs.map((character) => ({
+    ...npcs.filter(character => !character.ambient).map((character) => ({
       ...character,
       text: `Hablar con ${character.name}`,
     })),

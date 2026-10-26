@@ -466,6 +466,12 @@ try {
     await shot("village");
     if (process.argv.includes("--emotes")) {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      if (process.argv.includes("--village-reference")) {
+        const { checkVillageReference } = await import("./village-browser-checks.mjs");
+        const report = await checkVillageReference({ evaluate, send, key, shot, wait, waitFor });
+        await writeFile(".local/village-reference.json",JSON.stringify(report,null,2));
+        console.log("PASS: registered board comparison pose and normal expedition-board interaction.");
+      }
       if (process.argv.includes("--viewport")) {
         const { checkViewport } = await import("./viewport-browser-checks.mjs");
         const report = await checkViewport({ evaluate, send, shot, waitFor });

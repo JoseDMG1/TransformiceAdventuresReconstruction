@@ -1,6 +1,6 @@
 ﻿{
   "name": "transformice-adventures-local",
-  "version": "0.213.1",
+  "version": "0.214.0",
   "private": true,
   "type": "module",
   "description": "Juego local de navegador basado en la demo y su gameplay.",
@@ -12,6 +12,7 @@
     "test:objectives": "node --test scripts/objectives.test.mjs",
     "test:viewport": "node --test scripts/viewport.test.mjs",
     "test:camera": "node scripts/smoke.mjs --emotes --reference-size --viewport --objective-motion",
+    "test:village": "node scripts/smoke.mjs --emotes --reference-size --village-reference",
     "reference:frames": "node scripts/extract-reference-frames.mjs",
     "reference:motion": "node scripts/analyze-reference-motion.mjs",
     "test:quests": "node --test scripts/quest-log.test.mjs scripts/quest-notice.test.mjs",

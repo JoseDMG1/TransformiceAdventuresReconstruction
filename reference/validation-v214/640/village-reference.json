@@ -1,0 +1,25 @@
+{
+  "view": {
+    "x": 857.4886046242915,
+    "y": 738.2347386657066,
+    "zoom": 0.5
+  },
+  "position": {
+    "x": 857.359906923491,
+    "y": 738.1994069234925
+  },
+  "target": {
+    "x": 865,
+    "y": 610,
+    "id": "board",
+    "text": "Explorar una mazmorra"
+  },
+  "boardInteraction": true,
+  "npcInteractions": [
+    "papaille",
+    "mura",
+    "scarf"
+  ],
+  "width": 640,
+  "height": 360
+}

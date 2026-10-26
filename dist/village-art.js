@@ -78,9 +78,9 @@ export function drawVillagePlaza(c) {
 
   // Uneven grass islands and small grass teeth along their edges, visible at 03:00.
   const islands = [
-    { x: 1370, y: 850, rx: 205, ry: 100, phase: .4 },
-    { x: 650, y: 700, rx: 95, ry: 65, phase: 1.8 },
-    { x: 780, y: 1080, rx: 68, ry: 42, phase: 2.5 },
+    { x: 1130, y: 730, rx: 225, ry: 110, phase: .4 },
+    { x: 565, y: 730, rx: 110, ry: 40, phase: 1.8 },
+    { x: 887, y: 814, rx: 50, ry: 30, phase: 2.5 },
     { x: 1220, y: 580, rx: 92, ry: 38, phase: .8 },
     { x: 1610, y: 1100, rx: 92, ry: 55, phase: 3.2 },
   ];
@@ -115,9 +115,8 @@ export function drawVillagePlaza(c) {
 
   // Irregular pale stepping stones near buildings/notice board (02:00/03:00).
   for (const [x, y, size, angle] of [
-    [865, 680, 25, -.1], [910, 744, 20, .2], [865, 805, 16, -.2],
-    [680, 560, 23, .3], [607, 616, 18, -.2], [525, 680, 26, .1],
-    [1480, 638, 20, -.1], [1540, 675, 17, .2],
+    [380, 630, 23, .3], [340, 688, 18, -.2], [300, 736, 26, .1],
+    [1290, 600, 20, -.1], [1350, 614, 17, .2],
     [1190, 1160, 24, .3], [1155, 1220, 18, -.2],
   ]) {
     c.save();

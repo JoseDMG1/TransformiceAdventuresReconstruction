@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Comparación de escenas — v0.214</title>
+<style>
+  body{margin:0;padding:24px;background:#20251d;color:#f2eed7;font:16px/1.5 system-ui}
+  main{max-width:1320px;margin:auto}h1{font-size:24px}button,select,input{font:inherit}
+  button,select{padding:8px;margin:0 12px 12px 0}figure{margin:0}figcaption{padding:8px}
+  .pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}img{display:block;width:100%;height:auto}
+  .overlay{display:none;position:relative;max-width:640px}.overlay img+img{position:absolute;inset:0;opacity:.5}
+  .overlay-mode .pair{display:none}.overlay-mode .overlay{display:block}
+  label{display:block;margin:12px 0}@media(max-width:800px){.pair{grid-template-columns:1fr}}
+</style>
+<main>
+  <h1>Comparación de escenas — v0.214</h1>
+  <p>Referencia del MP4 y captura local a 640×360. El terreno es un trazado aproximado; los estados y encuadres aún pueden diferir.</p>
+  <select id="scene" aria-label="Escena"><option value="start">Comienzo del tutorial</option><option value="papaille">Papaille y carro</option><option value="village">Plaza de aldea</option><option value="villageBefore">Plaza anterior</option></select>
+  <button id="toggle" type="button">Superponer imágenes</button>
+  <label>Opacidad local <input id="opacity" type="range" min="0" max="100" value="50"></label>
+  <div class="pair">
+    <figure><figcaption>Original</figcaption><img id="original" alt="Fotograma del juego original"></figure>
+    <figure><figcaption>Reconstrucción local</figcaption><img id="local" alt="Captura local de la misma zona"></figure>
+  </div>
+  <div class="overlay"><img id="original-overlay" alt="Referencia original"><img id="local-overlay" alt="Capa local superpuesta"></div>
+  <p>Revisar: silueta del bosque, suelo, tamaño y posición de troncos/tocones, vegetación, mascota, carro, casas, faroles y encuadre. La criatura de tiro y las plantas locales son dibujos aproximados, no recursos originales recuperados.</p>
+</main>
+<script>
+  const sources={start:['comparison-frames/frame-0.png','validation-v213/640/tutorial-start.png'],
+    papaille:['comparison-frames/frame-60.png','validation-v213/640/papaille.png'],
+    village:['comparison-frames/frame-180.png','validation-v214/640/village-board-reference.png'],
+    villageBefore:['comparison-frames/frame-180.png','validation-v214/before.png']};
+  const scene=document.getElementById('scene');
+  function update(){const [original,local]=sources[scene.value];
+    document.getElementById('original').src=document.getElementById('original-overlay').src=original;
+    document.getElementById('local').src=document.getElementById('local-overlay').src=local;}
+  scene.onchange=update;
+  document.getElementById('toggle').onclick=()=>{const active=document.body.classList.toggle('overlay-mode');
+    document.getElementById('toggle').textContent=active?'Mostrar lado a lado':'Superponer imágenes';};
+  document.getElementById('opacity').oninput=event=>document.getElementById('local-overlay').style.opacity=event.target.value/100;
+  update();
+</script>
+</html>

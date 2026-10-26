@@ -50,3 +50,19 @@ test("every expedition route builds all ground variants without runtime errors",
     else globalThis.document=oldDocument;
   }
 });
+
+test("village ambience actors never create blank interaction targets",()=>{
+  const oldDocument=globalThis.document,context=new Proxy({}, {get:()=>()=>{}});
+  globalThis.document={createElement:()=>({getContext:()=>context})};
+  try {
+    const scene=makeScene("village");
+    assert.ok(scene.npcs.some(actor=>actor.ambient));
+    assert.ok(scene.interactables.some(actor=>actor.id==="papaille"));
+    assert.ok(scene.interactables.some(actor=>actor.id==="mura"));
+    assert.equal(scene.interactables.some(actor=>actor.ambient),false);
+    assert.equal(scene.interactables.some(actor=>actor.text==="Hablar con "),false);
+  } finally {
+    if(oldDocument===undefined) delete globalThis.document;
+    else globalThis.document=oldDocument;
+  }
+});

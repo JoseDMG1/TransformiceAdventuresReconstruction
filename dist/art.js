@@ -12,6 +12,7 @@ import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-ar
 import { drawTutorialClearing, drawTutorialFence, drawTutorialCart, drawTutorialDraftBeetle } from "./tutorial-art.js";
 import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 import { drawTutorialFlora } from "./tutorial-flora.js";
+import { drawVillageHut, drawVillageChimneyHut, drawVillageLamp } from "./village-building-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -674,130 +675,6 @@ function building(c, kind = 0) {
   );
   ellipse(c, 284, 21, 17, 6, "#55583a", "#665537", 2);
 }
-function villageHut(c, variant = 0) {
-  const roofs = ["#9a5937", "#89523a", "#a1663d"];
-  const roof = roofs[variant % roofs.length];
-  const wall = variant === 1 ? "#795538" : "#8a613d";
-  shadow(c, 180, 286, 157, 26);
-
-  // Rounded timber body, with curved log courses like the village huts in the footage.
-  c.beginPath();
-  c.moveTo(54, 145);
-  c.quadraticCurveTo(180, 118, 306, 145);
-  c.lineTo(300, 255);
-  c.quadraticCurveTo(180, 292, 60, 255);
-  c.closePath();
-  c.fillStyle = wall;
-  c.strokeStyle = "#4e3927";
-  c.lineWidth = 3;
-  c.fill();
-  c.stroke();
-  for (let y = 165; y <= 246; y += 18) {
-    c.beginPath();
-    c.moveTo(62, y);
-    c.quadraticCurveTo(180, y + (y % 2 ? 3 : -2), 298, y - 1);
-    c.strokeStyle = y % 3 ? "#583f2d" : "#bd8b53";
-    c.lineWidth = y % 3 ? 2 : 1.2;
-    c.stroke();
-  }
-  for (const x of [83, 276]) {
-    line(c, [[x, 153], [x + (x < 100 ? 4 : -4), 257]], "#573c29", 4);
-    line(c, [[x + 4, 174], [x + 3, 232]], "#bd8b53", 1.2);
-  }
-
-  // Wide, rounded thatch roof. The curved courses suggest bundled shingles
-  // without implying an unrecovered texture or exact original geometry.
-  c.beginPath();
-  c.moveTo(23, 157);
-  c.quadraticCurveTo(42, 97, 92, 63);
-  c.quadraticCurveTo(137, 31, 180, 34);
-  c.quadraticCurveTo(235, 28, 280, 67);
-  c.quadraticCurveTo(322, 103, 339, 157);
-  c.quadraticCurveTo(276, 176, 180, 165);
-  c.quadraticCurveTo(83, 176, 23, 157);
-  c.closePath();
-  c.fillStyle = roof;
-  c.strokeStyle = "#4f3927";
-  c.lineWidth = 3;
-  c.fill();
-  c.stroke();
-  for (let i = 0; i < 5; i++) {
-    const y = 79 + i * 14;
-    c.beginPath();
-    c.moveTo(56 - i * 5, y + 33);
-    c.quadraticCurveTo(180, y - 5, 304 + i * 5, y + 33);
-    c.strokeStyle = i % 2 ? "#75472f" : "#c1844d";
-    c.lineWidth = i % 2 ? 2 : 1.4;
-    c.stroke();
-  }
-  for (const [x, y] of [[58, 116], [97, 79], [145, 58], [218, 60], [270, 91], [307, 126]]) {
-    line(c, [[x, y], [x + (x < 180 ? 9 : -9), y + 23]], "#d09a5e", 2);
-  }
-
-  // A dark arched entrance and one round window keep each hut readable at game scale.
-  c.beginPath();
-  c.moveTo(144, 263);
-  c.lineTo(144, 216);
-  c.quadraticCurveTo(144, 183, 180, 183);
-  c.quadraticCurveTo(216, 183, 216, 216);
-  c.lineTo(216, 263);
-  c.closePath();
-  c.fillStyle = "#3d3928";
-  c.strokeStyle = "#d2ad68";
-  c.lineWidth = 3;
-  c.fill();
-  c.stroke();
-  line(c, [[180, 188], [180, 260]], "#8b6b44", 2);
-  ellipse(c, 206, 229, 2.5, 2.5, "#e3c36e", null);
-  ellipse(c, variant === 2 ? 112 : 247, 190, 16, 16, "#5c8172", "#4c3928", 3);
-  line(c, [[variant === 2 ? 112 : 247, 176], [variant === 2 ? 112 : 247, 204]], "#d5b66d", 2);
-  line(c, [[variant === 2 ? 98 : 233, 190], [variant === 2 ? 126 : 261, 190]], "#d5b66d", 2);
-}
-function lamp(c) {
-  shadow(c, 25, 124, 18, 7);
-  line(
-    c,
-    [
-      [25, 124],
-      [25, 36],
-    ],
-    "#48523b",
-    6,
-  );
-  path(
-    c,
-    [
-      [14, 24],
-      [36, 24],
-      [34, 43],
-      [16, 43],
-    ],
-    "#f3d686",
-    "#475542",
-    3,
-  );
-  path(
-    c,
-    [
-      [9, 24],
-      [25, 12],
-      [40, 24],
-    ],
-    "#5b7959",
-    "#354a35",
-    2,
-  );
-  line(
-    c,
-    [
-      [25, 24],
-      [25, 42],
-    ],
-    "#6a7750",
-    2,
-  );
-  ellipse(c, 25, 118, 12, 4, "#687755", "#48533a", 2);
-}
 function fountain(c) {
   shadow(c, 73, 86, 67, 18);
   ellipse(c, 73, 73, 61, 28, "#919d7a", "#536844", 2);
@@ -982,11 +859,13 @@ const sizes = {
   rockCluster: [180, 105, 90, 86],
   building: [360, 320, 180, 280],
   hut: [360, 320, 180, 280],
+  chimneyHut: [360, 420, 180, 380],
   board: [166, 110, 83, 102],
-  lamp: [50, 135, 25, 124],
+  lamp: [70, 420, 35, 400],
   fountain: [150, 110, 73, 85],
   bench: [165, 100, 82, 87],
   tutorialFence: [265, 82, 132, 75],
+  fence: [265, 82, 132, 75],
   tutorialCart: [275, 165, 114, 153],
   tutorialDraftBeetle: [225, 155, 110, 144],
   cloverPatch: [215, 165, 107, 153],
@@ -1011,12 +890,13 @@ export function decoration(c, o) {
     if (o.kind === "rock") rock(cc);
     if (o.kind === "rockCluster") rockCluster(cc, o.variant || 0);
     if (o.kind === "building") building(cc, o.variant || 0);
-    if (o.kind === "hut") villageHut(cc, o.variant || 0);
+    if (o.kind === "hut") drawVillageHut(cc, o.variant || 0);
+    if (o.kind === "chimneyHut") drawVillageChimneyHut(cc);
     if (o.kind === "board") drawVillageBoard(cc);
-    if (o.kind === "lamp") lamp(cc);
+    if (o.kind === "lamp") drawVillageLamp(cc);
     if (o.kind === "fountain") fountain(cc);
     if (o.kind === "bench") bench(cc, o.variant || 0);
-    if (o.kind === "tutorialFence") drawTutorialFence(cc);
+    if (o.kind === "tutorialFence" || o.kind === "fence") drawTutorialFence(cc);
     if (o.kind === "tutorialCart") drawTutorialCart(cc);
     if (o.kind === "tutorialDraftBeetle") drawTutorialDraftBeetle(cc);
     if (o.kind === "cloverPatch" || o.kind === "wildflowers")
