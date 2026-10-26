@@ -13,6 +13,16 @@ await fs.writeFile(path.join(root,"reference/original-data/ClipNomADV-recovered.
 await fs.writeFile(path.join(root,"reference/original-data/actor-overlay-source-download.json"),JSON.stringify({
   url,status:response.status,bytes:source.length,sha256:hash(source),recoveredAt:new Date().toISOString(),
 },null,2)+"\n");
+// Follow the literal AMD dependency used for healing-flash channel contrast.
+const colourURL=new URL("../../../../../Souritheque-client/src/interface/Couleur.js",url).href;
+const colourResponse=await fetch(colourURL,{signal:AbortSignal.timeout(20000)});
+if(!colourResponse.ok) throw Error(`Original colour helper: HTTP ${colourResponse.status}`);
+const colour=Buffer.from(await colourResponse.arrayBuffer());
+if(!colour.toString("utf8").includes("Couleur.contrasteCouleur")) throw Error("Inspect changed colour helper");
+await fs.writeFile(path.join(root,"reference/original-data/Couleur-recovered.js"),colour);
+await fs.writeFile(path.join(root,"reference/original-data/colour-source-download.json"),JSON.stringify({
+  url:colourURL,status:colourResponse.status,bytes:colour.length,sha256:hash(colour),
+},null,2)+"\n");
 const names=[...new Set([...text.matchAll(/recup(?:TextureDistante|ImageDistance)\("(interface\/[\w-]+\.png)"\)/g)].map(match=>match[1]))];
 const directory=path.join(root,"dist/assets/original/interface/actor-overlays");
 await fs.mkdir(directory,{recursive:true});

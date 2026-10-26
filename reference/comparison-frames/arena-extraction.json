@@ -1,0 +1,48 @@
+{
+  "source": "transformice-adventure-gameplay.mp4",
+  "extractedAt": "2026-10-26T22:34:01.988Z",
+  "records": [
+    {
+      "requested": 960,
+      "decoded": 960,
+      "width": 640,
+      "height": 360,
+      "file": "frame-960.png"
+    },
+    {
+      "requested": 990,
+      "decoded": 990,
+      "width": 640,
+      "height": 360,
+      "file": "frame-990.png"
+    },
+    {
+      "requested": 1020,
+      "decoded": 1020,
+      "width": 640,
+      "height": 360,
+      "file": "frame-1020.png"
+    },
+    {
+      "requested": 1035,
+      "decoded": 1035,
+      "width": 640,
+      "height": 360,
+      "file": "frame-1035.png"
+    },
+    {
+      "requested": 1060,
+      "decoded": 1060,
+      "width": 640,
+      "height": 360,
+      "file": "frame-1060.png"
+    },
+    {
+      "requested": 1080,
+      "decoded": 1080,
+      "width": 640,
+      "height": 360,
+      "file": "frame-1080.png"
+    }
+  ]
+}

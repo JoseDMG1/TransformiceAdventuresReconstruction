@@ -1490,7 +1490,7 @@ export function drawPet(c, speciesId, e, time) {
   const species = PET_SPECIES[speciesId] ?? PET_SPECIES.hedgehog;
   return (petRenderers[species.renderer] ?? hedgehog)(c, e, time);
 }
-export function enemy(c, e, time) {
+export function enemy(c, e, time, {hideOverlay=false}={}) {
   const hitFlash = e.hitFlashUntil > time;
   const squash = creatureVerticalScale(e, time);
   if (originalReady) {
@@ -1558,7 +1558,7 @@ export function enemy(c, e, time) {
       );
     c.restore();
     if (originalDrawn) {
-      if (e.hp < e.maxHp || boss) {
+      if (!hideOverlay && (e.hp < e.maxHp || boss)) {
         const width = boss ? 95 : 42;
         c.fillStyle = "#292d1f";
         c.fillRect(e.x - width / 2, e.y - (boss ? 130 : 65), width, 5);
@@ -1570,7 +1570,7 @@ export function enemy(c, e, time) {
           4,
         );
       }
-      if (boss)
+      if (boss && !hideOverlay)
         label(c, e.displayName || "Jefe del bosque",
           e.x,
           e.y - 144,
@@ -1692,14 +1692,14 @@ export function enemy(c, e, time) {
     ellipse(c, x, -3, 2, 2, "#252a24", null);
   }
   c.restore();
-  if (e.hp < e.maxHp || boss) {
+  if (!hideOverlay && (e.hp < e.maxHp || boss)) {
     const w = boss ? 95 : 42;
     c.fillStyle = "#292d1f";
     c.fillRect(e.x - w / 2, e.y - 55 * s, w, 5);
     c.fillStyle = boss ? "#c8a24e" : "#d3c36c";
     c.fillRect(e.x - w / 2, e.y - 55 * s, w * Math.max(0, e.hp / e.maxHp), 4);
   }
-  if (boss) label(c, e.displayName || "Jefe del bosque", e.x, e.y - 139, "#f0d18b", 15);
+  if (boss && !hideOverlay) label(c, e.displayName || "Jefe del bosque", e.x, e.y - 139, "#f0d18b", 15);
 }
 export function chest(c, x, y, open = false) {
   // Red lacquer, gold fittings and blue studs observed at 17:20 in the video.

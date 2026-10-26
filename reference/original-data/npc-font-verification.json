@@ -1,0 +1,10 @@
+{
+  "url": "https://transformice-adventures.com/ressources/polices/grobold.ttf",
+  "status": 200,
+  "bytes": 54328,
+  "sha256": "060fbebb85fde4b40efeaba553bff18bc31b43661b6a08551bc46d4dfb7a5001",
+  "local": "dist/assets/grobold.ttf",
+  "localSha256": "060fbebb85fde4b40efeaba553bff18bc31b43661b6a08551bc46d4dfb7a5001",
+  "identical": true,
+  "source": "reference/wayback-client/I_Style.css"
+}

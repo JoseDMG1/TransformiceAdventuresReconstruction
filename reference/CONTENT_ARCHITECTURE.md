@@ -150,3 +150,7 @@ La arquitectura permite aÃ±adir y modificar contenido con cambios localizados,
 ## Indicadores de armas v0.218
 
 `weapon-overlay-art.js` contiene recursos y composición del indicador, con estado efímero en WeakMap por actor/ranura. `game.js` proporciona tipos, cargas y máximos calculados mediante `resources.js`; el dibujante no altera la simulación. La inicialización de arte espera las siete imágenes y publica disponibilidad en `artStatus`. Los iconos y geometría proceden de `ArmeADV`; los valores de carga y el equipo siguen siendo del modelo local. El nuevo campo de diagnóstico `snapshot().charges` devuelve copias y no amplía el formato guardado.
+
+## Presentación de salud v0.219
+
+`health-animation.js` modela transiciones de vida y contraste sin DOM ni actores globales. `actor-overlays.js` conserva una instancia efímera por actor estable en WeakMap y proporciona ese estado a `actor-overlay-art.js`. La simulación pasa el máximo de vida como argumento; el dibujante no añade propiedades a los actores. Los enemigos también se componen en la capa final; su render de cuerpo admite `hideOverlay` para evitar duplicados. Incluso las barras sanas ocultas inicializan su estado antes del primer daño. El formato persistido no cambia.

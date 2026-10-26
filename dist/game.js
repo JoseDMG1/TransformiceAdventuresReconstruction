@@ -5344,7 +5344,7 @@ function draw(elapsedMs = 0) {
       .map((e) => ({ y: e.y, draw: () => drawSummon(e) })),
     ...enemies
       .filter((e) => e.hp > 0 || enemyDeathElapsed(e) < enemyDeathDuration(e))
-      .map((e) => ({ y: e.y, draw: () => enemy(ctx, e, time) })),
+      .map((e) => ({ y: e.y, draw: () => enemy(ctx, e, time,{hideOverlay:true}) })),
     ...(profile.petActive || scene.kind === "tutorial"
       ? [
           {
@@ -5406,14 +5406,22 @@ function draw(elapsedMs = 0) {
   entities.sort((a, b) => a.y - b.y);
   for (const e of entities) e.draw();
   if (mode === "playing" && !$("hud").hidden) {
-    drawActorOverlay(ctx, { ...player, maxHp: maxHP() }, { indicators: playerIndicators(player) });
+    for(const actor of enemies) {
+      if(actor.hp<=0) continue;
+      const boss=actor.type==="boss";
+      drawActorOverlay(ctx,actor,{
+        offset:boss?130:65,width:boss?95:42,color:"#ffea00",hideWhenHealthy:!boss,
+      });
+      if(boss) label(ctx,actor.displayName||"Jefe del bosque",actor.x,actor.y-144,"#f0d18b",15);
+    }
+    drawActorOverlay(ctx, player, { maxHp:maxHP(), indicators: playerIndicators(player) });
     drawWeaponOverlays(ctx, {actor:player, weapons:[profile.weapon,
       ...(!WEAPONS[profile.weapon].twoHanded ? [profile.secondary] : [])].map(type=>({
         type,count:player.charges[type].count,max:chargeCapacity(profile,type,gifts),
       }))});
-    if ((profile.petActive || scene.kind === "tutorial") &&
-      (scene.kind !== "village" || pet.injured || pet.hp < petMaxHP()))
-      drawActorOverlay(ctx, { ...pet, maxHp: petMaxHP() }, {
+    if (profile.petActive || scene.kind === "tutorial")
+      drawActorOverlay(ctx, pet, {
+        maxHp:petMaxHP(),hideWhenHealthy:scene.kind==="village",
         offset: 40,
         color: "#669bca",
         indicators: [
@@ -5924,7 +5932,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.218.0",
+    version: "0.219.0",
   }),
 });
 resize();

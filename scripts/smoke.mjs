@@ -365,6 +365,10 @@ try {
     const moved = await evaluate("adventure.snapshot().position");
     assert.ok(moved.x > start.x + 60, "WASD must move the player");
     await wait(100);
+    if(process.argv.includes("--health-overlays")) {
+      const {beginHealthTrace}=await import("./health-overlay-browser-checks.mjs");
+      await beginHealthTrace({evaluate});
+    }
     await tap("KeyH");
     for (let i = 0; i < 30; i++) {
       if ((await evaluate("adventure.snapshot().tutorialPhase")) === 1) break;
@@ -375,6 +379,12 @@ try {
       1,
       "Bandage must heal Picpic and enable Papaille: " + JSON.stringify(await evaluate("adventure.snapshot()")),
     );
+    if(process.argv.includes("--health-overlays")) {
+      const {finishHealthTrace}=await import("./health-overlay-browser-checks.mjs");
+      const report=await finishHealthTrace({evaluate,wait,shot});
+      await writeFile(".local/health-overlays-healing.json",JSON.stringify(report,null,2));
+      console.log("PASS: actual rescue health interpolation and original healing halo Canvas draws.");
+    }
     if (process.argv.includes("--quest-list")) {
       await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:0' && o.validated)",
         "Rescuing Picpic must validate its own instruction");
@@ -599,10 +609,21 @@ try {
       "Position must survive reloading",
     );
     await shot("dungeon");
+    let enemyHealthTraced=false;
     let rewards = 0,
       won = false;
     for (let i = 0; i < 650; i++) {
       const s = await evaluate("adventure.snapshot()");
+      if(process.argv.includes("--health-overlays")&&!enemyHealthTraced&&s.enemies>0) {
+        const {traceEnemyHealth}=await import("./health-overlay-browser-checks.mjs");
+        const bars=await traceEnemyHealth({evaluate});
+        if(bars.length) {
+          enemyHealthTraced=true;
+          await writeFile(".local/health-overlays-enemy.json",JSON.stringify(bars,null,2));
+          await shot("health-overlay-enemy");
+          console.log("PASS: original health frames also render above enemies during real combat.");
+        }
+      }
       if (i % 25 === 0 || s.modal === "defeat") {
         console.log(JSON.stringify({ iteration: i, room: s.room, hp: s.health,
           enemies: s.enemies, position: s.position, modal: s.modal, action: s.action,
@@ -714,6 +735,7 @@ try {
     }
     await key("KeyJ", "keyUp");
     assert.equal(won, true, "Three encounters and boss must complete");
+    if(process.argv.includes("--health-overlays")) assert.equal(enemyHealthTraced,true,"Combat must exercise an enemy health frame");
     assert.equal(rewards, 3);
     assert.equal(await evaluate("adventure.snapshot().scene"), "village");
     assert.equal(errors.length, 0, errors.join("\n"));
@@ -738,10 +760,12 @@ try {
     });
     const priorDownloads = new Set(await readdir(downloadDir));
     await evaluate("document.getElementById('export-save').click()");
-    await wait(700);
-    const exported = (await readdir(downloadDir)).find(
-      (f) => f.endsWith(".json") && !priorDownloads.has(f),
-    );
+    let exported;
+    const downloadDeadline=Date.now()+10000;
+    while(!exported&&Date.now()<downloadDeadline) {
+      exported=(await readdir(downloadDir)).find(f=>f.endsWith(".json")&&!priorDownloads.has(f));
+      if(!exported) await wait(100);
+    }
     assert.ok(exported, "Export must download a real JSON file");
     const exportPath = path.join(downloadDir, exported),
       copy = JSON.parse(await readFile(exportPath, "utf8"));

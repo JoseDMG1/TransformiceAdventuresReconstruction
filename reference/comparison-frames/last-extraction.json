@@ -1,48 +1,48 @@
 {
   "source": "transformice-adventure-gameplay.mp4",
-  "extractedAt": "2026-10-26T21:44:56.003Z",
+  "extractedAt": "2026-10-26T22:34:01.988Z",
   "records": [
     {
-      "requested": 0,
-      "decoded": 0,
+      "requested": 960,
+      "decoded": 960,
       "width": 640,
       "height": 360,
-      "file": "frame-0.png"
+      "file": "frame-960.png"
     },
     {
-      "requested": 5,
-      "decoded": 5,
+      "requested": 990,
+      "decoded": 990,
       "width": 640,
       "height": 360,
-      "file": "frame-5.png"
+      "file": "frame-990.png"
     },
     {
-      "requested": 35,
-      "decoded": 35,
+      "requested": 1020,
+      "decoded": 1020,
       "width": 640,
       "height": 360,
-      "file": "frame-35.png"
+      "file": "frame-1020.png"
     },
     {
-      "requested": 60,
-      "decoded": 60,
+      "requested": 1035,
+      "decoded": 1035,
       "width": 640,
       "height": 360,
-      "file": "frame-60.png"
+      "file": "frame-1035.png"
     },
     {
-      "requested": 120,
-      "decoded": 120,
+      "requested": 1060,
+      "decoded": 1060,
       "width": 640,
       "height": 360,
-      "file": "frame-120.png"
+      "file": "frame-1060.png"
     },
     {
-      "requested": 180,
-      "decoded": 180,
+      "requested": 1080,
+      "decoded": 1080,
       "width": 640,
       "height": 360,
-      "file": "frame-180.png"
+      "file": "frame-1080.png"
     }
   ]
 }
