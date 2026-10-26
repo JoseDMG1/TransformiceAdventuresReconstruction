@@ -1,5 +1,5 @@
 // Versioned, data-only save format. No imported field is evaluated as code or HTML.
-import { WEAPONS, SECONDARIES, attackStateForElapsed } from "./combat.js";
+import { WEAPONS, SECONDARIES, attackStateForElapsed, restoredBowRelease } from "./combat.js";
 import { JOBS, normalizedSecondary } from "./jobs.js";
 import { normalizeTalentBuild, talentBonus } from "./talents.js";
 import { normalizeInventory, equipmentBonus } from "./inventory.js";
@@ -156,6 +156,10 @@ export function sanitizeJourney(value, profile) {
           swordBalestraBonus: limit(action.swordBalestraBonus, 0, SWORD_RULES.maximumBalestraBonus, 0),
         }
       : null;
+  if (player.action?.weapon === "bow") {
+    const release = restoredBowRelease(action);
+    player.action = release ? { ...player.action, ...release } : null;
+  }
   player.guarding = false;
   player.charges = normalizeCharges(value.player.charges, profile, blessings);
   if (!object(value.player.charges) && player.heal > 0) {

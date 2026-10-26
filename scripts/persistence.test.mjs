@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { advanceAttack } from "../dist/combat.js";
 import {
   defaultProfile,
   decodeSave,
@@ -174,6 +175,44 @@ test("journey round-trip preserves real combat state", () => {
   assert.equal(result.journey.effects[0].life, 3);
   assert.equal(result.journey.projectiles[0].enemy, true);
   assert.deepEqual(result.journey.gifts, ["power", "vitality"]);
+});
+
+test("released bow preserves its release clock and never restores a held input", () => {
+  const p = { ...defaultProfile(), weapon: "bow", secondary: "bandage" };
+  const j = journey();
+  j.player.action = { weapon: "bow", angle: 0.3, elapsed: 0.14,
+    hit: true, released: true, releaseElapsed: 0.4, held: true };
+  const action = decodeSave(encodeSave(p, j)).journey.player.action;
+  assert.equal(action.released, true);
+  assert.equal(action.releaseElapsed, 0.4);
+  assert.equal(action.hit, true);
+  assert.equal(action.held, false);
+  assert.equal(advanceAttack(action, 0.5).impact, false);
+  assert.equal(advanceAttack(action, 0).finished, true);
+});
+
+test("old bow hits recover a finite release clock; unfinished held charges cancel on reload", () => {
+  const p = { ...defaultProfile(), weapon: "bow", secondary: "bandage" };
+  const j = journey();
+  j.player.action = { weapon: "bow", angle: 0, elapsed: 0.14, hit: true };
+  const restored = decodeSave(encodeSave(p, j)).journey.player.action;
+  assert.equal(restored.released, true);
+  assert.equal(Number.isFinite(restored.releaseElapsed), true);
+  assert.ok(restored.releaseElapsed >= 0.15);
+  j.player.action = { weapon: "bow", angle: 0, elapsed: 0.05, hit: false, held: true };
+  assert.equal(decodeSave(encodeSave(p, j)).journey.player.action, null);
+});
+
+test("released bow saved before launch keeps the remaining delay and impacts exactly once", () => {
+  const p = { ...defaultProfile(), weapon: "bow", secondary: "bandage" }, j = journey();
+  j.player.action = { weapon: "bow", angle: 0, elapsed: 0.14,
+    hit: false, released: true, releaseElapsed: 0.05 };
+  const action = decodeSave(encodeSave(p, j)).journey.player.action;
+  assert.equal(advanceAttack(action, 0.09).impact, false);
+  assert.equal(advanceAttack(action, 0.02).impact, true);
+  const resumedAgain = decodeSave(encodeSave(p, { ...j, player: { ...j.player, action } })).journey.player.action;
+  assert.equal(advanceAttack(resumedAgain, 1).impact, false);
+  assert.equal(advanceAttack(resumedAgain, 0).finished, true);
 });
 test("invalid files cannot replace a save", () => {
   for (const value of [

@@ -17,9 +17,12 @@ test("melee weapons hit after windup exactly once, including resumed actions", (
     assert.equal(advanceAttack(saved, 1).finished, true);
   }
 });
-test("bow impact waits 150 ms after preparation and cannot duplicate after resume", () => {
+test("held bow does not fire; release waits 150 ms and cannot duplicate after resume", () => {
   const action = createAttack("bow", 0);
   assert.equal(advanceAttack(action, WEAPONS.bow.windup).impact, false);
+  assert.equal(advanceAttack(action, 1).impact, false);
+  action.released = true;
+  action.releaseElapsed = 0;
   const saved = JSON.parse(JSON.stringify(action));
   assert.equal(advanceAttack(saved, 0.149).impact, false);
   assert.equal(advanceAttack(saved, 0.002).impact, true);

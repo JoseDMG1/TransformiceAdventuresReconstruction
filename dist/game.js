@@ -4238,20 +4238,11 @@ function update(dt) {
     faceFromVector(player, Math.cos(action.angle), Math.sin(action.angle));
     let progress;
     if (action.weapon === "bow") {
-      action.elapsed = Math.min(WEAPONS.bow.windup, action.elapsed + dt);
-      action.state = action.elapsed < WEAPONS.bow.windup ? "incantation" : "active";
+      progress = advanceAttack(action, dt);
       if (previousState === "incantation" && action.state === "active") {
         stopOriginalSound("arc1");
         originalSound("arc2", 400, 0.1, "sine", 0.3);
       }
-      if (action.released) action.releaseElapsed += dt;
-      const fired = !!action.released && action.releaseElapsed >= WEAPONS.bow.releaseDelay;
-      progress = {
-        impact: fired && !action.hit,
-        finished: fired && action.releaseElapsed >= WEAPONS.bow.releaseDelay + 41 / 60,
-        state: action.state,
-      };
-      if (progress.impact) action.hit = true;
     } else progress = advanceAttack(action, dt);
     if (progress.impact) impactAttack(action);
     const ranged = WEAPONS[action.weapon].ranged;
@@ -5917,7 +5908,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.209.0",
+    version: "0.210.0",
   }),
 });
 resize();

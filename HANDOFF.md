@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.209.0. Ultima entrega: reference/IMPLEMENTATION_V209.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.210.0. Ultima entrega: reference/IMPLEMENTATION_V210.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.210: corregida acción de arco atascada al reanudar. Guardado conserva liberación/reloj, no restaura botones mantenidos y recupera impactos antiguos sin duplicarlos. El reloj usado por el juego se comparte con las pruebas. Ver `reference/IMPLEMENTATION_V210.md`; validación de navegador enfocada y 39 pruebas aprobadas.
 - v0.209: modelo de objetivos independientes, catálogo de instrucciones y presentación DOM separados. Cola de 500 ms, entrada/salida de 1500 ms y validación de 500 ms según el cliente archivado; la marca persiste hasta retirar el objetivo. El rescate, Mura y encuentros validan explícitamente; cambiar de escena reinicia la lista sin afirmar que se completó. Ver `reference/IMPLEMENTATION_V209.md`; falta la secuencia autoritativa de objetivos simultáneos, notificaciones y sonidos originales.
 - v0.208: retirados los tres botones grandes superiores derechos añadidos localmente. Mapa y silencio pasan al menú (Esc/pastilla); Controles conserva ayuda y corrige F=emotes, 3=habilidad secundaria. Inicialización de audio tolera que el botón solo exista con el menú. Ver `reference/IMPLEMENTATION_V208.md`; el menú local conserva opciones adicionales de prueba.
 - v0.207: identificados y recuperados los cuatro iconos superiores (Kickstarter, foro, Discord y Twitter) mediante `InterfaceLiensExternesADV`. Se muestran como imágenes locales decorativas, sin enlaces. Retirado el encabezado permanente añadido «Mouscarpone / zona»; el nombre sigue accesible. Ver `reference/IMPLEMENTATION_V207.md`.

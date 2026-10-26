@@ -182,6 +182,12 @@ try {
   if (process.argv.includes("--title-only")) {
     assert.equal(errors.length, 0, errors.join("\n"));
     console.log("PASS: title import dialog is visible and Escape closes it.");
+  } else if (process.argv.includes("--bow-resume")) {
+    const { checkBowResume } = await import("./bow-resume-browser-checks.mjs");
+    const report = await checkBowResume({ evaluate, send, reloadAndContinue, key, wait, waitFor, shot });
+    await writeFile(".local/bow-resume.json", JSON.stringify(report, null, 2));
+    assert.equal(errors.length, 0, errors.join("\n"));
+    console.log("PASS: restored and legacy bow hits finish, pending release fires once and a new attack works.");
   } else if (process.argv.includes("--features")) {
     const seed = async (profile, journey = null) => {
       const text = encodeSave(profile, journey);

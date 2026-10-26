@@ -81,6 +81,7 @@ export function createAttack(weapon, angle) {
     elapsed: 0,
     hit: false,
     state: attackStateForElapsed(weapon, 0),
+    ...(weapon === "bow" ? { released: false, releaseElapsed: 0, held: false } : {}),
   };
 }
 export function attackStateForElapsed(weapon, elapsed) {
@@ -91,6 +92,7 @@ export function attackStateForElapsed(weapon, elapsed) {
     : ATTACK_STATES.ACTIVE;
 }
 export function advanceAttack(action, dt) {
+  if (action.weapon === "bow") return advanceBowAttack(action, dt);
   const definition = WEAPONS[action.weapon];
   if (!definition) return { impact: false, finished: true, state: ATTACK_STATES.READY };
   action.elapsed = Math.min(
@@ -104,6 +106,32 @@ export function advanceAttack(action, dt) {
   const finished = action.elapsed >= definition.duration;
   action.state = attackStateForElapsed(action.weapon, action.elapsed);
   return { impact, finished, state: action.state };
+}
+
+// Runtime and saved actions share the same release clock. A held charge does
+// not fire by itself; releasing starts the existing 150 ms launch delay.
+export function advanceBowAttack(action, dt) {
+  const delta = Math.max(0, dt);
+  action.elapsed = Math.min(WEAPONS.bow.windup, action.elapsed + delta);
+  action.state = action.elapsed < WEAPONS.bow.windup ? ATTACK_STATES.INCANTATION : ATTACK_STATES.ACTIVE;
+  if (action.released) action.releaseElapsed += delta;
+  const fired = !!action.released && action.releaseElapsed >= WEAPONS.bow.releaseDelay;
+  const impact = fired && !action.hit;
+  if (impact) action.hit = true;
+  return { impact, finished: fired && action.releaseElapsed >= WEAPONS.bow.releaseDelay + 41 / 60,
+    state: action.state };
+}
+
+export function restoredBowRelease(action) {
+  // Physical key/button holds are not restored. An unreleased charge is
+  // cancelled; already released arrows finish without a new input or impact.
+  if (action.released !== true && !action.hit) return null;
+  const minimum = action.hit ? WEAPONS.bow.releaseDelay : 0;
+  const maximum = WEAPONS.bow.releaseDelay + 41 / 60;
+  const clock = Number.isFinite(action.releaseElapsed) ? action.releaseElapsed : minimum;
+  return { held: false, released: true, releaseElapsed: Math.max(minimum, Math.min(maximum, clock)),
+    elapsed: WEAPONS.bow.windup, state: ATTACK_STATES.ACTIVE,
+    animationSpeed: 2 / WEAPONS.bow.windup };
 }
 export function weaponDamage(weapon, level, powerTalent, gifts = 0) {
   return (
