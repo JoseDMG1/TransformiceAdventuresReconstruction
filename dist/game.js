@@ -62,7 +62,7 @@ import { createSkillSystem } from "./skill-system.js";
 import { createTargetingSystem, skillTargeting } from "./targeting.js";
 import { TESTIMONIES, REPORT_RULES, tickReportPoison } from "./journalism.js";
 import { FOREST_CLUES, normalizeForestClues, drawForestClue } from "./forest-story.js";
-import { objectiveTarget, objectiveProjection, originalInterfaceScale } from "./objectives.js";
+import { objectiveTarget, objectiveProjection, originalInterfaceScale, createObjectiveArrowMotion } from "./objectives.js";
 import { createDialogueText } from "./dialogue-text.js";
 import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
@@ -136,6 +136,7 @@ const ingredientImages = INGREDIENT_TYPES.map((t) => {
   return img;
 });
 const objectiveArrow = new Image();
+const objectiveArrowMotion = createObjectiveArrowMotion();
 objectiveArrow.src = "assets/original/interface/fleche.png";
 const bowAimImage = new Image();
 bowAimImage.src = "assets/original/interface/zone/zl.png";
@@ -5246,7 +5247,7 @@ function drawLocalEmote(targetContext) {
     player.y - 30 - 30 * easeOut - image.naturalHeight / 2,
   );
 }
-function draw() {
+function draw(elapsedMs = 0) {
   ctx.clearRect(0, 0, w, h);
   if (!scene) return;
   constrainCamera();
@@ -5260,7 +5261,9 @@ function draw() {
   }
   const navigationTarget = mode === "playing" && !modalKind && $("dialogue").hidden && !$("hud").hidden
     ? objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }) : null;
-  const navigationMarker = objectiveProjection(navigationTarget, camera, zoom, w, h, player);
+  const navigationMarker = objectiveArrowMotion.update(
+    objectiveProjection(navigationTarget, camera, zoom, w, h, player), w, h, elapsedMs,
+  );
   ctx.save();
   ctx.translate(w / 2 + shakeX, h / 2 + shakeY);
   ctx.scale(zoom, zoom);
@@ -5554,10 +5557,11 @@ function frame(now) {
     $("dialogue-next-label").textContent = dialogueText.complete(now)
       ? (dialogueQueue.length ? "Continuar" : "Terminar") : "Mostrar texto";
   }
-  const dt = Math.min((now - lastTime) / 1000 || 0, 0.05);
+  const elapsedMs = Math.max(0, now - lastTime);
+  const dt = Math.min(elapsedMs / 1000 || 0, 0.05);
   lastTime = now;
   update(dt);
-  draw();
+  draw(elapsedMs);
   updateHUDPortrait();
   const preview = $("appearance-preview");
   if (preview) {
@@ -5963,7 +5967,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.203.0",
+    version: "0.204.0",
   }),
 });
 resize();

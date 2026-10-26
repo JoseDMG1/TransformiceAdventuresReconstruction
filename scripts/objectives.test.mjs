@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { objectiveProjection, originalInterfaceScale } from "../dist/objectives.js";
+import { objectiveProjection, originalInterfaceScale, createObjectiveArrowMotion } from "../dist/objectives.js";
 
 test("distant objectives reach every screen edge even at 640x360", () => {
   for (const [width, height] of [[640, 360], [1280, 800], [360, 640]]) {
@@ -30,4 +30,26 @@ test("interface scale follows recovered minimum and maximum logical sizes", () =
   assert.equal(originalInterfaceScale(1920, 1080), 1);
   assert.equal(originalInterfaceScale(3840, 2160), 2);
   assert.equal(originalInterfaceScale(360, 640), .5);
+});
+
+test("arrow interpolates using original frame delta and caps long suspensions", () => {
+  const motion = createObjectiveArrowMotion();
+  const edge = { mode: "edge", x: 640, y: 180, angle: 0 };
+  assert.equal(motion.update(edge, 640, 360, 16.66666).x, 352);
+  assert.equal(motion.update(edge, 640, 360, 16.66666).x, 380.8);
+  const resumed = motion.update(edge, 640, 360, 10000);
+  assert.ok(Math.abs(resumed.x - 510.4) < 1e-9);
+  assert.equal(resumed.angle, 0);
+  assert.equal(motion.update(null, 640, 360, 16.66666), null);
+  assert.equal(motion.update(edge, 640, 360, 0).x, 320);
+});
+
+test("ground mode resets arrow; resizing preserves its relative position", () => {
+  const motion = createObjectiveArrowMotion();
+  const edge = { mode: "edge", x: 640, y: 180, angle: 0 };
+  motion.update(edge, 640, 360, 16.66666);
+  assert.equal(motion.update({ ...edge, x: 1280, y: 360 }, 1280, 720, 0).x, 704);
+  const ground = { mode: "ground", x: 300, y: 100 };
+  assert.deepEqual(motion.update(ground, 640, 360, 16.66666), ground);
+  assert.equal(motion.update(edge, 640, 360, 0).x, 320);
 });

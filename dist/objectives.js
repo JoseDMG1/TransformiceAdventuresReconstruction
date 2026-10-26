@@ -28,6 +28,31 @@ export function originalInterfaceScale(width, height) {
   return longest > 0 ? longest / Math.min(1920, Math.max(1280, longest)) : 1;
 }
 
+export function createObjectiveArrowMotion() {
+  let position = null;
+  return {
+    update(marker, width, height, elapsedMs) {
+      if (marker?.mode !== "edge") {
+        position = null;
+        return marker;
+      }
+      if (!position) position = { x: width / 2, y: height / 2, width, height };
+      // Keep the existing screen-relative position if the local window resizes.
+      if (position.width !== width || position.height !== height) {
+        position.x *= width / position.width;
+        position.y *= height / position.height;
+      }
+      // TFMAdventure.bouclePrincipale and InterfaceQueteADV.boucle.
+      const delta = Math.min(Math.max(0, elapsedMs) / 16.66666, 5);
+      position.x += (marker.x - position.x) * .1 * delta;
+      position.y += (marker.y - position.y) * .1 * delta;
+      position.width = width;
+      position.height = height;
+      return { ...marker, x: position.x, y: position.y };
+    },
+  };
+}
+
 export function objectiveProjection(target, camera, zoom, width, height, player = camera) {
   if (!target || !(zoom > 0) || !(width > 0) || !(height > 0)) return null;
   const x = (target.x - camera.x) * zoom + width / 2;

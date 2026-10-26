@@ -386,6 +386,12 @@ try {
     await shot("village");
     if (process.argv.includes("--emotes")) {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      if (process.argv.includes("--objective-motion")) {
+        const { checkObjectiveMotion } = await import("./objective-browser-checks.mjs");
+        const trace = await checkObjectiveMotion({ evaluate, tap, wait, waitFor });
+        await writeFile(".local/objective-motion.json", JSON.stringify(trace, null, 2));
+        console.log("PASS: actual Canvas objective arrow approaches the screen edge over 12 frames.");
+      }
       assert.equal(errors.length, 0, errors.join("\n"));
       console.log("PASS: emote menus, real pointer selection, transient animations and unchanged saved profile.");
     } else if (process.argv.includes("--tutorial-only")) {
