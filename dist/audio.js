@@ -3,6 +3,7 @@ const names =
   `elixir coup1 coup2 toile bibli/2/touche plante1 plante2 plante3 metal1 metal2 metal3 parade1 cuisson1 cuisson2 casse casse_2 piege1 piege2 plop1 plop2 plop3 plop4 plop5 plop6 ecriture tampon ting coffre1 coffre2 boucle-cuisson boucle-bulle disparition carte1 carte2 carte3 whoosh slash swoosh epee combo1 combo2 tranchant1 tranchant2 tranchant3 tranchant4 buff1 buff2 buff3 fleche-debut fleche1 fleche2 fleche3 fleche4 soins1 soins3 soins4 soins5 soins6 soins7 soins2 gaz flamme feu elec elec2 foudre1 foudre2 glace gel poison poison2 xp niveausup arc0 arc1 arc2 ambiance/foret2 ambiance/foret ambiance/prairie ambiance/vent`.split(
     " ",
   );
+names.push("objectif", "objectif2");
 const available = new Set(names);
 const musicNames = new Set(
   `musique/tfmadv_intro musique/tfmadv_intro2 musique/tfmadv_musique2 musique/tfmadv_musique3 musique/tfmadv_combat1 musique/tfmadv_combat2 musique/tfmadv_combat3 musique/tfmadv_combat4`.split(

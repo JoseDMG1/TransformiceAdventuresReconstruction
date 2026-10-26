@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.210.0. Ultima entrega: reference/IMPLEMENTATION_V210.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.211.0. Ultima entrega: reference/IMPLEMENTATION_V211.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.211: recuperados `objectif.mp3` y `objectif2.mp3` a partir del motor de audio original y sus llamadas. Aviso al terminar la entrada del objetivo, duración de 4 s, cierre con clic y salida de 1 s según `NotificationADV`; sin mensajes de red. Ver `reference/IMPLEMENTATION_V211.md`, manifiesto y capturas; faltan cotejo de escala/volumen y secuencia original de objetivos.
 - v0.210: corregida acción de arco atascada al reanudar. Guardado conserva liberación/reloj, no restaura botones mantenidos y recupera impactos antiguos sin duplicarlos. El reloj usado por el juego se comparte con las pruebas. Ver `reference/IMPLEMENTATION_V210.md`; validación de navegador enfocada y 39 pruebas aprobadas.
 - v0.209: modelo de objetivos independientes, catálogo de instrucciones y presentación DOM separados. Cola de 500 ms, entrada/salida de 1500 ms y validación de 500 ms según el cliente archivado; la marca persiste hasta retirar el objetivo. El rescate, Mura y encuentros validan explícitamente; cambiar de escena reinicia la lista sin afirmar que se completó. Ver `reference/IMPLEMENTATION_V209.md`; falta la secuencia autoritativa de objetivos simultáneos, notificaciones y sonidos originales.
 - v0.208: retirados los tres botones grandes superiores derechos añadidos localmente. Mapa y silencio pasan al menú (Esc/pastilla); Controles conserva ayuda y corrige F=emotes, 3=habilidad secundaria. Inicialización de audio tolera que el botón solo exista con el menú. Ver `reference/IMPLEMENTATION_V208.md`; el menú local conserva opciones adicionales de prueba.
@@ -146,14 +147,14 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - No afirmar reconstruccion completa: siguen faltando sectores originales, tablas del servidor, equivalencia de todas las combinaciones de dones y cifras de balance. El texto del don1201 ya esta implementado; sus cifras y el alcance de «mitigar» siguen siendo locales por ausencia de reglas del servidor.
 - Continuar con fidelidad de escenarios, eventos de animacion y patrones observables; mantener la separacion entre evidencia y aproximaciones.
 
-### Pendientes vigentes en v0.200
+### Pendientes vigentes (actualización v0.211)
 
 - Validación: tutorial, expedición de tres encuentros con jefe, victoria, retorno, recarga sin duplicar monedas y exportación/importación aprobados en Chrome para v0.200. Se corrigieron navegación, esquiva y espera del vendaje del bot, sin cambiar el balance. Ver `reference/VALIDATION_V200_EXPEDITION.md` para ejecuciones, límites y pruebas adicionales. Siguen pendientes la grabación/cotejo con el MP4, ambos menús de emotes y una matriz más amplia de partidas/trabajos; no cerrar P0 completo por este recorrido.
 - Audio: v0.193 ajusta el indicador local a la fase de encuentro y replica los intervalos observados al iniciar/cambiar música y al comprobar ambiente. Falta comparar en navegador sincronía, balance, pausas, comportamiento al pausar/cambiar escena y política de autoplay. La fase local aproxima el booleano que el cliente recibía del servidor.
 
 - Perfil: distribución y 12 iconos ya corresponden a REA; falta cotejo visual en navegador y el mapeo del inventario original para llenar ocho ranuras cosméticas y confirmar las asociaciones locales de cabeza, cuerpo y manos.
 - HUD: v0.189 oculta el panel persistente y centra la barra de acción; comprobar su ubicación, lectura y acceso al perfil en navegador.
-- Barra superior: v0.207 identifica las cuatro miniaturas como enlaces externos originales, recupera sus imágenes y las conserva decorativas sin red. Se retiró el encabezado de zona local no observado; falta cotejar los controles de la esquina derecha y escala global del HUD. Ver `reference/IMPLEMENTATION_V207.md`.
+- Barra superior: v0.207 identifica las cuatro miniaturas externas originales y v0.208 mueve los controles locales de mapa/sonido/ayuda al menú. Falta cotejo global de escala y composición del HUD. Ver `reference/IMPLEMENTATION_V207.md` y `reference/IMPLEMENTATION_V208.md`.
 - Emotes: en v0.201 se comprobaron radial de F, menú de la pastilla, selección con clic real, clips y conservación del perfil a 640×360 y 1280×800. Corregidos marcos inventados y anclaje del icono. Falta cotejo de animaciones/tiempos contra ejecución original, especialmente duración de sentarse/bailar. Ver `reference/IMPLEMENTATION_V201.md`.
 - Perfil (retrato): v0.166 dibuja la mascota activa junto al ratón; falta cotejar escala y suelo contra `frame-1050.png`.
 - Cofre: ya usa el clip y arte original de ID14, incluida su apertura de 70 fotogramas; cotejar tamaño y alineación en navegador contra `frame-1040.png`. No están recuperadas las asignaciones/posibilidades autoritativas de dones.
@@ -177,7 +178,7 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - Aldea (jardines): v0.172 añade macizos bajos junto a las cabañas; confirmar su densidad y oclusión contra `frame-0180.jpg`. Ver `reference/IMPLEMENTATION_V172.md`.
 - Arco: la carga local sigue en 140 ms provisionales (`dist/combat.js`). `OutilsArmeADV.recupArme()` recibe `tempsIncantation` como `MSG.l32s()` del servidor; el cliente estático no contiene el valor por arma. No sustituirlo por una cifra inventada. Evidencia y límite: `reference/REA_FINDINGS.md` y `reference/IMPLEMENTATION_V108.md`.
 - Objetivos: v0.180–v0.185 alinean animación de validación y textos con evidencia del cliente, del video y del catálogo español; el destino del objetivo de aldea sigue dependiendo de payload ausente. Falta cotejar el ciclo, marcador, textos, escala y encuadre en navegador. Ver `reference/IMPLEMENTATION_V180.md`–`V185.md`.
-- Modelo de objetivos: v0.209 admite listas y eventos independientes, marca persistente y marcador asociado al primer objetivo posicionado añadido, como el cliente archivado. Las instrucciones conocidas se derivan del recorrido local; no se inventan misiones simultáneas. Falta recuperar/contrastar la secuencia, IDs y destinos que enviaba el servidor, además de avisos y sonidos de alta/validación. Ver `reference/IMPLEMENTATION_V209.md`.
+- Modelo de objetivos: v0.209 admite listas y eventos independientes; v0.211 integra avisos y sonidos de alta/validación originales. Falta recuperar/contrastar la secuencia, IDs, destinos y objetivos simultáneos que enviaba el servidor; cotejar escalado y volúmenes contra el MP4. La flecha sobre controles (`cibleInterface`/FX87) sigue pendiente de una asignación acreditada en el recorrido. Ver `reference/IMPLEMENTATION_V209.md` y `reference/IMPLEMENTATION_V211.md`.
 - El usuario debe probar la entrega acumulada en su navegador. Las versiones posteriores a v0.81 solo tienen comprobacion sintactica salvo que aqui se indique otra cosa.
 
 ## Restricciones y decisiones vigentes

@@ -134,6 +134,28 @@ try {
   };
   await send("Runtime.enable");
   await send("Page.enable");
+  if (process.argv.includes("--quest-list")) {
+    await send("Page.addScriptToEvaluateOnNewDocument", { source: `
+      localStorage.setItem('tfma-audio-v1', JSON.stringify({master:.55,music:1,effects:1}));
+      window.__questAudio = [];
+      const originalPlay = HTMLMediaElement.prototype.play;
+      HTMLMediaElement.prototype.play = function(...args) {
+        if (!/\\/objectif2?\\.mp3$/.test(this.src)) return originalPlay.apply(this,args);
+        const record = {url:this.src,volume:this.volume,at:performance.now(),played:false};
+        window.__questAudio.push(record);
+        const observe = () => {
+          record.currentTime=this.currentTime;
+          if (Number.isFinite(this.duration)) record.duration=this.duration;
+        };
+        this.addEventListener('timeupdate', observe);
+        this.addEventListener('ended', () => {observe();record.ended=true;}, {once:true});
+        const playback = originalPlay.apply(this,args);
+        playback?.then(() => {record.played=true;observe();})
+          .catch(error => {record.error=error.name;});
+        return playback;
+      };
+    ` });
+  }
   const referenceSize = process.argv.includes("--reference-size");
   if (referenceSize && !process.argv.includes("--tutorial-only") && !process.argv.includes("--emotes"))
     throw Error("--reference-size requiere --tutorial-only; el bot de expedición usa otro encuadre.");
@@ -308,6 +330,19 @@ try {
       await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:0' && !o.validated)",
         "New tutorial must show the rescue objective");
       assert.equal(await evaluate("document.querySelectorAll('#quest-objectives .quest-objective').length"), 1);
+      await waitFor("adventure.snapshot().questNotices.some(n => n.closingAt === null)",
+        "Finishing objective entry must show its notification");
+      await shot("quest-new-notice");
+      const notice = await evaluate(`(() => {
+        const button = document.querySelector('#quest-notices button:not(:disabled)');
+        const r = button.getBoundingClientRect(), x = r.x+r.width/2, y=r.y+r.height/2;
+        return {x,y,reachable:document.elementFromPoint(x,y)===button};
+      })()`);
+      assert.equal(notice.reachable, true, "Objective notice must be clickable");
+      await send("Input.dispatchMouseEvent", {type:"mousePressed",button:"left",clickCount:1,x:notice.x,y:notice.y});
+      await send("Input.dispatchMouseEvent", {type:"mouseReleased",button:"left",clickCount:1,x:notice.x,y:notice.y});
+      await waitFor("adventure.snapshot().questNotices.some(n => n.closingAt !== null)", "Click must dismiss the notice");
+      await waitFor("adventure.snapshot().questNotices.length === 0", "Dismissed notice must fade away");
     }
     const start = await evaluate("adventure.snapshot().position");
     await key("KeyD");
@@ -330,6 +365,9 @@ try {
       await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:0' && o.validated)",
         "Rescuing Picpic must validate its own instruction");
       await shot("quest-validated");
+      await waitFor("window.__questAudio.some(r => r.url.endsWith('/objectif.mp3') && r.played && r.currentTime>0) && window.__questAudio.some(r => r.url.endsWith('/objectif2.mp3') && r.played && r.currentTime>0)",
+        "Original addition and validation samples must actually play");
+      await writeFile(".local/quest-audio.json", JSON.stringify(await evaluate("window.__questAudio"), null, 2));
       await waitFor("adventure.snapshot().objectives.some(o => o.id === 'tutorial:1') && adventure.snapshot().objectives.some(o => o.id === 'tutorial:0')",
         "New and retiring objectives must have independent rows");
       await shot("quest-transition");
@@ -346,6 +384,7 @@ try {
       await waitFor("adventure.snapshot().objectives.length === 1 && adventure.snapshot().objectives[0].id === 'tutorial:1'",
         "Reload must reconstruct only the current objective");
       assert.equal(await evaluate("adventure.snapshot().objectives[0].validated"), false);
+      assert.equal(await evaluate("adventure.snapshot().questNotices.length"), 0, "Scene load must discard old notifications");
     }
     // Walk normally toward Papaille, then use the actual interaction key.
     let pos = await evaluate("adventure.snapshot().position");

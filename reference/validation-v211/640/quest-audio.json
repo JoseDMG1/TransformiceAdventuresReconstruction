@@ -1,0 +1,19 @@
+[
+  {
+    "url": "http://127.0.0.1:8010/assets/original/audio/objectif.mp3",
+    "volume": 0.55,
+    "at": 5586.899999976158,
+    "played": true,
+    "currentTime": 2.168163,
+    "duration": 2.168163,
+    "ended": true
+  },
+  {
+    "url": "http://127.0.0.1:8010/assets/original/audio/objectif2.mp3",
+    "volume": 0.55,
+    "at": 8703.699999988079,
+    "played": true,
+    "currentTime": 0.180946,
+    "duration": 1.645688
+  }
+]

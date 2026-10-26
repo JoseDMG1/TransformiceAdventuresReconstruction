@@ -1,0 +1,26 @@
+{
+  "recoveredAt": "2026-10-26T19:56:49.493Z",
+  "evidence": [
+    "reference/wayback-client/dist/Transformice-adventure-client/src/interfaces/InterfaceQueteADV.js",
+    "reference/original-data/MoteurSon-recovered.js",
+    "reference/wayback-client/dist/Transformice-adventure-client/src/_tfmAdventure/TFMAdventure.js"
+  ],
+  "records": [
+    {
+      "name": "objectif",
+      "url": "https://data.atelier801.com/tfmadv/sons/objectif.mp3",
+      "status": 200,
+      "file": "objectif.mp3",
+      "bytes": 35141,
+      "sha256": "11aa78578428e2a255e8e7b5337549211946d24577e570c44a68c10d9c7db621"
+    },
+    {
+      "name": "objectif2",
+      "url": "https://data.atelier801.com/tfmadv/sons/objectif2.mp3",
+      "status": 200,
+      "file": "objectif2.mp3",
+      "bytes": 26331,
+      "sha256": "5ef5ff3c1e489851753002e9fd1e528cbf1fb6ba8fe82649662dbfb2baf721f6"
+    }
+  ]
+}

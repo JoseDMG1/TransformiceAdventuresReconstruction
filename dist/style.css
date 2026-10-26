@@ -184,6 +184,39 @@ button:disabled {
 .quest-objective p {
   flex: 0 1 auto;
 }
+.quest-notice {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translateX(-50%);
+  min-width: 8em;
+  max-width: min(15em, 80vw);
+  padding: .6em 1em;
+  border: 2px solid #ffd74f;
+  border-radius: 0;
+  background: #000000dd;
+  box-shadow: 0 0 8px #ffd74f;
+  color: #f4f0d9;
+  font: clamp(10px, 1.1vw, 14px)/1.35 Arial, sans-serif;
+  text-align: center;
+  animation: quest-notice-enter 1000ms cubic-bezier(.16, 1, .3, 1) both;
+}
+#hud .quest-notice.is-closing {
+  pointer-events: none;
+  animation: quest-notice-leave 1000ms cubic-bezier(.16, 1, .3, 1) both;
+}
+@keyframes quest-notice-enter {
+  from { bottom: 12%; }
+  to { bottom: 15%; }
+}
+@keyframes quest-notice-leave {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quest-notice { animation: none; }
+  #hud .quest-notice.is-closing { animation: none; visibility: hidden; }
+}
 #room-progress {
   display: flex;
   gap: 8px;

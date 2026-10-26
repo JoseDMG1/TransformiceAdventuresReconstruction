@@ -77,7 +77,7 @@ Para cada acción que aparece en el video, registrar: entrada → preparación �
 
 **Estado:** muchos elementos ya usan recursos/textos originales; tamaños y composición de la v0.193 requieren cotejo de navegador.
 
-Actualización v0.209: existe una lista con altas, validaciones y retiradas independientes, cola de 500 ms, entrada/salida de 1500 ms y marca persistente. El rescate y la reanudación se comprobaron en Chrome; el fixture de dos objetivos acredita la capacidad de la interfaz, no la coexistencia de esas misiones en el original. La secuencia autoritativa de objetivos simultáneos, avisos/sonidos y cotejo completo siguen pendientes. Ver [IMPLEMENTATION_V209.md](IMPLEMENTATION_V209.md).
+Actualización v0.209: existe una lista con altas, validaciones y retiradas independientes, cola de 500 ms, entrada/salida de 1500 ms y marca persistente. El rescate y la reanudación se comprobaron en Chrome; el fixture de dos objetivos acredita la capacidad de la interfaz, no la coexistencia de esas misiones en el original. v0.211 añade avisos con caducidad/cierre y los sonidos originales de presentación y validación, comprobados en Chrome. La secuencia autoritativa de objetivos simultáneos y el cotejo completo siguen pendientes. Ver [IMPLEMENTATION_V209.md](IMPLEMENTATION_V209.md) y [IMPLEMENTATION_V211.md](IMPLEMENTATION_V211.md).
 
 - Comparar el HUD completo: iconos superiores, chat/estado, barra de habilidades, objetivos, barras sobre actores, cooldowns, retratos, nombres, diálogos y paneles.
 - Comparar estados de tutorial y objetivos de Papaille/Mura, aldeas, perfil/equipo, mochila, talentos, trabajos, selector de expedición, regalos/dones, cofre y fin de recorrido.

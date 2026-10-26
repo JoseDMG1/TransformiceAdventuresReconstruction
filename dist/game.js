@@ -67,6 +67,7 @@ import { drawObjectiveGround } from "./objective-art.js";
 import { createQuestTracker } from "./quest-log.js";
 import { createQuestView } from "./quest-view.js";
 import { describeQuests } from "./quest-data.js";
+import { createQuestNotices, createQuestNoticeView } from "./quest-notice.js";
 import { createDialogueText } from "./dialogue-text.js";
 import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
@@ -274,6 +275,8 @@ let papailleClueDialogue = null;
 let currentQuestKey = null;
 const questTracker = createQuestTracker();
 const questView = createQuestView($("quest-objectives"));
+const questNotices = createQuestNotices();
+const questNoticeView = createQuestNoticeView($("quest-notices"), key => questNotices.close(key, performance.now()));
 const dialogueText = createDialogueText();
 let targetingSystem = null;
 let rewardOffer = [],
@@ -1509,6 +1512,7 @@ function spawnRoom() {
   e.pattern = (e.pattern + 1) % 3;
 }
 function updateQuest(options = {}) {
+  if (options.reset) questNotices.reset();
   const { title, objectives } = describeQuests({
     scene, profile, pet, tutorialPhase, room, encounterStarted, encounterAwarded,
     step, encounterCount, papailleClueDialogue,
@@ -3441,6 +3445,9 @@ function openMenu() {
   $("title-return").onclick = () => {
     save();
     closeModal();
+    questTracker.reconcile([], { reset: true });
+    questNotices.reset();
+    currentQuestKey = null;
     mode = "title";
     resetSceneAudio();
     $("hud").hidden = true;
@@ -5510,8 +5517,15 @@ function frame(now) {
   const dt = Math.min(elapsedMs / 1000 || 0, 0.05);
   lastTime = now;
   update(dt);
-  questTracker.tick(now);
+  for (const event of questTracker.tick(now)) {
+    if (event.type === "announced") {
+      playOriginalSound("objectif");
+      questNotices.show(event.text, now);
+    } else if (event.type === "validated") playOriginalSound("objectif2");
+  }
   questView.render(questTracker.snapshot(), now);
+  questNotices.tick(now);
+  questNoticeView.render(questNotices.snapshot());
   draw(elapsedMs);
   updateHUDPortrait();
   const preview = $("appearance-preview");
@@ -5841,6 +5855,7 @@ Object.defineProperty(window, "adventure", {
       chest: scene.interactables.find(o => o.id === "chest") ?? null,
       objective: objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }),
       objectives: questTracker.snapshot(),
+      questNotices: questNotices.snapshot(),
       objectiveMarker: questTracker.target(),
       targeting: targetingSystem.pending,
       fields: effects.filter(effect => effect.life > 0).map(effect => ({
@@ -5908,7 +5923,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.210.0",
+    version: "0.211.0",
   }),
 });
 resize();

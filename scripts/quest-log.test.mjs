@@ -116,3 +116,17 @@ test("content retains known instructions and targets without inventing simultane
   assert.equal(result.objectives[0].id, "dungeon:papaille:axe");
   assert.equal(result.objectives[0].target, null);
 });
+
+test("addition announces once after its slide; validation emits a separate event", () => {
+  const log = createQuestLog();
+  log.add({ id: "a", text: "A" });
+  assert.deepEqual(log.tick(0), []);
+  assert.deepEqual(log.tick(1499), []);
+  assert.deepEqual(log.tick(1500), [{ type: "announced", id: "a", text: "A" }]);
+  assert.deepEqual(log.tick(1501), []);
+  log.validate("a");
+  assert.deepEqual(log.tick(2000), [{ type: "validated", id: "a", text: "A" }]);
+  assert.deepEqual(log.tick(4000), []);
+  log.reset();
+  assert.deepEqual(log.tick(10000), []);
+});

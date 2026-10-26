@@ -19,7 +19,8 @@ export function createQuestLog() {
       }
       const row = { key: ++serial, id: objective.id, text: objective.text,
         target: objective.target ? { ...objective.target } : null,
-        validated: false, validatedAt: null, phase: "queued", phaseStarted: null };
+        validated: false, validatedAt: null, phase: "queued", phaseStarted: null,
+        addedAt: null, announced: false };
       index.set(row.id, row);
       changes.push({ type: "add", row });
     },
@@ -38,28 +39,37 @@ export function createQuestLog() {
       if (row) row.target = target ? { ...target } : null;
     },
     tick(now) {
+      const events = [];
       rows = rows.filter(row => row.phase !== "leaving" || now - row.phaseStarted < QUEST_TIMING.slide);
-      for (const row of rows)
+      for (const row of rows) {
+        if (!row.announced && row.addedAt !== null && now - row.addedAt >= QUEST_TIMING.slide) {
+          row.announced = true;
+          events.push({ type: "announced", id: row.id, text: row.text });
+        }
         if (row.phase === "entering" && now - row.phaseStarted >= QUEST_TIMING.slide)
           row.phase = "active";
-      if (now <= nextChange) return;
+      }
+      if (now <= nextChange) return events;
       nextChange = now + QUEST_TIMING.change;
       const event = changes.shift();
-      if (!event) return;
+      if (!event) return events;
       const { row } = event;
       if (event.type === "add") {
         row.phase = "entering";
         row.phaseStarted = now;
+        row.addedAt = now;
         rows.unshift(row);
         if (!marker && row.target) marker = row;
       } else if (event.type === "validate") {
         row.validated = true;
         row.validatedAt = now;
+        events.push({ type: "validated", id: row.id, text: row.text });
       } else {
         row.phase = "leaving";
         row.phaseStarted = now;
         if (marker === row) marker = null;
       }
+      return events;
     },
     reset() {
       index.clear();
