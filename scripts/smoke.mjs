@@ -627,7 +627,10 @@ try {
           "Reloading victory must not award again",
         );
         await shot("victory");
+        await waitFor("!document.getElementById('go-village').disabled",
+          "Victory actions must wait for the reward presentation to finish");
         await evaluate("document.getElementById('go-village').click()");
+        await waitFor("adventure.snapshot().scene === 'village'", "Victory return must actually reach the village");
         won = true;
         break;
       }
