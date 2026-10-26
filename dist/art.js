@@ -10,6 +10,7 @@ import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
 import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
 import { drawTutorialClearing, drawTutorialFence, drawTutorialCart } from "./tutorial-art.js";
+import { drawVillagePlaza } from "./village-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -1235,30 +1236,7 @@ export function makeGround(width, height, seed, village = false, layout = "meado
     }
     c.restore();
   } else if (village) {
-    // The captured plaza is a broad grassy clearing ringed by a winding path,
-    // not the generic crossing used by the early local draft.
-    const plazaLoop = () => {
-      c.moveTo(100, 700);
-      c.bezierCurveTo(155, 500, 385, 360, 700, 430);
-      c.bezierCurveTo(1010, 485, 1190, 660, 1470, 620);
-      c.bezierCurveTo(1750, 580, 1900, 430, 2080, 560);
-      c.bezierCurveTo(2260, 690, 2220, 960, 2000, 1080);
-      c.bezierCurveTo(1750, 1200, 1515, 1000, 1330, 900);
-      c.bezierCurveTo(1080, 765, 930, 990, 670, 1080);
-      c.bezierCurveTo(420, 1165, 205, 1010, 100, 700);
-      c.closePath();
-    };
-    strokePath("#8c9743", 182, plazaLoop);
-    strokePath("#b7b461", 158, plazaLoop);
-    // A short spur leads from the loop to the announcement board and fountain.
-    strokePath("#8c9743", 130, () => {
-      c.moveTo(720, 435);
-      c.bezierCurveTo(780, 500, 820, 550, 865, 630);
-    });
-    strokePath("#b7b461", 108, () => {
-      c.moveTo(720, 435);
-      c.bezierCurveTo(780, 500, 820, 550, 865, 630);
-    });
+    drawVillagePlaza(c);
   } else {
     strokePath("#b8b657", village ? 160 : 110, () => {
       c.moveTo(0, height * 0.6);
