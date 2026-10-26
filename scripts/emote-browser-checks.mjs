@@ -20,6 +20,7 @@ export async function checkEmotes({ evaluate, send, tap, shot, wait, waitFor }) 
   const click = async selector => {
     const p = await evaluate(`(() => {
       const element = document.querySelector(${JSON.stringify(selector)});
+      element.scrollIntoView({ block: 'nearest' });
       const r = element.getBoundingClientRect();
       const x = r.x + r.width / 2, y = r.y + r.height / 2;
       const hit = document.elementFromPoint(x, y);
@@ -61,6 +62,26 @@ export async function checkEmotes({ evaluate, send, tap, shot, wait, waitFor }) 
   await click("#emote-button");
   await tap("Escape");
   assert.equal(await evaluate("document.getElementById('emote-command-menu').hidden"), true);
+  await click("#menu-button");
+  assert.equal(await evaluate("adventure.snapshot().modal"), "menu");
+  const soundLabel = await evaluate("document.getElementById('sound-button').textContent");
+  await click("#sound-button");
+  assert.notEqual(await evaluate("document.getElementById('sound-button').textContent"), soundLabel);
+  const audioToggle = await evaluate("({ label: document.getElementById('sound-button').textContent, volume: adventure.snapshot().audio.volume })");
+  assert.equal(audioToggle.volume === 0, audioToggle.label === "Activar sonido");
+  await click("#sound-button");
+  assert.equal(await evaluate("document.getElementById('sound-button').textContent"), soundLabel);
+  await shot("local-menu");
+  await click("#map-button");
+  assert.equal(await evaluate("adventure.snapshot().modal"), "world-map");
+  await waitFor("document.querySelector('#world-map-image img').naturalWidth > 0", "Local world map must load");
+  await tap("Escape");
+  await click("#menu-button");
+  await click("#controls");
+  assert.equal(await evaluate("adventure.snapshot().modal"), "help");
+  assert.ok(await evaluate("document.querySelector('.controls').textContent.includes('F Emotes')"));
+  assert.ok(await evaluate("document.querySelector('.controls').textContent.includes('3 Habilidad secundaria')"));
+  await tap("Escape");
   assert.deepEqual(await savedProfile(), before, "Emotes must not change the saved profile");
   assert.equal(await evaluate("JSON.stringify(JSON.parse(localStorage.getItem('tfma-local-v1')).journey).includes('emote')"), false);
 }

@@ -1004,11 +1004,21 @@ function updateSound() {
   setOriginalVolume(muted ? 0 : audioSettings.master);
   setOriginalEffectVolume(audioSettings.effects);
   setOriginalMusicVolume(audioSettings.music);
-  $("sound-button").textContent = muted ? "♪̸" : "♪";
-  $("sound-button").setAttribute(
-    "aria-label",
-    muted ? "Activar sonido" : "Silenciar sonido",
-  );
+  const button = $("sound-button");
+  if (button) {
+    button.textContent = muted ? "Activar sonido" : "Silenciar sonido";
+    button.setAttribute("aria-label", button.textContent);
+  }
+}
+function toggleSound() {
+  initAudio();
+  if (muted && audioSettings.master === 0) {
+    audioSettings.master = 0.55;
+    saveAudioSettings();
+  }
+  muted = !muted;
+  updateSound();
+  tone(540, 0.1);
 }
 function saveAudioSettings() {
   try {
@@ -3436,7 +3446,7 @@ function openHelp() {
     "help",
     "Un pequeño manual de aventuras",
     "CONTROLES",
-    `<div class="controls"><div><kbd>WASD</kbd> / flechas · Moverte</div><div><kbd>CLIC</kbd> / J · Atacar</div><div><kbd>H</kbd> / clic derecho · Mano secundaria</div><div><kbd>E</kbd> Hablar / interactuar</div><div><kbd>Q</kbd> / 1 · Primera habilidad</div><div><kbd>R</kbd> / 2 · Segunda habilidad</div><div><kbd>F</kbd> / 3 · Habilidad secundaria</div><div><kbd>ESPACIO</kbd> Esquivar</div><div><kbd>I</kbd> Perfil y equipo</div><div><kbd>T</kbd> Talentos</div><div><kbd>M</kbd> Mazmorras</div><div><kbd>ESC</kbd> Menú / cerrar</div><div><kbd>P</kbd> Ocultar interfaz</div></div><hr class="divider"><p class="muted">Apunta con el ratón. Picpic te sigue y ayuda en combate. Las habilidades con objetivo muestran un cursor: confirma con clic o J; cancela con Escape o clic derecho. Las vendas y las habilidades se recargan con el tiempo. Mantén H o clic derecho con el escudo para bloquear de frente. La espada de dos manos ocupa ambas manos. Puedes aprender talentos durante la expedición; vuelve a la aldea para cambiar de arma o trabajo y redistribuir puntos.</p><p class="save-note">Se recomienda teclado y ratón. El juego se pausa al abrir los menús o cambiar de pestaña.</p>`,
+    `<div class="controls"><div><kbd>WASD</kbd> / flechas · Moverte</div><div><kbd>CLIC</kbd> / J · Atacar</div><div><kbd>H</kbd> / clic derecho · Mano secundaria</div><div><kbd>E</kbd> Hablar / interactuar</div><div><kbd>Q</kbd> / 1 · Primera habilidad</div><div><kbd>R</kbd> / 2 · Segunda habilidad</div><div><kbd>3</kbd> Habilidad secundaria</div><div><kbd>F</kbd> Emotes</div><div><kbd>ESPACIO</kbd> Esquivar</div><div><kbd>I</kbd> Perfil y equipo</div><div><kbd>T</kbd> Talentos</div><div><kbd>M</kbd> Mazmorras</div><div><kbd>ESC</kbd> Menú / cerrar</div><div><kbd>P</kbd> Ocultar interfaz</div></div><hr class="divider"><p class="muted">Apunta con el ratón. Picpic te sigue y ayuda en combate. Las habilidades con objetivo muestran un cursor: confirma con clic o J; cancela con Escape o clic derecho. Las vendas y las habilidades se recargan con el tiempo. Mantén H o clic derecho con el escudo para bloquear de frente. La espada de dos manos ocupa ambas manos. Puedes aprender talentos durante la expedición; vuelve a la aldea para cambiar de arma o trabajo y redistribuir puntos.</p><p class="save-note">Se recomienda teclado y ratón. El juego se pausa al abrir los menús o cambiar de pestaña.</p>`,
   );
 }
 function openWorldMap() {
@@ -3454,10 +3464,13 @@ function openMenu() {
     "menu",
     "Un momento de descanso",
     "AVENTURA LOCAL",
-    `<p class="intro">Tu aventura te espera.</p><div class="button-row"><button class="primary" id="resume">Seguir jugando</button><button class="secondary" id="controls">Controles</button></div><div class="button-row"><button class="secondary" id="return-village">${scene.kind === "tutorial" ? "Reiniciar tutorial" : "Regresar a la aldea"}</button><button class="secondary" id="title-return">Pantalla de inicio</button></div><hr class="divider"><fieldset class="audio-options"><legend>Sonido</legend><label>Volumen general <input id="volume-general" type="range" min="0" max="100" value="${audioSettings.master * 100}"></label><label>Música <input id="volume-music" type="range" min="0" max="100" value="${audioSettings.music * 100}"></label><label>Efectos y ambiente <input id="volume-effects" type="range" min="0" max="100" value="${audioSettings.effects * 100}"></label></fieldset><p class="save-note">Preferencias de sonido guardadas por separado · Progreso · Nivel ${profile.level}<br>Los regalos se pierden al abandonar una expedición.</p>`,
+    `<p class="intro">Tu aventura te espera.</p><div class="button-row"><button class="primary" id="resume">Seguir jugando</button><button class="secondary" id="controls">Controles</button></div><div class="button-row"><button class="secondary" id="return-village">${scene.kind === "tutorial" ? "Reiniciar tutorial" : "Regresar a la aldea"}</button><button class="secondary" id="title-return">Pantalla de inicio</button></div><div class="button-row"><button class="secondary" id="map-button">Mapa del mundo</button><button class="secondary" id="sound-button">Silenciar sonido</button></div><hr class="divider"><fieldset class="audio-options"><legend>Sonido</legend><label>Volumen general <input id="volume-general" type="range" min="0" max="100" value="${audioSettings.master * 100}"></label><label>Música <input id="volume-music" type="range" min="0" max="100" value="${audioSettings.music * 100}"></label><label>Efectos y ambiente <input id="volume-effects" type="range" min="0" max="100" value="${audioSettings.effects * 100}"></label></fieldset><p class="save-note">Preferencias de sonido guardadas por separado · Progreso · Nivel ${profile.level}<br>Los regalos se pierden al abandonar una expedición.</p>`,
   );
   $("resume").onclick = closeModal;
   $("controls").onclick = openHelp;
+  $("map-button").onclick = openWorldMap;
+  $("sound-button").onclick = toggleSound;
+  updateSound();
   $("volume-general").oninput = (e) => {
     audioSettings.master = Number(e.target.value) / 100;
     muted = audioSettings.master === 0;
@@ -5852,22 +5865,10 @@ targetingSystem = createTargetingSystem({
 });
 
 $("menu-button").onclick = openMenu;
-$("help-button").onclick = openHelp;
-$("map-button").onclick = openWorldMap;
 $("profile-button").onclick = () => openProfile();
 $("talents-button").onclick = () => openProfile("talents");
 $("dungeon-button").onclick = openDungeon;
 $("emote-button").onclick = (event) => openLocalEmoteMenu(event.currentTarget);
-$("sound-button").onclick = () => {
-  initAudio();
-  if (muted && audioSettings.master === 0) {
-    audioSettings.master = 0.55;
-    saveAudioSettings();
-  }
-  muted = !muted;
-  updateSound();
-  tone(540, 0.1);
-};
 $("attack-button").onclick = () => targetingSystem.pending
   ? targetingSystem.confirm(currentSkillAim()) : attack();
 $("heal-button").onpointerdown = secondaryAction;
@@ -5964,7 +5965,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.207.0",
+    version: "0.208.0",
   }),
 });
 resize();

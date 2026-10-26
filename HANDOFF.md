@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.207.0. Ultima entrega: reference/IMPLEMENTATION_V207.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.208.0. Ultima entrega: reference/IMPLEMENTATION_V208.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.208: retirados los tres botones grandes superiores derechos añadidos localmente. Mapa y silencio pasan al menú (Esc/pastilla); Controles conserva ayuda y corrige F=emotes, 3=habilidad secundaria. Inicialización de audio tolera que el botón solo exista con el menú. Ver `reference/IMPLEMENTATION_V208.md`; el menú local conserva opciones adicionales de prueba.
 - v0.207: identificados y recuperados los cuatro iconos superiores (Kickstarter, foro, Discord y Twitter) mediante `InterfaceLiensExternesADV`. Se muestran como imágenes locales decorativas, sin enlaces. Retirado el encabezado permanente añadido «Mouscarpone / zona»; el nombre sigue accesible. Ver `reference/IMPLEMENTATION_V207.md`.
 - v0.206: tablón de aldea más ancho, con tejadillo de listones, borde azulado y papeles superpuestos, trazado del fotograma 03:00. Dibujo trasladado a `village-art.js`; posición e interacción conservadas. No es recurso original recuperado y los anuncios son marcas ilustrativas, no texto inferido. Ver `reference/IMPLEMENTATION_V206.md`.
 - v0.205: recuperada la clase pública `ClipAnimProjection` referenciada por el cliente; FX72 ahora se achata según el ángulo de cámara recuperado (adaptación ortográfica, no perspectiva completa). Dibujo aislado en `objective-art.js`, descarga con hash y prueba de transformación real en Canvas. Ver `reference/IMPLEMENTATION_V205.md`; escala absoluta y perspectiva siguen pendientes.

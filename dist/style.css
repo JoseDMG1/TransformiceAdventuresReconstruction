@@ -101,12 +101,6 @@ button:disabled {
   letter-spacing: 2px;
   color: #d1ca98;
 }
-.top-right {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 #quest {
   position: absolute;
   right: clamp(12px, 3.9vw, 25px);
