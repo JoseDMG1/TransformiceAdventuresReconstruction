@@ -42,6 +42,7 @@ import {
   setOriginalEffectVolume,
   setOriginalMusicVolume,
 } from "./audio.js";
+import { createAmbientAudio } from "./ambient-audio.js";
 import {
   initializeArt,
   artStatus,
@@ -224,10 +225,13 @@ function readAudioSettings() {
   }
 }
 let audioSettings = readAudioSettings();
+const ambientAudio = createAmbientAudio({
+  play: playOriginalSound,
+  isPlaying: isOriginalSoundPlaying,
+  stop: stopOriginalSound,
+});
 let sceneMusicMode = "";
 let sceneMusicNextAt = 0;
-let ambientSoundName = "";
-let ambientNextAt = 0;
 let mode = "title",
   scene,
   player,
@@ -1049,30 +1053,13 @@ function updateSceneAudio() {
     else sceneMusicNextAt = now + 1;
     musicPlaying = isOriginalMusicPlaying();
   }
-  if (ambientSoundName && isOriginalSoundPlaying(ambientSoundName)) {
-    ambientNextAt = now + 1;
-    return;
-  }
-  if (now < ambientNextAt) return;
-  const ambiences = [
-    ["ambiance/foret2", 0.5],
-    ["ambiance/foret", 0.3],
-    ["ambiance/prairie", 1],
-    ["ambiance/vent", 1],
-  ];
-  const [name, volume] = ambiences[Math.floor(Math.random() * ambiences.length)];
-  ambientSoundName = name;
-  // The original world loop polls ambience once per second and starts a new
-  // random sample as soon as the previous one has ended.
-  ambientNextAt = now + 1;
+  ambientAudio.update(now);
 }
 function resetSceneAudio() {
   stopOriginalMusic(900);
-  if (ambientSoundName) stopOriginalSound(ambientSoundName);
+  ambientAudio.reset(time);
   sceneMusicMode = "";
   sceneMusicNextAt = time;
-  ambientSoundName = "";
-  ambientNextAt = time;
 }
 function toast(text) {
   $("toast").textContent = text;
@@ -5966,7 +5953,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.191.0",
+    version: "0.194.0",
   }),
 });
 resize();
