@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.214.0
+# Transformice Adventures — versión local v0.215.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 
@@ -41,6 +41,7 @@ Debes estar quieto durante un segundo para completar una venda. Moverte interrum
 
 ## Funciones recientes
 
+- Catálogo completo de 198 definiciones visuales originales, con imágenes cargadas bajo demanda. Atlas de revisión disponible; Papaille usa una composición gris aproximada basada en el video.
 - Plaza de aldea cotejada desde el tablón: cabañas de puertas azules, faroles altos, cubierta con dos chimeneas y colocación revisada de elementos; comprobado el acceso a tablón, Papaille, Mura y Scarf.
 - Tutorial con suelo irregular, troncos, tréboles y flores trazados del video; Picpic aparece en la posición aproximada del fotograma inicial y el carro incluye una representación de la criatura de tiro.
 - Avisos de objetivos con cierre por clic, caducidad y los sonidos originales recuperados para presentación y validación.
@@ -77,7 +78,7 @@ npm run test:browser
 
 `check` revisa la sintaxis. `test` comprueba combate, trabajos, talentos, guardados, testimonios y selección de objetivo. `test:features` utiliza Chrome instalado y un perfil aislado; necesita el servidor local activo. Sus capturas se guardan en `.local/`.
 
-La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V214.md](reference/IMPLEMENTATION_V214.md).
+La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V215.md](reference/IMPLEMENTATION_V215.md).
 
 El [comparador visual](reference/SCENE_COMPARISON.html) reúne las capturas originales y locales del tutorial y la plaza; puede abrirse directamente en el navegador.
 

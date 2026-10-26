@@ -2492,6 +2492,7 @@ function speak(name, lines, action = null) {
       weapon: null,
       secondary: null,
       hat: speakerId === "mura",
+      clothing: speaker?.clothing ?? [],
     },
   );
   $("hud").inert = true;
@@ -5320,10 +5321,11 @@ function draw(elapsedMs = 0) {
     ...scene.npcs.map((n) => ({
       y: n.y,
       draw: () =>
-        mouse(ctx, { ...n, facing: 1 }, time, {
+        mouse(ctx, { ...n, facing: n.facing ?? 1 }, time, {
           npc: true,
           showName: !n.ambient,
           color: n.color,
+          clothing: n.clothing ?? [],
           weapon: null,
           hat: n.id === "mura",
         }),
@@ -5914,7 +5916,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.214.0",
+    version: "0.215.0",
   }),
 });
 resize();

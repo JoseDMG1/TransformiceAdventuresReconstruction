@@ -1236,7 +1236,7 @@ export function mouse(
     );
     c.restore();
     if (drawn) {
-      if (npc && showName && e.name) label(c, e.name, e.x, e.y - 68, "#d7e2ba", 12);
+      if (npc && showName && e.name) label(c, e.name, e.x, e.y - 68, e.nameColor ?? "#d7e2ba", 12);
 
       return;
     }

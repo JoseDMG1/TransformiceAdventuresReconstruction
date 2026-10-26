@@ -1,8 +1,9 @@
 // Canvas reproduction of the archived ClipAnim format. Original data is never executed.
 import { COSMETIC_SETS } from "./cosmetics.js";
+import { createClothingLoader } from "./clothing-loader.js";
 export { COSMETIC_SETS };
 const base = "./assets/original/";
-let metadata;
+let metadata, clothingLoader;
 const images = new Map(),
   creatures = new Map(),
   mouseParts = new Map(),
@@ -25,6 +26,8 @@ function imagePath(name, source) {
 }
 export async function loadOriginalAnimations() {
   metadata = await (await fetch(base + "creatures.json")).json();
+  const clothingCatalogue = await (await fetch(base + "clothing-looks.json")).json();
+  metadata.clothing = clothingCatalogue.looks;
   creatures.clear();
   animationFrameCounts.clear();
   mouseParts.clear();
@@ -78,6 +81,17 @@ export async function loadOriginalAnimations() {
         }),
     ),
   );
+  clothingLoader=createClothingLoader({images,clothingSets,
+    loadManifest:async()=>{
+      const response=await fetch(base+"clothing-downloads.json");
+      if(!response.ok) throw Error("Local clothing manifest unavailable");
+      return response.json();
+    },
+    loadImage:resource=>new Promise(resolve=>{
+      const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>resolve(null);
+      image.src=base+resource;
+    }),
+  });
   return {
     loaded: images.size,
     creatures: [2, 3, 4, 5, 7, 10, 15, 17, 19, 30, 32, 38, 40, 41, 43, 44, 45, 46, 47, 49, 50],
@@ -85,6 +99,11 @@ export async function loadOriginalAnimations() {
     summons: [...summons.keys()],
   };
 }
+export function loadOriginalClothing(codes) {
+  if(!clothingLoader) return Promise.reject(Error("Load original animations before requesting clothing"));
+  return clothingLoader.load(codes);
+}
+export function originalClothingStatus() {return clothingLoader?.snapshot() ?? [];}
 function values(s) {
   const v = s.values;
   return {
@@ -249,6 +268,7 @@ export function drawOriginalCreature(
 ) {
   let clip = creatures.get(code);
   if (!supported.has(code) || !clip || !images.size) return false;
+  if(code===2) clothingLoader?.queue(options?.clothing);
   if (clip.type === "C")
     clip =
       clip.children.find((c) => c.name === animation)?.clip ??

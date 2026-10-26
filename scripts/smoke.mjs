@@ -204,6 +204,12 @@ try {
   if (process.argv.includes("--title-only")) {
     assert.equal(errors.length, 0, errors.join("\n"));
     console.log("PASS: title import dialog is visible and Escape closes it.");
+  } else if (process.argv.includes("--clothing-atlas")) {
+    const { checkClothingAtlas } = await import("./clothing-browser-checks.mjs");
+    const report=await checkClothingAtlas({ evaluate });
+    await writeFile(".local/clothing-atlas.json",JSON.stringify(report,null,2));
+    assert.equal(errors.length,0,errors.join("\n"));
+    console.log("PASS: 198 visual looks inspected, lazy look changes rendered pixels and saved profile is unchanged.");
   } else if (process.argv.includes("--bow-resume")) {
     const { checkBowResume } = await import("./bow-resume-browser-checks.mjs");
     const report = await checkBowResume({ evaluate, send, reloadAndContinue, key, wait, waitFor, shot });

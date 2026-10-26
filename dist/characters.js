@@ -4,7 +4,12 @@ export const CHARACTERS = Object.freeze({
   papaille: Object.freeze({
     id: "papaille",
     name: "Papaille",
-    color: "#bd9b6b",
+    color: "#9da5a0",
+    // Visual match to the grey mouse in frame 0060, not a recovered NPC Look
+    // packet or inventory-item association. Costume details remain unconfirmed.
+    clothing: Object.freeze([83]),
+    facing: -1,
+    nameColor: "#5e9dce",
     species: "mouse",
   }),
   mura: Object.freeze({
