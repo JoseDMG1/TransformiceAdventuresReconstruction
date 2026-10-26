@@ -5209,8 +5209,8 @@ function draw(elapsedMs = 0) {
     shakeY = Math.sin(camera.shakeAngle) * 10 * remaining + Math.random() - 0.5;
   }
   questTracker.updateTarget(currentQuestKey,
-    objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded,
-      muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }));
+    objectiveTarget({ scene, profile, tutorialPhase, room, encounterStarted, encounterAwarded,
+      papailleClueDialogue }));
   const navigationTarget = mode === "playing" && !modalKind && $("dialogue").hidden && !$("hud").hidden
     ? questTracker.target() : null;
   const navigationMarker = objectiveArrowMotion.update(
@@ -5846,7 +5846,7 @@ Object.defineProperty(window, "adventure", {
       forestClues: [...forestClues],
       clues: scene.interactables.filter(o => o.clueId).map(o => ({ id: o.clueId, x: o.x, y: o.y })),
       chest: scene.interactables.find(o => o.id === "chest") ?? null,
-      objective: objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending: profile.expeditions > 0 && !profile.muraAdviceSeen, papailleClueDialogue }),
+      objective: objectiveTarget({ scene, profile, tutorialPhase, room, encounterStarted, encounterAwarded, papailleClueDialogue }),
       objectives: questTracker.snapshot(),
       questNotices: questNotices.snapshot(),
       objectiveMarker: questTracker.target(),
@@ -5916,7 +5916,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.215.0",
+    version: "0.216.0",
   }),
 });
 resize();

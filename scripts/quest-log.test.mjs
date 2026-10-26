@@ -130,3 +130,18 @@ test("addition announces once after its slide; validation emits a separate event
   log.reset();
   assert.deepEqual(log.tick(10000), []);
 });
+
+test("continue-path, Mura advice and repeat expedition have consistent village destinations",()=>{
+  const scene={kind:"village",interactables:[{id:"gate",x:1800,y:780},
+    {id:"mura",x:1450,y:620},{id:"board",x:865,y:610}]};
+  const cases=[
+    [{tutorial:true,expeditions:0},"village:path","gate"],
+    [{tutorial:true,expeditions:1,muraAdviceSeen:false},"village:mura","mura"],
+    [{tutorial:true,expeditions:1,muraAdviceSeen:true},"village:board","board"],
+  ];
+  for(const [profile,id,target] of cases) {
+    const result=describeQuests({scene,profile});
+    assert.equal(result.objectives[0].id,id);
+    assert.equal(result.objectives[0].target.id,target);
+  }
+});

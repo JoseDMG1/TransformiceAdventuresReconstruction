@@ -1,9 +1,13 @@
 // Local targets for objectives already shown by the reconstruction.
 // The archived client supports a ground marker and a distant directional arrow.
-export function objectiveTarget({ scene, pet, tutorialPhase, room, encounterStarted, encounterAwarded, muraAdvicePending = false, papailleClueDialogue = null }) {
+export function objectiveTarget({ scene, profile, tutorialPhase, room, encounterStarted, encounterAwarded,
+  muraAdvicePending = profile?.expeditions > 0 && !profile?.muraAdviceSeen, papailleClueDialogue = null }) {
   if (!scene) return null;
   if (scene.kind === "village") {
-    const targetId = muraAdvicePending ? "mura" : "board";
+    // Frame 0180 shows obj_continuez pointing right, not a ring on the board.
+    // The local exit approximates that direction; exact server coordinates are absent.
+    const targetId = muraAdvicePending ? "mura"
+      : profile?.tutorial && profile.expeditions === 0 ? "gate" : "board";
     return scene.interactables.find(o => o.id === targetId) ?? null;
   }
   if (scene.kind === "tutorial") {

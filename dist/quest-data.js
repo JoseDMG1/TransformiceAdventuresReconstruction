@@ -6,14 +6,15 @@ export function describeQuests(context) {
   const { scene, profile, tutorialPhase, room, encounterStarted, encounterAwarded,
     step, encounterCount, papailleClueDialogue, rescueInstructions, bossName } = context;
   const muraAdvicePending = profile.expeditions > 0 && !profile.muraAdviceSeen;
+  const continuePath = profile.tutorial && profile.expeditions === 0;
   let title, text, id;
   if (scene.kind === "village") {
-    id = muraAdvicePending ? "village:mura" : "village:board";
+    id = muraAdvicePending ? "village:mura" : continuePath ? "village:path" : "village:board";
     title = muraAdvicePending ? "Trabajos"
       : profile.bestStep ? "El bosque vuelve a llamar" : "Un mundo por descubrir";
     text = muraAdvicePending
       ? "Habla con Mura para cambiar de trabajo. Puedes adquirir un trabajo secundario a partir del nivel 10. ¡No dudes en probar varias combinaciones! ¡Cambiar de trabajo es gratis!"
-      : profile.tutorial && profile.expeditions === 0
+      : continuePath
         ? "Continúa el sendero."
         : "Visita el tablón de la plaza para comenzar una expedición. Mura puede cambiar tu trabajo.";
   } else if (scene.kind === "tutorial") {

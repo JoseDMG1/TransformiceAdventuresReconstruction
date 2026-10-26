@@ -1,6 +1,6 @@
 ﻿{
   "name": "transformice-adventures-local",
-  "version": "0.215.0",
+  "version": "0.216.0",
   "private": true,
   "type": "module",
   "description": "Juego local de navegador basado en la demo y su gameplay.",

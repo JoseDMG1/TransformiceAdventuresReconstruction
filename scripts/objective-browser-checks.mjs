@@ -38,9 +38,19 @@ export async function checkObjectiveMotion({ evaluate, tap, key, shot, wait, wai
     assert.ok(result.samples[i].x >= 0 && result.samples[i].x <= result.width);
     assert.ok(result.samples[i].y >= 0 && result.samples[i].y <= result.height);
   }
-  await key("KeyW");
-  await wait(900);
-  await key("KeyW", "keyUp");
+  const goal=await evaluate("adventure.snapshot().objective");
+  // Approach the actual current objective using ordinary movement. The first
+  // village instruction now points to the exit rather than the board.
+  for(const [axis,destination,negative,positive] of [
+    ["y",goal.y,"KeyW","KeyS"],["x",goal.x-140,"KeyA","KeyD"],
+  ]) {
+    const current=await evaluate(`adventure.snapshot().position.${axis}`);
+    const direction=current>destination?negative:positive;
+    await key(direction);
+    try {await waitFor(`Math.abs(adventure.snapshot().position.${axis}-${destination})<12`,
+      "Objective must be approachable without teleporting",10000);}
+    finally {await key(direction,"keyUp");}
+  }
   await wait(100);
   const ground = await evaluate(`(async () => {
     const original = CanvasRenderingContext2D.prototype.drawImage;
@@ -56,7 +66,7 @@ export async function checkObjectiveMotion({ evaluate, tap, key, shot, wait, wai
     finally { CanvasRenderingContext2D.prototype.drawImage = original; }
     return scales;
   })()`);
-  assert.ok(ground.length > 0, "Approaching the board must switch to the original FX72 ground marker");
+  assert.ok(ground.length > 0, "Approaching the objective must switch to the original FX72 ground marker");
   for (const scale of ground)
     assert.ok(Math.abs(scale.y / scale.x - Math.SQRT1_2) < 1e-5,
       "Ground marker must be foreshortened at the recovered camera angle");

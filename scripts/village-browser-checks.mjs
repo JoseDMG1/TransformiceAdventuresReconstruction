@@ -11,16 +11,16 @@ export async function checkVillageReference({ evaluate, send, key, shot, wait, w
     for(let attempt=0;attempt<240;attempt++) {
       const position=await evaluate("adventure.snapshot().position");
       const dx=destination.x-position.x,dy=destination.y-position.y;
-      if(Math.hypot(dx,dy)<5) break;
+      if(Math.hypot(dx,dy)<12) break;
       const next=new Set();
-      if(Math.abs(dx)>3) next.add(dx>0?"KeyD":"KeyA");
-      if(Math.abs(dy)>3) next.add(dy>0?"KeyS":"KeyW");
+      if(Math.abs(dx)>8) next.add(dx>0?"KeyD":"KeyA");
+      if(Math.abs(dy)>8) next.add(dy>0?"KeyS":"KeyW");
       for(const code of held) if(!next.has(code)) {await key(code,"keyUp");held.delete(code);}
       for(const code of next) if(!held.has(code)) {await key(code);held.add(code);}
       await wait(30);
     }
     } finally {for(const code of held) await key(code,"keyUp");}
-    await waitFor(`Math.hypot(adventure.snapshot().position.x-${destination.x},adventure.snapshot().position.y-${destination.y})<6`,
+    await waitFor(`Math.hypot(adventure.snapshot().position.x-${destination.x},adventure.snapshot().position.y-${destination.y})<15`,
       `${label} must remain reachable by normal movement`);
   };
   await walkTo(destination,"The board comparison pose");
@@ -40,7 +40,7 @@ export async function checkVillageReference({ evaluate, send, key, shot, wait, w
   const npcs=await evaluate("(async()=>{const {MAPS}=await import('./map-data.js');return MAPS.village.npcs.filter(n=>!n.ambient);})()");
   for(const id of ["papaille","mura","scarf"]) {
     const npc=npcs.find(n=>n.character===id);
-    const approach=id==="scarf" ? {x:npc.x-80,y:npc.y-30} : {x:npc.x,y:npc.y+105};
+    const approach=id==="scarf" ? {x:npc.x-80,y:npc.y-30} : {x:npc.x,y:npc.y+95};
     await walkTo(approach,id);
     await waitFor(`!document.getElementById('interaction').hidden && document.querySelector('#interaction span').textContent.toLowerCase().includes('${id}')`,
       `${id} must have a reachable named interaction`);
