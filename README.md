@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.192.0
+# Transformice Adventures — versión local v0.193.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 
@@ -48,6 +48,7 @@ Debes estar quieto durante un segundo para completar una venda. Moverte interrum
 - Iconos de equipo originales en la barra de acciones; los dones sin imagen recuperada muestran un símbolo alternativo.
 - Conexiones transitables entre zonas y pantalla de recuperación que permite descargar la partida ante un error inesperado.
 - Música original de título, exploración y combate, ambientes y tres controles de volumen locales separados del guardado.
+- Música de combate vinculada a la fase activa del encuentro local y transiciones de exploración/combate ajustadas a los tiempos recuperados del cliente original.
 
 ## Partidas
 

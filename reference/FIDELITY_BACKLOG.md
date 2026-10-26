@@ -1,14 +1,14 @@
 # Backlog para alcanzar fidelidad local verificable
 
-Actualizado: 2026-10-18  
-Versión evaluada: v0.192.0  
+Actualizado: 2026-10-26  
+Versión evaluada: v0.193.0  
 Alcance: reconstrucción jugable sin conexión, en navegador. No incluye cuentas, servidores, multijugador, matchmaking, chat ni sincronización.
 
 ## Estimación útil
 
 **Estimación de similitud observable: 47% (rango de trabajo: 40–58%; confianza baja-media).** La comparación cubre el gameplay disponible de 18:04 y el comportamiento que puede respaldarse con el cliente y recursos originales estudiados mediante REA. No es porcentaje de código, tiempo, cantidad de sistemas o contenido jugable.
 
-El ciclo principal local está construido de extremo a extremo en código —tutorial, aldea, expedición, encuentros, combate, progreso/recompensas y retorno—, pero la versión v0.192.0 no tiene una grabación local completa cotejada contra el MP4. Por eso “construido” no significa “equivalente”. Los escenarios son la mayor brecha: la reconstrucción usa colocaciones trazadas y aproximadas porque no se recuperaron los payloads de sectores originales. Varias reglas de combate/progreso también son parámetros locales cuando la evidencia no contiene la decisión que tomaba el servidor.
+El ciclo principal local está construido de extremo a extremo en código —tutorial, aldea, expedición, encuentros, combate, progreso/recompensas y retorno—, pero la versión v0.193.0 no tiene una grabación local completa cotejada contra el MP4. Por eso “construido” no significa “equivalente”. Los escenarios son la mayor brecha: la reconstrucción usa colocaciones trazadas y aproximadas porque no se recuperaron los payloads de sectores originales. Varias reglas de combate/progreso también son parámetros locales cuando la evidencia no contiene la decisión que tomaba el servidor.
 
 | Área | Peso | Nota estimada | Aporte | Trabajo que determina el avance |
 | --- | ---: | ---: | ---: | --- |
@@ -37,7 +37,7 @@ Las notas son juicio experto, no una medición automática ni un intervalo estad
 
 **Estado:** pendiente. Es el primer paso porque determina si la versión actual carga, completa el ciclo y qué diferencias son reales.
 
-1. Registrar navegador, tamaño de ventana, versión `v0.192.0`, partida nueva y guardada/reanudada. No sobrescribir el perfil habitual; usar una copia o perfil aislado.
+1. Registrar navegador, tamaño de ventana, versión `v0.193.0`, partida nueva y guardada/reanudada. No sobrescribir el perfil habitual; usar una copia o perfil aislado.
 2. Grabar desde la carga de la partida hasta el retorno a la aldea. Anotar capturas/tiempos que puedan alinearse con el MP4, errores de consola, pantallas atascadas y controles que no respondan.
 3. Incluir ambos menús de emotes, barras y HUD; verificar guardado/carga, cierre de diálogos, selección de expedición, victoria/recompensa y regreso.
 
@@ -71,7 +71,7 @@ Para cada acción que aparece en el video, registrar: entrada → preparación �
 
 ### P1 — Cotejar interfaz, diálogos y transiciones
 
-**Estado:** muchos elementos ya usan recursos/textos originales; tamaños y composición de la v0.192 requieren cotejo de navegador.
+**Estado:** muchos elementos ya usan recursos/textos originales; tamaños y composición de la v0.193 requieren cotejo de navegador.
 
 - Comparar el HUD completo: iconos superiores, chat/estado, barra de habilidades, objetivos, barras sobre actores, cooldowns, retratos, nombres, diálogos y paneles.
 - Comparar estados de tutorial y objetivos de Papaille/Mura, aldeas, perfil/equipo, mochila, talentos, trabajos, selector de expedición, regalos/dones, cofre y fin de recorrido.
@@ -95,7 +95,7 @@ Para cada acción que aparece en el video, registrar: entrada → preparación �
 
 ### P2 — Igualar audio y acabado
 
-**Estado:** efectos, pistas y ambientes recuperados e integrados en v0.192; falta cotejar sincronía, transición y volumen en navegador. La fuente de las listas es un módulo público de 2021; detectar combate localmente por enemigos vivos es una aproximación.
+**Estado:** efectos, pistas y ambientes recuperados e integrados en v0.192; v0.193 ajusta los intervalos y vincula el modo musical con la fase de encuentro local. Falta cotejar sincronía, transición y volumen en navegador. La lista proviene de un módulo público de 2021, y la fase local aproxima la bandera de combate que el cliente original recibía del servidor.
 
 - Revisar, por evento, muestra usada, momento, volumen relativo, repetición, atenuación y corte en pausa/cambio de zona.
 - Comparar sonidos de interfaz, combate, habilidades, recompensa, ambiente y música con el MP4 y las rutas declaradas por el cliente archivado.
@@ -118,7 +118,7 @@ Después de cada bloque, repetir partida nueva/reanudada, guardar/cargar y el tr
 | Perfil original con vínculo inventario→ranura→apariencia | Correspondencia autoritativa de toda la ropa/equipo. | Exportación original de perfil/equipo o fotogramas inequívocos de cada pieza equipada. |
 | Tablas/decisiones del servidor | Balance, costes, probabilidades, botín, desbloqueos y reglas no incluidas en el cliente estático. | Datos originales o observaciones repetibles suficientes para determinar cada regla. |
 | Contenido ausente de los 18:04 | Otras zonas, misiones, pantallas, acciones y estados. | Más grabaciones/referencias de esas partes. |
-| Ejecución de v0.192.0 en navegador | Estabilidad y semejanza reales de la versión vigente. | Registro local P0 con captura o grabación. |
+| Ejecución de v0.193.0 en navegador | Estabilidad y semejanza reales de la versión vigente. | Registro local P0 con captura o grabación. |
 
 REA aporta evidencia estática sobre el cliente archivado; no demuestra su ejecución ni recupera decisiones del servidor. Referencias: [hallazgos REA](REA_FINDINGS.md), [progresión](REA_PROGRESSION_FINDINGS.md), [mapas](MAP_RECOVERY.md), [video](GAMEPLAY_VIDEO_NOTES.md) y [lista de cotejo](FIDELITY_COMPLETION_CHECKLIST.md).
 

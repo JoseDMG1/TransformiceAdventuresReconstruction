@@ -1,7 +1,7 @@
 # Alcance pendiente para una reconstrucción local fiel
 
-Actualizado: 2026-10-18  
-Versión evaluada: v0.192.0  
+Actualizado: 2026-10-26  
+Versión evaluada: v0.193.0  
 Referencia disponible: gameplay de 18:04, fotogramas extraídos, cliente y recursos archivados con REA.  
 Alcance: juego local en navegador. Los sistemas online quedan excluidos.
 
@@ -9,7 +9,7 @@ Alcance: juego local en navegador. Los sistemas online quedan excluidos.
 
 **Fidelidad observable estimada: 47%, con un intervalo razonable de 40–58% y confianza baja-media.** Es una estimación de semejanza con el recorrido que aparece en el video y con evidencia original recuperada. No significa que falte 53% del código, ni que solo 47% del juego se pueda jugar. El backlog priorizado, con entregables y criterios de cierre, está en [FIDELITY_BACKLOG.md](FIDELITY_BACKLOG.md).
 
-El ciclo principal local está implementado: tutorial, aldea, expedición, encuentros, combate, recompensas y retorno. La v0.184 ajusta el regreso desde el tutorial a la evidencia de Papaille; la v0.185 alinea el texto de objetivo inicial de aldea con `obj_continuez`; la v0.186 mejora el retrato local; la v0.187 alinea el objetivo transitorio del diálogo de Papaille con `obj_papaille`; la v0.188 integra diez emotes locales; la v0.189 oculta el panel persistente de HUD no observado y centra la barra inferior; la v0.190 separa los menús de emotes; la v0.191 elimina la etiqueta «PARTIDA LOCAL» no observada; la v0.192 integra música y ambiente originales con controles separados. Todavía no se ha cotejado la versión en una pasada completa de navegador contra el video. El 47% es una base de planificación, no una certificación de la versión.
+El ciclo principal local está implementado: tutorial, aldea, expedición, encuentros, combate, recompensas y retorno. La v0.184 ajusta el regreso desde el tutorial a la evidencia de Papaille; la v0.185 alinea el texto de objetivo inicial de aldea con `obj_continuez`; la v0.186 mejora el retrato local; la v0.187 alinea el objetivo transitorio del diálogo de Papaille con `obj_papaille`; la v0.188 integra diez emotes locales; la v0.189 oculta el panel persistente de HUD no observado y centra la barra inferior; la v0.190 separa los menús de emotes; la v0.191 elimina la etiqueta «PARTIDA LOCAL» no observada; la v0.192 integra música y ambiente originales con controles separados; la v0.193 vincula cambios musicales a la fase local del encuentro e imita los intervalos observados. Todavía no se ha cotejado la versión en una pasada completa de navegador contra el video. El 47% es una base de planificación, no una certificación de la versión.
 
 | Dimensión | Peso | Estimación | Lectura práctica |
 | --- | ---: | ---: | --- |
@@ -19,7 +19,7 @@ El ciclo principal local está implementado: tutorial, aldea, expedición, encue
 | Progresión, inventario y recompensas | 15% | 43% | Hay pantallas y sistemas locales; faltan asociaciones y tablas autoritativas. |
 | Personajes, ropa, criaturas y objetos | 15% | 48% | Se usan recursos originales, con cobertura y asociaciones incompletas. |
 | Interfaz, diálogos, audio y presentación | 10% | 52% | Existen componentes y recursos recuperados; falta cotejo de escala, estados y sincronía. |
-| Estabilidad acreditada en navegador | 5% | 30% | No hay evidencia documentada de un recorrido integral de v0.192.0. |
+| Estabilidad acreditada en navegador | 5% | 30% | No hay evidencia documentada de un recorrido integral de v0.193.0. |
 | **Total ponderado** | **100%** | **47.2% ≈ 47%** | Intervalo razonable: 40–58%. |
 
 Las notas son juicio experto a partir del material archivado y del estado documentado del código. El intervalo refleja cobertura y validación incompletas; no es una probabilidad estadística. No se ejecutó el juego como parte de esta evaluación.
@@ -116,7 +116,7 @@ Cada punto pendiente pertenece a una de estas clases:
 | Relación autoritativa inventario → ranura → apariencia | Atuendos exactos y uso de todos los espacios cosméticos. | Exportación de perfil/equipo que conserve IDs y ranuras, o evidencia visual inequívoca. |
 | Tablas y decisiones del servidor | Balance, probabilidades, botín, costes, desbloqueos y reglas no expuestas por el cliente. | Tablas originales o suficientes observaciones repetibles que revelen los valores. |
 | Zonas, misiones y estados ausentes del MP4 | Contenido del juego original fuera de los 18:04 observados. | Más material de referencia de esas partes. |
-| Cotejo de v0.192.0 | Diferencias y estabilidad de la versión que se está evaluando. | Grabación/capturas del juego local corriendo y registro de recorrido. |
+| Cotejo de v0.193.0 | Diferencias y estabilidad de la versión que se está evaluando. | Grabación/capturas del juego local corriendo y registro de recorrido. |
 
 REA documenta estructuras, recursos declarados y flujos del cliente; no recupera por sí solo decisiones del servidor ni demuestra ejecución histórica. Consultar [REA_FINDINGS.md](REA_FINDINGS.md), [REA_PROGRESSION_FINDINGS.md](REA_PROGRESSION_FINDINGS.md), [GAMEPLAY_VIDEO_NOTES.md](GAMEPLAY_VIDEO_NOTES.md) y [MAP_RECOVERY.md](MAP_RECOVERY.md).
 

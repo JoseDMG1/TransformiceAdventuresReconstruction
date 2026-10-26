@@ -1014,13 +1014,16 @@ function updateSceneAudio() {
   if (mode !== "playing" || !scene) return;
   const now = time;
   const nextMode =
-    scene.kind === "dungeon" && enemies.some((enemy) => enemy.hp > 0)
+    scene.kind === "dungeon" && encounterStarted && !encounterAwarded
       ? "combat"
       : "base";
   if (nextMode !== sceneMusicMode) {
     stopOriginalMusic(900);
+    const initialSceneMusic = !sceneMusicMode;
     sceneMusicMode = nextMode;
-    sceneMusicNextAt = now + (nextMode === "combat" ? 1 : 10);
+    // MondeADV starts the first world track after 5 s; the combat flag packet
+    // restarts either pool after 1 s when its value changes.
+    sceneMusicNextAt = now + (initialSceneMusic ? 5 : 1);
   }
   let musicPlaying = isOriginalMusicPlaying();
   if (musicPlaying && sceneMusicNextAt !== Infinity && now >= sceneMusicNextAt)
@@ -1046,7 +1049,10 @@ function updateSceneAudio() {
     else sceneMusicNextAt = now + 1;
     musicPlaying = isOriginalMusicPlaying();
   }
-  if (ambientSoundName && isOriginalSoundPlaying(ambientSoundName)) return;
+  if (ambientSoundName && isOriginalSoundPlaying(ambientSoundName)) {
+    ambientNextAt = now + 1;
+    return;
+  }
   if (now < ambientNextAt) return;
   const ambiences = [
     ["ambiance/foret2", 0.5],
@@ -1056,8 +1062,9 @@ function updateSceneAudio() {
   ];
   const [name, volume] = ambiences[Math.floor(Math.random() * ambiences.length)];
   ambientSoundName = name;
-  if (playOriginalSound(name, { volume })) ambientNextAt = now + 5;
-  else ambientNextAt = now + 2;
+  // The original world loop polls ambience once per second and starts a new
+  // random sample as soon as the previous one has ended.
+  ambientNextAt = now + 1;
 }
 function resetSceneAudio() {
   stopOriginalMusic(900);

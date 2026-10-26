@@ -1,14 +1,15 @@
 # HANDOFF - Transformice Adventures Reconstruction
 
-Actualizado: 2026-10-18. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
+Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.192.0. Ultima entrega: reference/IMPLEMENTATION_V192.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.193.0. Ultima entrega: reference/IMPLEMENTATION_V193.md. El numero de version no equivale a porcentaje de fidelidad.
 
-Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.192.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
+Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.193: la música de combate sigue la fase activa del encuentro local, no solo la presencia de enemigos vivos; la primera pista del mundo espera 5 s y los cambios de fase 1 s, según `MondeADV-2021.js` y `ProtoADV.js`. El ambiente se vuelve a comprobar cada segundo como en el bucle original. Sin cambios al guardado; falta escucha y cotejo en navegador. Ver `reference/IMPLEMENTATION_V193.md`.
 - v0.192: recupera e integra 12 pistas exactas de intro, música de exploración/combate y ambiente. El menú separa volumen general, música y efectos/ambiente; las preferencias usan `tfma-audio-v1`, sin cambiar partidas. La elección de música de combate se aproxima a partir de enemigos vivos. No se ejecutaron pruebas ni cotejo de navegador. Ver `reference/IMPLEMENTATION_V192.md` y `dist/assets/original/audio/scene-audio-manifest.json`.
 - v0.191: quita del HUD la etiqueta «PARTIDA LOCAL», que no aparece en las capturas originales. No afecta al guardado ni al modo local; falta cotejar la composición de la barra superior en navegador. Ver `reference/IMPLEMENTATION_V191.md`.
 - v0.190: separa el menú de la pastilla del radial de F y reproduce `/hi`, `/sit` y `/dance` con los clips originales del ratón en modo local, efímeros y sin alterar acciones o guardado. Falta cotejar menú, escala y duración en navegador. Ver `reference/IMPLEMENTATION_V190.md`.
@@ -127,9 +128,9 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - No afirmar reconstruccion completa: siguen faltando sectores originales, tablas del servidor, equivalencia de todas las combinaciones de dones y cifras de balance. El texto del don1201 ya esta implementado; sus cifras y el alcance de «mitigar» siguen siendo locales por ausencia de reglas del servidor.
 - Continuar con fidelidad de escenarios, eventos de animacion y patrones observables; mantener la separacion entre evidencia y aproximaciones.
 
-### Pendientes vigentes en v0.192
+### Pendientes vigentes en v0.193
 
-- Audio: v0.192 integra música de título, exploración/combate y cuatro ambientes con volúmenes por pista del cliente. Comparar en navegador sincronía, balance, pausas, comportamiento al pausar/cambiar escena y política de autoplay; la detección de combate por enemigos vivos es local.
+- Audio: v0.193 ajusta el indicador local a la fase de encuentro y replica los intervalos observados al iniciar/cambiar música y al comprobar ambiente. Falta comparar en navegador sincronía, balance, pausas, comportamiento al pausar/cambiar escena y política de autoplay. La fase local aproxima el booleano que el cliente recibía del servidor.
 
 - Perfil: distribución y 12 iconos ya corresponden a REA; falta cotejo visual en navegador y el mapeo del inventario original para llenar ocho ranuras cosméticas y confirmar las asociaciones locales de cabeza, cuerpo y manos.
 - HUD: v0.189 oculta el panel persistente y centra la barra de acción; comprobar su ubicación, lectura y acceso al perfil en navegador.

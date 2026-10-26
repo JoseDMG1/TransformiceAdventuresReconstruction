@@ -1,7 +1,7 @@
 # Lista de cierre para la reconstrucción fiel local
 
-Actualizado: 2026-10-18  
-Versión de referencia: v0.192.0  
+Actualizado: 2026-10-26  
+Versión de referencia: v0.193.0  
 Estado: lista preparada; el cotejo completo de navegador está pendiente.
 
 Estimación actual **47% (40–58%, confianza baja-media)**. Consulte [estimación y trabajo pendiente](FIDELITY_ESTIMATE_AND_REMAINING_WORK.md) para el método, alcance y límites. Esta lista mide fidelidad al gameplay de 18:04, no porcentaje de código. No agregar funciones online ni traducción al francés.
@@ -10,7 +10,7 @@ Para prioridades, entregables y criterios de cierre por sistema, usar [FIDELITY_
 
 ## P0 — Acreditar la entrega vigente
 
-- [ ] Ejecutar v0.192.0 con partida nueva; grabar desde carga/tutorial hasta el retorno a la aldea.
+- [ ] Ejecutar v0.193.0 con partida nueva; grabar desde carga/tutorial hasta el retorno a la aldea.
 - [ ] Repetir con partida guardada/reanudada, sin sobrescribir el perfil habitual.
 - [ ] Registrar resolución, versión, entradas principales, errores de consola, bloqueos y capturas.
 - [ ] Cubrir tutorial, curación de Picpic, aldea, paneles, expedición, combates, dones/recompensas, cofre/jefe, fin de expedición, retorno, guardado y recarga.
