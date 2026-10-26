@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.217.0. Ultima entrega: reference/IMPLEMENTATION_V217.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.218.0. Ultima entrega: reference/IMPLEMENTATION_V218.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.218: siete imágenes originales para iconos de armas/cargas; radios, separación, colores y animación según `ArmeADV`. Principal/secundaria se leen del equipo actual y reflejan consumo y recuperación reales. Ver `reference/IMPLEMENTATION_V218.md`; balance sigue local, faltan bloqueos de servidor y cotejo de cada equipo.
 - v0.217: recuperada `ClipNomADV` y seis imágenes originales de barras/estado. Jugador y mascota usan marco, fondo y relleno de vida originales, con verde/azul del cliente; barra de jugador también en aldea. Nombres NPC con Verdana, borde negro y azul de la clase original. Ver `reference/IMPLEMENTATION_V217.md`; tamaños/alturas se adaptan al video, faltan animación diferida, barras de enemigos e iconos sobre el personaje.
 - v0.216: «Continúa el sendero» apunta a la salida local hacia la derecha, conforme a la dirección observada a 03:00; deja de marcar el tablón. Texto/destino comparten estado de perfil y mantienen los pasos posteriores de Mura y expedición. Ver `reference/IMPLEMENTATION_V216.md`; el destino exacto del servidor y la diferencia vertical del indicador siguen aproximados.
 - v0.215: el catálogo en ejecución pasa de 14 a las 198 definiciones visuales recuperadas; `clothing-loader.js` carga solo las piezas solicitadas, deduplica y no solicita recursos ausentes del manifiesto. Atlas con 189 definiciones de imágenes completas y 9 parciales (25 imágenes 404 revalidadas). Papaille adopta piel gris 83 y orientación de referencia como composición local, sin asignación de Look de servidor. Ver `reference/IMPLEMENTATION_V215.md`; siguen faltando vínculos inventario/ranura/apariencia y detalles de vestuario.

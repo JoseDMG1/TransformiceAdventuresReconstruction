@@ -14,14 +14,15 @@ import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 import { drawTutorialFlora } from "./tutorial-flora.js";
 import { drawVillageHut, drawVillageChimneyHut, drawVillageLamp } from "./village-building-art.js";
 import { loadActorOverlayArt, drawNpcName } from "./actor-overlay-art.js";
+import { loadWeaponOverlayArt } from "./weapon-overlay-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
   return { ready: originalReady, ...originalArtInfo };
 }
 export async function initializeArt() {
-  const [info,actorOverlays] = await Promise.all([loadOriginalAnimations(),loadActorOverlayArt()]);
-  originalArtInfo = {...info,actorOverlays};
+  const [info,actorOverlays,weaponOverlays] = await Promise.all([loadOriginalAnimations(),loadActorOverlayArt(),loadWeaponOverlayArt()]);
+  originalArtInfo = {...info,actorOverlays,weaponOverlays};
   originalReady = true;
   return info;
 }

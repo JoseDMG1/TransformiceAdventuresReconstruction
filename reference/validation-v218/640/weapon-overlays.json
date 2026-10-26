@@ -1,0 +1,937 @@
+{
+  "before": {
+    "icons": [
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 307.8400002717972,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a1.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 307.8400002717972,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.6399999856949,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a6.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.6399999856949,
+        "f": 134.79999989271164
+      }
+    ],
+    "segments": [
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9999999999999999
+    ],
+    "snapshot": {
+      "emotes": {
+        "icon": null,
+        "mouse": null
+      },
+      "forestClues": [],
+      "clues": [],
+      "chest": null,
+      "objective": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "objectives": [
+        {
+          "key": 3,
+          "id": "village:path",
+          "text": "Continúa el sendero.",
+          "target": {
+            "x": 1870,
+            "y": 780,
+            "id": "gate",
+            "text": "Adentrarse en el bosque"
+          },
+          "validated": false,
+          "validatedAt": null,
+          "phase": "active",
+          "phaseStarted": 8065.5,
+          "addedAt": 8065.5,
+          "announced": true
+        }
+      ],
+      "questNotices": [],
+      "objectiveMarker": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "targeting": null,
+      "fields": [],
+      "projectiles": [],
+      "mode": "playing",
+      "scene": "village",
+      "position": {
+        "x": 1080,
+        "y": 930
+      },
+      "view": {
+        "x": 1080,
+        "y": 930,
+        "zoom": 0.5
+      },
+      "health": 100,
+      "level": 1,
+      "job": "botanist",
+      "weapon": "sword",
+      "secondary": "bandage",
+      "secondaryJob": null,
+      "charges": {
+        "sword": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "dagger": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "greatsword": {
+          "count": 2,
+          "timer": 0,
+          "max": 2
+        },
+        "shield": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "bow": {
+          "count": 6,
+          "timer": 0,
+          "max": 6
+        },
+        "bandage": {
+          "count": 1,
+          "timer": 0,
+          "max": 1
+        }
+      },
+      "secondarySkill": 1,
+      "invisible": 0,
+      "damageBoost": 0,
+      "sword": {
+        "chainStacks": 0,
+        "chainTime": 0,
+        "balestraReady": false,
+        "cleaveRemaining": 0
+      },
+      "cardIndex": 0,
+      "cooldowns": {
+        "skill1": 0,
+        "skill2": 0,
+        "skill3": 0
+      },
+      "testimonies": [],
+      "guarding": false,
+      "action": null,
+      "tutorialPhase": 1,
+      "room": 0,
+      "encounterCount": 3,
+      "encounterStarted": true,
+      "encounterAwarded": false,
+      "inventory": [],
+      "equipped": {},
+      "talentBuild": {},
+      "step": 1,
+      "gifts": [],
+      "enemies": 0,
+      "targets": [],
+      "modal": "",
+      "audio": {
+        "supported": true,
+        "initialized": true,
+        "volume": 0.55,
+        "effectVolume": 1,
+        "musicVolume": 1,
+        "blocked": false,
+        "available": 90,
+        "active": 1,
+        "musicPlaying": true,
+        "failed": []
+      },
+      "cosmetics": {
+        "head": 0,
+        "body": 0,
+        "cape": 0,
+        "accessory": 0
+      },
+      "notebook": [],
+      "pet": {
+        "x": 1032.0044268410593,
+        "y": 945.7076421247442,
+        "facing": 1,
+        "injured": false,
+        "attack": 0,
+        "invisible": 0,
+        "barrier": 0,
+        "barrierTime": 0,
+        "bandageHot": 0,
+        "hotTick": 0,
+        "bandageGuard": 0,
+        "hp": 60,
+        "invuln": 0,
+        "moving": false,
+        "rescueTimer": 0,
+        "testimonyTimer": 0,
+        "movementAnimationTime": 0,
+        "movementAnimationActive": false,
+        "name": "Picpic",
+        "active": true
+      },
+      "rewardOffer": [],
+      "selectedGift": null,
+      "renderReady": true,
+      "art": {
+        "ready": true,
+        "loaded": 767,
+        "creatures": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          15,
+          17,
+          19,
+          30,
+          32,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50
+        ],
+        "effects": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          33,
+          39,
+          41,
+          42,
+          43,
+          44,
+          48,
+          50,
+          51,
+          57,
+          60,
+          61,
+          62,
+          63,
+          68,
+          69,
+          72,
+          75,
+          76,
+          77,
+          85,
+          86,
+          87,
+          88,
+          92,
+          93,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "summons": [
+          8,
+          9,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "actorOverlays": {
+          "ready": true,
+          "loaded": 6
+        },
+        "weaponOverlays": {
+          "ready": true,
+          "loaded": 7
+        }
+      }
+    }
+  },
+  "consumed": {
+    "icons": [
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 308.11337673664093,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a1.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 308.11337673664093,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.91337645053864,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a6.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.91337645053864,
+        "f": 134.79999989271164
+      }
+    ],
+    "segments": [
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9999999999999999
+    ],
+    "snapshot": {
+      "emotes": {
+        "icon": null,
+        "mouse": null
+      },
+      "forestClues": [],
+      "clues": [],
+      "chest": null,
+      "objective": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "objectives": [
+        {
+          "key": 3,
+          "id": "village:path",
+          "text": "Continúa el sendero.",
+          "target": {
+            "x": 1870,
+            "y": 780,
+            "id": "gate",
+            "text": "Adentrarse en el bosque"
+          },
+          "validated": false,
+          "validatedAt": null,
+          "phase": "active",
+          "phaseStarted": 8065.5,
+          "addedAt": 8065.5,
+          "announced": true
+        }
+      ],
+      "questNotices": [],
+      "objectiveMarker": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "targeting": null,
+      "fields": [],
+      "projectiles": [],
+      "mode": "playing",
+      "scene": "village",
+      "position": {
+        "x": 1080,
+        "y": 930
+      },
+      "view": {
+        "x": 1079.4533007220123,
+        "y": 930,
+        "zoom": 0.5
+      },
+      "health": 100,
+      "level": 1,
+      "job": "botanist",
+      "weapon": "sword",
+      "secondary": "bandage",
+      "secondaryJob": null,
+      "charges": {
+        "sword": {
+          "count": 2,
+          "timer": 0.7164999999999998,
+          "max": 3
+        },
+        "dagger": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "greatsword": {
+          "count": 2,
+          "timer": 0,
+          "max": 2
+        },
+        "shield": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "bow": {
+          "count": 6,
+          "timer": 0,
+          "max": 6
+        },
+        "bandage": {
+          "count": 1,
+          "timer": 0,
+          "max": 1
+        }
+      },
+      "secondarySkill": 1,
+      "invisible": 0,
+      "damageBoost": 0,
+      "sword": {
+        "chainStacks": 0,
+        "chainTime": 0,
+        "balestraReady": false,
+        "cleaveRemaining": 0
+      },
+      "cardIndex": 0,
+      "cooldowns": {
+        "skill1": 0,
+        "skill2": 0,
+        "skill3": 0
+      },
+      "testimonies": [],
+      "guarding": false,
+      "action": null,
+      "tutorialPhase": 1,
+      "room": 0,
+      "encounterCount": 3,
+      "encounterStarted": true,
+      "encounterAwarded": false,
+      "inventory": [],
+      "equipped": {},
+      "talentBuild": {},
+      "step": 1,
+      "gifts": [],
+      "enemies": 0,
+      "targets": [],
+      "modal": "",
+      "audio": {
+        "supported": true,
+        "initialized": true,
+        "volume": 0.55,
+        "effectVolume": 1,
+        "musicVolume": 1,
+        "blocked": false,
+        "available": 90,
+        "active": 2,
+        "musicPlaying": true,
+        "failed": []
+      },
+      "cosmetics": {
+        "head": 0,
+        "body": 0,
+        "cape": 0,
+        "accessory": 0
+      },
+      "notebook": [],
+      "pet": {
+        "x": 1032.0044268410593,
+        "y": 945.7076421247442,
+        "facing": 1,
+        "injured": false,
+        "attack": 0,
+        "invisible": 0,
+        "barrier": 0,
+        "barrierTime": 0,
+        "bandageHot": 0,
+        "hotTick": 0,
+        "bandageGuard": 0,
+        "hp": 60,
+        "invuln": 0,
+        "moving": false,
+        "rescueTimer": 0,
+        "testimonyTimer": 0,
+        "movementAnimationTime": 0,
+        "movementAnimationActive": false,
+        "name": "Picpic",
+        "active": true
+      },
+      "rewardOffer": [],
+      "selectedGift": null,
+      "renderReady": true,
+      "art": {
+        "ready": true,
+        "loaded": 767,
+        "creatures": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          15,
+          17,
+          19,
+          30,
+          32,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50
+        ],
+        "effects": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          33,
+          39,
+          41,
+          42,
+          43,
+          44,
+          48,
+          50,
+          51,
+          57,
+          60,
+          61,
+          62,
+          63,
+          68,
+          69,
+          72,
+          75,
+          76,
+          77,
+          85,
+          86,
+          87,
+          88,
+          92,
+          93,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "summons": [
+          8,
+          9,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "actorOverlays": {
+          "ready": true,
+          "loaded": 6
+        },
+        "weaponOverlays": {
+          "ready": true,
+          "loaded": 7
+        }
+      }
+    }
+  },
+  "restored": {
+    "icons": [
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 307.84006130695343,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a1.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 307.84006130695343,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "fond.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.64006102085114,
+        "f": 134.79999989271164
+      },
+      {
+        "file": "a6.png",
+        "width": 36,
+        "a": 0.3199999928474426,
+        "e": 320.64006102085114,
+        "f": 134.79999989271164
+      }
+    ],
+    "segments": [
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9992723330643964,
+      0.9999999999999999
+    ],
+    "snapshot": {
+      "emotes": {
+        "icon": null,
+        "mouse": null
+      },
+      "forestClues": [],
+      "clues": [],
+      "chest": null,
+      "objective": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "objectives": [
+        {
+          "key": 3,
+          "id": "village:path",
+          "text": "Continúa el sendero.",
+          "target": {
+            "x": 1870,
+            "y": 780,
+            "id": "gate",
+            "text": "Adentrarse en el bosque"
+          },
+          "validated": false,
+          "validatedAt": null,
+          "phase": "active",
+          "phaseStarted": 8065.5,
+          "addedAt": 8065.5,
+          "announced": true
+        }
+      ],
+      "questNotices": [],
+      "objectiveMarker": {
+        "x": 1870,
+        "y": 780,
+        "id": "gate",
+        "text": "Adentrarse en el bosque"
+      },
+      "targeting": null,
+      "fields": [],
+      "projectiles": [],
+      "mode": "playing",
+      "scene": "village",
+      "position": {
+        "x": 1080,
+        "y": 930
+      },
+      "view": {
+        "x": 1079.9998497081112,
+        "y": 930,
+        "zoom": 0.5
+      },
+      "health": 100,
+      "level": 1,
+      "job": "botanist",
+      "weapon": "sword",
+      "secondary": "bandage",
+      "secondaryJob": null,
+      "charges": {
+        "sword": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "dagger": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "greatsword": {
+          "count": 2,
+          "timer": 0,
+          "max": 2
+        },
+        "shield": {
+          "count": 3,
+          "timer": 0,
+          "max": 3
+        },
+        "bow": {
+          "count": 6,
+          "timer": 0,
+          "max": 6
+        },
+        "bandage": {
+          "count": 1,
+          "timer": 0,
+          "max": 1
+        }
+      },
+      "secondarySkill": 1,
+      "invisible": 0,
+      "damageBoost": 0,
+      "sword": {
+        "chainStacks": 0,
+        "chainTime": 0,
+        "balestraReady": false,
+        "cleaveRemaining": 0
+      },
+      "cardIndex": 0,
+      "cooldowns": {
+        "skill1": 0,
+        "skill2": 0,
+        "skill3": 0
+      },
+      "testimonies": [],
+      "guarding": false,
+      "action": null,
+      "tutorialPhase": 1,
+      "room": 0,
+      "encounterCount": 3,
+      "encounterStarted": true,
+      "encounterAwarded": false,
+      "inventory": [],
+      "equipped": {},
+      "talentBuild": {},
+      "step": 1,
+      "gifts": [],
+      "enemies": 0,
+      "targets": [],
+      "modal": "",
+      "audio": {
+        "supported": true,
+        "initialized": true,
+        "volume": 0.55,
+        "effectVolume": 1,
+        "musicVolume": 1,
+        "blocked": false,
+        "available": 90,
+        "active": 1,
+        "musicPlaying": true,
+        "failed": []
+      },
+      "cosmetics": {
+        "head": 0,
+        "body": 0,
+        "cape": 0,
+        "accessory": 0
+      },
+      "notebook": [],
+      "pet": {
+        "x": 1032.0044268410593,
+        "y": 945.7076421247442,
+        "facing": 1,
+        "injured": false,
+        "attack": 0,
+        "invisible": 0,
+        "barrier": 0,
+        "barrierTime": 0,
+        "bandageHot": 0,
+        "hotTick": 0,
+        "bandageGuard": 0,
+        "hp": 60,
+        "invuln": 0,
+        "moving": false,
+        "rescueTimer": 0,
+        "testimonyTimer": 0,
+        "movementAnimationTime": 0,
+        "movementAnimationActive": false,
+        "name": "Picpic",
+        "active": true
+      },
+      "rewardOffer": [],
+      "selectedGift": null,
+      "renderReady": true,
+      "art": {
+        "ready": true,
+        "loaded": 767,
+        "creatures": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          15,
+          17,
+          19,
+          30,
+          32,
+          38,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50
+        ],
+        "effects": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          33,
+          39,
+          41,
+          42,
+          43,
+          44,
+          48,
+          50,
+          51,
+          57,
+          60,
+          61,
+          62,
+          63,
+          68,
+          69,
+          72,
+          75,
+          76,
+          77,
+          85,
+          86,
+          87,
+          88,
+          92,
+          93,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108
+        ],
+        "summons": [
+          8,
+          9,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "actorOverlays": {
+          "ready": true,
+          "loaded": 6
+        },
+        "weaponOverlays": {
+          "ready": true,
+          "loaded": 7
+        }
+      }
+    }
+  }
+}

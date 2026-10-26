@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "file": "reference/wayback-client/dist/Transformice-adventure-client/src/gameplay/armes/ArmeADV.js",
+      "sha256": "5d5939e5b5378e1f8ea99710bd0f1411b068b8258885781e318f1d5d4057b526"
+    },
+    {
+      "file": "reference/wayback-client/dist/Transformice-adventure-client/src/gameplay/armes/OutilsArmeADV.js",
+      "sha256": "4197323198cf96e70a8b70e6cdc0c21492c5d5119a43bfeb743eb1cdd8f54fe2"
+    }
+  ],
+  "recoveredAt": "2026-10-26T22:24:44.479Z",
+  "records": [
+    {
+      "resource": "interface/arme/fond.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/fond.png",
+      "status": 200,
+      "file": "fond.png",
+      "bytes": 2184,
+      "width": 36,
+      "height": 36,
+      "sha256": "07b3b1b54e0b185832f2e39284b09e347c91d8435da8c8324f897ea155aad7bf"
+    },
+    {
+      "resource": "interface/arme/a1.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a1.png",
+      "status": 200,
+      "file": "a1.png",
+      "bytes": 1675,
+      "width": 36,
+      "height": 36,
+      "sha256": "f701f294a4981d506a4cc1c74f805bc33350efc7a9e9bb548e9973b11494ad75"
+    },
+    {
+      "resource": "interface/arme/a2.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a2.png",
+      "status": 200,
+      "file": "a2.png",
+      "bytes": 2158,
+      "width": 36,
+      "height": 36,
+      "sha256": "201c31bcfb128bfde249d2e42af4bb62d26ae275352b6dee1e5240e462ef3895"
+    },
+    {
+      "resource": "interface/arme/a3.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a3.png",
+      "status": 200,
+      "file": "a3.png",
+      "bytes": 1851,
+      "width": 36,
+      "height": 36,
+      "sha256": "9a85d05a2e1c3294660cb3d826552df85e307bb4fc775d3705e6e0edbedf1675"
+    },
+    {
+      "resource": "interface/arme/a4.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a4.png",
+      "status": 200,
+      "file": "a4.png",
+      "bytes": 1948,
+      "width": 36,
+      "height": 36,
+      "sha256": "68b2d494d76f0bafe5b89d478b27458881454c99dbf55408d02ace985080a699"
+    },
+    {
+      "resource": "interface/arme/a5.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a5.png",
+      "status": 200,
+      "file": "a5.png",
+      "bytes": 2046,
+      "width": 36,
+      "height": 36,
+      "sha256": "7a78852fecaf665632c66df478f9a51b98fb6b092225659931c57c60b1b62b46"
+    },
+    {
+      "resource": "interface/arme/a6.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/arme/a6.png",
+      "status": 200,
+      "file": "a6.png",
+      "bytes": 2545,
+      "width": 36,
+      "height": 36,
+      "sha256": "92b88ba33db7f528817d7dc17e8f001e784f262bd2fa6723d6b677483a224890"
+    }
+  ]
+}

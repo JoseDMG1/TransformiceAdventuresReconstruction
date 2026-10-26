@@ -478,6 +478,12 @@ try {
         await writeFile(".local/actor-overlays.json",JSON.stringify(report,null,2));
         console.log("PASS: original health-frame Canvas draws and recovered NPC font/colour style.");
       }
+      if (process.argv.includes("--weapon-overlays")) {
+        const {checkWeaponOverlays}=await import("./weapon-overlay-browser-checks.mjs");
+        const report=await checkWeaponOverlays({evaluate,key,wait,shot,waitFor});
+        await writeFile(".local/weapon-overlays.json",JSON.stringify(report,null,2));
+        console.log("PASS: original weapon icon Canvas draws, real charge consumption and regeneration.");
+      }
       if (process.argv.includes("--village-reference")) {
         const { checkVillageReference } = await import("./village-browser-checks.mjs");
         const report = await checkVillageReference({ evaluate, send, key, shot, wait, waitFor });

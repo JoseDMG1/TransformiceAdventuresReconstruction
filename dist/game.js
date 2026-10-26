@@ -74,6 +74,7 @@ import { vanishHealing } from "./damage-effects.js";
 import { CARD_PROJECTILE_EFFECTS } from "./effect-data.js";
 import { isPersistentEffect } from "./effect-state.js";
 import { drawActorOverlay, playerIndicators } from "./actor-overlays.js";
+import { drawWeaponOverlays } from "./weapon-overlay-art.js";
 import { addBarrier, absorbBarrier, tickBarrier } from "./barriers.js";
 import { areaDefenseMultiplier, areaAttackMultiplier } from "./area-effects.js";
 import { plantHealthLimit, plantGrowthSpeed, lilyHealingTarget } from "./plant-data.js";
@@ -5406,6 +5407,10 @@ function draw(elapsedMs = 0) {
   for (const e of entities) e.draw();
   if (mode === "playing" && !$("hud").hidden) {
     drawActorOverlay(ctx, { ...player, maxHp: maxHP() }, { indicators: playerIndicators(player) });
+    drawWeaponOverlays(ctx, {actor:player, weapons:[profile.weapon,
+      ...(!WEAPONS[profile.weapon].twoHanded ? [profile.secondary] : [])].map(type=>({
+        type,count:player.charges[type].count,max:chargeCapacity(profile,type,gifts),
+      }))});
     if ((profile.petActive || scene.kind === "tutorial") &&
       (scene.kind !== "village" || pet.injured || pet.hp < petMaxHP()))
       drawActorOverlay(ctx, { ...pet, maxHp: petMaxHP() }, {
@@ -5872,6 +5877,7 @@ Object.defineProperty(window, "adventure", {
       weapon: profile.weapon,
       secondary: profile.secondary,
       secondaryJob: profile.secondaryJob,
+      charges: Object.fromEntries(Object.entries(player.charges).map(([type,state])=>[type,{...state,max:chargeCapacity(profile,type,gifts)}])),
       secondarySkill: profile.secondarySkill,
       invisible: player.invisible,
       damageBoost: player.damageBoost,
@@ -5918,7 +5924,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.217.0",
+    version: "0.218.0",
   }),
 });
 resize();
