@@ -9,6 +9,7 @@ Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluye
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- Validación v0.200: `npm run test:browser` completo aprobado tras corregir el uso de controles del bot. Incluye jefe, victoria, retorno, guardados/recompensas, exportación/importación y pruebas adicionales de trabajos. Registro y capturas en `reference/VALIDATION_V200_EXPEDITION.md`. No se cambió el balance ni se cierra el cotejo de fidelidad.
 - v0.200: diálogo paginado por altura medida en el navegador, con delimitador original `_P_` y cortes por línea/palabra; las letras pendientes reservan espacio transparente durante la escritura. Pruebas de conservación de texto y medidas reales en Chrome. No cambia guardados. Ver `reference/IMPLEMENTATION_V200.md`.
 - v0.199: marco, madera y rótulo originales de diálogo recuperados e integrados; retrato sin caja y nombre debajo. Manifiesto con rutas y hashes, recuperación reproducible y captura con texto completo. Escala, tipografía y paginación siguen siendo aproximaciones locales. Ver `reference/IMPLEMENTATION_V199.md`.
 - v0.198: exclusión por tipo/rectángulo de decoración generada del tutorial despeja el carro y retira las colisiones correspondientes, sin cambiar la secuencia aleatoria restante. Barra y controles compactos en ventanas horizontales de hasta 900×500; captura a 640×360 y prueba de acceso a botones/diálogo. Prueba de geometría con tres semillas aprobada. Ver `reference/IMPLEMENTATION_V198.md`; siguen pendientes criatura de carga, encuadre, HUD y detalle visual.
@@ -135,9 +136,9 @@ La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion 
 - No afirmar reconstruccion completa: siguen faltando sectores originales, tablas del servidor, equivalencia de todas las combinaciones de dones y cifras de balance. El texto del don1201 ya esta implementado; sus cifras y el alcance de «mitigar» siguen siendo locales por ausencia de reglas del servidor.
 - Continuar con fidelidad de escenarios, eventos de animacion y patrones observables; mantener la separacion entre evidencia y aproximaciones.
 
-### Pendientes vigentes en v0.198
+### Pendientes vigentes en v0.200
 
-- Validación: tutorial nuevo/reanudado y regreso con Papaille aprobados en Chrome. El recorrido completo automatizado terminó en derrota durante la expedición; siguen pendientes victoria, retorno final y exportación/importación de la versión actual. Conservar los criterios completos y mejorar el manejo del bot; no ajustar el balance solo para aprobar la automatización.
+- Validación: tutorial, expedición de tres encuentros con jefe, victoria, retorno, recarga sin duplicar monedas y exportación/importación aprobados en Chrome para v0.200. Se corrigieron navegación, esquiva y espera del vendaje del bot, sin cambiar el balance. Ver `reference/VALIDATION_V200_EXPEDITION.md` para ejecuciones, límites y pruebas adicionales. Siguen pendientes la grabación/cotejo con el MP4, ambos menús de emotes y una matriz más amplia de partidas/trabajos; no cerrar P0 completo por este recorrido.
 - Audio: v0.193 ajusta el indicador local a la fase de encuentro y replica los intervalos observados al iniciar/cambiar música y al comprobar ambiente. Falta comparar en navegador sincronía, balance, pausas, comportamiento al pausar/cambiar escena y política de autoplay. La fase local aproxima el booleano que el cliente recibía del servidor.
 
 - Perfil: distribución y 12 iconos ya corresponden a REA; falta cotejo visual en navegador y el mapeo del inventario original para llenar ocho ranuras cosméticas y confirmar las asociaciones locales de cabeza, cuerpo y manos.

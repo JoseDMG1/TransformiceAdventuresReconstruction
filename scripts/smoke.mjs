@@ -476,6 +476,15 @@ try {
       won = false;
     for (let i = 0; i < 650; i++) {
       const s = await evaluate("adventure.snapshot()");
+      if (i % 25 === 0 || s.modal === "defeat") {
+        console.log(JSON.stringify({ iteration: i, room: s.room, hp: s.health,
+          enemies: s.enemies, position: s.position, modal: s.modal, action: s.action,
+          targetHp: s.targets.map(t => t.hp) }));
+      }
+      if (s.modal === "defeat") {
+        await writeFile('.local/expedition-failure.json', JSON.stringify(s, null, 2));
+        await shot('expedition-failure');
+      }
       assert.notEqual(
         s.modal,
         "defeat",
@@ -520,12 +529,17 @@ try {
         break;
       }
       if (!s.enemies) {
-        if (!s.encounterStarted) await key("KeyD");
-        else { await key("KeyD", "keyUp"); await tap("KeyE"); }
+        const goal = s.objective;
+        for (const code of ["KeyW", "KeyA", "KeyS", "KeyD"]) await key(code, "keyUp");
+        const arrivalRadius = s.encounterStarted ? 65 : 25;
+        if (goal && Math.hypot(goal.x - s.position.x, goal.y - s.position.y) > arrivalRadius) {
+          if (Math.abs(goal.y - s.position.y) > 15) await key(goal.y > s.position.y ? "KeyS" : "KeyW");
+          if (Math.abs(goal.x - s.position.x) > 15) await key(goal.x > s.position.x ? "KeyD" : "KeyA");
+        } else await tap("KeyE");
         await wait(100);
         continue;
       }
-      await key("KeyD", "keyUp");
+      for (const code of ["KeyW", "KeyA", "KeyS", "KeyD"]) await key(code, "keyUp");
       const target = s.targets.sort(
         (a, b) =>
           Math.hypot(a.x - s.position.x, a.y - s.position.y) -
@@ -538,8 +552,13 @@ try {
           y: 400 + (target.y - 12 - s.view.y) * s.view.zoom,
         });
       }
-      if (i % 10 === 0) {
+      if (s.health < 90 && i % 5 === 0) {
         await tap("KeyH");
+        await wait(80);
+        await waitFor("!document.getElementById('status-effects').textContent.includes('Vendando')",
+          "Bandage preparation must finish before another action", 5000);
+      }
+      if (i % 10 === 0) {
         await castSkill("KeyQ");
         await castSkill("KeyR");
       }
@@ -548,6 +567,20 @@ try {
       await wait(220);
       await key("KeyJ", "keyUp");
       await wait(180);
+      const afterShot = await evaluate("adventure.snapshot()");
+      const boss = afterShot.targets.find(t => t.type === 'boss');
+      if (boss && Math.hypot(boss.x - afterShot.position.x, boss.y - afterShot.position.y) < 430) {
+        // Move between shots; moving while charging cancels the original bow action.
+        await waitFor("!adventure.snapshot().action || adventure.snapshot().action.hit",
+          "Bow must release before evading", 2000);
+        const direction = afterShot.position.y < 480 ? 'KeyS' : afterShot.position.y > 800 ? 'KeyW'
+          : boss.y >= afterShot.position.y ? 'KeyW' : 'KeyS';
+        await key(direction);
+        await tap('Space');
+        await wait(420);
+        await key(direction, 'keyUp');
+        await wait(80);
+      }
     }
     await key("KeyJ", "keyUp");
     assert.equal(won, true, "Three encounters and boss must complete");
@@ -636,6 +669,8 @@ try {
     await key("KeyJ");
     await wait(250);
     await key("KeyJ", "keyUp");
+    await waitFor("adventure.snapshot().invisible === 0",
+      "Bow must break invisibility after release and its launch delay");
     assert.equal(await evaluate("adventure.snapshot().invisible"), 0);
     await castSkill("Digit3");
     assert.ok((await evaluate("adventure.snapshot().cooldowns.skill3")) > 0);

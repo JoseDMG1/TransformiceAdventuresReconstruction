@@ -10,6 +10,8 @@ Para prioridades, entregables y criterios de cierre por sistema, usar [FIDELITY_
 
 ## P0 — Acreditar la entrega vigente
 
+Evidencia parcial posterior: el recorrido funcional de v0.200 aprobó en Chrome, con jefe, victoria, retorno, recarga y exportación/importación. Ver [registro y alcance](VALIDATION_V200_EXPEDITION.md). No se marcan completos los puntos de grabación/cotejo ni emotes: el guion no cubre todos esos requisitos.
+
 - [ ] Ejecutar v0.193.0 con partida nueva; grabar desde carga/tutorial hasta el retorno a la aldea.
 - [ ] Repetir con partida guardada/reanudada, sin sobrescribir el perfil habitual.
 - [ ] Registrar resolución, versión, entradas principales, errores de consola, bloqueos y capturas.

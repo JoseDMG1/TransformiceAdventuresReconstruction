@@ -1,0 +1,19 @@
+
+> transformice-adventures-local@0.200.0 test:browser
+> node scripts/smoke.mjs
+
+{"iteration":0,"room":0,"hp":100,"enemies":4,"position":{"x":300,"y":640},"modal":"","action":null,"targetHp":[65,50,55,65]}
+{"iteration":25,"room":0,"hp":100,"enemies":3,"position":{"x":300,"y":640},"modal":"","action":{"weapon":"bow","angle":-0.006940804265126969,"elapsed":0.14,"hit":true,"state":"active","animationSpeed":14.285714285714285,"held":false,"visualElapsed":0.383,"released":true,"releaseElapsed":0.1999000000000015},"targetHp":[1,50,65]}
+{"iteration":50,"room":0,"hp":100,"enemies":0,"position":{"x":300,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":75,"room":1,"hp":108,"enemies":0,"position":{"x":558.8890000000001,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":100,"room":1,"hp":108,"enemies":0,"position":{"x":1129.132999999999,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":125,"room":1,"hp":108,"enemies":0,"position":{"x":1693.216500000001,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":150,"room":1,"hp":108,"enemies":2,"position":{"x":1976.8030000000017,"y":640},"modal":"","action":{"weapon":"bow","angle":0.0009059249622842549,"elapsed":0.14,"hit":true,"state":"active","animationSpeed":14.285714285714285,"held":false,"visualElapsed":0.8494999999999998,"released":true,"releaseElapsed":0.6497000000000006},"targetHp":[55,50]}
+{"iteration":175,"room":1,"hp":108,"enemies":0,"position":{"x":1976.8030000000017,"y":640},"modal":"chest-opening","action":null,"targetHp":[]}
+{"iteration":200,"room":2,"hp":108,"enemies":0,"position":{"x":2457.636499999998,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":225,"room":2,"hp":108,"enemies":0,"position":{"x":3000.111999999996,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":250,"room":2,"hp":108,"enemies":0,"position":{"x":3567.2664999999915,"y":640},"modal":"","action":null,"targetHp":[]}
+{"iteration":275,"room":2,"hp":108,"enemies":3,"position":{"x":3980.297500000004,"y":640},"modal":"","action":{"weapon":"bow","angle":-0.3459817370433703,"elapsed":0.14,"hit":true,"state":"active","animationSpeed":14.285714285714285,"held":false,"visualElapsed":0.7833000000000028,"released":true,"releaseElapsed":0.633300000000003},"targetHp":[350,55,65]}
+{"iteration":300,"room":2,"hp":72,"enemies":1,"position":{"x":3980.297500000004,"y":886.826999999997},"modal":"","action":null,"targetHp":[180.5]}
+{"iteration":325,"room":2,"hp":116,"enemies":0,"position":{"x":4004.958000000003,"y":523.1289999999899},"modal":"chest-opening","action":null,"targetHp":[]}
+PASS: full playthrough, expedition resume, pending reward/victory without duplicate loot, real export/import, invalid-file rejection, no runtime exceptions.

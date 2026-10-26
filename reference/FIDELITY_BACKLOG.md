@@ -35,9 +35,11 @@ Las notas son juicio experto, no una medición automática ni un intervalo estad
 
 ### P0 — Medir la versión vigente en navegador
 
+Actualización v0.200: recorrido funcional completo aprobado en Chrome, incluidos jefe, retorno, recargas sin duplicar monedas y exportación/importación. El guion necesitaba usar correctamente movimiento, esquiva, vendas y liberación del arco; no se modificó el balance. Registro, capturas y límites en [VALIDATION_V200_EXPEDITION.md](VALIDATION_V200_EXPEDITION.md). P0 sigue parcial: falta cotejo temporal/visual y los estados no cubiertos del inventario siguiente. La estimación permanece igual.
+
 Actualización v0.195: se comprobó el tutorial nuevo, su reanudación después del rescate y la llegada a la aldea en Chrome; se corrigió un descarte de guardado. El recorrido completo automatizado terminó en derrota durante la expedición. El alcance P0 sigue abierto y la estimación no aumenta. Detalles en [IMPLEMENTATION_V195.md](IMPLEMENTATION_V195.md).
 
-**Estado:** pendiente. Es el primer paso porque determina si la versión actual carga, completa el ciclo y qué diferencias son reales.
+**Estado:** parcial. El ciclo funcional de v0.200 está acreditado por el guion; la grabación/cotejo y los estados adicionales siguientes permanecen abiertos.
 
 1. Registrar navegador, tamaño de ventana, versión `v0.193.0`, partida nueva y guardada/reanudada. No sobrescribir el perfil habitual; usar una copia o perfil aislado.
 2. Grabar desde la carga de la partida hasta el retorno a la aldea. Anotar capturas/tiempos que puedan alinearse con el MP4, errores de consola, pantallas atascadas y controles que no respondan.
