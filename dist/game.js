@@ -63,10 +63,11 @@ import { createTargetingSystem, skillTargeting } from "./targeting.js";
 import { TESTIMONIES, REPORT_RULES, tickReportPoison } from "./journalism.js";
 import { FOREST_CLUES, normalizeForestClues, drawForestClue } from "./forest-story.js";
 import { objectiveTarget, objectiveProjection, originalInterfaceScale, createObjectiveArrowMotion } from "./objectives.js";
+import { drawObjectiveGround } from "./objective-art.js";
 import { createDialogueText } from "./dialogue-text.js";
 import { measureDialoguePage, renderDialoguePage } from "./dialogue-layout.js";
 import { vanishHealing } from "./damage-effects.js";
-import { CARD_PROJECTILE_EFFECTS, OBJECTIVE_GROUND_EFFECT } from "./effect-data.js";
+import { CARD_PROJECTILE_EFFECTS } from "./effect-data.js";
 import { isPersistentEffect } from "./effect-state.js";
 import { drawActorOverlay, playerIndicators } from "./actor-overlays.js";
 import { addBarrier, absorbBarrier, tickBarrier } from "./barriers.js";
@@ -5271,11 +5272,7 @@ function draw(elapsedMs = 0) {
   ctx.drawImage(scene.ground, 0, 0);
   drawBowAim();
   if (navigationMarker?.mode === "ground") {
-    if (!drawOriginalEffect(ctx, OBJECTIVE_GROUND_EFFECT, navigationTarget.x, navigationTarget.y, time * 1000, 0.65)) {
-      ctx.strokeStyle = "#f4cf68";
-      ctx.lineWidth = 3;
-      ctx.beginPath(); ctx.ellipse(navigationTarget.x, navigationTarget.y, 26, 12, 0, 0, TAU); ctx.stroke();
-    }
+    drawObjectiveGround(ctx, navigationTarget, time * 1000);
   }
   drawSkillTarget();
   if (scene.kind === "village") {
@@ -5967,7 +5964,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.204.0",
+    version: "0.205.0",
   }),
 });
 resize();

@@ -388,9 +388,9 @@ try {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
       if (process.argv.includes("--objective-motion")) {
         const { checkObjectiveMotion } = await import("./objective-browser-checks.mjs");
-        const trace = await checkObjectiveMotion({ evaluate, tap, wait, waitFor });
+        const trace = await checkObjectiveMotion({ evaluate, tap, key, shot, wait, waitFor });
         await writeFile(".local/objective-motion.json", JSON.stringify(trace, null, 2));
-        console.log("PASS: actual Canvas objective arrow approaches the screen edge over 12 frames.");
+        console.log("PASS: actual Canvas objective arrow approaches the edge; nearby FX72 uses ground foreshortening.");
       }
       assert.equal(errors.length, 0, errors.join("\n"));
       console.log("PASS: emote menus, real pointer selection, transient animations and unchanged saved profile.");

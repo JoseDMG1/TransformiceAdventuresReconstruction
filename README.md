@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.204.0
+# Transformice Adventures — versión local v0.205.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 
@@ -72,7 +72,7 @@ npm run test:browser
 
 `check` revisa la sintaxis. `test` comprueba combate, trabajos, talentos, guardados, testimonios y selección de objetivo. `test:features` utiliza Chrome instalado y un perfil aislado; necesita el servidor local activo. Sus capturas se guardan en `.local/`.
 
-La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V204.md](reference/IMPLEMENTATION_V204.md).
+La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V205.md](reference/IMPLEMENTATION_V205.md).
 
 ## Evidencia y alcance
 

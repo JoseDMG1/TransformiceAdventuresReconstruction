@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 
-export async function checkObjectiveMotion({ evaluate, tap, wait, waitFor }) {
+export async function checkObjectiveMotion({ evaluate, tap, key, shot, wait, waitFor }) {
   await tap("KeyI");
   await wait(100); // Hidden indicator resets its transient interpolation state.
   await evaluate(`(() => {
@@ -38,5 +38,28 @@ export async function checkObjectiveMotion({ evaluate, tap, wait, waitFor }) {
     assert.ok(result.samples[i].x >= 0 && result.samples[i].x <= result.width);
     assert.ok(result.samples[i].y >= 0 && result.samples[i].y <= result.height);
   }
-  return result;
+  await key("KeyW");
+  await wait(900);
+  await key("KeyW", "keyUp");
+  await wait(100);
+  const ground = await evaluate(`(async () => {
+    const original = CanvasRenderingContext2D.prototype.drawImage;
+    const scales = [];
+    CanvasRenderingContext2D.prototype.drawImage = function(image, ...args) {
+      if (image?.src?.endsWith('/fx/objectif/objectif1.png')) {
+        const m = this.getTransform();
+        scales.push({ x: Math.hypot(m.a, m.b), y: Math.hypot(m.c, m.d) });
+      }
+      return original.call(this, image, ...args);
+    };
+    try { await new Promise(resolve => setTimeout(resolve, 300)); }
+    finally { CanvasRenderingContext2D.prototype.drawImage = original; }
+    return scales;
+  })()`);
+  assert.ok(ground.length > 0, "Approaching the board must switch to the original FX72 ground marker");
+  for (const scale of ground)
+    assert.ok(Math.abs(scale.y / scale.x - Math.SQRT1_2) < 1e-5,
+      "Ground marker must be foreshortened at the recovered camera angle");
+  await shot("objective-ground");
+  return { ...result, groundScales: ground };
 }
