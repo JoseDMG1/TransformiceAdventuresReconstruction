@@ -1362,8 +1362,8 @@ function enterScene(kind, index = 0, restoring = false, routeLength = 0) {
   pet = petSystem.createState({ player, kind: scene.kind, oldPet });
   if (scene.kind === "tutorial") {
     profile.petActive = true;
-    pet.x = 620;
-    pet.y = 630;
+    pet.x = scene.petSpawn.x;
+    pet.y = scene.petSpawn.y;
     tutorialPhase = 0;
   }
   camera.x = player.x;
@@ -5411,7 +5411,7 @@ function draw(elapsedMs = 0) {
           pet.barrier > 0 && { symbol: "◇", color: "#b9daed" },
           pet.bandageHot > 0 && { symbol: "✚", color: "#c4d991" },
         ].filter(Boolean),
-        injuredLabel: pet.injured ? `${profile.petName} necesita ayuda` : "",
+        injuredLabel: pet.injured && scene.kind !== "tutorial" ? `${profile.petName} necesita ayuda` : "",
       });
   }
   if (scene.kind === "tutorial" && tutorialPhase > 0) {
@@ -5914,7 +5914,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.212.0",
+    version: "0.213.0",
   }),
 });
 resize();

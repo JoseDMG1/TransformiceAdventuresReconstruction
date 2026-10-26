@@ -106,7 +106,7 @@ test("content retains known instructions and targets without inventing simultane
     profile: { expeditions: 0 }, tutorialPhase: 0, rescueInstructions: "Cura a Picpic." };
   let result = describeQuests(context);
   assert.equal(result.objectives[0].text, "Cura a Picpic.");
-  assert.equal(result.objectives[0].target.x, 12);
+  assert.equal(result.objectives[0].target, null, "Initial video shows an empty pet health bar, not a navigation ring");
   result = describeQuests({ ...context, tutorialPhase: 1, scene: { kind: "tutorial", npcs: [{ id: "papaille", x: 50, y: 60 }] } });
   assert.equal(result.objectives[0].text, "Habla con Papaille.");
   assert.equal(result.objectives[0].target.x, 50);

@@ -202,6 +202,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
     height,
     ground: makeGround(width, height, definition.groundSeed + index, definition.id === "village", content.groundLayout),
     backgroundColor: definition.id === "village" ? "#8fae43"
+      : content.groundLayout === "tutorial-clearing" ? "#83a638"
       : content.groundLayout?.startsWith("forest-") ? FOREST_PALETTE.grass : "#86a93c",
     areaId: area?.id ?? null,
     objects,
@@ -209,5 +210,6 @@ export function makeScene(kind, index = 0, routeLength = 0) {
     npcs,
     interactables,
     seed: index,
+    ...(definition.petSpawn ? { petSpawn: { ...definition.petSpawn } } : {}),
   };
 }

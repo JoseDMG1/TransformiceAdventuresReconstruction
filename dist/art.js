@@ -8,9 +8,10 @@ import {
 import { WEAPONS } from "./combat.js";
 import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters.js";
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
-import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
-import { drawTutorialClearing, drawTutorialFence, drawTutorialCart } from "./tutorial-art.js";
+import { FOREST_PALETTE, drawForestLitter } from "./forest-art.js";
+import { drawTutorialClearing, drawTutorialFence, drawTutorialCart, drawTutorialDraftBeetle } from "./tutorial-art.js";
 import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
+import { drawTutorialFlora } from "./tutorial-flora.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -881,9 +882,14 @@ function fallenLog(c, variant = 0) {
   path(c, [[13, 75], [42, 43], [109, 35], [151, 48], [329, 45], [380, 67], [368, 105], [51, 112], [16, 98]], "#694625", "#49351f", 4);
   path(c, [[41, 57], [103, 47], [150, 61], [325, 57], [371, 76], [353, 96], [61, 99], [32, 84]], "#a4783c", "#624526", 3);
   for (let i = 0; i < 11; i++) {
-    const x = 52 + r() * 285;
-    line(c, [[x, 54 + r() * 9], [x - 6 + r() * 12, 92 + r() * 5]], i % 2 ? "#79522d" : "#c0924c", 2);
+    const y = 55 + i * 4;
+    c.beginPath(); c.moveTo(35+r()*25,y);
+    c.bezierCurveTo(110,y-5,230,y+4,354,y-2);
+    c.strokeStyle=i%2 ? "#79522d" : "#c0924c"; c.lineWidth=i%3 ? 1.5 : 2.5; c.stroke();
   }
+  ellipse(c, 271, 60, 21, 11, "#b58c48", "#735329", 2);
+  ellipse(c, 272, 60, 14, 7, null, "#806031", 1.4);
+  line(c, [[279,61],[270,57],[266,60],[273,63]], "#806031", 1.3);
   ellipse(c, 373, 77, 25, 22, "#d2ab5c", "#644a2b", 3);
   ellipse(c, 373, 77, 17, 15, null, "#a47e42", 2);
   ellipse(c, 375, 77, 8, 7, null, "#a47e42", 1.4);
@@ -982,6 +988,9 @@ const sizes = {
   bench: [165, 100, 82, 87],
   tutorialFence: [265, 82, 132, 75],
   tutorialCart: [275, 165, 114, 153],
+  tutorialDraftBeetle: [225, 155, 110, 144],
+  cloverPatch: [215, 165, 107, 153],
+  wildflowers: [215, 165, 107, 153],
   fern: [110, 100, 55, 85],
   fernFan: [300, 230, 150, 220],
 };
@@ -1009,6 +1018,9 @@ export function decoration(c, o) {
     if (o.kind === "bench") bench(cc, o.variant || 0);
     if (o.kind === "tutorialFence") drawTutorialFence(cc);
     if (o.kind === "tutorialCart") drawTutorialCart(cc);
+    if (o.kind === "tutorialDraftBeetle") drawTutorialDraftBeetle(cc);
+    if (o.kind === "cloverPatch" || o.kind === "wildflowers")
+      drawTutorialFlora(cc, o.variant || 0, o.kind === "wildflowers");
     if (o.kind === "fern") fern(cc, 55, 85, 1.7, o.variant || 0);
     if (o.kind === "fernFan") fernFan(cc, o.variant || 0);
   });
@@ -1058,7 +1070,6 @@ export function makeGround(width, height, seed, village = false, layout = "meado
   };
   if (layout === "tutorial-clearing") {
     drawTutorialClearing(c, width, height);
-    drawClearingGrass(c, width, height, seeded(seed ^ 0x51ab39));
   } else if (layout === "forest-corridor") {
     // Dark edges are visible in the footage where grass meets the worn trail.
     const route = () => {

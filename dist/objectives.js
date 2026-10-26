@@ -7,7 +7,8 @@ export function objectiveTarget({ scene, pet, tutorialPhase, room, encounterStar
     return scene.interactables.find(o => o.id === targetId) ?? null;
   }
   if (scene.kind === "tutorial") {
-    if (tutorialPhase === 0) return { x: pet.x, y: pet.y, text: "Cura a Picpic" };
+    // The initial MP4 frames show the fallen pet and its empty health bar,
+    // without the local FX72 ring previously added around it.
     if (tutorialPhase > 0) return scene.npcs.find(o => o.id === "papaille") ?? null;
     return null;
   }

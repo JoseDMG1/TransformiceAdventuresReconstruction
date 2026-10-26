@@ -2,22 +2,44 @@
 export function drawTutorialClearing(c, width, height) {
   c.save();
   c.scale(width / 1850, height / 1250);
-  c.beginPath();
-  c.moveTo(180, 650);
-  c.bezierCurveTo(260, 540, 350, 530, 490, 555);
-  c.bezierCurveTo(650, 470, 770, 590, 920, 540);
-  c.bezierCurveTo(1080, 460, 1190, 510, 1350, 530);
-  c.bezierCurveTo(1540, 490, 1740, 610, 1780, 730);
-  c.bezierCurveTo(1650, 840, 1540, 930, 1370, 910);
-  c.bezierCurveTo(1160, 990, 1020, 840, 870, 890);
-  c.bezierCurveTo(710, 950, 640, 810, 490, 850);
-  c.bezierCurveTo(330, 910, 230, 830, 180, 650);
-  c.closePath();
-  c.fillStyle = "#aaa632";
-  c.fill();
-  c.strokeStyle = "#738831";
-  c.lineWidth = 2;
-  c.stroke();
+  // The footage has flat, irregular soil/grass regions, not translucent discs.
+  c.fillStyle = "#83a638";
+  c.fillRect(0,0,1850,1250);
+  const patch = (x,y,rx,ry,color,phase) => {
+    const points=[];
+    for(let i=0;i<72;i++) {
+      const angle=i*Math.PI/36;
+      const r=1+.065*Math.sin(angle*7+phase)+.035*Math.cos(angle*13-phase);
+      points.push([x+Math.cos(angle)*rx*r,y+Math.sin(angle)*ry*r]);
+    }
+    c.beginPath();
+    points.forEach(([px,py],i)=>i ? c.lineTo(px,py) : c.moveTo(px,py));
+    c.closePath(); c.fillStyle=color; c.fill();
+    c.strokeStyle="#819539"; c.lineWidth=1.4; c.stroke();
+    c.strokeStyle="#688c32"; c.lineWidth=1.2;
+    for(let i=2;i<points.length;i+=6) {
+      const [px,py]=points[i];
+      c.beginPath(); c.moveTo(px-5,py+2); c.lineTo(px-7,py-5);
+      c.lineTo(px,py); c.lineTo(px+3,py-7); c.lineTo(px+5,py+2); c.stroke();
+    }
+  };
+  for(const [x,y,rx,ry,phase] of [
+    [560,680,260,75,.3],[225,790,100,75,1.1],[520,890,230,85,2.4],
+    [690,720,210,105,1.3],[1390,770,650,245,.7],[515,835,70,45,2.1],
+    [680,475,56,32,.9],[820,520,60,32,2.8],[1055,430,80,35,3.2],
+    [70,620,70,35,1.8],[-50,675,60,35,2.2],[1680,450,86,35,1.2],
+  ]) patch(x,y,rx,ry,"#aaa834",phase);
+  for(const [x,y,rx,ry,phase] of [
+    [1010,590,165,97,1.8],[1200,965,123,68,2.6],
+    [1650,530,180,80,.4],[1730,1030,150,65,1.2],
+  ]) patch(x,y,rx,ry,"#83a638",phase);
+  // Small stones and scuffs follow the clearing rather than a regular grid.
+  c.strokeStyle="#929947"; c.lineWidth=1.2;
+  for(const [x,y,r] of [[385,770,6],[417,777,4],[958,718,8],[1001,695,5],
+    [1190,795,7],[1530,875,7],[1475,900,4],[1730,750,6]]) {
+    c.beginPath(); c.ellipse(x,y,r,r*.45,-.2,0,Math.PI*2);
+    c.fillStyle="#bfbd78"; c.fill(); c.stroke();
+  }
   c.restore();
 }
 
@@ -97,5 +119,46 @@ export function drawTutorialCart(c) {
     c.lineTo(114 + Math.cos(angle) * 22, 129 + Math.sin(angle) * 25); c.stroke();
   }
   oval(114, 129, 8, 9, "#b0834e");
+  c.restore();
+}
+
+// The blue draft creature is visible beside the cart in frame-0060.jpg.
+// This static trace is not an association to any recovered creature ID.
+export function drawTutorialDraftBeetle(c) {
+  c.save(); c.lineJoin="round"; c.lineWidth=2.5; c.strokeStyle="#403946";
+  const oval=(x,y,rx,ry,color)=>{
+    c.beginPath(); c.ellipse(x,y,rx,ry,0,0,Math.PI*2); c.fillStyle=color; c.fill(); c.stroke();
+  };
+  const polygon=(points,color)=>{
+    c.beginPath(); points.forEach(([x,y],i)=>i ? c.lineTo(x,y) : c.moveTo(x,y));
+    c.closePath(); c.fillStyle=color; c.fill(); c.stroke();
+  };
+  c.fillStyle="#514c3233"; c.beginPath(); c.ellipse(111,138,93,9,0,0,Math.PI*2); c.fill();
+  // Far legs sit behind the overlapping domed plates.
+  polygon([[69,102],[81,106],[73,137],[60,135]],"#a79178");
+  polygon([[151,105],[166,106],[174,134],[162,139]],"#9e8a72");
+  oval(109,84,82,52,"#66648f");
+  c.beginPath(); c.moveTo(25,101); c.bezierCurveTo(14,62,31,27,63,28);
+  c.bezierCurveTo(93,24,113,57,113,123); c.lineTo(58,130);
+  c.closePath(); c.fillStyle="#8b85b9"; c.fill(); c.stroke();
+  c.beginPath(); c.moveTo(62,31); c.bezierCurveTo(105,10,149,48,148,126);
+  c.lineTo(106,129); c.bezierCurveTo(105,70,90,40,62,31);
+  c.closePath(); c.fillStyle="#7775a6"; c.fill(); c.stroke();
+  c.beginPath(); c.moveTo(111,40); c.bezierCurveTo(161,21,191,70,188,127);
+  c.lineTo(145,132); c.bezierCurveTo(150,83,133,51,111,40);
+  c.closePath(); c.fillStyle="#696a9c"; c.fill(); c.stroke();
+  // Light harness follows the curve of the shell rather than a saddle item.
+  c.strokeStyle="#bdb8ce"; c.lineWidth=5;
+  for(const [x,y] of [[65,38],[111,48]]) {
+    c.beginPath(); c.moveTo(x,y); c.bezierCurveTo(x+32,y+9,x+48,86,x+43,126); c.stroke();
+  }
+  c.strokeStyle="#403946"; c.lineWidth=2.5;
+  oval(179,110,24,25,"#515075");
+  polygon([[65,114],[78,119],[74,143],[59,143],[55,137]],"#a28d76");
+  polygon([[142,120],[154,122],[163,143],[145,146],[139,136]],"#9b8872");
+  oval(63,140,10,4,"#615344"); oval(153,144,11,4,"#615344");
+  c.fillStyle="#332e3d"; c.beginPath(); c.arc(193,108,2.3,0,Math.PI*2); c.fill();
+  c.strokeStyle="#aaa6be"; c.lineWidth=2;
+  c.beginPath(); c.moveTo(181,90); c.quadraticCurveTo(193,79,200,87); c.stroke();
   c.restore();
 }

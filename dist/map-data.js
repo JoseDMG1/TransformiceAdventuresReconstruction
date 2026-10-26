@@ -1,5 +1,7 @@
 // Content-only scene definitions. Forest layouts trace the supplied gameplay video;
 // placements are authored local reconstruction data, not recovered server sectors.
+import { TUTORIAL_START_LANDMARKS } from "./tutorial-layout.js";
+
 export const MAPS = Object.freeze({
   village: Object.freeze({
     id: "village",
@@ -74,6 +76,7 @@ export const MAPS = Object.freeze({
     // Exclude only generated trees here, preserving the random stream outside.
     decorationExclusions: [
       { kinds: ["tree"], left: 1500, right: 1850, top: 480, bottom: 1080 },
+      { kinds: ["tree", "fern", "bush", "mushroom", "rock", "stump"], left: 0, right: 1120, top: 300, bottom: 1250 },
     ],
     decoration: { backgroundCount: 220, foregroundCount: 95 },
     // Frame 0060: two rails frame Papaille's clearing; positions are local
@@ -84,15 +87,21 @@ export const MAPS = Object.freeze({
       { kind: "tutorialFence", x: 1430, y: 995, scale: 1.15 },
       { kind: "tutorialFence", x: 1725, y: 995, scale: 1.15 },
       { kind: "stump", x: 1080, y: 515, scale: 1.7 },
-      { kind: "stump", x: 1130, y: 1110, scale: 2.6 },
+      { kind: "stump", x: 1180, y: 1075, scale: 3.7 },
       { kind: "flowerbed", x: 1110, y: 535, scale: 0.8 },
       { kind: "flowerbed", x: 1310, y: 985, scale: 0.8 },
       { kind: "tutorialCart", x: 1495, y: 705, scale: 0.95 },
+      { kind: "tutorialDraftBeetle", x: 1765, y: 710, scale: .85 },
+      ...TUTORIAL_START_LANDMARKS,
+      { kind: "wildflowers", x: 1310, y: 1010, scale: 1.05, variant: 0 },
     ],
     fixedColliders: [],
     npcs: [{ character: "papaille", x: 1360, y: 710, tutorialColor: "#ba9d6d" }],
     interactables: [],
     spawn: { x: 480, y: 650 },
+    // Pixel placement in the first MP4 frame, converted with the local 0.5
+    // reference scale. Saved journeys still restore their own pet coordinates.
+    petSpawn: { x: 736, y: 682 },
   }),
   dungeon: Object.freeze({
     id: "dungeon",

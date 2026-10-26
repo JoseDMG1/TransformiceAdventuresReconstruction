@@ -345,9 +345,17 @@ try {
       await waitFor("adventure.snapshot().questNotices.length === 0", "Dismissed notice must fade away");
     }
     const start = await evaluate("adventure.snapshot().position");
+    if (process.argv.includes("--scene-reference")) {
+      await waitFor("!document.getElementById('announcements').textContent && adventure.snapshot().questNotices.length === 0",
+        "Reference capture must wait for arrival notices",10000);
+      await shot("tutorial-start");
+    }
     await key("KeyD");
-    await wait(560);
-    await key("KeyD", "keyUp");
+    try {
+      await waitFor(`(() => {const s=adventure.snapshot();return s.position.x > ${start.x+80}
+        && Math.hypot(s.position.x-s.pet.x,s.position.y-s.pet.y)<125;})()`,
+        "WASD must approach Picpic within bandage range",3000);
+    } finally { await key("KeyD", "keyUp"); }
     const moved = await evaluate("adventure.snapshot().position");
     assert.ok(moved.x > start.x + 60, "WASD must move the player");
     await wait(100);

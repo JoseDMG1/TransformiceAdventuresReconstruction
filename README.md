@@ -1,4 +1,4 @@
-# Transformice Adventures — versión local v0.212.0
+# Transformice Adventures — versión local v0.213.0
 
 Reconstrucción para navegador de escritorio basada en el cliente archivado, recursos originales recuperados y el gameplay aportado. Incluye tutorial, aldea, expediciones, combate, trabajos, mascota, equipo, talentos y dones. La interfaz está en español.
 
@@ -41,6 +41,7 @@ Debes estar quieto durante un segundo para completar una venda. Moverte interrum
 
 ## Funciones recientes
 
+- Tutorial con suelo irregular, troncos, tréboles y flores trazados del video; Picpic aparece en la posición aproximada del fotograma inicial y el carro incluye una representación de la criatura de tiro.
 - Avisos de objetivos con cierre por clic, caducidad y los sonidos originales recuperados para presentación y validación.
 - Corregido el arco al reanudar: conserva el reloj del disparo liberado, termina la acción y evita duplicar flechas; no restaura botones mantenidos.
 - Objetivos con filas independientes, validación persistente y transiciones de entrada/salida; el estado se reconstruye al cargar la partida.
@@ -75,7 +76,7 @@ npm run test:browser
 
 `check` revisa la sintaxis. `test` comprueba combate, trabajos, talentos, guardados, testimonios y selección de objetivo. `test:features` utiliza Chrome instalado y un perfil aislado; necesita el servidor local activo. Sus capturas se guardan en `.local/`.
 
-La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V211.md](reference/IMPLEMENTATION_V211.md).
+La arquitectura está en [CONTENT_ARCHITECTURE.md](reference/CONTENT_ARCHITECTURE.md). El estado actual y los pendientes están en [HANDOFF.md](HANDOFF.md). La estimación de fidelidad local está en [FIDELITY_STATUS.md](reference/FIDELITY_STATUS.md); el [backlog priorizado](reference/FIDELITY_BACKLOG.md) concreta qué falta, qué evidencia se necesita y cómo cerrar cada punto. Los cambios recientes y sus límites están en [IMPLEMENTATION_V213.md](reference/IMPLEMENTATION_V213.md).
 
 ## Evidencia y alcance
 

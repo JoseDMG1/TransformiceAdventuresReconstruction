@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.212.0. Ultima entrega: reference/IMPLEMENTATION_V212.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.213.0. Ultima entrega: reference/IMPLEMENTATION_V213.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.213: composición del tutorial con suelo irregular, masas de tréboles/flores, troncos y tocones; coordenadas iniciales de Picpic ajustadas al fotograma 0. Criatura de tiro junto al carro como trazado estático local, sin asignar ID original. Retirados anillo y etiqueta locales sobre la mascota caída, no observados en el arranque; conserva barra vacía. Ver `reference/IMPLEMENTATION_V213.md` y comparador HTML. Quedan arte, perspectiva, posiciones y animación de la criatura aproximados.
 - v0.212: escala del mundo ligada al lienzo lógico original de 1280–1920; a 640×360 usa 0,5 en lugar del mínimo local 0,65. Cámara de seguimiento sin desplazar al personaje por límites del rectángulo de mapa; fondo de continuidad al mirar fuera. Ver `reference/IMPLEMENTATION_V212.md`; sigue siendo proyección ortográfica y el terreno periférico no recuperado necesita composición.
 - v0.211: recuperados `objectif.mp3` y `objectif2.mp3` a partir del motor de audio original y sus llamadas. Aviso al terminar la entrada del objetivo, duración de 4 s, cierre con clic y salida de 1 s según `NotificationADV`; sin mensajes de red. Ver `reference/IMPLEMENTATION_V211.md`, manifiesto y capturas; faltan cotejo de escala/volumen y secuencia original de objetivos.
 - v0.210: corregida acción de arco atascada al reanudar. Guardado conserva liberación/reloj, no restaura botones mantenidos y recupera impactos antiguos sin duplicarlos. El reloj usado por el juego se comparte con las pruebas. Ver `reference/IMPLEMENTATION_V210.md`; validación de navegador enfocada y 39 pruebas aprobadas.
