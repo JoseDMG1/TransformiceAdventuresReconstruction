@@ -1943,3 +1943,27 @@ button.profile-slot:hover, button.profile-slot:focus-visible {
   .profile-overview-details { padding: 0 8px 8px; }
   .profile-overview #appearance-preview { max-width: 190px; }
 }
+
+/* The supplied 640x360 footage leaves the dialogue above a compact action bar.
+   Keep desktop-sized controls from covering it in short landscape windows. */
+@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
+  footer { bottom: 8px; }
+  .hotbar {
+    transform: translateX(-50%) scale(0.62);
+    transform-origin: center bottom;
+  }
+  #profile-button, #dungeon-button, #emote-button, #menu-button {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    bottom: 8px;
+  }
+  #profile-button { left: calc(50% - 130px); }
+  #dungeon-button { left: calc(50% - 103px); }
+  #emote-button { left: calc(50% + 105px); }
+  #menu-button { left: calc(50% + 132px); }
+  .utility { bottom: 0; min-width: 65px; max-width: 65px; gap: 3px; }
+  .utility #talents-button { width: 24px; height: 24px; font-size: 14px; }
+  .utility #coins { font-size: 9px; }
+  .control-hint { display: none; }
+}

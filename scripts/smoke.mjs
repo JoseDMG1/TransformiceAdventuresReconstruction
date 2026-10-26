@@ -126,9 +126,12 @@ try {
   };
   await send("Runtime.enable");
   await send("Page.enable");
+  const referenceSize = process.argv.includes("--reference-size");
+  if (referenceSize && !process.argv.includes("--tutorial-only"))
+    throw Error("--reference-size requiere --tutorial-only; el bot de expedición usa otro encuadre.");
   await send("Emulation.setDeviceMetricsOverride", {
-    width: 1280,
-    height: 800,
+    width: referenceSize ? 640 : 1280,
+    height: referenceSize ? 360 : 800,
     deviceScaleFactor: 1,
     mobile: false,
   });
@@ -323,9 +326,28 @@ try {
     await wait(120);
     await tap("KeyE");
     await shot("papaille");
+    if (referenceSize) {
+      assert.equal(await evaluate(`(() => {
+        const dialogue = document.getElementById('dialogue').getBoundingClientRect();
+        const bar = document.querySelector('.hotbar').getBoundingClientRect();
+        return dialogue.bottom < bar.top;
+      })()`), true, "Reference-size dialogue must stay above the action bar");
+    }
     for (let page = 0; page < 8 && !(await evaluate("document.getElementById('dialogue').hidden")); page++)
       await tap("KeyE");
     await wait(200);
+    if (referenceSize) {
+      // Dialogue deliberately makes the HUD inert; check hit targets after it closes.
+      for (const id of ["heal-button", "profile-button", "menu-button"]) {
+        const hit = await evaluate(`(() => {
+          const button = document.getElementById('${id}');
+          const r = button.getBoundingClientRect();
+          const hit = document.elementFromPoint(r.x+r.width/2, r.y+r.height/2);
+          return { reachable: hit === button || button.contains(hit), target: hit?.outerHTML, rect: r.toJSON() };
+        })()`);
+        assert.equal(hit.reachable, true, `${id} must remain reachable at 640x360: ${JSON.stringify(hit)}`);
+      }
+    }
     assert.equal(
       await evaluate("adventure.snapshot().scene"),
       "village",

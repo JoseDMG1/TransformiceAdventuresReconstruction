@@ -70,6 +70,11 @@ export const MAPS = Object.freeze({
     groundSeed: 801,
     protectedAreas: [{ left: 330, right: 1500, top: 340, bottom: 960 }],
     treeAvoidAreas: [{ left: 260, right: 1600, top: 300, bottom: 1140 }],
+    // Frame 0060 leaves the cart and its shafts visible to Papaille's right.
+    // Exclude only generated trees here, preserving the random stream outside.
+    decorationExclusions: [
+      { kinds: ["tree"], left: 1500, right: 1850, top: 480, bottom: 1080 },
+    ],
     decoration: { backgroundCount: 220, foregroundCount: 95 },
     // Frame 0060: two rails frame Papaille's clearing; positions are local
     // traces. Decorative only until original fence collision data is known.

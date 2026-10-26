@@ -129,8 +129,13 @@ export function makeScene(kind, index = 0, routeLength = 0) {
   const random = seeded(801 + index * 500 + definition.seedOffset);
   const objects = [];
   const colliders = [];
-  const add = (object, solid = 0) => {
+  const add = (object, solid = 0, generated = false) => {
     const normalized = { scale: 1, variant: 0, ...object };
+    // Filter after generation so exclusions cannot change the random sequence
+    // (and positions/collisions) of decorations elsewhere in existing saves.
+    if (generated && (content.decorationExclusions ?? []).some((area) =>
+      area.kinds.includes(normalized.kind) && pointInRect(normalized.x, normalized.y, area)
+    )) return;
     objects.push(normalized);
     if (solid || normalized.collisionRadius)
       colliders.push({
@@ -155,6 +160,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
     add(
       { kind, x, y, scale, variant: i % 5 },
       kind === "tree" ? 25 : kind === "rock" ? 24 : 0,
+      true,
     );
   }
   for (let i = 0; i < (content.decoration ?? definition.decoration).foregroundCount; i++) {
@@ -167,7 +173,7 @@ export function makeScene(kind, index = 0, routeLength = 0) {
       y,
       scale: 0.45 + random() * 0.6,
       variant: i % 5,
-    });
+    }, 0, true);
   }
 
   colliders.push(...definition.fixedColliders.map((collider) => ({ ...collider })));
