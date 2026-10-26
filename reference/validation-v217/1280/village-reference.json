@@ -1,0 +1,25 @@
+{
+  "view": {
+    "x": 858.7383689851595,
+    "y": 742.5873480936025,
+    "zoom": 1
+  },
+  "position": {
+    "x": 858.6080382489911,
+    "y": 742.5555382489925
+  },
+  "target": {
+    "x": 1870,
+    "y": 780,
+    "id": "gate",
+    "text": "Adentrarse en el bosque"
+  },
+  "boardInteraction": true,
+  "npcInteractions": [
+    "papaille",
+    "mura",
+    "scarf"
+  ],
+  "width": 1280,
+  "height": 800
+}

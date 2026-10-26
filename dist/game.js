@@ -5404,11 +5404,13 @@ function draw(elapsedMs = 0) {
   ];
   entities.sort((a, b) => a.y - b.y);
   for (const e of entities) e.draw();
-  if (mode === "playing" && !$("hud").hidden && scene.kind !== "village") {
+  if (mode === "playing" && !$("hud").hidden) {
     drawActorOverlay(ctx, { ...player, maxHp: maxHP() }, { indicators: playerIndicators(player) });
-    if (profile.petActive || scene.kind === "tutorial")
+    if ((profile.petActive || scene.kind === "tutorial") &&
+      (scene.kind !== "village" || pet.injured || pet.hp < petMaxHP()))
       drawActorOverlay(ctx, { ...pet, maxHp: petMaxHP() }, {
         offset: 40,
+        color: "#669bca",
         indicators: [
           pet.barrier > 0 && { symbol: "◇", color: "#b9daed" },
           pet.bandageHot > 0 && { symbol: "✚", color: "#c4d991" },
@@ -5916,7 +5918,7 @@ Object.defineProperty(window, "adventure", {
       renderReady,
       art: artStatus(),
     }),
-    version: "0.216.0",
+    version: "0.217.0",
   }),
 });
 resize();

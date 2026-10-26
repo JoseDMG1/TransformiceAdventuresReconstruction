@@ -13,14 +13,15 @@ import { drawTutorialClearing, drawTutorialFence, drawTutorialCart, drawTutorial
 import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 import { drawTutorialFlora } from "./tutorial-flora.js";
 import { drawVillageHut, drawVillageChimneyHut, drawVillageLamp } from "./village-building-art.js";
+import { loadActorOverlayArt, drawNpcName } from "./actor-overlay-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
   return { ready: originalReady, ...originalArtInfo };
 }
 export async function initializeArt() {
-  const info = await loadOriginalAnimations();
-  originalArtInfo = info;
+  const [info,actorOverlays] = await Promise.all([loadOriginalAnimations(),loadActorOverlayArt()]);
+  originalArtInfo = {...info,actorOverlays};
   originalReady = true;
   return info;
 }
@@ -1236,7 +1237,7 @@ export function mouse(
     );
     c.restore();
     if (drawn) {
-      if (npc && showName && e.name) label(c, e.name, e.x, e.y - 68, e.nameColor ?? "#d7e2ba", 12);
+      if (npc && showName && e.name) drawNpcName(c,e);
 
       return;
     }
@@ -1369,7 +1370,7 @@ export function mouse(
     ellipse(c, 18, -17, 4, 4, "#cbb193", "#6c5941", 1);
   }
   c.restore();
-  if (npc) label(c, e.name, e.x, e.y - 62, "#d7e2ba", 12);
+  if (npc && showName && e.name) drawNpcName(c,e);
 }
 const characterRenderers = Object.freeze({ mouse });
 export function drawPlayerCharacter(c, characterId, e, time, options = {}) {

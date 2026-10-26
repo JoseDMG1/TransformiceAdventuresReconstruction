@@ -1,5 +1,6 @@
 // The video at 12:00 keeps health/status indicators above occluding trunks.
 // Shapes and status symbols here are local, independent of character sprites.
+import { drawOriginalHealthBar, HEALTH_COLOURS } from "./actor-overlay-art.js";
 export function playerIndicators(player) {
   return [
     player.invisible > 0 && { symbol: "✧", color: "#dec9ef" },
@@ -12,7 +13,7 @@ export function playerIndicators(player) {
   ].filter(Boolean);
 }
 
-export function drawActorOverlay(ctx, actor, { offset = 74, width = 44, indicators = [], injuredLabel = "" } = {}) {
+export function drawActorOverlay(ctx, actor, { offset = 100, width = 64, indicators = [], injuredLabel = "", color=HEALTH_COLOURS.player } = {}) {
   if (!Number.isFinite(actor.x) || !Number.isFinite(actor.y)) return;
   const y = actor.y - offset;
   ctx.save();
@@ -26,10 +27,12 @@ export function drawActorOverlay(ctx, actor, { offset = 74, width = 44, indicato
     ctx.fillText(injuredLabel, actor.x, y);
   } else if (Number.isFinite(actor.hp) && actor.maxHp > 0) {
     const ratio = Math.max(0, Math.min(1, actor.hp / actor.maxHp));
-    ctx.fillStyle = "#20291f";
-    ctx.fillRect(actor.x - width / 2 - 1, y - 1, width + 2, 6);
-    ctx.fillStyle = ratio < 0.25 ? "#d67763" : "#a9cf68";
-    ctx.fillRect(actor.x - width / 2, y, width * ratio, 4);
+    if(!drawOriginalHealthBar(ctx,{x:actor.x,y,width,hp:actor.hp,maxHp:actor.maxHp,color})) {
+      ctx.fillStyle = "#20291f";
+      ctx.fillRect(actor.x - width / 2 - 1, y - 1, width + 2, 6);
+      ctx.fillStyle = color;
+      ctx.fillRect(actor.x - width / 2, y, width * ratio, 4);
+    }
   }
   indicators.forEach((indicator, index) => {
     const x = actor.x + (index - (indicators.length - 1) / 2) * 17;

@@ -1,6 +1,6 @@
 ﻿{
   "name": "transformice-adventures-local",
-  "version": "0.216.0",
+  "version": "0.217.0",
   "private": true,
   "type": "module",
   "description": "Juego local de navegador basado en la demo y su gameplay.",
@@ -15,6 +15,7 @@
     "test:clothing-browser": "node scripts/smoke.mjs --clothing-atlas",
     "test:camera": "node scripts/smoke.mjs --emotes --reference-size --viewport --objective-motion",
     "test:village": "node scripts/smoke.mjs --emotes --reference-size --village-reference",
+    "test:actor-overlays": "node scripts/smoke.mjs --emotes --reference-size --scene-reference --actor-overlays --village-reference",
     "reference:frames": "node scripts/extract-reference-frames.mjs",
     "reference:motion": "node scripts/analyze-reference-motion.mjs",
     "test:quests": "node --test scripts/quest-log.test.mjs scripts/quest-notice.test.mjs",
@@ -31,6 +32,7 @@
     "recover:ground-projection": "node scripts/recover-ground-projection.mjs",
     "recover:header-icons": "node scripts/recover-header-icons.mjs",
     "recover:quest-audio": "node scripts/recover-quest-audio.mjs",
+    "recover:actor-overlays": "node scripts/recover-actor-overlays.mjs",
     "test": "node --test scripts/persistence.test.mjs scripts/combat.test.mjs scripts/jobs.test.mjs scripts/talents.test.mjs scripts/journalism.test.mjs scripts/targeting.test.mjs scripts/skill-system.test.mjs scripts/skills-fidelity.test.mjs",
     "test:browser": "node scripts/smoke.mjs",
     "test:tutorial": "node scripts/smoke.mjs --tutorial-only",

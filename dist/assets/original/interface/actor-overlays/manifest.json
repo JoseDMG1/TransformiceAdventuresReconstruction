@@ -1,0 +1,67 @@
+{
+  "source": "https://transformice-adventures.com/dist/Transformice-adventure-client/src/_monde/_mobile/types/ClipNomADV.js",
+  "sourceSha256": "2db91e9aceb0f912ce21176a2921a162bf39d286e1ab53e6265f9eb49c84f69e",
+  "recoveredAt": "2026-10-26T22:12:57.892Z",
+  "records": [
+    {
+      "resource": "interface/fv.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/fv.png",
+      "status": 200,
+      "file": "fv.png",
+      "bytes": 936,
+      "width": 100,
+      "height": 10,
+      "sha256": "3836b8607720c64f9509033c416ff73a5e73470d6fcee746ec12933f23418ede"
+    },
+    {
+      "resource": "interface/c.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/c.png",
+      "status": 200,
+      "file": "c.png",
+      "bytes": 1301,
+      "width": 104,
+      "height": 14,
+      "sha256": "e1bad307326885c1be6dd8c68a49d2a88c832a38d4851cf7d91ed4721662a605"
+    },
+    {
+      "resource": "interface/v6.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/v6.png",
+      "status": 200,
+      "file": "v6.png",
+      "bytes": 120,
+      "width": 50,
+      "height": 12,
+      "sha256": "1d1c057c9bb8da5422fdc19cd065d6e76c39abf8a32b56d52be7066e4bfbd276"
+    },
+    {
+      "resource": "interface/tv.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/tv.png",
+      "status": 200,
+      "file": "tv.png",
+      "bytes": 1035,
+      "width": 8,
+      "height": 14,
+      "sha256": "ec786f51e4da353ac6de21d85828ad7bcbdbca0999b9905d6dfc4190d95b9d14"
+    },
+    {
+      "resource": "interface/allie-mort.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/allie-mort.png",
+      "status": 200,
+      "file": "allie-mort.png",
+      "bytes": 8753,
+      "width": 110,
+      "height": 50,
+      "sha256": "1fbc28b158e256c18c971605b09a4902fa2bb25781f802e989a3816f6eaf066c"
+    },
+    {
+      "resource": "interface/vv.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/vv.png",
+      "status": 200,
+      "file": "vv.png",
+      "bytes": 195,
+      "width": 18,
+      "height": 12,
+      "sha256": "f75cb2e75c7db7f9f557fdce1e09b370689746aeec4b283c7b4fe0390859fccc"
+    }
+  ]
+}

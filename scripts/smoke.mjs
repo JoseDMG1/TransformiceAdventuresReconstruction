@@ -472,6 +472,12 @@ try {
     await shot("village");
     if (process.argv.includes("--emotes")) {
       await checkEmotes({ evaluate, send, tap, shot, wait, waitFor });
+      if (process.argv.includes("--actor-overlays")) {
+        const {checkActorOverlays}=await import("./actor-overlay-browser-checks.mjs");
+        const report=await checkActorOverlays({evaluate,shot});
+        await writeFile(".local/actor-overlays.json",JSON.stringify(report,null,2));
+        console.log("PASS: original health-frame Canvas draws and recovered NPC font/colour style.");
+      }
       if (process.argv.includes("--village-reference")) {
         const { checkVillageReference } = await import("./village-browser-checks.mjs");
         const report = await checkVillageReference({ evaluate, send, key, shot, wait, waitFor });

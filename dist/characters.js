@@ -9,7 +9,7 @@ export const CHARACTERS = Object.freeze({
     // packet or inventory-item association. Costume details remain unconfirmed.
     clothing: Object.freeze([83]),
     facing: -1,
-    nameColor: "#5e9dce",
+    nameColor: "#6c99d6",
     species: "mouse",
   }),
   mura: Object.freeze({
