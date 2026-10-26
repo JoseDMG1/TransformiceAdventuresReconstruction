@@ -886,27 +886,61 @@ h1 strong {
   left: 50%;
   transform: translateX(-50%);
   width: min(440px, max(220px, 34.4vw), calc(100vw - 16px));
-  background: #392d22f5;
-  border: 1px solid #b9a566;
-  box-shadow: 0 5px 15px #14210d70;
+  --dialogue-unit: clamp(.367px, .0573vw, .733px);
+  background: url("assets/original/interface/dialogue/bois2.png") repeat;
+  border: 1px solid transparent;
+  border-image: url("assets/original/interface/dialogue/par9dialoguePNJ.png") 70 / calc(100 * var(--dialogue-unit)) / 0 repeat;
+  filter: drop-shadow(2px 2px 4px #0009);
   display: flex;
   padding: clamp(7px, 1.25vw, 14px);
-  gap: clamp(6px, 1.25vw, 14px);
-  border-radius: 4px;
+  border-radius: calc(40 * var(--dialogue-unit));
   z-index: 15;
 }
+.dialogue-copy {
+  margin-left: calc(130 * var(--dialogue-unit));
+  min-width: 0;
+  flex: 1;
+}
+.dialogue-speaker {
+  position: absolute;
+  left: calc(-50 * var(--dialogue-unit));
+  bottom: calc(-35 * var(--dialogue-unit));
+}
 .dialogue-avatar {
-  align-self: center;
-  flex: 0 0 clamp(40px, 6.25vw, 80px);
-  width: clamp(40px, 6.25vw, 80px);
-  height: clamp(36px, 5.5vw, 70px);
-  border: 1px solid #8f7548;
-  border-radius: 4px;
-  background: linear-gradient(145deg, #5a4931, #2a291f);
+  position: absolute;
+  bottom: calc(35 * var(--dialogue-unit));
+  left: calc(30 * var(--dialogue-unit));
+  width: calc(200 * var(--dialogue-unit));
+  height: calc(175 * var(--dialogue-unit));
+  filter: drop-shadow(1px 1px 2px #000);
 }
 #dialogue-name {
-  color: #d0d88d;
-  font-size: clamp(10px, 1.4vw, 16px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: calc(71 * var(--dialogue-unit));
+  margin-inline: calc(40 * var(--dialogue-unit));
+  padding-inline: calc(20 * var(--dialogue-unit));
+  background: url("assets/original/interface/dialogue/noms_mid.png") center / auto 100% repeat-x;
+  color: #f5e6ba;
+  font: clamp(10px, 1.49vw, 19px)/1 Verdana, sans-serif;
+  white-space: nowrap;
+}
+#dialogue-name::before, #dialogue-name::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: calc(40 * var(--dialogue-unit));
+  height: 100%;
+  background-size: 100% 100%;
+}
+#dialogue-name::before {
+  right: 100%;
+  background-image: url("assets/original/interface/dialogue/noms_left.png");
+}
+#dialogue-name::after {
+  left: 100%;
+  background-image: url("assets/original/interface/dialogue/noms_right.png");
 }
 #dialogue-text {
   font: clamp(9px, 1.25vw, 14px)/1.35 Georgia;

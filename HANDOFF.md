@@ -2,13 +2,14 @@
 
 Actualizado: 2026-10-26. Reconstruccion local de la demo observable. Siguen pendientes mapas exactos y datos que entregaba el servidor original.
 
-Version actual: v0.198.0. Ultima entrega: reference/IMPLEMENTATION_V198.md. El numero de version no equivale a porcentaje de fidelidad.
+Version actual: v0.199.0. Ultima entrega: reference/IMPLEMENTATION_V199.md. El numero de version no equivale a porcentaje de fidelidad.
 
 Estimacion de fidelidad local: 47% (rango 40-58%, confianza baja-media), excluyendo online. Es similitud con el recorrido observado, no porcentaje de codigo terminado ni equivalencia con todo el juego. No consta una comparacion completa de navegador para v0.193.0; la cifra es una estimacion documental, no una prueba de la version actual. El documento operativo principal es `reference/FIDELITY_BACKLOG.md`: prioridades, evidencia necesaria, entregables y criterios de cierre. El cálculo está en `reference/FIDELITY_ESTIMATE_AND_REMAINING_WORK.md`; `reference/FIDELITY_REMAINING_SCOPE.md` amplía dependencias y límites. Los 52.8 puntos ponderados de brecha no equivalen a horas ni a porcentaje del codigo pendiente. `reference/FIDELITY_COMPLETION_CHECKLIST.md` permite registrar el cotejo.
 
 La ruta priorizada esta en reference/LOCAL_FIDELITY_ROADMAP.md. La recuperacion de apariencias amplia los recursos originales disponibles, pero no cambia la puntuacion hasta que los datos puedan asociarse correctamente y mostrarse en el juego.
 
 ## Cambios recientes y siguiente trabajo
+- v0.199: marco, madera y rótulo originales de diálogo recuperados e integrados; retrato sin caja y nombre debajo. Manifiesto con rutas y hashes, recuperación reproducible y captura con texto completo. Escala, tipografía y paginación siguen siendo aproximaciones locales. Ver `reference/IMPLEMENTATION_V199.md`.
 - v0.198: exclusión por tipo/rectángulo de decoración generada del tutorial despeja el carro y retira las colisiones correspondientes, sin cambiar la secuencia aleatoria restante. Barra y controles compactos en ventanas horizontales de hasta 900×500; captura a 640×360 y prueba de acceso a botones/diálogo. Prueba de geometría con tres semillas aprobada. Ver `reference/IMPLEMENTATION_V198.md`; siguen pendientes criatura de carga, encuadre, HUD y detalle visual.
 - v0.197: carro de Papaille trazado del fotograma 0060, con ruedas, paja, bultos y varales; declarado en el catálogo y dibujado en `tutorial-art.js`. ID48 inspeccionado pero no asociado a la criatura de carga: contiene bola/polvo y no acredita esa identidad. Prueba de tutorial en Chrome y sintaxis aprobadas; falta criatura, detalle del carro y corregir la oclusión del árbol aleatorio derecho. Ver `reference/IMPLEMENTATION_V197.md`.
 - v0.196: el catálogo del tutorial declara su propio suelo y cercas/tocones alrededor de Papaille a partir de los fotogramas 0010/0060. `tutorial-art.js` concentra los trazados; no cambian colisiones ni coordenadas guardadas. Prueba de navegador de rescate/reanudación/regreso y sintaxis aprobadas. Falta el carro, la criatura de carga y una composición equivalente al fotograma original; ver `reference/IMPLEMENTATION_V196.md` y su captura local.

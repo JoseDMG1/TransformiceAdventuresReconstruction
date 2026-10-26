@@ -227,9 +227,11 @@
       </section>
     </div>
     <div id="dialogue" hidden>
-      <canvas id="dialogue-avatar" class="dialogue-avatar" width="96" height="84" aria-hidden="true"></canvas>
-      <div>
+      <div class="dialogue-speaker">
+        <canvas id="dialogue-avatar" class="dialogue-avatar" width="96" height="84" aria-hidden="true"></canvas>
         <span id="dialogue-name"></span>
+      </div>
+      <div class="dialogue-copy">
         <p id="dialogue-text"></p>
         <button id="dialogue-next"><span id="dialogue-next-label">Continuar</span> <kbd>E</kbd></button>
       </div>

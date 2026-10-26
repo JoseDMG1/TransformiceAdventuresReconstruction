@@ -1,0 +1,43 @@
+{
+  "sourcePath": "reference/wayback-client/dist/Transformice-adventure-client/src/interfaces/InterfaceDialogueADV.js",
+  "sourceSha256": "714c0a39319a40660b758bed11b8e0d03b333ec35f02935660ca6c7b2515b96c",
+  "records": [
+    {
+      "file": "par9dialoguePNJ.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/dialogue/par9dialoguePNJ.png",
+      "bytes": 8870,
+      "width": 209,
+      "height": 209,
+      "sha256": "09fc5103b0dc20a5c7952e6b85768298a2543a5e857dd548c00b247fb2c59d6e"
+    },
+    {
+      "file": "noms_left.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/dialogue/noms_left.png",
+      "bytes": 6231,
+      "width": 40,
+      "height": 71,
+      "sha256": "449a653944327494f90910495e86236b6d40fe5fd65ebf16f1918ea28bc780d2"
+    },
+    {
+      "file": "noms_mid.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/dialogue/noms_mid.png",
+      "bytes": 3973,
+      "width": 184,
+      "height": 71,
+      "sha256": "daf8e397c3721133b5e7fe16c9435aeefe4342549b414eb5fe325060416bc4d0"
+    },
+    {
+      "file": "noms_right.png",
+      "url": "https://data.atelier801.com/tfmadv/interface/dialogue/noms_right.png",
+      "bytes": 6418,
+      "width": 41,
+      "height": 71,
+      "sha256": "5282e6371a6be7e7f1ef221f63fdea128f0aac9a0e4406c7f70b8486564f247a"
+    },
+    {
+      "file": "bois2.png",
+      "source": "reference/wayback-client/ressources/bois2.png",
+      "sha256": "bd59b9f540ea3ebd2ba2b782696cb26e67dce1d8b6a716c91fe439cf5c225d3c"
+    }
+  ]
+}

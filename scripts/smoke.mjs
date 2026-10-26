@@ -325,6 +325,8 @@ try {
     await key(yCode, "keyUp");
     await wait(120);
     await tap("KeyE");
+    // Capture the complete first page, rather than its first animated letters.
+    await wait(2500);
     await shot("papaille");
     if (referenceSize) {
       assert.equal(await evaluate(`(() => {
