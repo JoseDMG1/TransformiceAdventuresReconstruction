@@ -9,7 +9,7 @@ import { WEAPONS } from "./combat.js";
 import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters.js";
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
 import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
-import { drawTutorialClearing, drawTutorialFence } from "./tutorial-art.js";
+import { drawTutorialClearing, drawTutorialFence, drawTutorialCart } from "./tutorial-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -1070,6 +1070,7 @@ const sizes = {
   fountain: [150, 110, 73, 85],
   bench: [165, 100, 82, 87],
   tutorialFence: [265, 82, 132, 75],
+  tutorialCart: [275, 165, 114, 153],
   fern: [110, 100, 55, 85],
   fernFan: [300, 230, 150, 220],
 };
@@ -1096,6 +1097,7 @@ export function decoration(c, o) {
     if (o.kind === "fountain") fountain(cc);
     if (o.kind === "bench") bench(cc, o.variant || 0);
     if (o.kind === "tutorialFence") drawTutorialFence(cc);
+    if (o.kind === "tutorialCart") drawTutorialCart(cc);
     if (o.kind === "fern") fern(cc, 55, 85, 1.7, o.variant || 0);
     if (o.kind === "fernFan") fernFan(cc, o.variant || 0);
   });

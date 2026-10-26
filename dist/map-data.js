@@ -82,6 +82,7 @@ export const MAPS = Object.freeze({
       { kind: "stump", x: 1130, y: 1110, scale: 2.6 },
       { kind: "flowerbed", x: 1110, y: 535, scale: 0.8 },
       { kind: "flowerbed", x: 1310, y: 985, scale: 0.8 },
+      { kind: "tutorialCart", x: 1495, y: 705, scale: 0.95 },
     ],
     fixedColliders: [],
     npcs: [{ character: "papaille", x: 1360, y: 710, tutorialColor: "#ba9d6d" }],

@@ -44,3 +44,58 @@ export function drawTutorialFence(c) {
     c.fillRect(x + 2, 30, 3, 3); c.fillRect(x + 2, 53, 3, 3);
   }
 }
+
+// Visible cargo in frame-0060.jpg. Coordinates below belong to this drawing,
+// not to an original map sector or a recovered cart sprite.
+export function drawTutorialCart(c) {
+  c.save();
+  c.lineJoin = "round";
+  c.strokeStyle = "#503a25";
+  c.lineWidth = 3;
+  const polygon = (points, color) => {
+    c.beginPath(); c.moveTo(...points[0]);
+    for (const p of points.slice(1)) c.lineTo(...p);
+    c.closePath(); c.fillStyle = color; c.fill(); c.stroke();
+  };
+  const oval = (x, y, rx, ry, color) => {
+    c.beginPath(); c.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2);
+    c.fillStyle = color; c.fill(); c.stroke();
+  };
+  c.fillStyle = "#4b452433";
+  c.beginPath(); c.ellipse(112, 139, 102, 17, 0, 0, Math.PI * 2); c.fill();
+  // Far wheel and shafts first; the front wheel overlaps the wooden bed.
+  oval(156, 117, 21, 26, "#765033");
+  polygon([[151, 99], [267, 119], [267, 125], [149, 107]], "#a68b4d");
+  polygon([[151, 117], [258, 135], [258, 141], [149, 125]], "#b49a57");
+  polygon([[24, 82], [161, 76], [185, 98], [43, 109]], "#9f7439");
+  polygon([[43, 109], [185, 98], [182, 129], [42, 137]], "#956133");
+  polygon([[24, 82], [43, 109], [42, 137], [23, 113]], "#79522f");
+  for (const y of [115, 125]) {
+    c.beginPath(); c.moveTo(48, y); c.lineTo(176, y - 8); c.stroke();
+  }
+  // Fan of straw, bundled toward the cart bed.
+  polygon([[55, 87], [26, 37], [48, 45], [54, 22], [72, 42], [85, 33],
+    [97, 50], [151, 33], [143, 54], [172, 49], [158, 77], [125, 96]], "#d0ad54");
+  c.lineWidth = 1.5; c.strokeStyle = "#9c773a";
+  for (let i = 0; i < 18; i++) {
+    const x = 35 + i * 7;
+    c.beginPath(); c.moveTo(x, 35 + (i % 4) * 6);
+    c.quadraticCurveTo(95, 68, 98 + (i % 5) * 5, 95); c.stroke();
+  }
+  c.lineWidth = 3; c.strokeStyle = "#503a25";
+  // Upright parcel and sack, as silhouettes rather than invented inventory.
+  polygon([[36, 80], [62, 76], [64, 112], [37, 116]], "#b88c48");
+  c.beginPath(); c.moveTo(48, 79); c.lineTo(49, 113); c.stroke();
+  oval(172, 84, 16, 25, "#bc9957");
+  oval(172, 63, 13, 5, "#dbc37a");
+  c.beginPath(); c.moveTo(158, 90); c.lineTo(184, 87); c.stroke();
+  oval(114, 129, 29, 32, "#5b4935");
+  oval(114, 129, 23, 26, "#97653d");
+  for (let i = 0; i < 6; i++) {
+    const angle = i * Math.PI / 3;
+    c.beginPath(); c.moveTo(114, 129);
+    c.lineTo(114 + Math.cos(angle) * 22, 129 + Math.sin(angle) * 25); c.stroke();
+  }
+  oval(114, 129, 8, 9, "#b0834e");
+  c.restore();
+}
