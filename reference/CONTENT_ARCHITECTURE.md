@@ -154,3 +154,7 @@ La arquitectura permite aÃ±adir y modificar contenido con cambios localizados,
 ## Presentación de salud v0.219
 
 `health-animation.js` modela transiciones de vida y contraste sin DOM ni actores globales. `actor-overlays.js` conserva una instancia efímera por actor estable en WeakMap y proporciona ese estado a `actor-overlay-art.js`. La simulación pasa el máximo de vida como argumento; el dibujante no añade propiedades a los actores. Los enemigos también se componen en la capa final; su render de cuerpo admite `hideOverlay` para evitar duplicados. Incluso las barras sanas ocultas inicializan su estado antes del primer daño. El formato persistido no cambia.
+
+## Flora de arena v0.220
+
+`arena-flora-art.js` dibuja campanillas y margaritas sin conocer escenas ni perfiles; `arena-layout.js` contiene nueve colocaciones decorativas incorporadas por `map-data.js`. `art.js` registra sus tamaños/anclas y reutiliza caché/ordenación. `forest-art.drawArenaClearing` usa una semilla exclusiva de pintura: no modifica el generador de objetos ni colisiones. El cotejo de navegador construye ambas rutas con/sin la nueva flora y compara la geometría completa.

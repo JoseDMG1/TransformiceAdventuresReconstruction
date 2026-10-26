@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "length": 3,
+      "collidersIdentical": true,
+      "added": 9
+    },
+    {
+      "length": 7,
+      "collidersIdentical": true,
+      "added": 9
+    }
+  ],
+  "camera": {
+    "x": 4750,
+    "y": 650,
+    "zoom": 0.5
+  },
+  "width": 640,
+  "height": 360,
+  "profileUnchanged": true
+}

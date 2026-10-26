@@ -204,6 +204,12 @@ try {
   if (process.argv.includes("--title-only")) {
     assert.equal(errors.length, 0, errors.join("\n"));
     console.log("PASS: title import dialog is visible and Escape closes it.");
+  } else if (process.argv.includes("--arena-art")) {
+    const {checkArenaArt}=await import("./arena-art-browser-checks.mjs");
+    const report=await checkArenaArt({evaluate});
+    await writeFile(".local/arena-art.json",JSON.stringify(report,null,2));
+    assert.equal(errors.length,0,errors.join("\n"));
+    console.log("PASS: arena art rendered in Chrome; both routes retain identical collisions and saved profile.");
   } else if (process.argv.includes("--clothing-atlas")) {
     const { checkClothingAtlas } = await import("./clothing-browser-checks.mjs");
     const report=await checkClothingAtlas({ evaluate });

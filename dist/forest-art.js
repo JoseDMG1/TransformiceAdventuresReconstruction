@@ -48,3 +48,32 @@ export function drawForestLitter(ctx, width, height, random, pond = false) {
   }
   ctx.restore();
 }
+
+// Rounded, irregular ochre islands seen beside the water at 17:00. This is
+// authored ground artwork, independent of object placement and collision RNG.
+export function drawArenaClearing(context,width,height,random) {
+  context.save();context.scale(width/1850,height/1250);
+  context.fillStyle="#8ba33a";context.fillRect(0,0,1850,1250);
+  for(let patch=0;patch<48;patch++) {
+    const x=70+random()*1460,y=300+random()*780;
+    const rx=36+random()*120,ry=22+random()*72,points=[];
+    for(let point=0;point<20;point++) {
+      const angle=point/20*Math.PI*2,variation=.72+random()*.28;
+      points.push({x:x+Math.cos(angle)*rx*variation,y:y+Math.sin(angle)*ry*variation});
+    }
+    const last=points.at(-1);context.beginPath();context.moveTo((last.x+points[0].x)/2,(last.y+points[0].y)/2);
+    points.forEach((point,index)=>{
+      const next=points[(index+1)%points.length];
+      context.quadraticCurveTo(point.x,point.y,(point.x+next.x)/2,(point.y+next.y)/2);
+    });
+    context.closePath();context.fillStyle=patch%4?"#b1ad4b":"#a9a849";context.fill();
+    context.strokeStyle="#8d973a";context.lineWidth=1;context.stroke();
+    context.strokeStyle="#6f8b32";context.lineWidth=1.4;
+    for(let tuft=0;tuft<4;tuft++) {
+      const tx=x+(random()-.5)*rx,ty=y-ry*.7+random()*8;
+      context.beginPath();context.moveTo(tx-5,ty+2);context.lineTo(tx-7,ty-8);
+      context.lineTo(tx,ty);context.lineTo(tx+3,ty-9);context.stroke();
+    }
+  }
+  context.restore();
+}

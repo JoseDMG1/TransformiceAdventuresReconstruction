@@ -8,13 +8,14 @@ import {
 import { WEAPONS } from "./combat.js";
 import { PET_SPECIES, PLAYABLE_CHARACTERS, PLAYER_CHARACTER } from "./characters.js";
 import { ENEMY_RULES, enemyCreatureId } from "./enemy-data.js";
-import { FOREST_PALETTE, drawClearingGrass, drawForestLitter } from "./forest-art.js";
+import { FOREST_PALETTE, drawClearingGrass, drawForestLitter, drawArenaClearing } from "./forest-art.js";
 import { drawTutorialClearing, drawTutorialFence, drawTutorialCart, drawTutorialDraftBeetle } from "./tutorial-art.js";
 import { drawVillagePlaza, drawVillageBoard } from "./village-art.js";
 import { drawTutorialFlora } from "./tutorial-flora.js";
 import { drawVillageHut, drawVillageChimneyHut, drawVillageLamp } from "./village-building-art.js";
 import { loadActorOverlayArt, drawNpcName } from "./actor-overlay-art.js";
 import { loadWeaponOverlayArt } from "./weapon-overlay-art.js";
+import { drawBluebellPatch, drawDaisyPatch } from "./arena-flora-art.js";
 let originalReady = false,
   originalArtInfo = null;
 export function artStatus() {
@@ -872,6 +873,8 @@ const sizes = {
   tutorialDraftBeetle: [225, 155, 110, 144],
   cloverPatch: [215, 165, 107, 153],
   wildflowers: [215, 165, 107, 153],
+  bluebellPatch: [220, 280, 110, 265],
+  daisyPatch: [220, 170, 110, 160],
   fern: [110, 100, 55, 85],
   fernFan: [300, 230, 150, 220],
 };
@@ -885,6 +888,8 @@ export function decoration(c, o) {
     if (o.kind === "twig") twig(cc, o.variant || 0);
     if (o.kind === "woodPile") woodPile(cc, o.variant || 0);
     if (o.kind === "flowerbed") flowerbed(cc, o.variant || 0);
+    if (o.kind === "bluebellPatch") drawBluebellPatch(cc,o.variant||0);
+    if (o.kind === "daisyPatch") drawDaisyPatch(cc,o.variant||0);
     if (o.kind === "bramble") bramble(cc, o.variant || 0);
     if (o.kind === "stump") stump(cc);
     if (o.kind === "mushroom") mushroom(cc, o.variant);
@@ -985,16 +990,7 @@ export function makeGround(width, height, seed, village = false, layout = "meado
       c.bezierCurveTo(1030, 605, 1210, 705, 1430, 655);
     });
   } else if (layout === "forest-pond") {
-    strokePath("#586f32", 176, () => {
-      c.moveTo(-60, 705);
-      c.bezierCurveTo(320, 620, 480, 780, 830, 680);
-      c.bezierCurveTo(1110, 585, 1260, 720, 1470, 600);
-    });
-    strokePath(FOREST_PALETTE.trail, 145, () => {
-      c.moveTo(-60, 705);
-      c.bezierCurveTo(320, 620, 480, 780, 830, 680);
-      c.bezierCurveTo(1110, 585, 1260, 720, 1470, 600);
-    });
+    drawArenaClearing(c,width,height,seeded(seed^0x21700));
     const shoreline = () => {
       c.beginPath();
       c.moveTo(1510, 760);
@@ -1025,7 +1021,7 @@ export function makeGround(width, height, seed, village = false, layout = "meado
     c.fill();
     c.save();
     c.clip();
-    c.fillStyle = "#68a8a3";
+    c.fillStyle = "#61c4c7";
     c.fillRect(1520, 620, 340, 300);
     c.globalAlpha = 0.26;
     c.strokeStyle = "#c3dbb4";

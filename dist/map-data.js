@@ -1,6 +1,7 @@
 // Content-only scene definitions. Forest layouts trace the supplied gameplay video;
 // placements are authored local reconstruction data, not recovered server sectors.
 import { TUTORIAL_START_LANDMARKS } from "./tutorial-layout.js";
+import { ARENA_FLORA } from "./arena-layout.js";
 
 export const MAPS = Object.freeze({
   village: Object.freeze({
@@ -201,6 +202,7 @@ export const MAPS = Object.freeze({
           id: "pond-arena",
           groundLayout: "forest-pond",
           dressing: [
+            ...ARENA_FLORA,
             { kind: "fernFan", x: 220, y: 450, scale: 1.3, variant: 3 },
             { kind: "fernFan", x: 850, y: 430, scale: 1.2, variant: 4 },
             { kind: "fernFan", x: 1510, y: 560, scale: 1.15, variant: 2 },
